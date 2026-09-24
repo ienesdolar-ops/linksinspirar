@@ -1,0 +1,439 @@
+{
+  "timestamp": "2026-09-24T14:26:32.187Z",
+  "total": 54,
+  "dryRun": true,
+  "results": [
+    {
+      "source": "global",
+      "unit": "Institucional",
+      "field": "instagram",
+      "url": "https://www.instagram.com/faculdadeinspirar/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "global",
+      "unit": "Institucional",
+      "field": "website",
+      "url": "https://www.inspirar.com.br/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "global",
+      "unit": "Institucional",
+      "field": "sympla",
+      "url": "https://www.sympla.com.br/produtor/faculdadeinspirar",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "global",
+      "unit": "Institucional",
+      "field": "portalAluno",
+      "url": "https://portal.faculdadeinspirar.com.br/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "global",
+      "unit": "Institucional",
+      "field": "whatsappCentral",
+      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20a%20Faculdade%20Inspirar",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "unit_meta",
+      "unit": "Curitiba",
+      "field": "website",
+      "url": "https://www.inspirar.com.br/pr-curitiba/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "unit_meta",
+      "unit": "Curitiba",
+      "field": "instagram",
+      "url": "https://www.instagram.com/faculdadeinspirar/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "unit_meta",
+      "unit": "Curitiba",
+      "field": "mapsUrl",
+      "url": "https://goo.gl/maps/FbkwEndWyWYKLLkA6",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Cursos & Pós-Graduação",
+      "unit": "Curitiba",
+      "field": "Fisioterapia em Terapia Intensiva",
+      "url": "https://faculdadeinspirar.com.br/semi-intensiva/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Cursos & Pós-Graduação",
+      "unit": "Curitiba",
+      "field": "Fisioterapia Vestibular",
+      "url": "https://cursoinspirar.com.br/fisioterapia-vestibular/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Eventos",
+      "unit": "Curitiba",
+      "field": "Amo Fisio",
+      "url": "https://amofisio.vercel.app/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Eventos",
+      "unit": "Curitiba",
+      "field": "Congresso Internacional em Estética",
+      "url": "https://faculdadeinspirar.com.br/congresso-de-estetica/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Acesso Rápido",
+      "unit": "Curitiba",
+      "field": "Site Oficial — Curitiba",
+      "url": "https://www.inspirar.com.br/pr-curitiba/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Acesso Rápido",
+      "unit": "Curitiba",
+      "field": "Matricule-se pelo WhatsApp",
+      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Olá!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Curitiba",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "unit_meta",
+      "unit": "Belém",
+      "field": "website",
+      "url": "https://www.inspirar.com.br/pa-belem/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "unit_meta",
+      "unit": "Belém",
+      "field": "instagram",
+      "url": "https://www.instagram.com/faculdadeinspirarbelem/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "unit_meta",
+      "unit": "Belém",
+      "field": "mapsUrl",
+      "url": "https://maps.google.com/?q=Faculdade+Inspirar+Belem",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Cursos & Pós-Graduação",
+      "unit": "Belém",
+      "field": "Fisioterapia em UTI & Reabilitação",
+      "url": "https://faculdadeinspirar.com.br/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Cursos & Pós-Graduação",
+      "unit": "Belém",
+      "field": "Estética Avançada e Cosmetologia",
+      "url": "https://faculdadeinspirar.com.br/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Eventos & Workshops",
+      "unit": "Belém",
+      "field": "Jornada de Fisioterapia Norte",
+      "url": "https://www.sympla.com.br/produtor/faculdadeinspirar",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Acesso Rápido",
+      "unit": "Belém",
+      "field": "Site Oficial — Unidade Belém",
+      "url": "https://www.inspirar.com.br/pa-belem/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Acesso Rápido",
+      "unit": "Belém",
+      "field": "Fale com o Consultor de Belém",
+      "url": "https://api.whatsapp.com/send?phone=5591981112828&text=Olá!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Belém",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "unit_meta",
+      "unit": "Campo Grande",
+      "field": "website",
+      "url": "https://www.inspirar.com.br/ms-campogrande/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "unit_meta",
+      "unit": "Campo Grande",
+      "field": "instagram",
+      "url": "https://www.instagram.com/faculdadeinspirarcampogrande/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "unit_meta",
+      "unit": "Campo Grande",
+      "field": "mapsUrl",
+      "url": "https://maps.google.com/?q=Faculdade+Inspirar+Campo+Grande",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Cursos & Pós-Graduação",
+      "unit": "Campo Grande",
+      "field": "Fisioterapia Traumato-Ortopédica",
+      "url": "https://faculdadeinspirar.com.br/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Cursos & Pós-Graduação",
+      "unit": "Campo Grande",
+      "field": "Enfermagem Dermatológica e Estética",
+      "url": "https://faculdadeinspirar.com.br/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Eventos & Palestras",
+      "unit": "Campo Grande",
+      "field": "Ciclo de Palestras em Saúde Integrativa",
+      "url": "https://www.sympla.com.br/produtor/faculdadeinspirar",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Acesso Rápido",
+      "unit": "Campo Grande",
+      "field": "Site Oficial — Unidade Campo Grande",
+      "url": "https://www.inspirar.com.br/ms-campogrande/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Acesso Rápido",
+      "unit": "Campo Grande",
+      "field": "Atendimento WhatsApp Campo Grande",
+      "url": "https://api.whatsapp.com/send?phone=5567999882828&text=Olá!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Campo%20Grande",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "unit_meta",
+      "unit": "São Paulo",
+      "field": "website",
+      "url": "https://www.inspirar.com.br/sp-saopaulo/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "unit_meta",
+      "unit": "São Paulo",
+      "field": "instagram",
+      "url": "https://www.instagram.com/faculdadeinspirarsaopaulo/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "unit_meta",
+      "unit": "São Paulo",
+      "field": "mapsUrl",
+      "url": "https://maps.google.com/?q=Faculdade+Inspirar+Sao+Paulo",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Cursos & Pós-Graduação",
+      "unit": "São Paulo",
+      "field": "Fisioterapia Neurofuncional",
+      "url": "https://faculdadeinspirar.com.br/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Cursos & Pós-Graduação",
+      "unit": "São Paulo",
+      "field": "Gestão e Liderança em Saúde",
+      "url": "https://faculdadeinspirar.com.br/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Eventos",
+      "unit": "São Paulo",
+      "field": "Congresso Internacional em Estética",
+      "url": "https://faculdadeinspirar.com.br/congresso-de-estetica/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Acesso Rápido",
+      "unit": "São Paulo",
+      "field": "Site Oficial — Unidade São Paulo",
+      "url": "https://www.inspirar.com.br/sp-saopaulo/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Acesso Rápido",
+      "unit": "São Paulo",
+      "field": "Atendimento WhatsApp São Paulo",
+      "url": "https://api.whatsapp.com/send?phone=5511999772828&text=Olá!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20São%20Paulo",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "unit_meta",
+      "unit": "Florianópolis",
+      "field": "website",
+      "url": "https://www.inspirar.com.br/sc-florianopolis/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "unit_meta",
+      "unit": "Florianópolis",
+      "field": "instagram",
+      "url": "https://www.instagram.com/faculdadeinspirarfloripa/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "unit_meta",
+      "unit": "Florianópolis",
+      "field": "mapsUrl",
+      "url": "https://maps.google.com/?q=Faculdade+Inspirar+Florianopolis",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Cursos & Pós-Graduação",
+      "unit": "Florianópolis",
+      "field": "Osteopatia & Terapia Manual Avançada",
+      "url": "https://faculdadeinspirar.com.br/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Cursos & Pós-Graduação",
+      "unit": "Florianópolis",
+      "field": "Fisioterapia Pélvica & Saúde da Mulher",
+      "url": "https://faculdadeinspirar.com.br/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Eventos",
+      "unit": "Florianópolis",
+      "field": "Amo Fisio — Edição Sul",
+      "url": "https://amofisio.vercel.app/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Acesso Rápido",
+      "unit": "Florianópolis",
+      "field": "Site Oficial — Unidade Florianópolis",
+      "url": "https://www.inspirar.com.br/sc-florianopolis/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Acesso Rápido",
+      "unit": "Florianópolis",
+      "field": "Atendimento WhatsApp Florianópolis",
+      "url": "https://api.whatsapp.com/send?phone=5548988442828&text=Olá!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Florianópolis",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "unit_meta",
+      "unit": "Belo Horizonte",
+      "field": "website",
+      "url": "https://www.inspirar.com.br/mg-belohorizonte/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "unit_meta",
+      "unit": "Belo Horizonte",
+      "field": "instagram",
+      "url": "https://www.instagram.com/faculdadeinspirarbh/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "unit_meta",
+      "unit": "Belo Horizonte",
+      "field": "mapsUrl",
+      "url": "https://maps.google.com/?q=Faculdade+Inspirar+Belo+Horizonte",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Cursos & Pós-Graduação",
+      "unit": "Belo Horizonte",
+      "field": "Fisioterapia Hospitalar e Ventilação Mecânica",
+      "url": "https://faculdadeinspirar.com.br/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Cursos & Pós-Graduação",
+      "unit": "Belo Horizonte",
+      "field": "Biomedicina Estética Avançada",
+      "url": "https://faculdadeinspirar.com.br/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Eventos",
+      "unit": "Belo Horizonte",
+      "field": "Congresso Internacional em Estética",
+      "url": "https://faculdadeinspirar.com.br/congresso-de-estetica/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Acesso Rápido",
+      "unit": "Belo Horizonte",
+      "field": "Site Oficial — Unidade Belo Horizonte",
+      "url": "https://www.inspirar.com.br/mg-belohorizonte/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Acesso Rápido",
+      "unit": "Belo Horizonte",
+      "field": "Atendimento WhatsApp Belo Horizonte",
+      "url": "https://api.whatsapp.com/send?phone=5531987652828&text=Olá!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Belo%20Horizonte",
+      "status": "FORMAT_OK",
+      "ok": true
+    }
+  ]
+}

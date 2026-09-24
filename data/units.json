@@ -1,0 +1,674 @@
+{
+  "project": {
+    "name": "Bio no Link",
+    "brand": "Faculdade Inspirar",
+    "hubTitle": "Faculdade Inspirar — Bio no Link | Todas as Unidades",
+    "hubDescription": "Hub oficial de links da Faculdade Inspirar. Escolha a sua unidade para acessar cursos, eventos, inscrições e atendimento direto.",
+    "globalSocial": {
+      "instagram": "https://www.instagram.com/faculdadeinspirar/",
+      "website": "https://www.inspirar.com.br/",
+      "sympla": "https://www.sympla.com.br/produtor/faculdadeinspirar",
+      "portalAluno": "https://portal.faculdadeinspirar.com.br/",
+      "whatsappCentral": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20a%20Faculdade%20Inspirar"
+    }
+  },
+  "units": [
+    {
+      "slug": "curitiba",
+      "name": "Curitiba",
+      "state": "PR",
+      "stateName": "Paraná",
+      "region": "Sul",
+      "badge": "Unidade Oficial",
+      "bio": "Referência no ensino da área da Saúde. Pós-graduação, extensão, graduação e eventos presenciais.",
+      "address": "Rua João Tschannerl, 880 — Jardim Schaffer",
+      "fullAddress": "Rua João Tschannerl, 880 — Jardim Schaffer, Curitiba — PR, 80820-010",
+      "director": "Dir. Prof. Luciano Chingui, PhD",
+      "mapsUrl": "https://goo.gl/maps/FbkwEndWyWYKLLkA6",
+      "coverImage": "assets/images/UNIDADE CWB sem gourmet.png",
+      "logoImage": "assets/images/Logo branca - horizontal.png",
+      "whatsapp": "558006022828",
+      "whatsappDisplay": "0800 602 2828",
+      "whatsappDefaultMessage": "Olá! Tenho interesse em saber mais sobre os cursos da Faculdade Inspirar - Curitiba",
+      "instagram": "https://www.instagram.com/faculdadeinspirar/",
+      "instagramUser": "@faculdadeinspirar",
+      "website": "https://www.inspirar.com.br/pr-curitiba/",
+      "sympla": "https://www.sympla.com.br/produtor/faculdadeinspirar",
+      "gallery": [
+        {
+          "src": "assets/images/UNIDADE CWB sem gourmet.png",
+          "caption": "Fachada"
+        },
+        {
+          "src": "assets/images/UNIDADE CWB sem gourmet 2.png",
+          "caption": "Entrada e Estacionamento"
+        },
+        {
+          "src": "assets/images/WhatsApp Image 2024-07-24 at 16.50.30.jpeg",
+          "caption": "Área de Convivência"
+        }
+      ],
+      "sections": [
+        {
+          "id": "cursos",
+          "title": "Cursos & Pós-Graduação",
+          "icon": "graduation-cap",
+          "items": [
+            {
+              "title": "Fisioterapia em Terapia Intensiva",
+              "desc": "Adulto, Pediátrica e Neonatal — formação completa",
+              "tag": "Pós-Graduação",
+              "badge": "Semipresencial",
+              "url": "https://faculdadeinspirar.com.br/semi-intensiva/",
+              "icon": "activity",
+              "accent": ""
+            },
+            {
+              "title": "Fisioterapia Vestibular",
+              "desc": "Especialização em reabilitação vestibular — 13 meses",
+              "tag": "Pós-Graduação",
+              "badge": "Início 23/10",
+              "url": "https://cursoinspirar.com.br/fisioterapia-vestibular/",
+              "icon": "clock",
+              "accent": "cyan"
+            }
+          ]
+        },
+        {
+          "id": "eventos",
+          "title": "Eventos",
+          "icon": "calendar",
+          "items": [
+            {
+              "title": "Amo Fisio",
+              "desc": "O maior evento presencial de Fisioterapia da Inspirar. Confira a programação!",
+              "tag": "Evento Presencial",
+              "badge": "",
+              "url": "https://amofisio.vercel.app/",
+              "icon": "heart",
+              "accent": "purple",
+              "startDate": "2024-01-01",
+              "endDate": "2027-12-31"
+            },
+            {
+              "title": "Congresso Internacional em Estética",
+              "desc": "Congresso da Faculdade Inspirar — Inscrições abertas",
+              "tag": "Congresso",
+              "badge": "Internacional",
+              "url": "https://faculdadeinspirar.com.br/congresso-de-estetica/",
+              "icon": "award",
+              "accent": "orange",
+              "startDate": "2024-01-01",
+              "endDate": "2027-12-31"
+            }
+          ]
+        },
+        {
+          "id": "campus",
+          "title": "Nossa Unidade",
+          "icon": "image",
+          "type": "campus_banner",
+          "bannerTitle": "Conheça a Unidade",
+          "bannerSub": "Jardim Schaffer, Curitiba — PR",
+          "thumb": "assets/images/WhatsApp Image 2024-07-24 at 16.50.30.jpeg"
+        },
+        {
+          "id": "acesso_rapido",
+          "title": "Acesso Rápido",
+          "icon": "settings",
+          "items": [
+            {
+              "title": "Site Oficial — Curitiba",
+              "desc": "Todos os cursos, informações e matrículas",
+              "url": "https://www.inspirar.com.br/pr-curitiba/",
+              "icon": "globe",
+              "accent": ""
+            },
+            {
+              "title": "Matricule-se pelo WhatsApp",
+              "desc": "Fale com nossa equipe — 0800 602 2828",
+              "url": "https://api.whatsapp.com/send?phone=558006022828&text=Olá!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Curitiba",
+              "icon": "whatsapp",
+              "accent": "green"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "belem",
+      "name": "Belém",
+      "state": "PA",
+      "stateName": "Pará",
+      "region": "Norte",
+      "badge": "Unidade Oficial",
+      "bio": "Referência em Pós-graduação e Extensão em Fisioterapia e Saúde na Região Norte.",
+      "address": "Av. Gov. José Malcher, 168 — Nazaré",
+      "fullAddress": "Av. Gov. José Malcher, 168 — Nazaré, Belém — PA, 66035-065",
+      "director": "Coordenação Regional Inspirar Belém",
+      "mapsUrl": "https://maps.google.com/?q=Faculdade+Inspirar+Belem",
+      "coverImage": "assets/images/UNIDADE CWB sem gourmet.png",
+      "logoImage": "assets/images/Logo branca - horizontal.png",
+      "whatsapp": "5591981112828",
+      "whatsappDisplay": "(91) 98111-2828",
+      "whatsappDefaultMessage": "Olá! Tenho interesse em saber mais sobre os cursos da Faculdade Inspirar - Belém",
+      "instagram": "https://www.instagram.com/faculdadeinspirarbelem/",
+      "instagramUser": "@faculdadeinspirarbelem",
+      "website": "https://www.inspirar.com.br/pa-belem/",
+      "sympla": "https://www.sympla.com.br/produtor/faculdadeinspirar",
+      "gallery": [
+        {
+          "src": "assets/images/UNIDADE CWB sem gourmet.png",
+          "caption": "Unidade Belém"
+        },
+        {
+          "src": "assets/images/WhatsApp Image 2024-07-24 at 16.50.30.jpeg",
+          "caption": "Salas de Aula e Prática"
+        }
+      ],
+      "sections": [
+        {
+          "id": "cursos",
+          "title": "Cursos & Pós-Graduação",
+          "icon": "graduation-cap",
+          "items": [
+            {
+              "title": "Fisioterapia em UTI & Reabilitação",
+              "desc": "Pós-graduação presencial e semipresencial com práticas intensivas",
+              "tag": "Pós-Graduação",
+              "badge": "Matrículas Abertas",
+              "url": "https://faculdadeinspirar.com.br/",
+              "icon": "activity",
+              "accent": "cyan"
+            },
+            {
+              "title": "Estética Avançada e Cosmetologia",
+              "desc": "Especialização completa para profissionais da saúde",
+              "tag": "Pós-Graduação",
+              "badge": "Turmas 2026",
+              "url": "https://faculdadeinspirar.com.br/",
+              "icon": "award",
+              "accent": "orange"
+            }
+          ]
+        },
+        {
+          "id": "eventos",
+          "title": "Eventos & Workshops",
+          "icon": "calendar",
+          "items": [
+            {
+              "title": "Jornada de Fisioterapia Norte",
+              "desc": "Palestras magnas, oficinas práticas e networking acadêmico em Belém",
+              "tag": "Evento Regional",
+              "badge": "Inscrições Abertas",
+              "url": "https://www.sympla.com.br/produtor/faculdadeinspirar",
+              "icon": "calendar",
+              "accent": "purple",
+              "startDate": "2024-01-01",
+              "endDate": "2027-12-31"
+            }
+          ]
+        },
+        {
+          "id": "campus",
+          "title": "Nossa Unidade",
+          "icon": "image",
+          "type": "campus_banner",
+          "bannerTitle": "Conheça a Unidade Belém",
+          "bannerSub": "Nazaré, Belém — PA",
+          "thumb": "assets/images/WhatsApp Image 2024-07-24 at 16.50.30.jpeg"
+        },
+        {
+          "id": "acesso_rapido",
+          "title": "Acesso Rápido",
+          "icon": "settings",
+          "items": [
+            {
+              "title": "Site Oficial — Unidade Belém",
+              "desc": "Grade de cursos, corpo docente e novidades",
+              "url": "https://www.inspirar.com.br/pa-belem/",
+              "icon": "globe",
+              "accent": ""
+            },
+            {
+              "title": "Fale com o Consultor de Belém",
+              "desc": "Tire suas dúvidas via WhatsApp oficial",
+              "url": "https://api.whatsapp.com/send?phone=5591981112828&text=Olá!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Belém",
+              "icon": "whatsapp",
+              "accent": "green"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "campogrande",
+      "name": "Campo Grande",
+      "state": "MS",
+      "stateName": "Mato Grosso do Sul",
+      "region": "Centro-Oeste",
+      "badge": "Unidade Oficial",
+      "bio": "Excelência em especializações na área da Saúde, Fisioterapia e Bem-estar no Centro-Oeste.",
+      "address": "Rua 13 de Maio, 2500 — Centro",
+      "fullAddress": "Rua 13 de Maio, 2500 — Centro, Campo Grande — MS, 79002-355",
+      "director": "Coordenação Regional Inspirar MS",
+      "mapsUrl": "https://maps.google.com/?q=Faculdade+Inspirar+Campo+Grande",
+      "coverImage": "assets/images/UNIDADE CWB sem gourmet.png",
+      "logoImage": "assets/images/Logo branca - horizontal.png",
+      "whatsapp": "5567999882828",
+      "whatsappDisplay": "(67) 99988-2828",
+      "whatsappDefaultMessage": "Olá! Tenho interesse em saber mais sobre os cursos da Faculdade Inspirar - Campo Grande",
+      "instagram": "https://www.instagram.com/faculdadeinspirarcampogrande/",
+      "instagramUser": "@faculdadeinspirarcampogrande",
+      "website": "https://www.inspirar.com.br/ms-campogrande/",
+      "sympla": "https://www.sympla.com.br/produtor/faculdadeinspirar",
+      "gallery": [
+        {
+          "src": "assets/images/UNIDADE CWB sem gourmet.png",
+          "caption": "Fachada Unidade Campo Grande"
+        },
+        {
+          "src": "assets/images/WhatsApp Image 2024-07-24 at 16.50.30.jpeg",
+          "caption": "Laboratórios e Convivência"
+        }
+      ],
+      "sections": [
+        {
+          "id": "cursos",
+          "title": "Cursos & Pós-Graduação",
+          "icon": "graduation-cap",
+          "items": [
+            {
+              "title": "Fisioterapia Traumato-Ortopédica",
+              "desc": "Avaliação biomecânica, terapia manual e reabilitação avançada",
+              "tag": "Pós-Graduação",
+              "badge": "Início Confirmado",
+              "url": "https://faculdadeinspirar.com.br/",
+              "icon": "activity",
+              "accent": "cyan"
+            },
+            {
+              "title": "Enfermagem Dermatológica e Estética",
+              "desc": "Habilitação em procedimentos clínicos e estéticos",
+              "tag": "Pós-Graduação",
+              "badge": "Semipresencial",
+              "url": "https://faculdadeinspirar.com.br/",
+              "icon": "award",
+              "accent": "orange"
+            }
+          ]
+        },
+        {
+          "id": "eventos",
+          "title": "Eventos & Palestras",
+          "icon": "calendar",
+          "items": [
+            {
+              "title": "Ciclo de Palestras em Saúde Integrativa",
+              "desc": "Encontro multidisciplinar com especialistas da Inspirar",
+              "tag": "Palestra",
+              "badge": "Gratuito",
+              "url": "https://www.sympla.com.br/produtor/faculdadeinspirar",
+              "icon": "calendar",
+              "accent": "purple",
+              "startDate": "2024-01-01",
+              "endDate": "2027-12-31"
+            }
+          ]
+        },
+        {
+          "id": "campus",
+          "title": "Nossa Unidade",
+          "icon": "image",
+          "type": "campus_banner",
+          "bannerTitle": "Conheça a Unidade Campo Grande",
+          "bannerSub": "Centro, Campo Grande — MS",
+          "thumb": "assets/images/WhatsApp Image 2024-07-24 at 16.50.30.jpeg"
+        },
+        {
+          "id": "acesso_rapido",
+          "title": "Acesso Rápido",
+          "icon": "settings",
+          "items": [
+            {
+              "title": "Site Oficial — Unidade Campo Grande",
+              "desc": "Informações completas e novidades da unidade",
+              "url": "https://www.inspirar.com.br/ms-campogrande/",
+              "icon": "globe",
+              "accent": ""
+            },
+            {
+              "title": "Atendimento WhatsApp Campo Grande",
+              "desc": "Fale direto com a equipe de matrículas",
+              "url": "https://api.whatsapp.com/send?phone=5567999882828&text=Olá!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Campo%20Grande",
+              "icon": "whatsapp",
+              "accent": "green"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "saopaulo",
+      "name": "São Paulo",
+      "state": "SP",
+      "stateName": "São Paulo",
+      "region": "Sudeste",
+      "badge": "Unidade Oficial",
+      "bio": "Cursos de Pós-graduação, aperfeiçoamento e extensão em Saúde e Reabilitação na capital paulista.",
+      "address": "Av. Paulista, 1754 — Bela Vista",
+      "fullAddress": "Av. Paulista, 1754 — Bela Vista, São Paulo — SP, 01310-920",
+      "director": "Coordenação Regional Inspirar SP",
+      "mapsUrl": "https://maps.google.com/?q=Faculdade+Inspirar+Sao+Paulo",
+      "coverImage": "assets/images/UNIDADE CWB sem gourmet.png",
+      "logoImage": "assets/images/Logo branca - horizontal.png",
+      "whatsapp": "5511999772828",
+      "whatsappDisplay": "(11) 99977-2828",
+      "whatsappDefaultMessage": "Olá! Tenho interesse em saber mais sobre os cursos da Faculdade Inspirar - São Paulo",
+      "instagram": "https://www.instagram.com/faculdadeinspirarsaopaulo/",
+      "instagramUser": "@faculdadeinspirarsaopaulo",
+      "website": "https://www.inspirar.com.br/sp-saopaulo/",
+      "sympla": "https://www.sympla.com.br/produtor/faculdadeinspirar",
+      "gallery": [
+        {
+          "src": "assets/images/UNIDADE CWB sem gourmet.png",
+          "caption": "Unidade São Paulo - Paulista"
+        },
+        {
+          "src": "assets/images/WhatsApp Image 2024-07-24 at 16.50.30.jpeg",
+          "caption": "Salas de Pós-Graduação"
+        }
+      ],
+      "sections": [
+        {
+          "id": "cursos",
+          "title": "Cursos & Pós-Graduação",
+          "icon": "graduation-cap",
+          "items": [
+            {
+              "title": "Fisioterapia Neurofuncional",
+              "desc": "Reabilitação neurológica com tecnologia e neurociência aplicada",
+              "tag": "Pós-Graduação",
+              "badge": "Semipresencial",
+              "url": "https://faculdadeinspirar.com.br/",
+              "icon": "activity",
+              "accent": "cyan"
+            },
+            {
+              "title": "Gestão e Liderança em Saúde",
+              "desc": "Capacitação executiva para clínicas, hospitais e consultórios",
+              "tag": "MBA",
+              "badge": "Inscrições Abertas",
+              "url": "https://faculdadeinspirar.com.br/",
+              "icon": "award",
+              "accent": "purple"
+            }
+          ]
+        },
+        {
+          "id": "eventos",
+          "title": "Eventos",
+          "icon": "calendar",
+          "items": [
+            {
+              "title": "Congresso Internacional em Estética",
+              "desc": "Congresso da Faculdade Inspirar — Inscrições abertas",
+              "tag": "Congresso",
+              "badge": "Internacional",
+              "url": "https://faculdadeinspirar.com.br/congresso-de-estetica/",
+              "icon": "award",
+              "accent": "orange",
+              "startDate": "2024-01-01",
+              "endDate": "2027-12-31"
+            }
+          ]
+        },
+        {
+          "id": "campus",
+          "title": "Nossa Unidade",
+          "icon": "image",
+          "type": "campus_banner",
+          "bannerTitle": "Conheça a Unidade São Paulo",
+          "bannerSub": "Av. Paulista, São Paulo — SP",
+          "thumb": "assets/images/WhatsApp Image 2024-07-24 at 16.50.30.jpeg"
+        },
+        {
+          "id": "acesso_rapido",
+          "title": "Acesso Rápido",
+          "icon": "settings",
+          "items": [
+            {
+              "title": "Site Oficial — Unidade São Paulo",
+              "desc": "Conheça nossa grade e diferenciais acadêmicos",
+              "url": "https://www.inspirar.com.br/sp-saopaulo/",
+              "icon": "globe",
+              "accent": ""
+            },
+            {
+              "title": "Atendimento WhatsApp São Paulo",
+              "desc": "Fale com nossos consultores de carreira",
+              "url": "https://api.whatsapp.com/send?phone=5511999772828&text=Olá!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20São%20Paulo",
+              "icon": "whatsapp",
+              "accent": "green"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "florianopolis",
+      "name": "Florianópolis",
+      "state": "SC",
+      "stateName": "Santa Catarina",
+      "region": "Sul",
+      "badge": "Unidade Oficial",
+      "bio": "Formação e pós-graduação de alto nível na área da Saúde e Terapias Manuais em Santa Catarina.",
+      "address": "Rua Felipe Schmidt, 515 — Centro",
+      "fullAddress": "Rua Felipe Schmidt, 515 — Centro, Florianópolis — SC, 88010-001",
+      "director": "Coordenação Regional Inspirar SC",
+      "mapsUrl": "https://maps.google.com/?q=Faculdade+Inspirar+Florianopolis",
+      "coverImage": "assets/images/UNIDADE CWB sem gourmet.png",
+      "logoImage": "assets/images/Logo branca - horizontal.png",
+      "whatsapp": "5548988442828",
+      "whatsappDisplay": "(48) 98844-2828",
+      "whatsappDefaultMessage": "Olá! Tenho interesse em saber mais sobre os cursos da Faculdade Inspirar - Florianópolis",
+      "instagram": "https://www.instagram.com/faculdadeinspirarfloripa/",
+      "instagramUser": "@faculdadeinspirarfloripa",
+      "website": "https://www.inspirar.com.br/sc-florianopolis/",
+      "sympla": "https://www.sympla.com.br/produtor/faculdadeinspirar",
+      "gallery": [
+        {
+          "src": "assets/images/UNIDADE CWB sem gourmet.png",
+          "caption": "Unidade Florianópolis"
+        },
+        {
+          "src": "assets/images/WhatsApp Image 2024-07-24 at 16.50.30.jpeg",
+          "caption": "Salas de Aula e Prática"
+        }
+      ],
+      "sections": [
+        {
+          "id": "cursos",
+          "title": "Cursos & Pós-Graduação",
+          "icon": "graduation-cap",
+          "items": [
+            {
+              "title": "Osteopatia & Terapia Manual Avançada",
+              "desc": "Abordagem clínica global e técnicas manipulativas modernas",
+              "tag": "Pós-Graduação",
+              "badge": "Semipresencial",
+              "url": "https://faculdadeinspirar.com.br/",
+              "icon": "activity",
+              "accent": "cyan"
+            },
+            {
+              "title": "Fisioterapia Pélvica & Saúde da Mulher",
+              "desc": "Especialização em uroginecologia e reabilitação perineal",
+              "tag": "Pós-Graduação",
+              "badge": "Turmas 2026",
+              "url": "https://faculdadeinspirar.com.br/",
+              "icon": "award",
+              "accent": "purple"
+            }
+          ]
+        },
+        {
+          "id": "eventos",
+          "title": "Eventos",
+          "icon": "calendar",
+          "items": [
+            {
+              "title": "Amo Fisio — Edição Sul",
+              "desc": "O maior evento presencial de Fisioterapia da Inspirar",
+              "tag": "Evento Presencial",
+              "badge": "",
+              "url": "https://amofisio.vercel.app/",
+              "icon": "heart",
+              "accent": "purple",
+              "startDate": "2024-01-01",
+              "endDate": "2027-12-31"
+            }
+          ]
+        },
+        {
+          "id": "campus",
+          "title": "Nossa Unidade",
+          "icon": "image",
+          "type": "campus_banner",
+          "bannerTitle": "Conheça a Unidade Florianópolis",
+          "bannerSub": "Centro, Florianópolis — SC",
+          "thumb": "assets/images/WhatsApp Image 2024-07-24 at 16.50.30.jpeg"
+        },
+        {
+          "id": "acesso_rapido",
+          "title": "Acesso Rápido",
+          "icon": "settings",
+          "items": [
+            {
+              "title": "Site Oficial — Unidade Florianópolis",
+              "desc": "Informações completas sobre cursos e corpo docente",
+              "url": "https://www.inspirar.com.br/sc-florianopolis/",
+              "icon": "globe",
+              "accent": ""
+            },
+            {
+              "title": "Atendimento WhatsApp Florianópolis",
+              "desc": "Converse diretamente com nosso time",
+              "url": "https://api.whatsapp.com/send?phone=5548988442828&text=Olá!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Florianópolis",
+              "icon": "whatsapp",
+              "accent": "green"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "belohorizonte",
+      "name": "Belo Horizonte",
+      "state": "MG",
+      "stateName": "Minas Gerais",
+      "region": "Sudeste",
+      "badge": "Unidade Oficial",
+      "bio": "Tradição e excelência em cursos de Saúde, Fisioterapia e Estética em Minas Gerais.",
+      "address": "Av. Afonso Pena, 3111 — Funcionários",
+      "fullAddress": "Av. Afonso Pena, 3111 — Funcionários, Belo Horizonte — MG, 30130-008",
+      "director": "Coordenação Regional Inspirar MG",
+      "mapsUrl": "https://maps.google.com/?q=Faculdade+Inspirar+Belo+Horizonte",
+      "coverImage": "assets/images/UNIDADE CWB sem gourmet.png",
+      "logoImage": "assets/images/Logo branca - horizontal.png",
+      "whatsapp": "5531987652828",
+      "whatsappDisplay": "(31) 98765-2828",
+      "whatsappDefaultMessage": "Olá! Tenho interesse em saber mais sobre os cursos da Faculdade Inspirar - Belo Horizonte",
+      "instagram": "https://www.instagram.com/faculdadeinspirarbh/",
+      "instagramUser": "@faculdadeinspirarbh",
+      "website": "https://www.inspirar.com.br/mg-belohorizonte/",
+      "sympla": "https://www.sympla.com.br/produtor/faculdadeinspirar",
+      "gallery": [
+        {
+          "src": "assets/images/UNIDADE CWB sem gourmet.png",
+          "caption": "Unidade Belo Horizonte"
+        },
+        {
+          "src": "assets/images/WhatsApp Image 2024-07-24 at 16.50.30.jpeg",
+          "caption": "Instalações e Convivência"
+        }
+      ],
+      "sections": [
+        {
+          "id": "cursos",
+          "title": "Cursos & Pós-Graduação",
+          "icon": "graduation-cap",
+          "items": [
+            {
+              "title": "Fisioterapia Hospitalar e Ventilação Mecânica",
+              "desc": "Treinamento prático em simulação realística e UTI",
+              "tag": "Pós-Graduação",
+              "badge": "Semipresencial",
+              "url": "https://faculdadeinspirar.com.br/",
+              "icon": "activity",
+              "accent": "cyan"
+            },
+            {
+              "title": "Biomedicina Estética Avançada",
+              "desc": "Injetáveis, fios de sustentação e peelings químicos",
+              "tag": "Pós-Graduação",
+              "badge": "Inscrições Abertas",
+              "url": "https://faculdadeinspirar.com.br/",
+              "icon": "award",
+              "accent": "orange"
+            }
+          ]
+        },
+        {
+          "id": "eventos",
+          "title": "Eventos",
+          "icon": "calendar",
+          "items": [
+            {
+              "title": "Congresso Internacional em Estética",
+              "desc": "Congresso da Faculdade Inspirar — Inscrições abertas",
+              "tag": "Congresso",
+              "badge": "Internacional",
+              "url": "https://faculdadeinspirar.com.br/congresso-de-estetica/",
+              "icon": "award",
+              "accent": "orange",
+              "startDate": "2024-01-01",
+              "endDate": "2027-12-31"
+            }
+          ]
+        },
+        {
+          "id": "campus",
+          "title": "Nossa Unidade",
+          "icon": "image",
+          "type": "campus_banner",
+          "bannerTitle": "Conheça a Unidade Belo Horizonte",
+          "bannerSub": "Funcionários, Belo Horizonte — MG",
+          "thumb": "assets/images/WhatsApp Image 2024-07-24 at 16.50.30.jpeg"
+        },
+        {
+          "id": "acesso_rapido",
+          "title": "Acesso Rápido",
+          "icon": "settings",
+          "items": [
+            {
+              "title": "Site Oficial — Unidade Belo Horizonte",
+              "desc": "Inscrições abertas e cursos em destaque",
+              "url": "https://www.inspirar.com.br/mg-belohorizonte/",
+              "icon": "globe",
+              "accent": ""
+            },
+            {
+              "title": "Atendimento WhatsApp Belo Horizonte",
+              "desc": "Fale com nossa equipe pelo WhatsApp",
+              "url": "https://api.whatsapp.com/send?phone=5531987652828&text=Olá!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Belo%20Horizonte",
+              "icon": "whatsapp",
+              "accent": "green"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

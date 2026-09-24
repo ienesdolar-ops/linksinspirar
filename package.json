@@ -1,0 +1,24 @@
+{
+  "name": "bio-no-link",
+  "version": "1.0.0",
+  "description": "Hub e páginas Linktree para unidades da Faculdade Inspirar com atualização por prompt",
+  "main": "index.html",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "validate": "node scripts/validate-data.js",
+    "test:dates": "node scripts/test-event-dates.js",
+    "check-links": "node scripts/check-links.js",
+    "check-links:dry": "node scripts/check-links.js --dry-run",
+    "verify": "node scripts/verify-all.js",
+    "test": "node scripts/verify-all.js"
+  },
+  "keywords": [
+    "linktree",
+    "bio-no-link",
+    "inspirar",
+    "faculdade-inspirar",
+    "static-site"
+  ],
+  "author": "Faculdade Inspirar",
+  "license": "ISC"
+}

@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Faculdade Inspirar — Bio no Link | Todas as Unidades</title>
+
+  <!-- SEO & Social -->
+  <meta name="description" content="Hub oficial de links da Faculdade Inspirar. Escolha a sua unidade para acessar cursos, eventos, inscrições e atendimento direto.">
+  <meta property="og:title" content="Faculdade Inspirar — Bio no Link | Todas as Unidades">
+  <meta property="og:description" content="Hub oficial de links da Faculdade Inspirar. Escolha a sua unidade para acessar cursos, eventos, inscrições e atendimento direto.">
+  <meta property="og:image" content="assets/images/UNIDADE CWB sem gourmet.png">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#080B10">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/images/Logo branca - horizontal.png">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    /* Hub-specific Layout Styles */
+    .hub-header {
+      text-align: center;
+      margin-bottom: 24px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .hub-logo {
+      height: 52px;
+      margin-bottom: 14px;
+      object-fit: contain;
+    }
+    .hub-subtitle {
+      font-size: 0.95rem;
+      color: var(--text-secondary);
+      max-width: 500px;
+      line-height: 1.5;
+      font-weight: 300;
+    }
+    .hub-search-box {
+      position: relative;
+      width: 100%;
+      margin-bottom: 24px;
+    }
+    .hub-search-input {
+      width: 100%;
+      padding: 14px 44px 14px 46px;
+      border-radius: var(--radius-full);
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      color: #FFFFFF;
+      font-family: inherit;
+      font-size: 0.95rem;
+      outline: none;
+      transition: all var(--transition-smooth);
+      box-shadow: var(--shadow-sm);
+    }
+    .hub-search-input:focus {
+      border-color: var(--color-primary-light);
+      box-shadow: 0 0 20px rgba(0, 166, 255, 0.25);
+    }
+    .hub-search-icon {
+      position: absolute;
+      left: 16px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 20px;
+      height: 20px;
+      color: var(--text-muted);
+      pointer-events: none;
+    }
+    .hub-search-clear {
+      position: absolute;
+      right: 16px;
+      top: 50%;
+      transform: translateY(-50%);
+      background: none;
+      border: none;
+      color: var(--text-dim);
+      cursor: pointer;
+      font-size: 1.1rem;
+      display: none;
+    }
+    .hub-units-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      width: 100%;
+      margin-bottom: 32px;
+    }
+    .hub-unit-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      transition: all var(--transition-smooth);
+      box-shadow: var(--shadow-sm);
+    }
+    @media (min-width: 580px) {
+      .hub-unit-card {
+        flex-direction: row;
+        align-items: stretch;
+      }
+      .hub-unit-cover-wrap {
+        width: 180px !important;
+        height: auto !important;
+        flex-shrink: 0;
+      }
+    }
+    .hub-unit-card:hover {
+      border-color: var(--border-hover);
+      box-shadow: var(--shadow-md);
+      transform: translateY(-2px);
+    }
+    .hub-unit-cover-wrap {
+      position: relative;
+      height: 120px;
+      width: 100%;
+      overflow: hidden;
+      display: block;
+    }
+    .hub-unit-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.5s ease;
+    }
+    .hub-unit-card:hover .hub-unit-img {
+      transform: scale(1.05);
+    }
+    .hub-unit-badge-tag {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      padding: 3px 10px;
+      background: rgba(0, 118, 206, 0.9);
+      backdrop-filter: blur(8px);
+      border-radius: var(--radius-full);
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      color: #FFFFFF;
+    }
+    .hub-unit-content {
+      padding: 16px 20px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .hub-unit-header {
+      margin-bottom: 8px;
+    }
+    .hub-unit-title {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: #FFFFFF;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      margin-bottom: 2px;
+    }
+    .hub-unit-title a {
+      color: #FFFFFF;
+      text-decoration: none;
+    }
+    .hub-unit-region {
+      font-size: 0.78rem;
+      color: var(--color-accent);
+      font-weight: 500;
+    }
+    .hub-unit-address {
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      margin-bottom: 14px;
+    }
+    .hub-unit-address svg {
+      width: 14px;
+      height: 14px;
+      color: var(--color-primary-light);
+      flex-shrink: 0;
+    }
+    .hub-unit-actions {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      padding-top: 10px;
+      border-top: 1px solid rgba(255, 255, 255, 0.06);
+    }
+    .hub-btn-primary {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--color-primary);
+      color: #FFFFFF;
+      text-decoration: none;
+      padding: 8px 16px;
+      border-radius: var(--radius-full);
+      font-size: 0.82rem;
+      font-weight: 600;
+      transition: all var(--transition-fast);
+    }
+    .hub-btn-primary:hover {
+      background: var(--color-primary-light);
+      color: #080B10;
+      transform: translateX(2px);
+    }
+    .hub-btn-primary svg {
+      width: 14px;
+      height: 14px;
+      stroke: currentColor;
+      stroke-width: 2.5;
+    }
+    .hub-unit-quick-icons {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .hub-btn-icon {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--border-subtle);
+      color: var(--text-secondary);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      text-decoration: none;
+      transition: all var(--transition-fast);
+    }
+    .hub-btn-icon:hover {
+      background: rgba(255, 255, 255, 0.12);
+      transform: scale(1.1);
+      color: #FFFFFF;
+    }
+    .hub-btn-icon svg {
+      width: 15px;
+      height: 15px;
+    }
+    .hub-btn-icon.btn-wa:hover {
+      background: var(--status-whatsapp);
+      color: #FFFFFF;
+    }
+    .hub-btn-icon.btn-ig:hover {
+      background: var(--status-instagram);
+      color: #FFFFFF;
+    }
+    .hub-global-links {
+      margin-bottom: 24px;
+    }
+    .empty-search-state {
+      display: none;
+      text-align: center;
+      padding: 40px 20px;
+      color: var(--text-muted);
+      background: var(--bg-surface);
+      border-radius: var(--radius-md);
+      border: 1px dashed var(--border-subtle);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Ambient Background Orbs -->
+  <div class="ambient-glow ambient-glow-1"></div>
+  <div class="ambient-glow ambient-glow-2"></div>
+
+  <!-- ========== MAIN CONTAINER ========== -->
+  <main class="app-container">
+
+    <!-- ── TOP BADGE ── -->
+    <nav class="top-nav" style="justify-content: center;">
+      <div class="top-badge">
+        <span class="pulse-dot"></span>
+        Bio no Link • Rede Nacional Inspirar
+      </div>
+    </nav>
+
+    <!-- ── HUB HEADER ── -->
+    <header class="hub-header">
+      <img src="assets/images/Logo branca - horizontal.png" alt="Faculdade Inspirar" class="hub-logo">
+      <p class="hub-subtitle">
+        Selecione sua unidade abaixo para acessar links rápidos de matrícula, cursos de pós-graduação, eventos e suporte direto.
+      </p>
+    </header>
+
+    <!-- ── SEARCH BAR ── -->
+    <div class="hub-search-box">
+      <span class="hub-search-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg></span>
+      <input type="text" id="unit-search" class="hub-search-input" placeholder="Buscar unidade por cidade ou estado (ex: Curitiba, PR, Belém)..." autocomplete="off">
+      <button id="search-clear" class="hub-search-clear" onclick="clearSearch()" title="Limpar busca">&times;</button>
+    </div>
+
+    <!-- ── UNITS GRID ── -->
+    <section class="hub-units-grid" id="units-list">
+      
+      <!-- Unit Card: Curitiba -->
+      <article class="hub-unit-card" data-search="curitiba pr paraná sul">
+        <a href="curitiba/index.html" class="hub-unit-cover-wrap">
+          <img src="assets/images/UNIDADE CWB sem gourmet.png" alt="Unidade Curitiba" class="hub-unit-img" loading="lazy">
+          <div class="hub-unit-badge-tag">PR</div>
+        </a>
+        <div class="hub-unit-content">
+          <div class="hub-unit-header">
+            <h2 class="hub-unit-title">
+              <a href="curitiba/index.html">Curitiba</a>
+              <svg class="verified-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 1l3.09 3.26L19 3.27l.71 4.03 3.29 2.7-2 3.57.56 4.07L17.5 19.7 14.91 23 12 21.18 9.09 23 6.5 19.7l-4.06-2.06.56-4.07-2-3.57L4.29 7.3 5 3.27l3.91.99L12 1z"/><path fill="#080B10" d="M10 15.5l-3.5-3.5 1.41-1.41L10 12.67l5.59-5.58L17 8.5l-7 7z"/></svg>
+            </h2>
+            <span class="hub-unit-region">Paraná • Sul</span>
+          </div>
+          <p class="hub-unit-address">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Rua João Tschannerl, 880 — Jardim Schaffer
+          </p>
+          <div class="hub-unit-actions">
+            <a href="curitiba/index.html" class="hub-btn-primary">
+              Acessar Bio
+              <svg viewBox="0 0 24 24" fill="none"><polyline points="9 18 15 12 9 6"/></svg>
+            </a>
+            <div class="hub-unit-quick-icons">
+              <a href="https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Curitiba" target="_blank" rel="noopener" class="hub-btn-icon btn-wa" title="WhatsApp Curitiba">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              </a>
+              <a href="https://www.instagram.com/faculdadeinspirar/" target="_blank" rel="noopener" class="hub-btn-icon btn-ig" title="Instagram Curitiba">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+              </a>
+              <button class="hub-btn-icon" onclick="copyUnitLink('curitiba')" title="Copiar link da Bio">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Unit Card: Belém -->
+      <article class="hub-unit-card" data-search="belém pa pará norte">
+        <a href="belem/index.html" class="hub-unit-cover-wrap">
+          <img src="assets/images/UNIDADE CWB sem gourmet.png" alt="Unidade Belém" class="hub-unit-img" loading="lazy">
+          <div class="hub-unit-badge-tag">PA</div>
+        </a>
+        <div class="hub-unit-content">
+          <div class="hub-unit-header">
+            <h2 class="hub-unit-title">
+              <a href="belem/index.html">Belém</a>
+              <svg class="verified-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 1l3.09 3.26L19 3.27l.71 4.03 3.29 2.7-2 3.57.56 4.07L17.5 19.7 14.91 23 12 21.18 9.09 23 6.5 19.7l-4.06-2.06.56-4.07-2-3.57L4.29 7.3 5 3.27l3.91.99L12 1z"/><path fill="#080B10" d="M10 15.5l-3.5-3.5 1.41-1.41L10 12.67l5.59-5.58L17 8.5l-7 7z"/></svg>
+            </h2>
+            <span class="hub-unit-region">Pará • Norte</span>
+          </div>
+          <p class="hub-unit-address">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Av. Gov. José Malcher, 168 — Nazaré
+          </p>
+          <div class="hub-unit-actions">
+            <a href="belem/index.html" class="hub-btn-primary">
+              Acessar Bio
+              <svg viewBox="0 0 24 24" fill="none"><polyline points="9 18 15 12 9 6"/></svg>
+            </a>
+            <div class="hub-unit-quick-icons">
+              <a href="https://api.whatsapp.com/send?phone=5591981112828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Bel%C3%A9m" target="_blank" rel="noopener" class="hub-btn-icon btn-wa" title="WhatsApp Belém">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              </a>
+              <a href="https://www.instagram.com/faculdadeinspirarbelem/" target="_blank" rel="noopener" class="hub-btn-icon btn-ig" title="Instagram Belém">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+              </a>
+              <button class="hub-btn-icon" onclick="copyUnitLink('belem')" title="Copiar link da Bio">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Unit Card: Campo Grande -->
+      <article class="hub-unit-card" data-search="campo grande ms mato grosso do sul centro-oeste">
+        <a href="campogrande/index.html" class="hub-unit-cover-wrap">
+          <img src="assets/images/UNIDADE CWB sem gourmet.png" alt="Unidade Campo Grande" class="hub-unit-img" loading="lazy">
+          <div class="hub-unit-badge-tag">MS</div>
+        </a>
+        <div class="hub-unit-content">
+          <div class="hub-unit-header">
+            <h2 class="hub-unit-title">
+              <a href="campogrande/index.html">Campo Grande</a>
+              <svg class="verified-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 1l3.09 3.26L19 3.27l.71 4.03 3.29 2.7-2 3.57.56 4.07L17.5 19.7 14.91 23 12 21.18 9.09 23 6.5 19.7l-4.06-2.06.56-4.07-2-3.57L4.29 7.3 5 3.27l3.91.99L12 1z"/><path fill="#080B10" d="M10 15.5l-3.5-3.5 1.41-1.41L10 12.67l5.59-5.58L17 8.5l-7 7z"/></svg>
+            </h2>
+            <span class="hub-unit-region">Mato Grosso do Sul • Centro-Oeste</span>
+          </div>
+          <p class="hub-unit-address">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Rua 13 de Maio, 2500 — Centro
+          </p>
+          <div class="hub-unit-actions">
+            <a href="campogrande/index.html" class="hub-btn-primary">
+              Acessar Bio
+              <svg viewBox="0 0 24 24" fill="none"><polyline points="9 18 15 12 9 6"/></svg>
+            </a>
+            <div class="hub-unit-quick-icons">
+              <a href="https://api.whatsapp.com/send?phone=5567999882828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Campo%20Grande" target="_blank" rel="noopener" class="hub-btn-icon btn-wa" title="WhatsApp Campo Grande">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              </a>
+              <a href="https://www.instagram.com/faculdadeinspirarcampogrande/" target="_blank" rel="noopener" class="hub-btn-icon btn-ig" title="Instagram Campo Grande">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+              </a>
+              <button class="hub-btn-icon" onclick="copyUnitLink('campogrande')" title="Copiar link da Bio">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Unit Card: São Paulo -->
+      <article class="hub-unit-card" data-search="são paulo sp são paulo sudeste">
+        <a href="saopaulo/index.html" class="hub-unit-cover-wrap">
+          <img src="assets/images/UNIDADE CWB sem gourmet.png" alt="Unidade São Paulo" class="hub-unit-img" loading="lazy">
+          <div class="hub-unit-badge-tag">SP</div>
+        </a>
+        <div class="hub-unit-content">
+          <div class="hub-unit-header">
+            <h2 class="hub-unit-title">
+              <a href="saopaulo/index.html">São Paulo</a>
+              <svg class="verified-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 1l3.09 3.26L19 3.27l.71 4.03 3.29 2.7-2 3.57.56 4.07L17.5 19.7 14.91 23 12 21.18 9.09 23 6.5 19.7l-4.06-2.06.56-4.07-2-3.57L4.29 7.3 5 3.27l3.91.99L12 1z"/><path fill="#080B10" d="M10 15.5l-3.5-3.5 1.41-1.41L10 12.67l5.59-5.58L17 8.5l-7 7z"/></svg>
+            </h2>
+            <span class="hub-unit-region">São Paulo • Sudeste</span>
+          </div>
+          <p class="hub-unit-address">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Av. Paulista, 1754 — Bela Vista
+          </p>
+          <div class="hub-unit-actions">
+            <a href="saopaulo/index.html" class="hub-btn-primary">
+              Acessar Bio
+              <svg viewBox="0 0 24 24" fill="none"><polyline points="9 18 15 12 9 6"/></svg>
+            </a>
+            <div class="hub-unit-quick-icons">
+              <a href="https://api.whatsapp.com/send?phone=5511999772828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20S%C3%A3o%20Paulo" target="_blank" rel="noopener" class="hub-btn-icon btn-wa" title="WhatsApp São Paulo">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              </a>
+              <a href="https://www.instagram.com/faculdadeinspirarsaopaulo/" target="_blank" rel="noopener" class="hub-btn-icon btn-ig" title="Instagram São Paulo">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+              </a>
+              <button class="hub-btn-icon" onclick="copyUnitLink('saopaulo')" title="Copiar link da Bio">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Unit Card: Florianópolis -->
+      <article class="hub-unit-card" data-search="florianópolis sc santa catarina sul">
+        <a href="florianopolis/index.html" class="hub-unit-cover-wrap">
+          <img src="assets/images/UNIDADE CWB sem gourmet.png" alt="Unidade Florianópolis" class="hub-unit-img" loading="lazy">
+          <div class="hub-unit-badge-tag">SC</div>
+        </a>
+        <div class="hub-unit-content">
+          <div class="hub-unit-header">
+            <h2 class="hub-unit-title">
+              <a href="florianopolis/index.html">Florianópolis</a>
+              <svg class="verified-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 1l3.09 3.26L19 3.27l.71 4.03 3.29 2.7-2 3.57.56 4.07L17.5 19.7 14.91 23 12 21.18 9.09 23 6.5 19.7l-4.06-2.06.56-4.07-2-3.57L4.29 7.3 5 3.27l3.91.99L12 1z"/><path fill="#080B10" d="M10 15.5l-3.5-3.5 1.41-1.41L10 12.67l5.59-5.58L17 8.5l-7 7z"/></svg>
+            </h2>
+            <span class="hub-unit-region">Santa Catarina • Sul</span>
+          </div>
+          <p class="hub-unit-address">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Rua Felipe Schmidt, 515 — Centro
+          </p>
+          <div class="hub-unit-actions">
+            <a href="florianopolis/index.html" class="hub-btn-primary">
+              Acessar Bio
+              <svg viewBox="0 0 24 24" fill="none"><polyline points="9 18 15 12 9 6"/></svg>
+            </a>
+            <div class="hub-unit-quick-icons">
+              <a href="https://api.whatsapp.com/send?phone=5548988442828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Florian%C3%B3polis" target="_blank" rel="noopener" class="hub-btn-icon btn-wa" title="WhatsApp Florianópolis">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              </a>
+              <a href="https://www.instagram.com/faculdadeinspirarfloripa/" target="_blank" rel="noopener" class="hub-btn-icon btn-ig" title="Instagram Florianópolis">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+              </a>
+              <button class="hub-btn-icon" onclick="copyUnitLink('florianopolis')" title="Copiar link da Bio">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Unit Card: Belo Horizonte -->
+      <article class="hub-unit-card" data-search="belo horizonte mg minas gerais sudeste">
+        <a href="belohorizonte/index.html" class="hub-unit-cover-wrap">
+          <img src="assets/images/UNIDADE CWB sem gourmet.png" alt="Unidade Belo Horizonte" class="hub-unit-img" loading="lazy">
+          <div class="hub-unit-badge-tag">MG</div>
+        </a>
+        <div class="hub-unit-content">
+          <div class="hub-unit-header">
+            <h2 class="hub-unit-title">
+              <a href="belohorizonte/index.html">Belo Horizonte</a>
+              <svg class="verified-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 1l3.09 3.26L19 3.27l.71 4.03 3.29 2.7-2 3.57.56 4.07L17.5 19.7 14.91 23 12 21.18 9.09 23 6.5 19.7l-4.06-2.06.56-4.07-2-3.57L4.29 7.3 5 3.27l3.91.99L12 1z"/><path fill="#080B10" d="M10 15.5l-3.5-3.5 1.41-1.41L10 12.67l5.59-5.58L17 8.5l-7 7z"/></svg>
+            </h2>
+            <span class="hub-unit-region">Minas Gerais • Sudeste</span>
+          </div>
+          <p class="hub-unit-address">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Av. Afonso Pena, 3111 — Funcionários
+          </p>
+          <div class="hub-unit-actions">
+            <a href="belohorizonte/index.html" class="hub-btn-primary">
+              Acessar Bio
+              <svg viewBox="0 0 24 24" fill="none"><polyline points="9 18 15 12 9 6"/></svg>
+            </a>
+            <div class="hub-unit-quick-icons">
+              <a href="https://api.whatsapp.com/send?phone=5531987652828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Belo%20Horizonte" target="_blank" rel="noopener" class="hub-btn-icon btn-wa" title="WhatsApp Belo Horizonte">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              </a>
+              <a href="https://www.instagram.com/faculdadeinspirarbh/" target="_blank" rel="noopener" class="hub-btn-icon btn-ig" title="Instagram Belo Horizonte">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+              </a>
+              <button class="hub-btn-icon" onclick="copyUnitLink('belohorizonte')" title="Copiar link da Bio">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </article>
+      <div id="empty-search" class="empty-search-state">
+        <p>Nenhuma unidade encontrada para esta busca.</p>
+        <button onclick="clearSearch()" class="hub-btn-primary" style="margin-top:12px;">Limpar Filtro</button>
+      </div>
+    </section>
+
+    <!-- ── INSTITUTIONAL GLOBAL LINKS ── -->
+    <div class="section-wrapper hub-global-links">
+      <div class="section-header">
+        <span class="section-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></span>
+        <span class="section-title">Canais Oficiais Inspirar</span>
+        <span class="section-divider"></span>
+      </div>
+      <div class="links-list">
+        <a href="https://www.inspirar.com.br/" target="_blank" rel="noopener" class="link-card">
+          <div class="link-icon-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></div>
+          <div class="link-details">
+            <h3 class="link-title">Portal Faculdade Inspirar</h3>
+            <p class="link-desc">Site institucional com todas as informações e novidades</p>
+          </div>
+          <span class="link-action-indicator"><svg viewBox="0 0 24 24" fill="none"><polyline points="9 18 15 12 9 6"/></svg></span>
+        </a>
+
+        <a href="https://portal.faculdadeinspirar.com.br/" target="_blank" rel="noopener" class="link-card accent-cyan">
+          <div class="link-icon-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 2 4 3 6 3s6-1 6-3v-5"/></svg></div>
+          <div class="link-details">
+            <h3 class="link-title">Portal do Aluno & Professor</h3>
+            <p class="link-desc">Acesse sua área acadêmica, notas e materiais</p>
+          </div>
+          <span class="link-action-indicator"><svg viewBox="0 0 24 24" fill="none"><polyline points="9 18 15 12 9 6"/></svg></span>
+        </a>
+
+        <a href="https://www.sympla.com.br/produtor/faculdadeinspirar" target="_blank" rel="noopener" class="link-card accent-orange">
+          <div class="link-icon-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></div>
+          <div class="link-details">
+            <h3 class="link-title">Eventos & Inscrições no Sympla</h3>
+            <p class="link-desc">Congressos, jornadas científicas e cursos livres</p>
+          </div>
+          <span class="link-action-indicator"><svg viewBox="0 0 24 24" fill="none"><polyline points="9 18 15 12 9 6"/></svg></span>
+        </a>
+      </div>
+    </div>
+
+    <!-- ── FOOTER ── -->
+    <footer class="app-footer">
+      <img src="assets/images/Logo branca - horizontal.png" alt="Logo Faculdade Inspirar" class="footer-logo">
+      <div class="footer-info">
+        <div class="footer-director">Faculdade Inspirar • Referência Nacional na Saúde</div>
+        <div class="footer-address">Mais de 25 anos transformando carreiras na saúde, estética e gestão.</div>
+      </div>
+      <div class="footer-social-row">
+        <a href="https://www.instagram.com/faculdadeinspirar/" target="_blank" rel="noopener" class="footer-social-link">Instagram Nacional</a>
+        <span style="color:var(--text-dim);">•</span>
+        <a href="https://www.inspirar.com.br/" target="_blank" rel="noopener" class="footer-social-link">Site Oficial</a>
+        <span style="color:var(--text-dim);">•</span>
+        <a href="https://www.sympla.com.br/produtor/faculdadeinspirar" target="_blank" rel="noopener" class="footer-social-link">Eventos</a>
+      </div>
+    </footer>
+
+  </main>
+
+  <!-- ── TOAST ── -->
+  <div class="toast-box" id="toast">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+    <span id="toast-msg">Link da Bio copiado!</span>
+  </div>
+
+  <script>
+    /* Search filter */
+    const searchInput = document.getElementById('unit-search');
+    const searchClear = document.getElementById('search-clear');
+    const unitCards = document.querySelectorAll('.hub-unit-card');
+    const emptyState = document.getElementById('empty-search');
+
+    searchInput.addEventListener('input', function() {
+      const q = this.value.trim().toLowerCase();
+      searchClear.style.display = q ? 'block' : 'none';
+      let matches = 0;
+
+      unitCards.forEach(card => {
+        const text = card.getAttribute('data-search') || '';
+        if (text.includes(q)) {
+          card.style.display = '';
+          matches++;
+        } else {
+          card.style.display = 'none';
+        }
+      });
+
+      emptyState.style.display = (matches === 0) ? 'block' : 'none';
+    });
+
+    function clearSearch() {
+      searchInput.value = '';
+      searchClear.style.display = 'none';
+      unitCards.forEach(c => c.style.display = '');
+      emptyState.style.display = 'none';
+      searchInput.focus();
+    }
+
+    /* Copy Unit Direct Link */
+    async function copyUnitLink(slug) {
+      const base = window.location.href.split('?')[0].split('#')[0];
+      const root = base.endsWith('/') ? base : base.substring(0, base.lastIndexOf('/') + 1);
+      const url = root + slug + '/';
+
+      if (navigator.clipboard) {
+        try {
+          await navigator.clipboard.writeText(url);
+          showToast('Link da Bio copiado: ' + slug);
+          return;
+        } catch (e) {}
+      }
+      showToast('Link da unidade: ' + slug);
+    }
+
+    function showToast(msg) {
+      const toast = document.getElementById('toast');
+      document.getElementById('toast-msg').textContent = msg;
+      toast.classList.add('show');
+      setTimeout(() => toast.classList.remove('show'), 2500);
+    }
+  </script>
+
+</body>
+</html>
