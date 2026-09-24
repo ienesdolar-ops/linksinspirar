@@ -32,7 +32,16 @@
 - CHECK: `node scripts/check-links.js --dry-run`
 - EXPECT: `LINK CHECKER VALIDATION PASSED` (exit 0)
 
-## Gate 6: Complete End-to-End Verification Suite
-- Comprehensive test `scripts/verify-all.js` validates that all 37 unit index.html files exist, are properly structured, and Hub contains all 37 units.
+## Gate 6: Dedicated Instagram Profiles (37 Unidades)
+- All 37 units have their verified Instagram URL and handle mapped.
+- 33 regional units have dedicated local accounts (e.g. `@inspirar_curitiba`, `@inspirarbelohorizonte`, `@inspirarcampinas`, etc.).
+- 4 units without separate local handles (Brasília, Luanda, Maceió, Parauapebas) link directly to the verified institutional profile `@faculdadeinspirar`.
+- Each unit's HTML page (`[slug]/index.html`) displays its designated Instagram handle badge, quick action button, and footer link.
+- CHECK: `node scripts/verify-all.js`
+- EXPECT: `Gate 7: Dedicated Instagram Profiles (37 Units)... ✅ OK`
+
+## Gate 7: Complete End-to-End Verification Suite
+- Comprehensive test `scripts/verify-all.js` validates that all 37 unit index.html files exist, are properly structured, Hub contains all 37 units, and all gates pass.
 - CHECK: `node scripts/verify-all.js`
 - EXPECT: `ALL VERIFICATIONS PASSED (37 units)` (exit 0)
+

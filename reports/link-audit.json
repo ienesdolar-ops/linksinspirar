@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-24T14:41:53.182Z",
+  "timestamp": "2026-09-24T15:08:33.367Z",
   "total": 336,
   "dryRun": true,
   "results": [
@@ -55,7 +55,7 @@
       "source": "unit_meta",
       "unit": "Balneário Camboriú",
       "field": "instagram",
-      "url": "https://www.instagram.com/faculdadeinspirar/",
+      "url": "https://www.instagram.com/inspirarbalcamboriu/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -127,7 +127,7 @@
       "source": "unit_meta",
       "unit": "Bauru",
       "field": "instagram",
-      "url": "https://www.instagram.com/faculdadeinspirar/",
+      "url": "https://www.instagram.com/inspirarbauru/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -263,7 +263,7 @@
       "source": "unit_meta",
       "unit": "Belo Horizonte",
       "field": "instagram",
-      "url": "https://www.instagram.com/faculdadeinspirar/",
+      "url": "https://www.instagram.com/inspirarbelohorizonte/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -335,7 +335,7 @@
       "source": "unit_meta",
       "unit": "Blumenau",
       "field": "instagram",
-      "url": "https://www.instagram.com/faculdadeinspirar/",
+      "url": "https://www.instagram.com/inspirarblumenau/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -479,7 +479,7 @@
       "source": "unit_meta",
       "unit": "Campinas",
       "field": "instagram",
-      "url": "https://www.instagram.com/faculdadeinspirar/",
+      "url": "https://www.instagram.com/inspirarcampinas/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -551,7 +551,7 @@
       "source": "unit_meta",
       "unit": "Campo Grande",
       "field": "instagram",
-      "url": "https://www.instagram.com/faculdadeinspirar/",
+      "url": "https://www.instagram.com/inspirar.campogrande/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -623,7 +623,7 @@
       "source": "unit_meta",
       "unit": "Cuiabá",
       "field": "instagram",
-      "url": "https://www.instagram.com/faculdadeinspirar/",
+      "url": "https://www.instagram.com/inspirarcuiaba/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -695,7 +695,7 @@
       "source": "unit_meta",
       "unit": "Curitiba",
       "field": "instagram",
-      "url": "https://www.instagram.com/faculdadeinspirar/",
+      "url": "https://www.instagram.com/inspirar_curitiba/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -767,7 +767,7 @@
       "source": "unit_meta",
       "unit": "Dourados",
       "field": "instagram",
-      "url": "https://www.instagram.com/faculdadeinspirar/",
+      "url": "https://www.instagram.com/inspirardourados/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -839,7 +839,7 @@
       "source": "unit_meta",
       "unit": "Florianópolis",
       "field": "instagram",
-      "url": "https://www.instagram.com/faculdadeinspirarfloripa/",
+      "url": "https://www.instagram.com/florianopolisinspirar/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -903,7 +903,7 @@
       "source": "unit_meta",
       "unit": "Fortaleza",
       "field": "instagram",
-      "url": "https://www.instagram.com/faculdadeinspirar/",
+      "url": "https://www.instagram.com/inspirarfortaleza/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -975,7 +975,7 @@
       "source": "unit_meta",
       "unit": "Goiânia",
       "field": "instagram",
-      "url": "https://www.instagram.com/faculdadeinspirar/",
+      "url": "https://www.instagram.com/inspirargoiania/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -1047,7 +1047,7 @@
       "source": "unit_meta",
       "unit": "Guarulhos",
       "field": "instagram",
-      "url": "https://www.instagram.com/faculdadeinspirar/",
+      "url": "https://www.instagram.com/inspirarguarulhos/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -1119,7 +1119,7 @@
       "source": "unit_meta",
       "unit": "Ipatinga",
       "field": "instagram",
-      "url": "https://www.instagram.com/faculdadeinspirar/",
+      "url": "https://www.instagram.com/inspiraripatinga/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -1191,7 +1191,7 @@
       "source": "unit_meta",
       "unit": "Joinville",
       "field": "instagram",
-      "url": "https://www.instagram.com/faculdadeinspirar/",
+      "url": "https://www.instagram.com/inspirarjoinville/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -1263,7 +1263,7 @@
       "source": "unit_meta",
       "unit": "Londrina",
       "field": "instagram",
-      "url": "https://www.instagram.com/faculdadeinspirar/",
+      "url": "https://www.instagram.com/inspirarlondrina/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -1551,7 +1551,7 @@
       "source": "unit_meta",
       "unit": "Porto Alegre",
       "field": "instagram",
-      "url": "https://www.instagram.com/faculdadeinspirar/",
+      "url": "https://www.instagram.com/inspirarportoalegre/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -1623,7 +1623,7 @@
       "source": "unit_meta",
       "unit": "Porto Velho",
       "field": "instagram",
-      "url": "https://www.instagram.com/faculdadeinspirar/",
+      "url": "https://www.instagram.com/inspirarportovelho/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -1695,7 +1695,7 @@
       "source": "unit_meta",
       "unit": "Ribeirão Preto",
       "field": "instagram",
-      "url": "https://www.instagram.com/faculdadeinspirar/",
+      "url": "https://www.instagram.com/inspirar.ribeiraopreto/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -1767,7 +1767,7 @@
       "source": "unit_meta",
       "unit": "Rio de Janeiro",
       "field": "instagram",
-      "url": "https://www.instagram.com/faculdadeinspirar/",
+      "url": "https://www.instagram.com/inspirar.riodejaneiro/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -1839,7 +1839,7 @@
       "source": "unit_meta",
       "unit": "Salvador",
       "field": "instagram",
-      "url": "https://www.instagram.com/faculdadeinspirar/",
+      "url": "https://www.instagram.com/inspirarsalvador/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -1911,7 +1911,7 @@
       "source": "unit_meta",
       "unit": "Santo André",
       "field": "instagram",
-      "url": "https://www.instagram.com/faculdadeinspirar/",
+      "url": "https://www.instagram.com/inspirar_santoandre/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -1983,7 +1983,7 @@
       "source": "unit_meta",
       "unit": "Santos",
       "field": "instagram",
-      "url": "https://www.instagram.com/faculdadeinspirar/",
+      "url": "https://www.instagram.com/inspirar.santos/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -2055,7 +2055,7 @@
       "source": "unit_meta",
       "unit": "São José do Rio Preto",
       "field": "instagram",
-      "url": "https://www.instagram.com/faculdadeinspirar/",
+      "url": "https://www.instagram.com/inspirarsjrp/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -2127,7 +2127,7 @@
       "source": "unit_meta",
       "unit": "São José dos Campos",
       "field": "instagram",
-      "url": "https://www.instagram.com/faculdadeinspirar/",
+      "url": "https://www.instagram.com/inspirarsaojosecampos/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -2199,7 +2199,7 @@
       "source": "unit_meta",
       "unit": "São Luís",
       "field": "instagram",
-      "url": "https://www.instagram.com/faculdadeinspirar/",
+      "url": "https://www.instagram.com/faculdadeinspirarsaoluis/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -2271,7 +2271,7 @@
       "source": "unit_meta",
       "unit": "São Paulo - Borba Gato",
       "field": "instagram",
-      "url": "https://www.instagram.com/faculdadeinspirar/",
+      "url": "https://www.instagram.com/inspirarsaopauloborbagato/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -2343,7 +2343,7 @@
       "source": "unit_meta",
       "unit": "São Paulo - Vila Mariana",
       "field": "instagram",
-      "url": "https://www.instagram.com/faculdadeinspirar/",
+      "url": "https://www.instagram.com/inspirarsaopaulo/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -2415,7 +2415,7 @@
       "source": "unit_meta",
       "unit": "Sorocaba",
       "field": "instagram",
-      "url": "https://www.instagram.com/faculdadeinspirar/",
+      "url": "https://www.instagram.com/inspirarsorocaba/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -2487,7 +2487,7 @@
       "source": "unit_meta",
       "unit": "Teresina",
       "field": "instagram",
-      "url": "https://www.instagram.com/faculdadeinspirar/",
+      "url": "https://www.instagram.com/inspirar.teresina/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -2559,7 +2559,7 @@
       "source": "unit_meta",
       "unit": "Uberlândia",
       "field": "instagram",
-      "url": "https://www.instagram.com/faculdadeinspirar/",
+      "url": "https://www.instagram.com/inspiraruberlandia/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -2631,7 +2631,7 @@
       "source": "unit_meta",
       "unit": "Vitória",
       "field": "instagram",
-      "url": "https://www.instagram.com/faculdadeinspirar/",
+      "url": "https://www.instagram.com/inspirarvitoria/",
       "status": "FORMAT_OK",
       "ok": true
     },

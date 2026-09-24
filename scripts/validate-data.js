@@ -54,6 +54,16 @@ function validate() {
       console.warn(`WARNING in unit "${unit.slug}": whatsapp is empty`);
     }
 
+    if (!unit.instagram || !unit.instagram.includes('instagram.com')) {
+      console.error(`ERROR in unit "${unit.slug}": missing or invalid instagram URL "${unit.instagram}"`);
+      process.exit(1);
+    }
+
+    if (!unit.instagramUser || !unit.instagramUser.startsWith('@')) {
+      console.error(`ERROR in unit "${unit.slug}": missing or invalid instagramUser "${unit.instagramUser}"`);
+      process.exit(1);
+    }
+
     // Check sections & events
     if (Array.isArray(unit.sections)) {
       unit.sections.forEach(sec => {

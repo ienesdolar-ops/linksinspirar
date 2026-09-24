@@ -273,6 +273,12 @@ function generateUnitHtml(unit, data) {
           ${ICONS.mapPin}
           ${unit.address}
         </div>
+        <div class="hero-handle-bar" style="margin-top: 8px;">
+          <a href="${unit.instagram}" target="_blank" rel="noopener" class="hero-ig-pill" title="Instagram ${unit.instagramUser}" style="display:inline-flex; align-items:center; gap:6px; font-size:0.82rem; color:var(--color-primary-light); text-decoration:none; background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.1); padding:4px 12px; border-radius:100px; transition:var(--transition-fast);">
+            ${ICONS.instagram}
+            <span>${unit.instagramUser}</span>
+          </a>
+        </div>
       </div>
     </section>
 
@@ -282,7 +288,7 @@ function generateUnitHtml(unit, data) {
         <span class="quick-action-icon">${ICONS.whatsapp}</span>
         WhatsApp
       </a>
-      <a href="${unit.instagram}" target="_blank" rel="noopener" class="quick-action-btn btn-instagram">
+      <a href="${unit.instagram}" target="_blank" rel="noopener" class="quick-action-btn btn-instagram" title="Instagram: ${unit.instagramUser}">
         <span class="quick-action-icon">${ICONS.instagram}</span>
         Instagram
       </a>
@@ -309,7 +315,7 @@ function generateUnitHtml(unit, data) {
         <div class="footer-address">${unit.fullAddress || unit.address}</div>
       </div>
       <div class="footer-social-row">
-        <a href="${unit.instagram}" target="_blank" rel="noopener" class="footer-social-link">Instagram</a>
+        <a href="${unit.instagram}" target="_blank" rel="noopener" class="footer-social-link" title="${unit.instagramUser}">Instagram (${unit.instagramUser})</a>
         <span style="color:var(--text-dim);">•</span>
         <a href="${unit.website || data.project.globalSocial.website}" target="_blank" rel="noopener" class="footer-social-link">Site</a>
         <span style="color:var(--text-dim);">•</span>
@@ -486,7 +492,7 @@ function generateHubHtml(data) {
 
     return `
       <!-- Unit Card: ${unit.name} -->
-      <article class="hub-unit-card" data-search="${unit.name.toLowerCase()} ${unit.state.toLowerCase()} ${unit.stateName.toLowerCase()} ${unit.region.toLowerCase()}" data-region="${unit.region}">
+      <article class="hub-unit-card" data-search="${unit.name.toLowerCase()} ${unit.state.toLowerCase()} ${unit.stateName.toLowerCase()} ${unit.region.toLowerCase()} ${(unit.instagramUser || '').toLowerCase().replace('@', '')}" data-region="${unit.region}">
         <a href="${unitPage}" class="hub-unit-cover-wrap">
           <img src="${coverPath}" alt="Unidade ${unit.name}" class="hub-unit-img" loading="lazy">
           <div class="hub-unit-badge-tag">${unit.state}</div>
@@ -512,7 +518,7 @@ function generateHubHtml(data) {
               <a href="${waLink}" target="_blank" rel="noopener" class="hub-btn-icon btn-wa" title="WhatsApp ${unit.name}">
                 ${ICONS.whatsapp}
               </a>
-              <a href="${unit.instagram}" target="_blank" rel="noopener" class="hub-btn-icon btn-ig" title="Instagram ${unit.name}">
+              <a href="${unit.instagram}" target="_blank" rel="noopener" class="hub-btn-icon btn-ig" title="Instagram ${unit.instagramUser}">
                 ${ICONS.instagram}
               </a>
               <button class="hub-btn-icon" onclick="copyUnitLink('${unit.slug}')" title="Copiar link da Bio">
