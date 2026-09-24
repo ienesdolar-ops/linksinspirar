@@ -275,9 +275,9 @@ function generateUnitHtml(unit, data) {
         <img src="${coverPath}" alt="Fachada Faculdade Inspirar ${unit.name}" class="hero-cover-img" loading="eager">
         <div class="hero-cover-gradient"></div>
         ${unit.mapsUrl ? `
-        <a href="${unit.mapsUrl}" target="_blank" rel="noopener" class="hero-campus-pill">
-          ${ICONS.mapPin}
-          Ver no Mapa
+        <a href="${unit.mapsUrl}" target="_blank" rel="noopener" class="hero-campus-pill" title="Ver localização da unidade no Google Maps">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" class="hero-campus-pill-icon"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <span class="hero-campus-pill-text">Ver no Mapa</span>
         </a>` : ''}
       </div>
       <div class="hero-body">
@@ -889,14 +889,6 @@ function generateHubHtml(data) {
 
   <!-- ========== MAIN CONTAINER ========== -->
   <main class="app-container">
-
-    <!-- ── TOP BADGE ── -->
-    <nav class="top-nav" style="justify-content: center;">
-      <div class="top-badge">
-        <span class="pulse-dot"></span>
-        Bio no Link • Rede Nacional Inspirar
-      </div>
-    </nav>
 
     <!-- ── HUB HEADER ── -->
     <header class="hub-header">
