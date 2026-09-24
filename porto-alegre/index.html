@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Faculdade Inspirar — Porto Alegre (RS)</title>
 
   <!-- SEO & Social -->
@@ -13,62 +13,50 @@
   <meta property="og:type" content="website">
   <meta name="theme-color" content="#080B10">
 
-  <!-- Favicon / Browser Tab Icon (Símbolo Branco) -->
+  <!-- Favicon / Símbolo Branco -->
   <link rel="icon" type="image/png" href="../assets/images/favicon.png">
   <link rel="shortcut icon" type="image/png" href="../assets/images/favicon.png">
   <link rel="apple-touch-icon" href="../assets/images/favicon.png">
 
   <!-- Stylesheet -->
-  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/style-v2.css">
 </head>
 <body>
-
-  <!-- Ambient Background Orbs -->
-  <div class="ambient-glow ambient-glow-1"></div>
-  <!-- ── V2 COMPARISON BAR ── -->
-  <aside class="v2-comparison-bar" aria-label="Seletor de Versão">
-    <span class="v2-pill-tag">
-      Versão 1 (Original)
-    </span>
-    <a href="../v2/porto-alegre/index.html" class="v2-pill-switch-btn" title="Comparar com a Versão 2 (Impeccable Craft)">
-      Experimentar Versão 2 ✨ →
-    </a>
-  </aside>
 
   <!-- ========== MAIN CONTAINER ========== -->
   <main class="app-container">
 
     <!-- ── TOP NAV ── -->
-    <nav class="top-nav">
-      <a href="../index.html" class="top-badge" title="Ver todas as unidades Inspirar" style="text-decoration:none;">
-        <span class="pulse-dot"></span>
+    <nav class="top-nav" aria-label="Navegação da Unidade">
+      <a href="../index.html" class="top-badge" title="Ver todas as unidades Inspirar">
+        <span class="status-indicator-dot" aria-hidden="true"></span>
         Porto Alegre • RS
-        <span style="font-size:0.7rem; opacity:0.6; margin-left:4px;">(Trocar)</span>
+        <span style="font-size:0.75rem; opacity:0.7; margin-left:4px;">(Trocar)</span>
       </a>
       <div class="nav-actions">
-        <a href="../index.html" class="icon-button" title="Hub de Unidades Inspirar">
+        <a href="../index.html" class="icon-button" title="Hub de Unidades Inspirar" aria-label="Voltar para a lista de todas as unidades">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
         </a>
-        <button class="icon-button" title="Compartilhar" onclick="shareLink()">
+        <button class="icon-button" title="Compartilhar página" aria-label="Compartilhar link desta unidade" onclick="shareLink()">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg>
         </button>
       </div>
     </nav>
 
     <!-- ── HERO PROFILE CARD ── -->
-    <section class="hero-card">
+    <section class="hero-card" aria-label="Perfil da Unidade Porto Alegre">
       <div class="hero-cover">
-        <img src="../assets/images/units/porto-alegre/area-de-convivencia-2.webp" alt="Fachada Faculdade Inspirar Porto Alegre" class="hero-cover-img" loading="eager">
+        <img src="../assets/images/units/porto-alegre/area-de-convivencia-2.webp" alt="Fachada Faculdade Inspirar Porto Alegre" class="hero-cover-img" loading="eager" decoding="async">
         <div class="hero-cover-gradient"></div>
         
         <a href="https://maps.google.com/?q=Faculdade+Inspirar+Porto%20Alegre" target="_blank" rel="noopener" class="hero-campus-pill" title="Ver localização da unidade no Google Maps">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" class="hero-campus-pill-icon"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-          <span class="hero-campus-pill-text">Ver no Mapa</span>
+          <span class="hero-campus-pill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
+          <span>Ver no Mapa</span>
         </a>
       </div>
       <div class="hero-body">
         <div class="hero-logo-box">
-          <img src="../assets/images/Logo branca - horizontal.png" alt="Logo Faculdade Inspirar" class="hero-logo-img">
+          <img src="../assets/images/simbolo-branco.png" alt="Símbolo Faculdade Inspirar" class="hero-logo-img">
         </div>
         <div class="hero-title-group">
           <h1 class="hero-title">
@@ -80,10 +68,10 @@
         <p class="hero-bio">Referência no ensino da área da Saúde e Pós-graduação. Cursos, especializações e extensão em Porto Alegre (RS).</p>
         <div class="hero-location-bar">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-          Av. Cristóvão Colombo, 2140 — Floresta
+          <span>Av. Cristóvão Colombo, 2140 — Floresta</span>
         </div>
-        <div class="hero-handle-bar" style="margin-top: 8px;">
-          <a href="https://www.instagram.com/inspirarportoalegre/" target="_blank" rel="noopener" class="hero-ig-pill" title="Instagram @inspirarportoalegre" style="display:inline-flex; align-items:center; gap:6px; font-size:0.82rem; color:var(--color-primary-light); text-decoration:none; background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.1); padding:4px 12px; border-radius:100px; transition:var(--transition-fast);">
+        <div class="hero-handle-bar">
+          <a href="https://www.instagram.com/inspirarportoalegre/" target="_blank" rel="noopener" class="hero-ig-pill" title="Instagram oficial: @inspirarportoalegre">
             <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
             <span>@inspirarportoalegre</span>
           </a>
@@ -92,28 +80,30 @@
     </section>
 
     <!-- ── QUICK ACTIONS ── -->
-    <div class="quick-actions-bar">
-      <a href="https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Porto%20Alegre" target="_blank" rel="noopener" class="quick-action-btn btn-whatsapp">
+    <nav class="quick-actions-bar" aria-label="Ações Rápidas">
+      <a href="https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Porto%20Alegre" target="_blank" rel="noopener" class="quick-action-btn btn-whatsapp" aria-label="Conversar no WhatsApp">
         <span class="quick-action-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></span>
-        WhatsApp
+        <span>WhatsApp</span>
       </a>
-      <a href="https://www.instagram.com/inspirarportoalegre/" target="_blank" rel="noopener" class="quick-action-btn btn-instagram" title="Instagram: @inspirarportoalegre">
+      <a href="https://www.instagram.com/inspirarportoalegre/" target="_blank" rel="noopener" class="quick-action-btn btn-instagram" aria-label="Abrir Instagram oficial @inspirarportoalegre">
         <span class="quick-action-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg></span>
-        Instagram
+        <span>Instagram</span>
       </a>
-      <a href="https://maps.google.com/?q=Faculdade+Inspirar+Porto%20Alegre" target="_blank" rel="noopener" class="quick-action-btn btn-maps">
+      <a href="https://maps.google.com/?q=Faculdade+Inspirar+Porto%20Alegre" target="_blank" rel="noopener" class="quick-action-btn btn-maps" aria-label="Abrir localização no Google Maps">
         <span class="quick-action-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
-        Mapa
+        <span>Mapa</span>
       </a>
-      <button class="quick-action-btn btn-tour" onclick="openGallery()">
+      <button class="quick-action-btn btn-tour" id="btn-open-gallery" onclick="openGallery()" aria-label="Abrir fotos das instalações da unidade">
         <span class="quick-action-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="2.18" ry="2.18"/><line x1="7" y1="2" x2="7" y2="22"/><line x1="17" y1="2" x2="17" y2="22"/><line x1="2" y1="12" x2="22" y2="12"/><line x1="2" y1="7" x2="7" y2="7"/><line x1="2" y1="17" x2="7" y2="17"/><line x1="17" y1="7" x2="22" y2="7"/><line x1="17" y1="17" x2="22" y2="17"/></svg></span>
-        Fotos
+        <span>Fotos</span>
       </button>
-    </div>
+    </nav>
 
     
-    <!-- ── UNIFIED LINKTREE STREAM ── -->
-    <section class="links-stream" id="links-stream" aria-label="Links da Unidade Porto Alegre">
+    <!-- ── UNIFIED LINKTREE STREAM (SEM SKIPPED HEADINGS) ── -->
+    <section class="links-stream" id="links-stream" aria-label="Links e Cursos da Unidade Porto Alegre">
+      <!-- Heading H2 semântico intermediário para leitores de tela -->
+      <h2 class="sr-only">Cursos, Eventos e Links de Atendimento</h2>
       
       <!-- Fisioterapia em Terapia Intensiva -->
       <a href="https://faculdadeinspirar.com.br/semi-intensiva/" target="_blank" rel="noopener" class="link-card accent-cyan">
@@ -127,7 +117,7 @@
             <span class="link-badge-pill">Semipresencial</span>
           </div>
           <h3 class="link-title">Fisioterapia em Terapia Intensiva</h3>
-          <p class="link-desc">Adulto, Pediátrica e Neonatal — formação prática completa</p>
+          <p class="link-desc">Adulto, Pediátrica e Neonatal • formação prática completa</p>
         </div>
         <span class="link-action-indicator">
           <svg viewBox="0 0 24 24" fill="none"><polyline points="9 18 15 12 9 6"/></svg>
@@ -181,14 +171,14 @@
             <span class="link-badge-pill">Internacional</span>
           </div>
           <h3 class="link-title">Congresso Internacional em Estética</h3>
-          <p class="link-desc">Congresso da Faculdade Inspirar — Inscrições abertas</p>
+          <p class="link-desc">Congresso da Faculdade Inspirar • Inscrições abertas</p>
         </div>
         <span class="link-action-indicator">
           <svg viewBox="0 0 24 24" fill="none"><polyline points="9 18 15 12 9 6"/></svg>
         </span>
       </a>
       <!-- Conheça a Unidade / Tour de Fotos -->
-      <div role="button" tabindex="0" onclick="openGallery()" onkeydown="if(event.key==='Enter')openGallery()" class="link-card link-card-campus accent-cyan" style="cursor: pointer;" title="Abrir fotos da unidade Porto Alegre">
+      <div role="button" tabindex="0" onclick="openGallery()" onkeydown="if(event.key==='Enter'||event.key===' ')openGallery()" class="link-card accent-cyan" style="cursor: pointer;" title="Abrir fotos da unidade Porto Alegre" aria-label="Abrir galeria de fotos da unidade Porto Alegre">
         <div class="link-icon-box campus-thumb-icon">
           <img src="../assets/images/units/porto-alegre/sala-de-aula.webp" alt="Conheça a Unidade Porto Alegre" loading="lazy">
         </div>
@@ -198,7 +188,7 @@
             <span class="link-badge-pill">Fotos da Unidade</span>
           </div>
           <h3 class="link-title">Conheça a Unidade Porto Alegre</h3>
-          <p class="link-desc">Av. Cristóvão Colombo, 2140 — Floresta — Clique para ver o tour de fotos</p>
+          <p class="link-desc">Av. Cristóvão Colombo, 2140 • Floresta • Clique para ver fotos</p>
         </div>
         <span class="link-action-indicator">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="2.18" ry="2.18"/><line x1="7" y1="2" x2="7" y2="22"/><line x1="17" y1="2" x2="17" y2="22"/><line x1="2" y1="12" x2="22" y2="12"/><line x1="2" y1="7" x2="7" y2="7"/><line x1="2" y1="17" x2="7" y2="17"/><line x1="17" y1="7" x2="22" y2="7"/><line x1="17" y1="17" x2="22" y2="17"/></svg>
@@ -269,53 +259,44 @@
       </a>
     </section>
 
-    <!-- ══════════════════════════════════════════════
-         FOOTER
-         ══════════════════════════════════════════════ -->
+    <!-- ── FOOTER INSTITUCIONAL ── -->
     <footer class="app-footer">
-      <img src="../assets/images/Logo branca - horizontal.png" alt="Logo Faculdade Inspirar" class="footer-logo">
-      <div class="footer-info">
-        <div class="footer-director">Coordenação Regional Inspirar — Porto Alegre</div>
-        <div class="footer-address">Av. Cristóvão Colombo, 2140 — Floresta, Porto Alegre — RS</div>
-        <div class="footer-anniversary">
-          <span class="footer-anniversary-spark"></span>
-          30 Anos de Inspirar
-          <span class="footer-anniversary-spark"></span>
-        </div>
+      <div class="footer-brand-seal">
+        <span>30 Anos de Inspirar</span>
       </div>
+      <p class="footer-director">Coordenação Regional Inspirar — Porto Alegre</p>
+      <p class="footer-address">Av. Cristóvão Colombo, 2140 — Floresta, Porto Alegre — RS • Porto Alegre - RS</p>
       <div class="footer-social-row">
-        <a href="https://www.instagram.com/inspirarportoalegre/" target="_blank" rel="noopener" class="footer-social-link" title="@inspirarportoalegre">Instagram (@inspirarportoalegre)</a>
-        <span style="color:var(--text-dim);">•</span>
+        <a href="https://www.instagram.com/inspirarportoalegre/" target="_blank" rel="noopener" class="footer-social-link">Instagram</a>
+        <span class="footer-separator">•</span>
         <a href="https://www.inspirar.com.br/rs-porto-alegre/" target="_blank" rel="noopener" class="footer-social-link">Site</a>
-        <span style="color:var(--text-dim);">•</span>
+        <span class="footer-separator">•</span>
         <a href="https://portaldoaluno.inspirar.com.br/projetos/nucleo/uteis/login.php?&tid=0&lid=0&pid=24&arq_ret=R5QT1WSRQBMCVQVPFFQSF99MCT5RT44Q9WRW0RBM0FMM5QQ4" target="_blank" rel="noopener" class="footer-social-link">Portal do Aluno</a>
-        <span style="color:var(--text-dim);">•</span>
+        <span class="footer-separator">•</span>
         <a href="https://www.sympla.com.br/produtor/faculdadeinspirar" target="_blank" rel="noopener" class="footer-social-link">Eventos</a>
-        <span style="color:var(--text-dim);">•</span>
+        <span class="footer-separator">•</span>
         <a href="../index.html" class="footer-social-link" style="color:var(--color-primary-light);">Todas Unidades</a>
       </div>
     </footer>
 
   </main>
 
-  <!-- ══════════════════════════════════════════════
-       GALLERY MODAL
-       ══════════════════════════════════════════════ -->
-  <div class="gallery-modal-overlay" id="gallery-modal" onclick="closeGalleryOnOverlay(event)">
+  <!-- ── ACCESSIBLE GALLERY MODAL (COM FOCO NATIVO E ARIA) ── -->
+  <div class="gallery-modal-overlay" id="gallery-modal" role="dialog" aria-modal="true" aria-labelledby="gallery-modal-title" onclick="closeGalleryOnOverlay(event)">
     <div class="gallery-modal-content">
       <div class="gallery-header">
-        <span class="gallery-title">Unidade Porto Alegre</span>
-        <button class="gallery-close-btn" onclick="closeGallery()">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        <h2 class="gallery-title" id="gallery-modal-title">Unidade Porto Alegre</h2>
+        <button class="gallery-close-btn" id="gallery-close-btn" onclick="closeGallery()" aria-label="Fechar galeria de fotos">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
         </button>
       </div>
       <div class="gallery-slider-viewport">
-        <img id="gallery-img" class="gallery-slide-img" src="../assets/images/units/porto-alegre/sala-de-aula-2.jpg" alt="Salas de Aula e Prática">
-        <button class="gallery-nav-btn prev" onclick="galleryPrev()">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+        <img id="gallery-img" class="gallery-slide-img" src="../assets/images/units/porto-alegre/sala-de-aula-2.jpg" alt="Salas de Aula e Prática" loading="lazy">
+        <button class="gallery-nav-btn prev" id="gallery-prev-btn" onclick="galleryPrev()" aria-label="Foto anterior">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"/></svg>
         </button>
-        <button class="gallery-nav-btn next" onclick="galleryNext()">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+        <button class="gallery-nav-btn next" id="gallery-next-btn" onclick="galleryNext()" aria-label="Próxima foto">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
         </button>
       </div>
       <div class="gallery-caption-bar">
@@ -325,46 +306,52 @@
     </div>
   </div>
 
-  <!-- ══════════════════════════════════════════════
-       TOAST
-       ══════════════════════════════════════════════ -->
-  <div class="toast-box" id="toast">
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+  <!-- ── TOAST ── -->
+  <div class="toast-box" id="toast" role="status" aria-live="polite">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
     <span id="toast-msg">Link copiado!</span>
   </div>
 
-  <!-- ══════════════════════════════════════════════
-       SCRIPTS
-       ══════════════════════════════════════════════ -->
+  <!-- ── SCRIPTS ── -->
   <script>
-    /* ─── Gallery Logic ─── */
     const galleryData = [{"src":"../assets/images/units/porto-alegre/sala-de-aula-2.jpg","caption":"Salas de Aula e Prática"},{"src":"../assets/images/units/porto-alegre/sala-de-aula.webp","caption":"Salas de Aula e Prática"},{"src":"../assets/images/units/porto-alegre/area-de-convivencia-2.webp","caption":"Área de Convivência"},{"src":"../assets/images/units/porto-alegre/area-de-convivencia.jpg","caption":"Área de Convivência"}];
     let galleryIndex = 0;
+    let lastActiveElement = null;
 
     function updateGallery() {
       const img = document.getElementById('gallery-img');
       const caption = document.getElementById('gallery-caption');
       const counter = document.getElementById('gallery-counter');
-      img.style.opacity = 0;
+      img.style.opacity = '0';
       setTimeout(() => {
         img.src = galleryData[galleryIndex].src;
         img.alt = galleryData[galleryIndex].caption;
         caption.textContent = galleryData[galleryIndex].caption;
         counter.textContent = (galleryIndex + 1) + ' / ' + galleryData.length;
-        img.style.opacity = 1;
-      }, 200);
+        img.style.opacity = '1';
+      }, 150);
     }
 
     function openGallery() {
+      lastActiveElement = document.activeElement;
       galleryIndex = 0;
       updateGallery();
-      document.getElementById('gallery-modal').classList.add('active');
+      const modal = document.getElementById('gallery-modal');
+      modal.classList.add('active');
       document.body.style.overflow = 'hidden';
+      setTimeout(() => {
+        const closeBtn = document.getElementById('gallery-close-btn');
+        if (closeBtn) closeBtn.focus();
+      }, 50);
     }
 
     function closeGallery() {
-      document.getElementById('gallery-modal').classList.remove('active');
+      const modal = document.getElementById('gallery-modal');
+      modal.classList.remove('active');
       document.body.style.overflow = '';
+      if (lastActiveElement && typeof lastActiveElement.focus === 'function') {
+        lastActiveElement.focus();
+      }
     }
 
     function closeGalleryOnOverlay(e) {
@@ -381,16 +368,29 @@
       updateGallery();
     }
 
-    /* Keyboard support */
+    /* Suporte a Teclado & Focus Trap no Modal */
     document.addEventListener('keydown', (e) => {
       const modal = document.getElementById('gallery-modal');
       if (!modal || !modal.classList.contains('active')) return;
+
       if (e.key === 'Escape') closeGallery();
       if (e.key === 'ArrowRight') galleryNext();
       if (e.key === 'ArrowLeft') galleryPrev();
+
+      if (e.key === 'Tab') {
+        const focusables = modal.querySelectorAll('button:not([disabled])');
+        const first = focusables[0];
+        const last = focusables[focusables.length - 1];
+        if (e.shiftKey && document.activeElement === first) {
+          e.preventDefault();
+          last.focus();
+        } else if (!e.shiftKey && document.activeElement === last) {
+          e.preventDefault();
+          first.focus();
+        }
+      }
     });
 
-    /* ─── Share / Copy Link ─── */
     async function shareLink() {
       const url = window.location.href;
       const title = 'Faculdade Inspirar — Porto Alegre';
@@ -411,7 +411,7 @@
       setTimeout(() => toast.classList.remove('show'), 2500);
     }
 
-    /* ─── Touch Swipe Gallery ─── */
+    /* Touch Swipe */
     (function() {
       const viewport = document.querySelector('.gallery-slider-viewport');
       if (!viewport) return;
@@ -425,20 +425,16 @@
       }, { passive: true });
     })();
 
-    /* ─── Client-side Dynamic Event Filter (Auto-expiring events) ─── */
+    /* Auto-expiring events */
     (function filterExpiredEvents() {
       const nowStr = new Date().toISOString().split('T')[0];
       document.querySelectorAll('[data-end-date]').forEach(el => {
         const end = el.getAttribute('data-end-date');
-        if (end && end < nowStr) {
-          el.remove(); // Automatically hides expired events in cached views
-        }
+        if (end && end < nowStr) el.remove();
       });
       document.querySelectorAll('[data-start-date]').forEach(el => {
         const start = el.getAttribute('data-start-date');
-        if (start && start > nowStr) {
-          el.remove(); // Automatically hides unstarted events
-        }
+        if (start && start > nowStr) el.remove();
       });
     })();
   </script>

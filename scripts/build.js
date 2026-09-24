@@ -88,10 +88,17 @@ function isEventActive(item, referenceDate = TODAY) {
 /**
  * Builds an individual unit's HTML page.
  */
+/**
+ * Builds an individual unit's HTML page (Versão 2 — Impeccable Craft Edition).
+ * - Símbolo branco icon in hero profile avatar
+ * - Accessible WCAG AA standards (no zoom block, heading hierarchy, aria dialog)
+ * - Cleaned subtitle typography (no repetitive em-dashes)
+ * - 44px minimum touch targets
+ */
 function generateUnitHtml(unit, data) {
   const relativeRoot = '..';
-  const cssPath = `${relativeRoot}/assets/css/style.css`;
-  const logoPath = `${relativeRoot}/${unit.logoImage || 'assets/images/Logo branca - horizontal.png'}`;
+  const cssPath = `${relativeRoot}/assets/css/style-v2.css`;
+  const logoPath = `${relativeRoot}/assets/images/simbolo-branco.png`;
   const faviconPath = `${relativeRoot}/assets/images/favicon.png`;
   const coverPath = `${relativeRoot}/${unit.coverImage || 'assets/images/UNIDADE CWB sem gourmet.png'}`;
   const hubUrl = `${relativeRoot}/index.html`;
@@ -104,7 +111,12 @@ function generateUnitHtml(unit, data) {
       }))
     : [{ src: coverPath, caption: `Fachada ${unit.name}` }];
 
-  // Unified Linktree Stream HTML (without separating sections)
+  function cleanSubtext(desc) {
+    if (!desc) return '';
+    return desc.replace(/\s*—\s*/g, ' • ');
+  }
+
+  // Unified Linktree Stream HTML
   let streamItemsHtml = '';
   if (Array.isArray(unit.sections)) {
     unit.sections.forEach(sec => {
@@ -112,7 +124,7 @@ function generateUnitHtml(unit, data) {
         const thumbPath = sec.thumb.startsWith('http') ? sec.thumb : `${relativeRoot}/${sec.thumb}`;
         streamItemsHtml += `
       <!-- Conheça a Unidade / Tour de Fotos -->
-      <div role="button" tabindex="0" onclick="openGallery()" onkeydown="if(event.key==='Enter')openGallery()" class="link-card link-card-campus accent-cyan" style="cursor: pointer;" title="Abrir fotos da unidade ${unit.name}">
+      <div role="button" tabindex="0" onclick="openGallery()" onkeydown="if(event.key==='Enter'||event.key===' ')openGallery()" class="link-card accent-cyan" style="cursor: pointer;" title="Abrir fotos da unidade ${unit.name}" aria-label="Abrir galeria de fotos da unidade ${unit.name}">
         <div class="link-icon-box campus-thumb-icon">
           <img src="${thumbPath}" alt="${sec.bannerTitle}" loading="lazy">
         </div>
@@ -122,7 +134,7 @@ function generateUnitHtml(unit, data) {
             <span class="link-badge-pill">Fotos da Unidade</span>
           </div>
           <h3 class="link-title">${sec.bannerTitle}</h3>
-          <p class="link-desc">${sec.bannerSub} — Clique para ver o tour de fotos</p>
+          <p class="link-desc">${cleanSubtext(sec.bannerSub)} • Clique para ver fotos</p>
         </div>
         <span class="link-action-indicator">
           ${ICONS.photos}
@@ -133,10 +145,7 @@ function generateUnitHtml(unit, data) {
 
       // Filter active items
       const activeItems = (sec.items || []).filter(item => {
-        // If it's the events section, apply date check
-        if (sec.id === 'eventos') {
-          return isEventActive(item);
-        }
+        if (sec.id === 'eventos') return isEventActive(item);
         return true;
       });
 
@@ -148,7 +157,6 @@ function generateUnitHtml(unit, data) {
             ${item.badge ? `<span class="link-badge-pill">${item.badge}</span>` : ''}
           </div>` : '';
 
-        // Data attributes for client-side auto-expiry verification
         const dateAttrs = (item.startDate || item.endDate)
           ? ` data-start-date="${item.startDate || ''}" data-end-date="${item.endDate || ''}"`
           : '';
@@ -162,7 +170,7 @@ function generateUnitHtml(unit, data) {
         <div class="link-details">
           ${tagRow}
           <h3 class="link-title">${item.title}</h3>
-          ${item.desc ? `<p class="link-desc">${item.desc}</p>` : ''}
+          ${item.desc ? `<p class="link-desc">${cleanSubtext(item.desc)}</p>` : ''}
         </div>
         <span class="link-action-indicator">
           ${ICONS.arrowRight}
@@ -208,7 +216,7 @@ function generateUnitHtml(unit, data) {
         ${unit.spotlight.badge ? `<span class="spotlight-badge-status">${unit.spotlight.badge}</span>` : ''}
       </div>
       <h2 class="spotlight-title">${unit.spotlight.title}</h2>
-      ${unit.spotlight.desc ? `<p class="spotlight-desc">${unit.spotlight.desc}</p>` : ''}
+      ${unit.spotlight.desc ? `<p class="spotlight-desc">${cleanSubtext(unit.spotlight.desc)}</p>` : ''}
       <div class="spotlight-footer">
         <span class="spotlight-cta">${unit.spotlight.ctaText || 'Ver Informações'}</span>
         <span class="spotlight-cta-icon">${ICONS.arrowRight}</span>
@@ -224,7 +232,7 @@ function generateUnitHtml(unit, data) {
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Faculdade Inspirar — ${unit.name} (${unit.state})</title>
 
   <!-- SEO & Social -->
@@ -235,7 +243,7 @@ function generateUnitHtml(unit, data) {
   <meta property="og:type" content="website">
   <meta name="theme-color" content="#080B10">
 
-  <!-- Favicon / Browser Tab Icon (Símbolo Branco) -->
+  <!-- Favicon / Símbolo Branco -->
   <link rel="icon" type="image/png" href="${faviconPath}">
   <link rel="shortcut icon" type="image/png" href="${faviconPath}">
   <link rel="apple-touch-icon" href="${faviconPath}">
@@ -245,52 +253,40 @@ function generateUnitHtml(unit, data) {
 </head>
 <body>
 
-  <!-- Ambient Background Orbs -->
-  <div class="ambient-glow ambient-glow-1"></div>
-  <!-- ── V2 COMPARISON BAR ── -->
-  <aside class="v2-comparison-bar" aria-label="Seletor de Versão">
-    <span class="v2-pill-tag">
-      Versão 1 (Original)
-    </span>
-    <a href="../v2/${unit.slug}/index.html" class="v2-pill-switch-btn" title="Comparar com a Versão 2 (Impeccable Craft)">
-      Experimentar Versão 2 ✨ →
-    </a>
-  </aside>
-
   <!-- ========== MAIN CONTAINER ========== -->
   <main class="app-container">
 
     <!-- ── TOP NAV ── -->
-    <nav class="top-nav">
-      <a href="${hubUrl}" class="top-badge" title="Ver todas as unidades Inspirar" style="text-decoration:none;">
-        <span class="pulse-dot"></span>
+    <nav class="top-nav" aria-label="Navegação da Unidade">
+      <a href="${hubUrl}" class="top-badge" title="Ver todas as unidades Inspirar">
+        <span class="status-indicator-dot" aria-hidden="true"></span>
         ${unit.name} • ${unit.state}
-        <span style="font-size:0.7rem; opacity:0.6; margin-left:4px;">(Trocar)</span>
+        <span style="font-size:0.75rem; opacity:0.7; margin-left:4px;">(Trocar)</span>
       </a>
       <div class="nav-actions">
-        <a href="${hubUrl}" class="icon-button" title="Hub de Unidades Inspirar">
+        <a href="${hubUrl}" class="icon-button" title="Hub de Unidades Inspirar" aria-label="Voltar para a lista de todas as unidades">
           ${ICONS.home}
         </a>
-        <button class="icon-button" title="Compartilhar" onclick="shareLink()">
+        <button class="icon-button" title="Compartilhar página" aria-label="Compartilhar link desta unidade" onclick="shareLink()">
           ${ICONS.share}
         </button>
       </div>
     </nav>
 
     <!-- ── HERO PROFILE CARD ── -->
-    <section class="hero-card">
+    <section class="hero-card" aria-label="Perfil da Unidade ${unit.name}">
       <div class="hero-cover">
-        <img src="${coverPath}" alt="Fachada Faculdade Inspirar ${unit.name}" class="hero-cover-img" loading="eager">
+        <img src="${coverPath}" alt="Fachada Faculdade Inspirar ${unit.name}" class="hero-cover-img" loading="eager" decoding="async">
         <div class="hero-cover-gradient"></div>
-        ${unit.mapsUrl ? `
-        <a href="${unit.mapsUrl}" target="_blank" rel="noopener" class="hero-campus-pill" title="Ver localização da unidade no Google Maps">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" class="hero-campus-pill-icon"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-          <span class="hero-campus-pill-text">Ver no Mapa</span>
-        </a>` : ''}
+        
+        <a href="${unit.mapsUrl || unit.googleMapsUrl || '#'}" target="_blank" rel="noopener" class="hero-campus-pill" title="Ver localização da unidade no Google Maps">
+          <span class="hero-campus-pill-icon">${ICONS.mapPin}</span>
+          <span>Ver no Mapa</span>
+        </a>
       </div>
       <div class="hero-body">
         <div class="hero-logo-box">
-          <img src="${logoPath}" alt="Logo Faculdade Inspirar" class="hero-logo-img">
+          <img src="${logoPath}" alt="Símbolo Faculdade Inspirar" class="hero-logo-img">
         </div>
         <div class="hero-title-group">
           <h1 class="hero-title">
@@ -302,10 +298,10 @@ function generateUnitHtml(unit, data) {
         <p class="hero-bio">${unit.bio}</p>
         <div class="hero-location-bar">
           ${ICONS.mapPin}
-          ${unit.address}
+          <span>${unit.address}</span>
         </div>
-        <div class="hero-handle-bar" style="margin-top: 8px;">
-          <a href="${unit.instagram}" target="_blank" rel="noopener" class="hero-ig-pill" title="Instagram ${unit.instagramUser}" style="display:inline-flex; align-items:center; gap:6px; font-size:0.82rem; color:var(--color-primary-light); text-decoration:none; background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.1); padding:4px 12px; border-radius:100px; transition:var(--transition-fast);">
+        <div class="hero-handle-bar">
+          <a href="${unit.instagram}" target="_blank" rel="noopener" class="hero-ig-pill" title="Instagram oficial: ${unit.instagramUser}">
             ${ICONS.instagram}
             <span>${unit.instagramUser}</span>
           </a>
@@ -314,78 +310,71 @@ function generateUnitHtml(unit, data) {
     </section>
 
     <!-- ── QUICK ACTIONS ── -->
-    <div class="quick-actions-bar">
-      <a href="${waLink}" target="_blank" rel="noopener" class="quick-action-btn btn-whatsapp">
+    <nav class="quick-actions-bar" aria-label="Ações Rápidas">
+      <a href="${waLink}" target="_blank" rel="noopener" class="quick-action-btn btn-whatsapp" aria-label="Conversar no WhatsApp">
         <span class="quick-action-icon">${ICONS.whatsapp}</span>
-        WhatsApp
+        <span>WhatsApp</span>
       </a>
-      <a href="${unit.instagram}" target="_blank" rel="noopener" class="quick-action-btn btn-instagram" title="Instagram: ${unit.instagramUser}">
+      <a href="${unit.instagram}" target="_blank" rel="noopener" class="quick-action-btn btn-instagram" aria-label="Abrir Instagram oficial ${unit.instagramUser}">
         <span class="quick-action-icon">${ICONS.instagram}</span>
-        Instagram
+        <span>Instagram</span>
       </a>
-      <a href="${unit.mapsUrl || '#'}" target="_blank" rel="noopener" class="quick-action-btn btn-maps">
+      <a href="${unit.mapsUrl || unit.googleMapsUrl || '#'}" target="_blank" rel="noopener" class="quick-action-btn btn-maps" aria-label="Abrir localização no Google Maps">
         <span class="quick-action-icon">${ICONS.mapPin}</span>
-        Mapa
+        <span>Mapa</span>
       </a>
-      <button class="quick-action-btn btn-tour" onclick="openGallery()">
+      <button class="quick-action-btn btn-tour" id="btn-open-gallery" onclick="openGallery()" aria-label="Abrir fotos das instalações da unidade">
         <span class="quick-action-icon">${ICONS.photos}</span>
-        Fotos
+        <span>Fotos</span>
       </button>
-    </div>
+    </nav>
 
     ${spotlightHtml}
-    <!-- ── UNIFIED LINKTREE STREAM ── -->
-    <section class="links-stream" id="links-stream" aria-label="Links da Unidade ${unit.name}">
+    <!-- ── UNIFIED LINKTREE STREAM (SEM SKIPPED HEADINGS) ── -->
+    <section class="links-stream" id="links-stream" aria-label="Links e Cursos da Unidade ${unit.name}">
+      <!-- Heading H2 semântico intermediário para leitores de tela -->
+      <h2 class="sr-only">Cursos, Eventos e Links de Atendimento</h2>
       ${streamItemsHtml}
     </section>
 
-    <!-- ══════════════════════════════════════════════
-         FOOTER
-         ══════════════════════════════════════════════ -->
+    <!-- ── FOOTER INSTITUCIONAL ── -->
     <footer class="app-footer">
-      <img src="${logoPath}" alt="Logo Faculdade Inspirar" class="footer-logo">
-      <div class="footer-info">
-        <div class="footer-director">${unit.director || 'Direção Regional Faculdade Inspirar'}</div>
-        <div class="footer-address">${unit.fullAddress || unit.address}</div>
-        <div class="footer-anniversary">
-          <span class="footer-anniversary-spark"></span>
-          30 Anos de Inspirar
-          <span class="footer-anniversary-spark"></span>
-        </div>
+      <div class="footer-brand-seal">
+        <span>30 Anos de Inspirar</span>
       </div>
+      <p class="footer-director">${unit.director || 'Faculdade Inspirar • Excelência e Referência na Saúde'}</p>
+      <p class="footer-address">${unit.fullAddress || unit.address} • ${unit.name} - ${unit.state}</p>
       <div class="footer-social-row">
-        <a href="${unit.instagram}" target="_blank" rel="noopener" class="footer-social-link" title="${unit.instagramUser}">Instagram (${unit.instagramUser})</a>
-        <span style="color:var(--text-dim);">•</span>
+        <a href="${unit.instagram}" target="_blank" rel="noopener" class="footer-social-link">Instagram</a>
+        <span class="footer-separator">•</span>
         <a href="${unit.website || data.project.globalSocial.website}" target="_blank" rel="noopener" class="footer-social-link">Site</a>
-        <span style="color:var(--text-dim);">•</span>
+        <span class="footer-separator">•</span>
         <a href="${data.project.globalSocial.portalAluno}" target="_blank" rel="noopener" class="footer-social-link">Portal do Aluno</a>
-        <span style="color:var(--text-dim);">•</span>
+        <span class="footer-separator">•</span>
         <a href="${unit.sympla || data.project.globalSocial.sympla}" target="_blank" rel="noopener" class="footer-social-link">Eventos</a>
-        <span style="color:var(--text-dim);">•</span>
+        <span class="footer-separator">•</span>
         <a href="${hubUrl}" class="footer-social-link" style="color:var(--color-primary-light);">Todas Unidades</a>
       </div>
     </footer>
 
   </main>
 
-  <!-- ══════════════════════════════════════════════
-       GALLERY MODAL
-       ══════════════════════════════════════════════ -->
-  <div class="gallery-modal-overlay" id="gallery-modal" onclick="closeGalleryOnOverlay(event)">
+  <!-- ── ACCESSIBLE GALLERY MODAL (COM FOCO NATIVO E ARIA) ── -->
+  <div class="gallery-modal-overlay" id="gallery-modal" role="dialog" aria-modal="true" aria-labelledby="gallery-modal-title" onclick="closeGalleryOnOverlay(event)">
     <div class="gallery-modal-content">
       <div class="gallery-header">
-        <span class="gallery-title">Unidade ${unit.name}</span>
-        <button class="gallery-close-btn" onclick="closeGallery()">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        <h2 class="gallery-title" id="gallery-modal-title">Unidade ${unit.name}</h2>
+        <button class="gallery-close-btn" id="gallery-close-btn" onclick="closeGallery()" aria-label="Fechar galeria de fotos">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
         </button>
       </div>
       <div class="gallery-slider-viewport">
-        <img id="gallery-img" class="gallery-slide-img" src="${galleryItems[0].src}" alt="${galleryItems[0].caption}">
-        <button class="gallery-nav-btn prev" onclick="galleryPrev()">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+        <img id="gallery-img" class="gallery-slide-img" src="${galleryItems[0].src}" alt="${galleryItems[0].caption}" loading="lazy">
+        <button class="gallery-nav-btn prev" id="gallery-prev-btn" onclick="galleryPrev()" aria-label="Foto anterior">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"/></svg>
         </button>
-        <button class="gallery-nav-btn next" onclick="galleryNext()">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+        <button class="gallery-nav-btn next" id="gallery-next-btn" onclick="galleryNext()" aria-label="Próxima foto">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
         </button>
       </div>
       <div class="gallery-caption-bar">
@@ -395,46 +384,52 @@ function generateUnitHtml(unit, data) {
     </div>
   </div>
 
-  <!-- ══════════════════════════════════════════════
-       TOAST
-       ══════════════════════════════════════════════ -->
-  <div class="toast-box" id="toast">
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+  <!-- ── TOAST ── -->
+  <div class="toast-box" id="toast" role="status" aria-live="polite">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
     <span id="toast-msg">Link copiado!</span>
   </div>
 
-  <!-- ══════════════════════════════════════════════
-       SCRIPTS
-       ══════════════════════════════════════════════ -->
+  <!-- ── SCRIPTS ── -->
   <script>
-    /* ─── Gallery Logic ─── */
     const galleryData = ${JSON.stringify(galleryItems)};
     let galleryIndex = 0;
+    let lastActiveElement = null;
 
     function updateGallery() {
       const img = document.getElementById('gallery-img');
       const caption = document.getElementById('gallery-caption');
       const counter = document.getElementById('gallery-counter');
-      img.style.opacity = 0;
+      img.style.opacity = '0';
       setTimeout(() => {
         img.src = galleryData[galleryIndex].src;
         img.alt = galleryData[galleryIndex].caption;
         caption.textContent = galleryData[galleryIndex].caption;
         counter.textContent = (galleryIndex + 1) + ' / ' + galleryData.length;
-        img.style.opacity = 1;
-      }, 200);
+        img.style.opacity = '1';
+      }, 150);
     }
 
     function openGallery() {
+      lastActiveElement = document.activeElement;
       galleryIndex = 0;
       updateGallery();
-      document.getElementById('gallery-modal').classList.add('active');
+      const modal = document.getElementById('gallery-modal');
+      modal.classList.add('active');
       document.body.style.overflow = 'hidden';
+      setTimeout(() => {
+        const closeBtn = document.getElementById('gallery-close-btn');
+        if (closeBtn) closeBtn.focus();
+      }, 50);
     }
 
     function closeGallery() {
-      document.getElementById('gallery-modal').classList.remove('active');
+      const modal = document.getElementById('gallery-modal');
+      modal.classList.remove('active');
       document.body.style.overflow = '';
+      if (lastActiveElement && typeof lastActiveElement.focus === 'function') {
+        lastActiveElement.focus();
+      }
     }
 
     function closeGalleryOnOverlay(e) {
@@ -451,16 +446,29 @@ function generateUnitHtml(unit, data) {
       updateGallery();
     }
 
-    /* Keyboard support */
+    /* Suporte a Teclado & Focus Trap no Modal */
     document.addEventListener('keydown', (e) => {
       const modal = document.getElementById('gallery-modal');
       if (!modal || !modal.classList.contains('active')) return;
+
       if (e.key === 'Escape') closeGallery();
       if (e.key === 'ArrowRight') galleryNext();
       if (e.key === 'ArrowLeft') galleryPrev();
+
+      if (e.key === 'Tab') {
+        const focusables = modal.querySelectorAll('button:not([disabled])');
+        const first = focusables[0];
+        const last = focusables[focusables.length - 1];
+        if (e.shiftKey && document.activeElement === first) {
+          e.preventDefault();
+          last.focus();
+        } else if (!e.shiftKey && document.activeElement === last) {
+          e.preventDefault();
+          first.focus();
+        }
+      }
     });
 
-    /* ─── Share / Copy Link ─── */
     async function shareLink() {
       const url = window.location.href;
       const title = 'Faculdade Inspirar — ${unit.name}';
@@ -481,7 +489,7 @@ function generateUnitHtml(unit, data) {
       setTimeout(() => toast.classList.remove('show'), 2500);
     }
 
-    /* ─── Touch Swipe Gallery ─── */
+    /* Touch Swipe */
     (function() {
       const viewport = document.querySelector('.gallery-slider-viewport');
       if (!viewport) return;
@@ -495,20 +503,16 @@ function generateUnitHtml(unit, data) {
       }, { passive: true });
     })();
 
-    /* ─── Client-side Dynamic Event Filter (Auto-expiring events) ─── */
+    /* Auto-expiring events */
     (function filterExpiredEvents() {
       const nowStr = new Date().toISOString().split('T')[0];
       document.querySelectorAll('[data-end-date]').forEach(el => {
         const end = el.getAttribute('data-end-date');
-        if (end && end < nowStr) {
-          el.remove(); // Automatically hides expired events in cached views
-        }
+        if (end && end < nowStr) el.remove();
       });
       document.querySelectorAll('[data-start-date]').forEach(el => {
         const start = el.getAttribute('data-start-date');
-        if (start && start > nowStr) {
-          el.remove(); // Automatically hides unstarted events
-        }
+        if (start && start > nowStr) el.remove();
       });
     })();
   </script>
@@ -894,16 +898,6 @@ function generateHubHtml(data) {
   <!-- Ambient Background Orbs -->
   <div class="ambient-glow ambient-glow-1"></div>
   <div class="ambient-glow ambient-glow-2"></div>
-
-  <!-- ── V2 COMPARISON BAR ── -->
-  <aside class="v2-comparison-bar" aria-label="Seletor de Versão">
-    <span class="v2-pill-tag">
-      Versão 1 (Original)
-    </span>
-    <a href="v2/index.html" class="v2-pill-switch-btn" title="Comparar com o Hub Versão 2">
-      Experimentar Versão 2 ✨ →
-    </a>
-  </aside>
 
   <!-- ========== MAIN CONTAINER ========== -->
   <main class="app-container">
