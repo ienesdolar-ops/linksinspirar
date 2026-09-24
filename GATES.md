@@ -1,39 +1,38 @@
-# ACCEPTANCE GATES — Bio no Link (Faculdade Inspirar)
+# ACCEPTANCE GATES — Bio no Link (Rede Completa: 37 Unidades)
 
-## Gate 1: Asset & Data Pipeline
-- All assets (AmpleSoft Pro fonts, Inspirar logos, Curitiba imagery) copied to root structure.
-- Central configuration `data/units.json` contains complete data for Curitiba (matching original repo) plus pilot units (Belém, Campo Grande, São Paulo, Florianópolis) and global configuration.
-- Validation script validates schema, required fields, slugs, and date formats.
+## Gate 1: Asset Ingestion & Image Normalization
+- All unit photos from `Fotos Unidades` are imported, sanitized, and stored under `assets/images/units/<slug>/` with web-safe lowercase filenames.
+- Units with dedicated photos have their facades/covers and galleries mapped.
+- CHECK: `node scripts/import-photos.js`
+- EXPECT: `PHOTOS IMPORT COMPLETED` (exit 0)
+
+## Gate 2: Full Catalog Validation (37 Unidades)
+- Central catalog `data/units.json` contains all 37 units requested by the user with official links (`https://www.inspirar.com.br/...`), official states, regions, addresses, WhatsApp, Instagram, and courses.
+- Curitiba content, texts, address, and links preserved.
+- Validation script validates schema, unique slugs, and asset paths.
 - CHECK: `node scripts/validate-data.js`
-- EXPECT: `DATA VALIDATION PASSED` (exit 0)
+- EXPECT: `DATA VALIDATION PASSED (37 units)` (exit 0)
 
-## Gate 2: Static Site Generation (Hub & Individual Unit Pages)
-- Build script `scripts/build.js` renders:
-  - Root `index.html`: Central Hub with search by city/state, unit cards, quick actions, and global links.
-  - Dedicated pages: `curitiba/index.html`, `belem/index.html`, `campogrande/index.html`, `saopaulo/index.html`, `florianopolis/index.html`.
-- Curitiba page contains identical content, links, gallery, and styling as original repository.
-- Each page is fully standalone, with proper SEO tags, meta title, og:image, and mobile responsiveness.
+## Gate 3: Static Site Generation (Hub + 37 Dedicated Unit Pages)
+- Build script `scripts/build.js` generates:
+  - `index.html`: Central Hub with all 37 units searchable by name, state, and region.
+  - 37 dedicated directories with standalone `index.html` files.
+- Each dedicated page includes custom photos, interactive gallery modal, WhatsApp and Instagram quick actions, and auto-expiring events logic.
 - CHECK: `node scripts/build.js`
-- EXPECT: `BUILD SUCCESSFUL` (exit 0)
+- EXPECT: `BUILD SUCCESSFUL (37 units)` (exit 0)
 
-## Gate 3: Auto-Expiring Events (Data de início e fim)
-- Event items support `startDate` and `endDate` (ISO YYYY-MM-DD format).
-- Build system and client-side JavaScript enforce visibility based on date range:
-  - Expired events (`current_date > endDate`) are automatically omitted or hidden.
-  - Future events (`current_date < startDate`) remain hidden until start date.
-  - Ongoing events are rendered with badge / status.
+## Gate 4: Auto-Expiring Events (Data de Início e Fim)
+- Verifies that past events are automatically omitted, future events wait for start date, and active events display with dynamic client-side and build-side filters.
 - CHECK: `node scripts/test-event-dates.js`
 - EXPECT: `EVENT EXPIRATION TESTS PASSED` (exit 0)
 
-## Gate 4: Broken Link Checker Tool (Verificador de Links)
-- Script `scripts/check-links.js` checks all URLs in `data/units.json`.
-- Supports `--dry-run` (syntax & URL validity) and live check (HTTP status).
-- Generates JSON and Markdown reports in `reports/`.
+## Gate 5: Broken Link Checker
+- Audits all URLs across all 37 units and global links.
+- Emits structured reports in `reports/link-audit.json` and `reports/link-audit.md`.
 - CHECK: `node scripts/check-links.js --dry-run`
 - EXPECT: `LINK CHECKER VALIDATION PASSED` (exit 0)
 
-## Gate 5: Comprehensive Verification & Prompt Update Ready
-- Single test script `scripts/verify-all.js` runs all validations and checks file integrity.
-- Detailed `README.md` and `PROMPTS.md` with instructions on how to update bios via Antigravity prompts.
+## Gate 6: Complete End-to-End Verification Suite
+- Comprehensive test `scripts/verify-all.js` validates that all 37 unit index.html files exist, are properly structured, and Hub contains all 37 units.
 - CHECK: `node scripts/verify-all.js`
-- EXPECT: `ALL VERIFICATIONS PASSED` (exit 0)
+- EXPECT: `ALL VERIFICATIONS PASSED (37 units)` (exit 0)

@@ -5,6 +5,8 @@
   "main": "index.html",
   "scripts": {
     "build": "node scripts/build.js",
+    "import-photos": "node scripts/import-photos.js",
+    "generate-catalog": "node scripts/generate-catalog.js",
     "validate": "node scripts/validate-data.js",
     "test:dates": "node scripts/test-event-dates.js",
     "check-links": "node scripts/check-links.js",

@@ -1,0 +1,787 @@
+{
+  "balneario-camboriu": {
+    "coverImage": "assets/images/units/balneario-camboriu/recepcao.webp",
+    "gallery": [
+      {
+        "file": "banheiro.jpg",
+        "src": "assets/images/units/balneario-camboriu/banheiro.jpg",
+        "caption": "Instalações da Unidade"
+      },
+      {
+        "file": "recepcao.webp",
+        "src": "assets/images/units/balneario-camboriu/recepcao.webp",
+        "caption": "Recepção e Atendimento"
+      },
+      {
+        "file": "sala-4.jpg",
+        "src": "assets/images/units/balneario-camboriu/sala-4.jpg",
+        "caption": "Salas de Aula e Prática"
+      },
+      {
+        "file": "sala1.jpg",
+        "src": "assets/images/units/balneario-camboriu/sala1.jpg",
+        "caption": "Salas de Aula e Prática"
+      },
+      {
+        "file": "sala2.jpg",
+        "src": "assets/images/units/balneario-camboriu/sala2.jpg",
+        "caption": "Salas de Aula e Prática"
+      },
+      {
+        "file": "sala3.jpg",
+        "src": "assets/images/units/balneario-camboriu/sala3.jpg",
+        "caption": "Salas de Aula e Prática"
+      },
+      {
+        "file": "area-de-convivencia.jpeg",
+        "src": "assets/images/units/balneario-camboriu/area-de-convivencia.jpeg",
+        "caption": "Área de Convivência"
+      }
+    ]
+  },
+  "bauru": {
+    "coverImage": "assets/images/units/bauru/bauru-fachada-2.jpeg",
+    "gallery": [
+      {
+        "file": "bauru-fachada-2.jpeg",
+        "src": "assets/images/units/bauru/bauru-fachada-2.jpeg",
+        "caption": "Fachada da Unidade"
+      },
+      {
+        "file": "bauru-fachada.jpeg",
+        "src": "assets/images/units/bauru/bauru-fachada.jpeg",
+        "caption": "Fachada da Unidade"
+      },
+      {
+        "file": "bauru-recepcao.webp",
+        "src": "assets/images/units/bauru/bauru-recepcao.webp",
+        "caption": "Recepção e Atendimento"
+      },
+      {
+        "file": "bauru-sala-de-aula-2.webp",
+        "src": "assets/images/units/bauru/bauru-sala-de-aula-2.webp",
+        "caption": "Salas de Aula e Prática"
+      },
+      {
+        "file": "bauru-sala.webp",
+        "src": "assets/images/units/bauru/bauru-sala.webp",
+        "caption": "Salas de Aula e Prática"
+      }
+    ]
+  },
+  "belo-horizonte": {
+    "coverImage": "assets/images/units/belo-horizonte/fachada-bh.webp",
+    "gallery": [
+      {
+        "file": "fachada-bh.webp",
+        "src": "assets/images/units/belo-horizonte/fachada-bh.webp",
+        "caption": "Fachada da Unidade"
+      },
+      {
+        "file": "sala-de-aula-bh.jpeg",
+        "src": "assets/images/units/belo-horizonte/sala-de-aula-bh.jpeg",
+        "caption": "Salas de Aula e Prática"
+      },
+      {
+        "file": "area-de-convivencia-bh.jpeg",
+        "src": "assets/images/units/belo-horizonte/area-de-convivencia-bh.jpeg",
+        "caption": "Área de Convivência"
+      }
+    ]
+  },
+  "belem": {
+    "coverImage": "assets/images/units/belem/fachada.jpeg",
+    "gallery": [
+      {
+        "file": "area-de-convivencia.jpeg",
+        "src": "assets/images/units/belem/area-de-convivencia.jpeg",
+        "caption": "Área de Convivência"
+      },
+      {
+        "file": "fachada.jpeg",
+        "src": "assets/images/units/belem/fachada.jpeg",
+        "caption": "Fachada da Unidade"
+      },
+      {
+        "file": "area-de-convivencia-2.jpeg",
+        "src": "assets/images/units/belem/area-de-convivencia-2.jpeg",
+        "caption": "Área de Convivência"
+      },
+      {
+        "file": "area-de-convivencia-3.jpeg",
+        "src": "assets/images/units/belem/area-de-convivencia-3.jpeg",
+        "caption": "Área de Convivência"
+      }
+    ]
+  },
+  "blumenau": {
+    "coverImage": "assets/images/units/blumenau/fachada.jpeg",
+    "gallery": [
+      {
+        "file": "fachada.jpeg",
+        "src": "assets/images/units/blumenau/fachada.jpeg",
+        "caption": "Fachada da Unidade"
+      },
+      {
+        "file": "recepcao.jpeg",
+        "src": "assets/images/units/blumenau/recepcao.jpeg",
+        "caption": "Recepção e Atendimento"
+      },
+      {
+        "file": "sala-de-aula-2.jpeg",
+        "src": "assets/images/units/blumenau/sala-de-aula-2.jpeg",
+        "caption": "Salas de Aula e Prática"
+      },
+      {
+        "file": "sala-de-aula.jpeg",
+        "src": "assets/images/units/blumenau/sala-de-aula.jpeg",
+        "caption": "Salas de Aula e Prática"
+      }
+    ]
+  },
+  "brasilia": {
+    "coverImage": "assets/images/units/brasilia/fachada-brasilia.png",
+    "gallery": [
+      {
+        "file": "convivencia-bsb.jpeg",
+        "src": "assets/images/units/brasilia/convivencia-bsb.jpeg",
+        "caption": "Área de Convivência"
+      },
+      {
+        "file": "fachada-brasilia.png",
+        "src": "assets/images/units/brasilia/fachada-brasilia.png",
+        "caption": "Fachada da Unidade"
+      },
+      {
+        "file": "recepcao-bsb.jpeg",
+        "src": "assets/images/units/brasilia/recepcao-bsb.jpeg",
+        "caption": "Recepção e Atendimento"
+      },
+      {
+        "file": "sala-de-aula.jpeg",
+        "src": "assets/images/units/brasilia/sala-de-aula.jpeg",
+        "caption": "Salas de Aula e Prática"
+      },
+      {
+        "file": "sala-de-aula-brasilia.jpeg",
+        "src": "assets/images/units/brasilia/sala-de-aula-brasilia.jpeg",
+        "caption": "Salas de Aula e Prática"
+      }
+    ]
+  },
+  "campinas": {
+    "coverImage": "assets/images/units/campinas/fachada-campinas.jpeg",
+    "gallery": [
+      {
+        "file": "fachada-campinas.jpeg",
+        "src": "assets/images/units/campinas/fachada-campinas.jpeg",
+        "caption": "Fachada da Unidade"
+      },
+      {
+        "file": "recepcao-campinas.webp",
+        "src": "assets/images/units/campinas/recepcao-campinas.webp",
+        "caption": "Recepção e Atendimento"
+      },
+      {
+        "file": "sala-de-aula-campinas-2.jpeg",
+        "src": "assets/images/units/campinas/sala-de-aula-campinas-2.jpeg",
+        "caption": "Salas de Aula e Prática"
+      },
+      {
+        "file": "sala-de-aula-campinas-3.webp",
+        "src": "assets/images/units/campinas/sala-de-aula-campinas-3.webp",
+        "caption": "Salas de Aula e Prática"
+      },
+      {
+        "file": "sala-de-aula-campinas.jpeg",
+        "src": "assets/images/units/campinas/sala-de-aula-campinas.jpeg",
+        "caption": "Salas de Aula e Prática"
+      },
+      {
+        "file": "area-de-convivencia-campinas-2.webp",
+        "src": "assets/images/units/campinas/area-de-convivencia-campinas-2.webp",
+        "caption": "Área de Convivência"
+      },
+      {
+        "file": "area-de-convivencia-campinas-3.webp",
+        "src": "assets/images/units/campinas/area-de-convivencia-campinas-3.webp",
+        "caption": "Área de Convivência"
+      },
+      {
+        "file": "area-de-convivencia-campinas.webp",
+        "src": "assets/images/units/campinas/area-de-convivencia-campinas.webp",
+        "caption": "Área de Convivência"
+      }
+    ]
+  },
+  "campo-grande": {
+    "coverImage": "assets/images/units/campo-grande/fachada.jpeg",
+    "gallery": [
+      {
+        "file": "convivencia.jpeg",
+        "src": "assets/images/units/campo-grande/convivencia.jpeg",
+        "caption": "Área de Convivência"
+      },
+      {
+        "file": "fachada.jpeg",
+        "src": "assets/images/units/campo-grande/fachada.jpeg",
+        "caption": "Fachada da Unidade"
+      },
+      {
+        "file": "recepcao.jpeg",
+        "src": "assets/images/units/campo-grande/recepcao.jpeg",
+        "caption": "Recepção e Atendimento"
+      },
+      {
+        "file": "sala-de-aula-4.jpeg",
+        "src": "assets/images/units/campo-grande/sala-de-aula-4.jpeg",
+        "caption": "Salas de Aula e Prática"
+      },
+      {
+        "file": "sala-de-aula-1.webp",
+        "src": "assets/images/units/campo-grande/sala-de-aula-1.webp",
+        "caption": "Salas de Aula e Prática"
+      },
+      {
+        "file": "sala-de-aula-2.jpeg",
+        "src": "assets/images/units/campo-grande/sala-de-aula-2.jpeg",
+        "caption": "Salas de Aula e Prática"
+      },
+      {
+        "file": "sala-de-aula-3.jpeg",
+        "src": "assets/images/units/campo-grande/sala-de-aula-3.jpeg",
+        "caption": "Salas de Aula e Prática"
+      }
+    ]
+  },
+  "cuiaba": {
+    "coverImage": "assets/images/units/cuiaba/cuiaba-fachada-2.jpeg",
+    "gallery": [
+      {
+        "file": "cuiaba-convivencia.jpeg",
+        "src": "assets/images/units/cuiaba/cuiaba-convivencia.jpeg",
+        "caption": "Área de Convivência"
+      },
+      {
+        "file": "cuiaba-convivenvia.jpeg",
+        "src": "assets/images/units/cuiaba/cuiaba-convivenvia.jpeg",
+        "caption": "Área de Convivência"
+      },
+      {
+        "file": "cuiaba-fachada-2.jpeg",
+        "src": "assets/images/units/cuiaba/cuiaba-fachada-2.jpeg",
+        "caption": "Fachada da Unidade"
+      },
+      {
+        "file": "cuiaba-fachada.jpeg",
+        "src": "assets/images/units/cuiaba/cuiaba-fachada.jpeg",
+        "caption": "Fachada da Unidade"
+      },
+      {
+        "file": "cuiaba-recepcao.jpeg",
+        "src": "assets/images/units/cuiaba/cuiaba-recepcao.jpeg",
+        "caption": "Recepção e Atendimento"
+      },
+      {
+        "file": "cuiaba-sala-de-aula-2.jpeg",
+        "src": "assets/images/units/cuiaba/cuiaba-sala-de-aula-2.jpeg",
+        "caption": "Salas de Aula e Prática"
+      },
+      {
+        "file": "cuiaba-sala-de-aula.jpeg",
+        "src": "assets/images/units/cuiaba/cuiaba-sala-de-aula.jpeg",
+        "caption": "Salas de Aula e Prática"
+      }
+    ]
+  },
+  "curitiba": {
+    "coverImage": "assets/images/units/curitiba/area-de-convivencia-2.jpeg",
+    "gallery": [
+      {
+        "file": "biblioteca.jpeg",
+        "src": "assets/images/units/curitiba/biblioteca.jpeg",
+        "caption": "Biblioteca e Estudos"
+      },
+      {
+        "file": "clinica-2.jpg",
+        "src": "assets/images/units/curitiba/clinica-2.jpg",
+        "caption": "Instalações da Unidade"
+      },
+      {
+        "file": "clinica.jpg",
+        "src": "assets/images/units/curitiba/clinica.jpg",
+        "caption": "Instalações da Unidade"
+      },
+      {
+        "file": "entrada.jpeg",
+        "src": "assets/images/units/curitiba/entrada.jpeg",
+        "caption": "Entrada e Estacionamento"
+      },
+      {
+        "file": "estacionamento.webp",
+        "src": "assets/images/units/curitiba/estacionamento.webp",
+        "caption": "Entrada e Estacionamento"
+      },
+      {
+        "file": "sala-de-aula-2.jpeg",
+        "src": "assets/images/units/curitiba/sala-de-aula-2.jpeg",
+        "caption": "Salas de Aula e Prática"
+      },
+      {
+        "file": "sala-de-aula.jpeg",
+        "src": "assets/images/units/curitiba/sala-de-aula.jpeg",
+        "caption": "Salas de Aula e Prática"
+      },
+      {
+        "file": "area-de-convivencia-2.jpeg",
+        "src": "assets/images/units/curitiba/area-de-convivencia-2.jpeg",
+        "caption": "Área de Convivência"
+      },
+      {
+        "file": "area-de-convivencia.jpeg",
+        "src": "assets/images/units/curitiba/area-de-convivencia.jpeg",
+        "caption": "Área de Convivência"
+      }
+    ]
+  },
+  "florianopolis": {
+    "coverImage": "assets/images/units/florianopolis/fachada-1-scaled.webp",
+    "gallery": [
+      {
+        "file": "biblioteca-scaled.webp",
+        "src": "assets/images/units/florianopolis/biblioteca-scaled.webp",
+        "caption": "Biblioteca e Estudos"
+      },
+      {
+        "file": "fachada-1-scaled.webp",
+        "src": "assets/images/units/florianopolis/fachada-1-scaled.webp",
+        "caption": "Fachada da Unidade"
+      },
+      {
+        "file": "fachada-2-scaled.webp",
+        "src": "assets/images/units/florianopolis/fachada-2-scaled.webp",
+        "caption": "Fachada da Unidade"
+      },
+      {
+        "file": "recepcao-2-scaled.webp",
+        "src": "assets/images/units/florianopolis/recepcao-2-scaled.webp",
+        "caption": "Recepção e Atendimento"
+      },
+      {
+        "file": "recepcao-3-scaled.webp",
+        "src": "assets/images/units/florianopolis/recepcao-3-scaled.webp",
+        "caption": "Recepção e Atendimento"
+      },
+      {
+        "file": "recepcao1-scaled.webp",
+        "src": "assets/images/units/florianopolis/recepcao1-scaled.webp",
+        "caption": "Recepção e Atendimento"
+      },
+      {
+        "file": "sala-de-aula-1.webp",
+        "src": "assets/images/units/florianopolis/sala-de-aula-1.webp",
+        "caption": "Salas de Aula e Prática"
+      },
+      {
+        "file": "sala-de-aula-2.webp",
+        "src": "assets/images/units/florianopolis/sala-de-aula-2.webp",
+        "caption": "Salas de Aula e Prática"
+      },
+      {
+        "file": "sala-de-aula-3.webp",
+        "src": "assets/images/units/florianopolis/sala-de-aula-3.webp",
+        "caption": "Salas de Aula e Prática"
+      },
+      {
+        "file": "sala-de-aula-4.webp",
+        "src": "assets/images/units/florianopolis/sala-de-aula-4.webp",
+        "caption": "Salas de Aula e Prática"
+      },
+      {
+        "file": "sala-de-aula-5.webp",
+        "src": "assets/images/units/florianopolis/sala-de-aula-5.webp",
+        "caption": "Salas de Aula e Prática"
+      },
+      {
+        "file": "sala-de-aula-6.webp",
+        "src": "assets/images/units/florianopolis/sala-de-aula-6.webp",
+        "caption": "Salas de Aula e Prática"
+      },
+      {
+        "file": "sala-de-aula-7.webp",
+        "src": "assets/images/units/florianopolis/sala-de-aula-7.webp",
+        "caption": "Salas de Aula e Prática"
+      },
+      {
+        "file": "segundo-andar-scaled.webp",
+        "src": "assets/images/units/florianopolis/segundo-andar-scaled.webp",
+        "caption": "Instalações da Unidade"
+      }
+    ]
+  },
+  "guarulhos": {
+    "coverImage": "assets/images/units/guarulhos/guarulhos-fachada.webp",
+    "gallery": [
+      {
+        "file": "area-de-convivencia-2.webp",
+        "src": "assets/images/units/guarulhos/area-de-convivencia-2.webp",
+        "caption": "Área de Convivência"
+      },
+      {
+        "file": "area-de-convivencia-3.webp",
+        "src": "assets/images/units/guarulhos/area-de-convivencia-3.webp",
+        "caption": "Área de Convivência"
+      },
+      {
+        "file": "area-de-convivencia.webp",
+        "src": "assets/images/units/guarulhos/area-de-convivencia.webp",
+        "caption": "Área de Convivência"
+      },
+      {
+        "file": "guarulhos-fachada.webp",
+        "src": "assets/images/units/guarulhos/guarulhos-fachada.webp",
+        "caption": "Fachada da Unidade"
+      },
+      {
+        "file": "sala-de-aula.webp",
+        "src": "assets/images/units/guarulhos/sala-de-aula.webp",
+        "caption": "Salas de Aula e Prática"
+      }
+    ]
+  },
+  "londrina": {
+    "coverImage": "assets/images/units/londrina/recepcao-01-scaled.jpeg",
+    "gallery": [
+      {
+        "file": "area-convivencia-scaled.jpeg",
+        "src": "assets/images/units/londrina/area-convivencia-scaled.jpeg",
+        "caption": "Área de Convivência"
+      },
+      {
+        "file": "recepcao-01-scaled.jpeg",
+        "src": "assets/images/units/londrina/recepcao-01-scaled.jpeg",
+        "caption": "Recepção e Atendimento"
+      },
+      {
+        "file": "recepcao-02-scaled.jpeg",
+        "src": "assets/images/units/londrina/recepcao-02-scaled.jpeg",
+        "caption": "Recepção e Atendimento"
+      },
+      {
+        "file": "sala-de-aula-01-scaled.jpeg",
+        "src": "assets/images/units/londrina/sala-de-aula-01-scaled.jpeg",
+        "caption": "Salas de Aula e Prática"
+      },
+      {
+        "file": "sala-de-aula-02-scaled.jpeg",
+        "src": "assets/images/units/londrina/sala-de-aula-02-scaled.jpeg",
+        "caption": "Salas de Aula e Prática"
+      },
+      {
+        "file": "sala-de-aula-03-scaled.jpeg",
+        "src": "assets/images/units/londrina/sala-de-aula-03-scaled.jpeg",
+        "caption": "Salas de Aula e Prática"
+      },
+      {
+        "file": "sala-de-aula-04-scaled.webp",
+        "src": "assets/images/units/londrina/sala-de-aula-04-scaled.webp",
+        "caption": "Salas de Aula e Prática"
+      }
+    ]
+  },
+  "porto-alegre": {
+    "coverImage": "assets/images/units/porto-alegre/area-de-convivencia-2.webp",
+    "gallery": [
+      {
+        "file": "sala-de-aula-2.jpg",
+        "src": "assets/images/units/porto-alegre/sala-de-aula-2.jpg",
+        "caption": "Salas de Aula e Prática"
+      },
+      {
+        "file": "sala-de-aula.webp",
+        "src": "assets/images/units/porto-alegre/sala-de-aula.webp",
+        "caption": "Salas de Aula e Prática"
+      },
+      {
+        "file": "area-de-convivencia-2.webp",
+        "src": "assets/images/units/porto-alegre/area-de-convivencia-2.webp",
+        "caption": "Área de Convivência"
+      },
+      {
+        "file": "area-de-convivencia.jpg",
+        "src": "assets/images/units/porto-alegre/area-de-convivencia.jpg",
+        "caption": "Área de Convivência"
+      }
+    ]
+  },
+  "rio-de-janeiro": {
+    "coverImage": "assets/images/units/rio-de-janeiro/fachada.webp",
+    "gallery": [
+      {
+        "file": "auditorio-2.jpeg",
+        "src": "assets/images/units/rio-de-janeiro/auditorio-2.jpeg",
+        "caption": "Instalações da Unidade"
+      },
+      {
+        "file": "auditorio.jpeg",
+        "src": "assets/images/units/rio-de-janeiro/auditorio.jpeg",
+        "caption": "Instalações da Unidade"
+      },
+      {
+        "file": "fachada.webp",
+        "src": "assets/images/units/rio-de-janeiro/fachada.webp",
+        "caption": "Fachada da Unidade"
+      },
+      {
+        "file": "recepcao.jpeg",
+        "src": "assets/images/units/rio-de-janeiro/recepcao.jpeg",
+        "caption": "Recepção e Atendimento"
+      },
+      {
+        "file": "sala-de-aula-2.jpeg",
+        "src": "assets/images/units/rio-de-janeiro/sala-de-aula-2.jpeg",
+        "caption": "Salas de Aula e Prática"
+      },
+      {
+        "file": "sala-de-aula.jpeg",
+        "src": "assets/images/units/rio-de-janeiro/sala-de-aula.jpeg",
+        "caption": "Salas de Aula e Prática"
+      }
+    ]
+  },
+  "sao-jose-dos-campos": {
+    "coverImage": "assets/images/units/sao-jose-dos-campos/fachada.webp",
+    "gallery": [
+      {
+        "file": "fachada.webp",
+        "src": "assets/images/units/sao-jose-dos-campos/fachada.webp",
+        "caption": "Fachada da Unidade"
+      },
+      {
+        "file": "recepcao.webp",
+        "src": "assets/images/units/sao-jose-dos-campos/recepcao.webp",
+        "caption": "Recepção e Atendimento"
+      }
+    ]
+  },
+  "sao-paulo-borba-gato": {
+    "coverImage": "assets/images/units/sao-paulo-borba-gato/sp-bg-fachada.webp",
+    "gallery": [
+      {
+        "file": "metro-bg.webp",
+        "src": "assets/images/units/sao-paulo-borba-gato/metro-bg.webp",
+        "caption": "Acesso Próximo ao Metrô"
+      },
+      {
+        "file": "sp-bg-area-2.webp",
+        "src": "assets/images/units/sao-paulo-borba-gato/sp-bg-area-2.webp",
+        "caption": "Instalações da Unidade"
+      },
+      {
+        "file": "sp-bg-area-3.webp",
+        "src": "assets/images/units/sao-paulo-borba-gato/sp-bg-area-3.webp",
+        "caption": "Instalações da Unidade"
+      },
+      {
+        "file": "sp-bg-area.webp",
+        "src": "assets/images/units/sao-paulo-borba-gato/sp-bg-area.webp",
+        "caption": "Instalações da Unidade"
+      },
+      {
+        "file": "sp-bg-fachada.webp",
+        "src": "assets/images/units/sao-paulo-borba-gato/sp-bg-fachada.webp",
+        "caption": "Fachada da Unidade"
+      },
+      {
+        "file": "sp-bg-noite.webp",
+        "src": "assets/images/units/sao-paulo-borba-gato/sp-bg-noite.webp",
+        "caption": "Instalações da Unidade"
+      },
+      {
+        "file": "sp-bg-recep.jpeg",
+        "src": "assets/images/units/sao-paulo-borba-gato/sp-bg-recep.jpeg",
+        "caption": "Recepção e Atendimento"
+      },
+      {
+        "file": "sp-bg-sala.webp",
+        "src": "assets/images/units/sao-paulo-borba-gato/sp-bg-sala.webp",
+        "caption": "Salas de Aula e Prática"
+      }
+    ]
+  },
+  "sao-paulo-vila-mariana": {
+    "coverImage": "assets/images/units/sao-paulo-vila-mariana/fachada.jpeg",
+    "gallery": [
+      {
+        "file": "fachada.jpeg",
+        "src": "assets/images/units/sao-paulo-vila-mariana/fachada.jpeg",
+        "caption": "Fachada da Unidade"
+      },
+      {
+        "file": "recepcao.webp",
+        "src": "assets/images/units/sao-paulo-vila-mariana/recepcao.webp",
+        "caption": "Recepção e Atendimento"
+      },
+      {
+        "file": "sala-de-aula-2.jpeg",
+        "src": "assets/images/units/sao-paulo-vila-mariana/sala-de-aula-2.jpeg",
+        "caption": "Salas de Aula e Prática"
+      },
+      {
+        "file": "sala-de-aula.jpeg",
+        "src": "assets/images/units/sao-paulo-vila-mariana/sala-de-aula.jpeg",
+        "caption": "Salas de Aula e Prática"
+      },
+      {
+        "file": "area-de-convivencia-2.jpeg",
+        "src": "assets/images/units/sao-paulo-vila-mariana/area-de-convivencia-2.jpeg",
+        "caption": "Área de Convivência"
+      },
+      {
+        "file": "area-de-convivencia.jpeg",
+        "src": "assets/images/units/sao-paulo-vila-mariana/area-de-convivencia.jpeg",
+        "caption": "Área de Convivência"
+      }
+    ]
+  },
+  "sorocaba": {
+    "coverImage": "assets/images/units/sorocaba/sorocaba-fachada.webp",
+    "gallery": [
+      {
+        "file": "sorocaba-fachada.webp",
+        "src": "assets/images/units/sorocaba/sorocaba-fachada.webp",
+        "caption": "Fachada da Unidade"
+      },
+      {
+        "file": "sorocaba-recepcao.webp",
+        "src": "assets/images/units/sorocaba/sorocaba-recepcao.webp",
+        "caption": "Recepção e Atendimento"
+      },
+      {
+        "file": "sorocaba-sala-2.jpeg",
+        "src": "assets/images/units/sorocaba/sorocaba-sala-2.jpeg",
+        "caption": "Salas de Aula e Prática"
+      },
+      {
+        "file": "sorocaba-sala.webp",
+        "src": "assets/images/units/sorocaba/sorocaba-sala.webp",
+        "caption": "Salas de Aula e Prática"
+      }
+    ]
+  },
+  "sao-luis": {
+    "coverImage": "assets/images/units/sao-luis/fachada-2.webp",
+    "gallery": [
+      {
+        "file": "area-comum-3-scaled.jpg",
+        "src": "assets/images/units/sao-luis/area-comum-3-scaled.jpg",
+        "caption": "Instalações da Unidade"
+      },
+      {
+        "file": "area-comum-4-scaled.webp",
+        "src": "assets/images/units/sao-luis/area-comum-4-scaled.webp",
+        "caption": "Instalações da Unidade"
+      },
+      {
+        "file": "area-comum-5-scaled.webp",
+        "src": "assets/images/units/sao-luis/area-comum-5-scaled.webp",
+        "caption": "Instalações da Unidade"
+      },
+      {
+        "file": "area-comum-scaled.jpg",
+        "src": "assets/images/units/sao-luis/area-comum-scaled.jpg",
+        "caption": "Instalações da Unidade"
+      },
+      {
+        "file": "fachada-2.webp",
+        "src": "assets/images/units/sao-luis/fachada-2.webp",
+        "caption": "Fachada da Unidade"
+      },
+      {
+        "file": "fechada.webp",
+        "src": "assets/images/units/sao-luis/fechada.webp",
+        "caption": "Fachada da Unidade"
+      },
+      {
+        "file": "recepcao.webp",
+        "src": "assets/images/units/sao-luis/recepcao.webp",
+        "caption": "Recepção e Atendimento"
+      },
+      {
+        "file": "sala-de-aula.jpeg",
+        "src": "assets/images/units/sao-luis/sala-de-aula.jpeg",
+        "caption": "Salas de Aula e Prática"
+      },
+      {
+        "file": "sala-de-aula-2-scaled.jpg",
+        "src": "assets/images/units/sao-luis/sala-de-aula-2-scaled.jpg",
+        "caption": "Salas de Aula e Prática"
+      }
+    ]
+  },
+  "uberlandia": {
+    "coverImage": "assets/images/units/uberlandia/fachada.jpeg",
+    "gallery": [
+      {
+        "file": "fachada.jpeg",
+        "src": "assets/images/units/uberlandia/fachada.jpeg",
+        "caption": "Fachada da Unidade"
+      },
+      {
+        "file": "recepcao.jpeg",
+        "src": "assets/images/units/uberlandia/recepcao.jpeg",
+        "caption": "Recepção e Atendimento"
+      },
+      {
+        "file": "sala-de-aula-2.jpeg",
+        "src": "assets/images/units/uberlandia/sala-de-aula-2.jpeg",
+        "caption": "Salas de Aula e Prática"
+      },
+      {
+        "file": "sala-de-aula.jpeg",
+        "src": "assets/images/units/uberlandia/sala-de-aula.jpeg",
+        "caption": "Salas de Aula e Prática"
+      },
+      {
+        "file": "area-de-convivencia.jpeg",
+        "src": "assets/images/units/uberlandia/area-de-convivencia.jpeg",
+        "caption": "Área de Convivência"
+      }
+    ]
+  },
+  "vitoria": {
+    "coverImage": "assets/images/units/vitoria/vitoria-fachada.jpeg",
+    "gallery": [
+      {
+        "file": "convivencia-vitoria.jpg",
+        "src": "assets/images/units/vitoria/convivencia-vitoria.jpg",
+        "caption": "Área de Convivência"
+      },
+      {
+        "file": "convivencia-vitoria.webp",
+        "src": "assets/images/units/vitoria/convivencia-vitoria.webp",
+        "caption": "Área de Convivência"
+      },
+      {
+        "file": "sala-de-aula-vitoria.jpg",
+        "src": "assets/images/units/vitoria/sala-de-aula-vitoria.jpg",
+        "caption": "Salas de Aula e Prática"
+      },
+      {
+        "file": "sala-vitoria-1.jpeg",
+        "src": "assets/images/units/vitoria/sala-vitoria-1.jpeg",
+        "caption": "Salas de Aula e Prática"
+      },
+      {
+        "file": "vitoria-fachada.jpeg",
+        "src": "assets/images/units/vitoria/vitoria-fachada.jpeg",
+        "caption": "Fachada da Unidade"
+      },
+      {
+        "file": "vitoria-sala-de-aula.webp",
+        "src": "assets/images/units/vitoria/vitoria-sala-de-aula.webp",
+        "caption": "Salas de Aula e Prática"
+      }
+    ]
+  }
+}

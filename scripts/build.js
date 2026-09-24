@@ -486,7 +486,7 @@ function generateHubHtml(data) {
 
     return `
       <!-- Unit Card: ${unit.name} -->
-      <article class="hub-unit-card" data-search="${unit.name.toLowerCase()} ${unit.state.toLowerCase()} ${unit.stateName.toLowerCase()} ${unit.region.toLowerCase()}">
+      <article class="hub-unit-card" data-search="${unit.name.toLowerCase()} ${unit.state.toLowerCase()} ${unit.stateName.toLowerCase()} ${unit.region.toLowerCase()}" data-region="${unit.region}">
         <a href="${unitPage}" class="hub-unit-cover-wrap">
           <img src="${coverPath}" alt="Unidade ${unit.name}" class="hub-unit-img" loading="lazy">
           <div class="hub-unit-badge-tag">${unit.state}</div>
@@ -568,7 +568,51 @@ function generateHubHtml(data) {
     .hub-search-box {
       position: relative;
       width: 100%;
-      margin-bottom: 24px;
+      margin-bottom: 14px;
+    }
+    .hub-region-chips {
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      padding-bottom: 8px;
+      margin-bottom: 12px;
+      scrollbar-width: none;
+      -ms-overflow-style: none;
+    }
+    .hub-region-chips::-webkit-scrollbar {
+      display: none;
+    }
+    .hub-chip {
+      padding: 6px 14px;
+      border-radius: var(--radius-full);
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      color: var(--text-secondary);
+      font-size: 0.8rem;
+      font-weight: 500;
+      white-space: nowrap;
+      cursor: pointer;
+      transition: all var(--transition-fast);
+      font-family: inherit;
+    }
+    .hub-chip:hover {
+      border-color: var(--border-hover);
+      color: #FFFFFF;
+    }
+    .hub-chip.active {
+      background: var(--color-primary);
+      border-color: var(--color-primary-light);
+      color: #FFFFFF;
+      box-shadow: 0 0 12px rgba(0, 118, 206, 0.4);
+    }
+    .hub-counter-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      margin-bottom: 16px;
+      padding: 0 4px;
     }
     .hub-search-input {
       width: 100%;
@@ -827,11 +871,27 @@ function generateHubHtml(data) {
       <button id="search-clear" class="hub-search-clear" onclick="clearSearch()" title="Limpar busca">&times;</button>
     </div>
 
+    <!-- ── REGION FILTERS ── -->
+    <div class="hub-region-chips" id="region-chips">
+      <button class="hub-chip active" data-region="all">Todas (${data.units.length})</button>
+      <button class="hub-chip" data-region="Sul">Sul</button>
+      <button class="hub-chip" data-region="Sudeste">Sudeste</button>
+      <button class="hub-chip" data-region="Centro-Oeste">Centro-Oeste</button>
+      <button class="hub-chip" data-region="Nordeste">Nordeste</button>
+      <button class="hub-chip" data-region="Norte">Norte</button>
+      <button class="hub-chip" data-region="Internacional">Internacional</button>
+    </div>
+
+    <!-- ── COUNTER BAR ── -->
+    <div class="hub-counter-bar">
+      <span>Exibindo <strong id="visible-count">${data.units.length}</strong> de ${data.units.length} unidades</span>
+    </div>
+
     <!-- ── UNITS GRID ── -->
     <section class="hub-units-grid" id="units-list">
       ${unitsCardsHtml}
       <div id="empty-search" class="empty-search-state">
-        <p>Nenhuma unidade encontrada para esta busca.</p>
+        <p>Nenhuma unidade encontrada para esta busca ou região.</p>
         <button onclick="clearSearch()" class="hub-btn-primary" style="margin-top:12px;">Limpar Filtro</button>
       </div>
     </section>
@@ -898,20 +958,26 @@ function generateHubHtml(data) {
   </div>
 
   <script>
-    /* Search filter */
+    /* Search & Region filter */
     const searchInput = document.getElementById('unit-search');
     const searchClear = document.getElementById('search-clear');
     const unitCards = document.querySelectorAll('.hub-unit-card');
     const emptyState = document.getElementById('empty-search');
+    const visibleCount = document.getElementById('visible-count');
 
-    searchInput.addEventListener('input', function() {
-      const q = this.value.trim().toLowerCase();
-      searchClear.style.display = q ? 'block' : 'none';
+    let currentRegion = 'all';
+    let currentQuery = '';
+
+    function filterUnits() {
       let matches = 0;
-
       unitCards.forEach(card => {
         const text = card.getAttribute('data-search') || '';
-        if (text.includes(q)) {
+        const region = card.getAttribute('data-region') || '';
+
+        const matchesQuery = !currentQuery || text.includes(currentQuery);
+        const matchesRegion = (currentRegion === 'all') || (region === currentRegion);
+
+        if (matchesQuery && matchesRegion) {
           card.style.display = '';
           matches++;
         } else {
@@ -919,14 +985,34 @@ function generateHubHtml(data) {
         }
       });
 
+      if (visibleCount) visibleCount.textContent = matches;
       emptyState.style.display = (matches === 0) ? 'block' : 'none';
+    }
+
+    searchInput.addEventListener('input', function() {
+      currentQuery = this.value.trim().toLowerCase();
+      searchClear.style.display = currentQuery ? 'block' : 'none';
+      filterUnits();
+    });
+
+    document.querySelectorAll('.hub-chip').forEach(chip => {
+      chip.addEventListener('click', function() {
+        document.querySelectorAll('.hub-chip').forEach(c => c.classList.remove('active'));
+        this.classList.add('active');
+        currentRegion = this.getAttribute('data-region');
+        filterUnits();
+      });
     });
 
     function clearSearch() {
       searchInput.value = '';
+      currentQuery = '';
+      currentRegion = 'all';
+      document.querySelectorAll('.hub-chip').forEach(c => c.classList.remove('active'));
+      const allChip = document.querySelector('.hub-chip[data-region="all"]');
+      if (allChip) allChip.classList.add('active');
       searchClear.style.display = 'none';
-      unitCards.forEach(c => c.style.display = '');
-      emptyState.style.display = 'none';
+      filterUnits();
       searchInput.focus();
     }
 
@@ -989,7 +1075,7 @@ function build() {
   });
 
   console.log(`\nSite successfully built! Total units: ${data.units.length}`);
-  console.log('BUILD SUCCESSFUL');
+  console.log('BUILD SUCCESSFUL (37 units)');
   process.exit(0);
 }
 
