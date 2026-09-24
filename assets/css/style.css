@@ -640,136 +640,159 @@ body {
   background: linear-gradient(90deg, var(--border-subtle), transparent);
 }
 
+.links-stream,
 .links-list {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 14px;
   width: 100%;
+  margin-bottom: 30px;
 }
 
-/* Link Card Item */
+/* Link Card - Prominent Linktree Button */
 .link-card {
   position: relative;
   display: flex;
   align-items: center;
   gap: 16px;
-  padding: 16px 18px;
-  background: var(--bg-card);
-  border: 1px solid var(--border-subtle);
-  border-radius: var(--radius-md);
+  padding: 16px 20px;
+  min-height: 74px;
+  background: linear-gradient(135deg, rgba(20, 27, 39, 0.95) 0%, rgba(13, 18, 27, 0.98) 100%);
+  border: 1.5px solid rgba(255, 255, 255, 0.12);
+  border-radius: var(--radius-lg);
   text-decoration: none;
   color: inherit;
-  transition: all var(--transition-smooth);
-  box-shadow: var(--shadow-sm);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
   overflow: hidden;
+  backdrop-filter: blur(12px);
+  --card-accent: var(--color-primary-light);
+  --card-glow: rgba(0, 166, 255, 0.25);
 }
 
-.link-card::after {
+/* Glowing left indicator strip */
+.link-card::before {
   content: '';
   position: absolute;
   left: 0;
   top: 0;
   bottom: 0;
-  width: 4px;
-  background: var(--color-primary-light);
-  opacity: 0;
-  transition: opacity var(--transition-fast);
+  width: 5px;
+  background: var(--card-accent);
+  border-radius: 4px 0 0 4px;
+  transition: width 0.25s ease, box-shadow 0.25s ease;
 }
 
 .link-card:hover {
-  background: var(--bg-card-hover);
-  border-color: var(--border-hover);
-  transform: translateY(-2px);
-  box-shadow: var(--shadow-md);
+  background: linear-gradient(135deg, rgba(28, 38, 54, 0.98) 0%, rgba(17, 24, 36, 1) 100%);
+  border-color: var(--card-accent);
+  transform: translateY(-3px) scale(1.01);
+  box-shadow: 0 10px 28px -4px rgba(0, 0, 0, 0.5), 0 0 22px var(--card-glow);
 }
 
-.link-card:hover::after {
-  opacity: 1;
+.link-card:hover::before {
+  width: 8px;
+  box-shadow: 0 0 14px var(--card-accent);
 }
 
 .link-card:active {
-  background: var(--bg-card-active);
-  transform: translateY(0);
+  transform: translateY(-1px) scale(0.99);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
 }
 
-/* Card Visual Icon */
+/* Card Visual Icon Box */
 .link-icon-box {
-  width: 46px;
-  height: 46px;
-  border-radius: var(--radius-sm);
-  background: rgba(0, 118, 206, 0.12);
-  border: 1px solid rgba(0, 166, 255, 0.2);
-  color: var(--color-primary-light);
+  width: 50px;
+  height: 50px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: var(--card-accent);
   display: flex;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  transition: all var(--transition-smooth);
+  transition: all 0.25s ease;
 }
 
 .link-card:hover .link-icon-box {
-  background: var(--color-primary);
-  border-color: var(--color-primary-light);
-  color: #FFFFFF;
-  transform: scale(1.05);
+  background: var(--card-accent);
+  border-color: transparent;
+  color: #080B10;
+  transform: scale(1.08);
+  box-shadow: 0 0 16px var(--card-glow);
 }
 
 .link-icon-box svg {
-  width: 22px;
-  height: 22px;
+  width: 24px;
+  height: 24px;
 }
 
 /* Specific Accent Color Variations */
+.accent-cyan {
+  --card-accent: #00E1D9;
+  --card-glow: rgba(0, 225, 217, 0.35);
+}
 .accent-cyan .link-icon-box {
   background: rgba(0, 225, 217, 0.12);
   border-color: rgba(0, 225, 217, 0.25);
   color: var(--color-accent);
 }
-.accent-cyan:hover .link-icon-box {
-  background: var(--color-accent);
-  color: #080B10;
-}
-.accent-cyan::after {
-  background: var(--color-accent);
-}
 
+.accent-green {
+  --card-accent: #25D366;
+  --card-glow: rgba(37, 211, 102, 0.35);
+}
 .accent-green .link-icon-box {
   background: rgba(37, 211, 102, 0.12);
   border-color: rgba(37, 211, 102, 0.25);
   color: var(--status-whatsapp);
 }
 .accent-green:hover .link-icon-box {
-  background: var(--status-whatsapp);
   color: #FFFFFF;
 }
-.accent-green::after {
-  background: var(--status-whatsapp);
-}
 
+.accent-purple {
+  --card-accent: #C084FC;
+  --card-glow: rgba(168, 85, 247, 0.35);
+}
 .accent-purple .link-icon-box {
   background: rgba(168, 85, 247, 0.12);
   border-color: rgba(168, 85, 247, 0.25);
   color: #C084FC;
 }
 .accent-purple:hover .link-icon-box {
-  background: #A855F7;
   color: #FFFFFF;
 }
-.accent-purple::after {
-  background: #A855F7;
-}
 
+.accent-orange {
+  --card-accent: #FB923C;
+  --card-glow: rgba(249, 115, 22, 0.35);
+}
 .accent-orange .link-icon-box {
   background: rgba(249, 115, 22, 0.12);
   border-color: rgba(249, 115, 22, 0.25);
   color: #FB923C;
 }
 .accent-orange:hover .link-icon-box {
-  background: #F97316;
   color: #FFFFFF;
 }
-.accent-orange::after {
-  background: #F97316;
+
+/* Campus Thumbnail in Stream */
+.link-card-campus .campus-thumb-icon {
+  padding: 0;
+  overflow: hidden;
+  border-color: rgba(0, 225, 217, 0.3);
+}
+.link-card-campus .campus-thumb-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: inherit;
+  transition: transform 0.4s ease;
+}
+.link-card-campus:hover .campus-thumb-icon img {
+  transform: scale(1.12);
 }
 
 /* Card Content Details */
@@ -788,28 +811,24 @@ body {
 .link-tag {
   display: inline-block;
   font-size: 0.72rem;
-  font-weight: 600;
+  font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.06em;
-  color: var(--color-primary-light);
+  letter-spacing: 0.07em;
+  color: var(--card-accent, var(--color-primary-light));
 }
 
-.accent-cyan .link-tag { color: var(--color-accent); }
-.accent-green .link-tag { color: var(--status-whatsapp); }
-.accent-purple .link-tag { color: #C084FC; }
-.accent-orange .link-tag { color: #FB923C; }
-
 .link-badge-pill {
-  font-size: 0.68rem;
+  font-size: 0.70rem;
   font-weight: 600;
-  padding: 1px 7px;
+  padding: 2px 8px;
   border-radius: var(--radius-full);
   background: rgba(255, 255, 255, 0.08);
   color: var(--text-secondary);
+  border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .link-title {
-  font-size: 1.02rem;
+  font-size: 1.05rem;
   font-weight: 700;
   color: #FFFFFF;
   margin-bottom: 3px;
@@ -818,31 +837,40 @@ body {
 }
 
 .link-desc {
-  font-size: 0.84rem;
+  font-size: 0.85rem;
   color: var(--text-muted);
   font-weight: 400;
-  line-height: 1.4;
+  line-height: 1.45;
   white-space: normal;
 }
 
-/* Arrow indicator */
+/* Arrow indicator button */
 .link-action-indicator {
-  width: 32px;
-  height: 32px;
+  width: 36px;
+  height: 36px;
   border-radius: 50%;
-  background: rgba(255, 255, 255, 0.04);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--text-dim);
+  color: var(--text-secondary);
   flex-shrink: 0;
-  transition: all var(--transition-fast);
+  transition: all 0.25s ease;
 }
 
 .link-card:hover .link-action-indicator {
-  background: rgba(255, 255, 255, 0.12);
-  color: #FFFFFF;
+  background: var(--card-accent, var(--color-primary-light));
+  border-color: transparent;
+  color: #080B10;
   transform: translateX(4px);
+  box-shadow: 0 0 12px var(--card-glow, rgba(0, 166, 255, 0.3));
+}
+
+.accent-green:hover .link-action-indicator,
+.accent-purple:hover .link-action-indicator,
+.accent-orange:hover .link-action-indicator {
+  color: #FFFFFF;
 }
 
 .link-action-indicator svg {

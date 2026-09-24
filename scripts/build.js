@@ -86,33 +86,30 @@ function generateUnitHtml(unit, data) {
       }))
     : [{ src: coverPath, caption: `Fachada ${unit.name}` }];
 
-  // Sections HTML
-  let sectionsHtml = '';
+  // Unified Linktree Stream HTML (without separating sections)
+  let streamItemsHtml = '';
   if (Array.isArray(unit.sections)) {
     unit.sections.forEach(sec => {
       if (sec.type === 'campus_banner') {
         const thumbPath = sec.thumb.startsWith('http') ? sec.thumb : `${relativeRoot}/${sec.thumb}`;
-        sectionsHtml += `
-    <!-- ── SEÇÃO: ${sec.title.toUpperCase()} ── -->
-    <div class="section-wrapper">
-      <div class="section-header">
-        <span class="section-icon">${getIconSvg(sec.icon || 'image')}</span>
-        <span class="section-title">${sec.title}</span>
-        <span class="section-divider"></span>
-      </div>
-      <div class="campus-banner-card">
-        <div class="campus-banner-info">
-          <div class="campus-banner-thumb">
-            <img src="${thumbPath}" alt="${sec.bannerTitle}" loading="lazy">
-          </div>
-          <div>
-            <div class="campus-banner-title">${sec.bannerTitle}</div>
-            <div class="campus-banner-sub">${sec.bannerSub}</div>
-          </div>
+        streamItemsHtml += `
+      <!-- Conheça a Unidade / Tour de Fotos -->
+      <div role="button" tabindex="0" onclick="openGallery()" onkeydown="if(event.key==='Enter')openGallery()" class="link-card link-card-campus accent-cyan" style="cursor: pointer;" title="Abrir fotos da unidade ${unit.name}">
+        <div class="link-icon-box campus-thumb-icon">
+          <img src="${thumbPath}" alt="${sec.bannerTitle}" loading="lazy">
         </div>
-        <button class="btn-open-gallery" onclick="openGallery()">Ver Fotos</button>
-      </div>
-    </div>`;
+        <div class="link-details">
+          <div class="link-tag-row">
+            <span class="link-tag">Nossa Estrutura</span>
+            <span class="link-badge-pill">Fotos da Unidade</span>
+          </div>
+          <h3 class="link-title">${sec.bannerTitle}</h3>
+          <p class="link-desc">${sec.bannerSub} — Clique para ver o tour de fotos</p>
+        </div>
+        <span class="link-action-indicator">
+          ${ICONS.photos}
+        </span>
+      </div>`;
         return;
       }
 
@@ -125,52 +122,58 @@ function generateUnitHtml(unit, data) {
         return true;
       });
 
-      if (activeItems.length === 0) return; // Don't render empty section
-
-      let itemsHtml = '';
       activeItems.forEach(item => {
         const accentClass = item.accent ? ` accent-${item.accent}` : '';
         const tagRow = (item.tag || item.badge) ? `
-            <div class="link-tag-row">
-              ${item.tag ? `<span class="link-tag">${item.tag}</span>` : ''}
-              ${item.badge ? `<span class="link-badge-pill">${item.badge}</span>` : ''}
-            </div>` : '';
+          <div class="link-tag-row">
+            ${item.tag ? `<span class="link-tag">${item.tag}</span>` : ''}
+            ${item.badge ? `<span class="link-badge-pill">${item.badge}</span>` : ''}
+          </div>` : '';
 
         // Data attributes for client-side auto-expiry verification
         const dateAttrs = (item.startDate || item.endDate)
           ? ` data-start-date="${item.startDate || ''}" data-end-date="${item.endDate || ''}"`
           : '';
 
-        itemsHtml += `
-        <!-- ${item.title} -->
-        <a href="${item.url}" target="_blank" rel="noopener" class="link-card${accentClass}"${dateAttrs}>
-          <div class="link-icon-box">
-            ${getIconSvg(item.icon)}
-          </div>
-          <div class="link-details">
-            ${tagRow}
-            <h3 class="link-title">${item.title}</h3>
-            ${item.desc ? `<p class="link-desc">${item.desc}</p>` : ''}
-          </div>
-          <span class="link-action-indicator">
-            ${ICONS.arrowRight}
-          </span>
-        </a>`;
+        streamItemsHtml += `
+      <!-- ${item.title} -->
+      <a href="${item.url}" target="_blank" rel="noopener" class="link-card${accentClass}"${dateAttrs}>
+        <div class="link-icon-box">
+          ${getIconSvg(item.icon)}
+        </div>
+        <div class="link-details">
+          ${tagRow}
+          <h3 class="link-title">${item.title}</h3>
+          ${item.desc ? `<p class="link-desc">${item.desc}</p>` : ''}
+        </div>
+        <span class="link-action-indicator">
+          ${ICONS.arrowRight}
+        </span>
+      </a>`;
       });
-
-      sectionsHtml += `
-    <!-- ── SEÇÃO: ${sec.title.toUpperCase()} ── -->
-    <div class="section-wrapper" id="section-${sec.id}">
-      <div class="section-header">
-        <span class="section-icon">${getIconSvg(sec.icon)}</span>
-        <span class="section-title">${sec.title}</span>
-        <span class="section-divider"></span>
-      </div>
-      <div class="links-list">
-        ${itemsHtml}
-      </div>
-    </div>`;
     });
+  }
+
+  // Include Portal do Aluno in the stream if not already present
+  if (!streamItemsHtml.includes('portaldoaluno.inspirar.com.br')) {
+    streamItemsHtml += `
+      <!-- Portal do Aluno -->
+      <a href="${data.project.globalSocial.portalAluno}" target="_blank" rel="noopener" class="link-card accent-cyan">
+        <div class="link-icon-box">
+          ${ICONS.graduationCap}
+        </div>
+        <div class="link-details">
+          <div class="link-tag-row">
+            <span class="link-tag">Área Acadêmica</span>
+            <span class="link-badge-pill">Login</span>
+          </div>
+          <h3 class="link-title">Portal do Aluno</h3>
+          <p class="link-desc">Acesso a notas, frequência, materiais didáticos e financeiro</p>
+        </div>
+        <span class="link-action-indicator">
+          ${ICONS.arrowRight}
+        </span>
+      </a>`;
   }
 
   // Spotlight Card (if configured)
@@ -303,7 +306,10 @@ function generateUnitHtml(unit, data) {
     </div>
 
     ${spotlightHtml}
-    ${sectionsHtml}
+    <!-- ── UNIFIED LINKTREE STREAM ── -->
+    <section class="links-stream" id="links-stream" aria-label="Links da Unidade ${unit.name}">
+      ${streamItemsHtml}
+    </section>
 
     <!-- ══════════════════════════════════════════════
          FOOTER
