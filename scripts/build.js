@@ -15,6 +15,21 @@ const DATA_FILE = path.join(ROOT_DIR, 'data', 'units.json');
 // Today's date in YYYY-MM-DD (local system date)
 const TODAY = new Date().toISOString().split('T')[0];
 
+// Ensure Símbolo branco is synced to assets
+const SYMBOL_SRC = path.join(ROOT_DIR, 'Símbolo branco.png');
+const SIMBOLO_DEST = path.join(ROOT_DIR, 'assets', 'images', 'simbolo-branco.png');
+const FAVICON_DEST = path.join(ROOT_DIR, 'assets', 'images', 'favicon.png');
+const FAVICON_ROOT = path.join(ROOT_DIR, 'favicon.png');
+
+if (fs.existsSync(SYMBOL_SRC)) {
+  if (!fs.existsSync(SIMBOLO_DEST)) {
+    fs.copyFileSync(SYMBOL_SRC, SIMBOLO_DEST);
+  }
+  if (!fs.existsSync(FAVICON_ROOT) && fs.existsSync(FAVICON_DEST)) {
+    fs.copyFileSync(FAVICON_DEST, FAVICON_ROOT);
+  }
+}
+
 // Common SVG Icons map
 const ICONS = {
   verified: `<svg class="verified-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 1l3.09 3.26L19 3.27l.71 4.03 3.29 2.7-2 3.57.56 4.07L17.5 19.7 14.91 23 12 21.18 9.09 23 6.5 19.7l-4.06-2.06.56-4.07-2-3.57L4.29 7.3 5 3.27l3.91.99L12 1z"/><path fill="#080B10" d="M10 15.5l-3.5-3.5 1.41-1.41L10 12.67l5.59-5.58L17 8.5l-7 7z"/></svg>`,
@@ -77,6 +92,7 @@ function generateUnitHtml(unit, data) {
   const relativeRoot = '..';
   const cssPath = `${relativeRoot}/assets/css/style.css`;
   const logoPath = `${relativeRoot}/${unit.logoImage || 'assets/images/Logo branca - horizontal.png'}`;
+  const faviconPath = `${relativeRoot}/assets/images/favicon.png`;
   const coverPath = `${relativeRoot}/${unit.coverImage || 'assets/images/UNIDADE CWB sem gourmet.png'}`;
   const hubUrl = `${relativeRoot}/index.html`;
 
@@ -219,8 +235,10 @@ function generateUnitHtml(unit, data) {
   <meta property="og:type" content="website">
   <meta name="theme-color" content="#080B10">
 
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="${logoPath}">
+  <!-- Favicon / Browser Tab Icon (Símbolo Branco) -->
+  <link rel="icon" type="image/png" href="${faviconPath}">
+  <link rel="shortcut icon" type="image/png" href="${faviconPath}">
+  <link rel="apple-touch-icon" href="${faviconPath}">
 
   <!-- Stylesheet -->
   <link rel="stylesheet" href="${cssPath}">
@@ -497,6 +515,7 @@ function generateUnitHtml(unit, data) {
  */
 function generateHubHtml(data) {
   const logoPath = 'assets/images/Logo branca - horizontal.png';
+  const faviconPath = 'assets/images/favicon.png';
   const cssPath = 'assets/css/style.css';
 
   const unitsCardsHtml = data.units.map(unit => {
@@ -560,8 +579,10 @@ function generateHubHtml(data) {
   <meta property="og:type" content="website">
   <meta name="theme-color" content="#080B10">
 
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="${logoPath}">
+  <!-- Favicon / Browser Tab Icon (Símbolo Branco) -->
+  <link rel="icon" type="image/png" href="${faviconPath}">
+  <link rel="shortcut icon" type="image/png" href="${faviconPath}">
+  <link rel="apple-touch-icon" href="${faviconPath}">
 
   <!-- Stylesheet -->
   <link rel="stylesheet" href="${cssPath}">

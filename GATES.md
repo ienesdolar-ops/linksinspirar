@@ -51,5 +51,13 @@
 - CHECK: `node scripts/verify-all.js`
 - EXPECT: `Gate 8: Regional Test Link Isolation (Sul Only - 7/7 Sul, 0/30 Non-Sul)... ✅ OK`
 
+## Gate 9: Browser Tab Icon (Favicon with Símbolo Branco)
+- Asset: `Símbolo branco.png` is normalized and available as `assets/images/simbolo-branco.png` and `assets/images/favicon.png` (plus root `favicon.png`).
+- Hub (`index.html`) references `assets/images/simbolo-branco.png` (or `favicon.png`) as its tab icon (`<link rel="icon">`).
+- All 37 unit pages (`[slug]/index.html`) reference `../assets/images/simbolo-branco.png` (or `../assets/images/favicon.png`) as their tab icon (`<link rel="icon">`).
+- CHECK: `node scripts/verify-all.js`
+- EXPECT: `Gate 9: Browser Tab Icon (Favicon with Símbolo Branco)... ✅ OK`
+
+
 
 

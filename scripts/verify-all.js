@@ -196,6 +196,32 @@ runStep('Gate 8: Regional Test Link Isolation (Sul Only - 7/7 Sul, 0/30 Non-Sul)
   assert.strictEqual(nonSulWithLinkCount, 0, `Expected 0 non-Sul units with YouTube test link, got ${nonSulWithLinkCount}`);
 });
 
+// 9. Browser Tab Icon (Favicon with Símbolo Branco)
+runStep('Gate 9: Browser Tab Icon (Favicon with Símbolo Branco)', () => {
+  const assetFavicon = path.join(ROOT_DIR, 'assets', 'images', 'favicon.png');
+  const assetSimbolo = path.join(ROOT_DIR, 'assets', 'images', 'simbolo-branco.png');
+  const rootFavicon = path.join(ROOT_DIR, 'favicon.png');
+  const rootIco = path.join(ROOT_DIR, 'favicon.ico');
+
+  assert(fs.existsSync(assetFavicon), 'assets/images/favicon.png is missing');
+  assert(fs.existsSync(assetSimbolo), 'assets/images/simbolo-branco.png is missing');
+  assert(fs.existsSync(rootFavicon), 'favicon.png in root is missing');
+  assert(fs.existsSync(rootIco), 'favicon.ico in root is missing');
+
+  // Verify Hub index.html
+  const hubHtml = fs.readFileSync(path.join(ROOT_DIR, 'index.html'), 'utf8');
+  assert(hubHtml.includes('href="assets/images/favicon.png"'), 'Hub HTML missing favicon.png reference');
+  assert(hubHtml.includes('rel="icon"'), 'Hub HTML missing rel="icon"');
+
+  // Verify all 37 units
+  const data = JSON.parse(fs.readFileSync(DATA_FILE, 'utf8'));
+  data.units.forEach(unit => {
+    const unitHtml = fs.readFileSync(path.join(ROOT_DIR, unit.slug, 'index.html'), 'utf8');
+    assert(unitHtml.includes('href="../assets/images/favicon.png"'), `Unit ${unit.slug} missing favicon.png reference`);
+    assert(unitHtml.includes('rel="icon"'), `Unit ${unit.slug} missing rel="icon"`);
+  });
+});
+
 console.log('\n====================================================');
 console.log('ALL VERIFICATIONS PASSED (37 units)');
 console.log('====================================================');
