@@ -151,6 +151,51 @@ runStep('Gate 7: Dedicated Instagram Profiles (37/37 Units) & 30 Anos Branding',
   });
 });
 
+// 8. Regional Test Link Isolation (Sul Only)
+runStep('Gate 8: Regional Test Link Isolation (Sul Only - 7/7 Sul, 0/30 Non-Sul)', () => {
+  const data = JSON.parse(fs.readFileSync(DATA_FILE, 'utf8'));
+  const EXPECTED_SUL_SLUGS = [
+    'balneario-camboriu',
+    'blumenau',
+    'curitiba',
+    'florianopolis',
+    'joinville',
+    'londrina',
+    'porto-alegre'
+  ];
+
+  let sulMatchCount = 0;
+  let nonSulWithLinkCount = 0;
+
+  data.units.forEach(unit => {
+    const isSul = unit.region === 'Sul';
+    const jsonStr = JSON.stringify(unit.sections || []);
+    const hasInJson = jsonStr.includes('https://www.youtube.com/');
+
+    const unitHtmlPath = path.join(ROOT_DIR, unit.slug, 'index.html');
+    const unitHtml = fs.readFileSync(unitHtmlPath, 'utf8');
+    const hasInHtml = unitHtml.includes('https://www.youtube.com/');
+
+    if (isSul) {
+      assert(EXPECTED_SUL_SLUGS.includes(unit.slug), `Unexpected Sul unit: ${unit.slug}`);
+      assert(hasInJson, `Sul unit ${unit.slug} missing YouTube test link in data/units.json`);
+      assert(hasInHtml, `Sul unit ${unit.slug} missing YouTube test link in HTML`);
+      assert(unitHtml.includes('Link Teste — YouTube'), `Sul unit ${unit.slug} HTML missing "Link Teste — YouTube"`);
+      assert(unitHtml.includes('accent-red'), `Sul unit ${unit.slug} HTML missing accent-red class`);
+      sulMatchCount++;
+    } else {
+      if (hasInJson || hasInHtml) {
+        nonSulWithLinkCount++;
+      }
+      assert(!hasInJson, `Non-Sul unit ${unit.slug} unexpectedly has YouTube link in data/units.json`);
+      assert(!hasInHtml, `Non-Sul unit ${unit.slug} unexpectedly has YouTube link in HTML`);
+    }
+  });
+
+  assert.strictEqual(sulMatchCount, 7, `Expected exactly 7 Sul units with YouTube test link, got ${sulMatchCount}`);
+  assert.strictEqual(nonSulWithLinkCount, 0, `Expected 0 non-Sul units with YouTube test link, got ${nonSulWithLinkCount}`);
+});
+
 console.log('\n====================================================');
 console.log('ALL VERIFICATIONS PASSED (37 units)');
 console.log('====================================================');

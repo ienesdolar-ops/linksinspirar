@@ -1,8 +1,8 @@
 # Relatório de Verificação de Links — Bio no Link
 
-- **Data**: 24/09/2026, 14:10:12
+- **Data**: 24/09/2026, 15:20:29
 - **Modo**: Validação Estrutural (Dry Run)
-- **Total de Links Verificados**: 336
+- **Total de Links Verificados**: 343
 
 | Unidade | Campo / Título | URL | Status |
 | :--- | :--- | :--- | :--- |
@@ -20,6 +20,7 @@
 | Balneário Camboriú | Congresso Internacional em Estética | [https://faculdadeinspirar.com.br/congresso-de...](https://faculdadeinspirar.com.br/congresso-de-estetica/) | ✅ OK |
 | Balneário Camboriú | Site Oficial — Balneário Camboriú | [https://www.inspirar.com.br/sc-balneario-camb...](https://www.inspirar.com.br/sc-balneario-camboriu/) | ✅ OK |
 | Balneário Camboriú | Matricule-se pelo WhatsApp | [https://api.whatsapp.com/send?phone=558006022...](https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20nos%20cursos%20da%20Inspirar%20Balne%C3%A1rio%20Cambori%C3%BA) | ✅ OK |
+| Balneário Camboriú | Link Teste — YouTube | [https://www.youtube.com/...](https://www.youtube.com/) | ✅ OK |
 | Bauru | website | [https://www.inspirar.com.br/sp-bauru/...](https://www.inspirar.com.br/sp-bauru/) | ✅ OK |
 | Bauru | instagram | [https://www.instagram.com/inspirarbauru/...](https://www.instagram.com/inspirarbauru/) | ✅ OK |
 | Bauru | mapsUrl | [https://maps.google.com/?q=Faculdade+Inspirar...](https://maps.google.com/?q=Faculdade+Inspirar+Bauru) | ✅ OK |
@@ -55,6 +56,7 @@
 | Blumenau | Congresso Internacional em Estética | [https://faculdadeinspirar.com.br/congresso-de...](https://faculdadeinspirar.com.br/congresso-de-estetica/) | ✅ OK |
 | Blumenau | Site Oficial — Blumenau | [https://www.inspirar.com.br/sc-blumenau/...](https://www.inspirar.com.br/sc-blumenau/) | ✅ OK |
 | Blumenau | Matricule-se pelo WhatsApp | [https://api.whatsapp.com/send?phone=558006022...](https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20nos%20cursos%20da%20Inspirar%20Blumenau) | ✅ OK |
+| Blumenau | Link Teste — YouTube | [https://www.youtube.com/...](https://www.youtube.com/) | ✅ OK |
 | Brasília | website | [https://www.inspirar.com.br/df-distrito-feder...](https://www.inspirar.com.br/df-distrito-federal-brasilia/) | ✅ OK |
 | Brasília | instagram | [https://www.instagram.com/inspirar_brasilia/...](https://www.instagram.com/inspirar_brasilia/) | ✅ OK |
 | Brasília | mapsUrl | [https://maps.google.com/?q=Faculdade+Inspirar...](https://maps.google.com/?q=Faculdade+Inspirar+Bras%C3%ADlia) | ✅ OK |
@@ -100,6 +102,7 @@
 | Curitiba | Congresso Internacional em Estética | [https://faculdadeinspirar.com.br/congresso-de...](https://faculdadeinspirar.com.br/congresso-de-estetica/) | ✅ OK |
 | Curitiba | Site Oficial — Curitiba | [https://www.inspirar.com.br/pr-curitiba/...](https://www.inspirar.com.br/pr-curitiba/) | ✅ OK |
 | Curitiba | Matricule-se pelo WhatsApp | [https://api.whatsapp.com/send?phone=558006022...](https://api.whatsapp.com/send?phone=558006022828&text=Olá!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Curitiba) | ✅ OK |
+| Curitiba | Link Teste — YouTube | [https://www.youtube.com/...](https://www.youtube.com/) | ✅ OK |
 | Dourados | website | [https://www.inspirar.com.br/ms-dourados-3/...](https://www.inspirar.com.br/ms-dourados-3/) | ✅ OK |
 | Dourados | instagram | [https://www.instagram.com/inspirardourados/...](https://www.instagram.com/inspirardourados/) | ✅ OK |
 | Dourados | mapsUrl | [https://maps.google.com/?q=Faculdade+Inspirar...](https://maps.google.com/?q=Faculdade+Inspirar+Dourados) | ✅ OK |
@@ -117,6 +120,7 @@
 | Florianópolis | Amo Fisio — Edição Sul | [https://amofisio.vercel.app/...](https://amofisio.vercel.app/) | ✅ OK |
 | Florianópolis | Site Oficial — Unidade Florianópolis | [https://www.inspirar.com.br/sc-florianopolis/...](https://www.inspirar.com.br/sc-florianopolis/) | ✅ OK |
 | Florianópolis | Atendimento WhatsApp Florianópolis | [https://api.whatsapp.com/send?phone=554898844...](https://api.whatsapp.com/send?phone=5548988442828&text=Olá!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Florianópolis) | ✅ OK |
+| Florianópolis | Link Teste — YouTube | [https://www.youtube.com/...](https://www.youtube.com/) | ✅ OK |
 | Fortaleza | website | [https://www.inspirar.com.br/ce-fortaleza-slim...](https://www.inspirar.com.br/ce-fortaleza-slim/) | ✅ OK |
 | Fortaleza | instagram | [https://www.instagram.com/inspirarfortaleza/...](https://www.instagram.com/inspirarfortaleza/) | ✅ OK |
 | Fortaleza | mapsUrl | [https://maps.google.com/?q=Faculdade+Inspirar...](https://maps.google.com/?q=Faculdade+Inspirar+Fortaleza) | ✅ OK |
@@ -162,6 +166,7 @@
 | Joinville | Congresso Internacional em Estética | [https://faculdadeinspirar.com.br/congresso-de...](https://faculdadeinspirar.com.br/congresso-de-estetica/) | ✅ OK |
 | Joinville | Site Oficial — Joinville | [https://www.inspirar.com.br/sc-joinville/...](https://www.inspirar.com.br/sc-joinville/) | ✅ OK |
 | Joinville | Matricule-se pelo WhatsApp | [https://api.whatsapp.com/send?phone=558006022...](https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20nos%20cursos%20da%20Inspirar%20Joinville) | ✅ OK |
+| Joinville | Link Teste — YouTube | [https://www.youtube.com/...](https://www.youtube.com/) | ✅ OK |
 | Londrina | website | [https://www.inspirar.com.br/pr-londrina/...](https://www.inspirar.com.br/pr-londrina/) | ✅ OK |
 | Londrina | instagram | [https://www.instagram.com/inspirarlondrina/...](https://www.instagram.com/inspirarlondrina/) | ✅ OK |
 | Londrina | mapsUrl | [https://maps.google.com/?q=Faculdade+Inspirar...](https://maps.google.com/?q=Faculdade+Inspirar+Londrina) | ✅ OK |
@@ -171,6 +176,7 @@
 | Londrina | Congresso Internacional em Estética | [https://faculdadeinspirar.com.br/congresso-de...](https://faculdadeinspirar.com.br/congresso-de-estetica/) | ✅ OK |
 | Londrina | Site Oficial — Londrina | [https://www.inspirar.com.br/pr-londrina/...](https://www.inspirar.com.br/pr-londrina/) | ✅ OK |
 | Londrina | Matricule-se pelo WhatsApp | [https://api.whatsapp.com/send?phone=558006022...](https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20nos%20cursos%20da%20Inspirar%20Londrina) | ✅ OK |
+| Londrina | Link Teste — YouTube | [https://www.youtube.com/...](https://www.youtube.com/) | ✅ OK |
 | Luanda | website | [https://www.inspirar.com.br/ao-luanda/...](https://www.inspirar.com.br/ao-luanda/) | ✅ OK |
 | Luanda | instagram | [https://www.instagram.com/inspirarangola/...](https://www.instagram.com/inspirarangola/) | ✅ OK |
 | Luanda | mapsUrl | [https://maps.google.com/?q=Faculdade+Inspirar...](https://maps.google.com/?q=Faculdade+Inspirar+Luanda) | ✅ OK |
@@ -207,6 +213,7 @@
 | Porto Alegre | Congresso Internacional em Estética | [https://faculdadeinspirar.com.br/congresso-de...](https://faculdadeinspirar.com.br/congresso-de-estetica/) | ✅ OK |
 | Porto Alegre | Site Oficial — Porto Alegre | [https://www.inspirar.com.br/rs-porto-alegre/...](https://www.inspirar.com.br/rs-porto-alegre/) | ✅ OK |
 | Porto Alegre | Matricule-se pelo WhatsApp | [https://api.whatsapp.com/send?phone=558006022...](https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20nos%20cursos%20da%20Inspirar%20Porto%20Alegre) | ✅ OK |
+| Porto Alegre | Link Teste — YouTube | [https://www.youtube.com/...](https://www.youtube.com/) | ✅ OK |
 | Porto Velho | website | [https://www.inspirar.com.br/ro-porto-velho/...](https://www.inspirar.com.br/ro-porto-velho/) | ✅ OK |
 | Porto Velho | instagram | [https://www.instagram.com/inspirarportovelho/...](https://www.instagram.com/inspirarportovelho/) | ✅ OK |
 | Porto Velho | mapsUrl | [https://maps.google.com/?q=Faculdade+Inspirar...](https://maps.google.com/?q=Faculdade+Inspirar+Porto%20Velho) | ✅ OK |

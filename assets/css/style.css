@@ -778,6 +778,20 @@ body {
   color: #FFFFFF;
 }
 
+.accent-red {
+  --card-accent: #FF0000;
+  --card-glow: rgba(255, 0, 0, 0.4);
+}
+.accent-red .link-icon-box {
+  background: rgba(255, 0, 0, 0.12);
+  border-color: rgba(255, 0, 0, 0.25);
+  color: #FF3333;
+}
+.accent-red:hover .link-icon-box {
+  background: #FF0000;
+  color: #FFFFFF;
+}
+
 /* Campus Thumbnail in Stream */
 .link-card-campus .campus-thumb-icon {
   padding: 0;
@@ -869,7 +883,8 @@ body {
 
 .accent-green:hover .link-action-indicator,
 .accent-purple:hover .link-action-indicator,
-.accent-orange:hover .link-action-indicator {
+.accent-orange:hover .link-action-indicator,
+.accent-red:hover .link-action-indicator {
   color: #FFFFFF;
 }
 

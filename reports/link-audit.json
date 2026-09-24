@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-09-24T17:10:12.255Z",
-  "total": 336,
+  "timestamp": "2026-09-24T18:20:29.166Z",
+  "total": 343,
   "dryRun": true,
   "results": [
     {
@@ -112,6 +112,14 @@
       "unit": "Balneário Camboriú",
       "field": "Matricule-se pelo WhatsApp",
       "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20nos%20cursos%20da%20Inspirar%20Balne%C3%A1rio%20Cambori%C3%BA",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Acesso Rápido",
+      "unit": "Balneário Camboriú",
+      "field": "Link Teste — YouTube",
+      "url": "https://www.youtube.com/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -392,6 +400,14 @@
       "unit": "Blumenau",
       "field": "Matricule-se pelo WhatsApp",
       "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20nos%20cursos%20da%20Inspirar%20Blumenau",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Acesso Rápido",
+      "unit": "Blumenau",
+      "field": "Link Teste — YouTube",
+      "url": "https://www.youtube.com/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -756,6 +772,14 @@
       "ok": true
     },
     {
+      "source": "Acesso Rápido",
+      "unit": "Curitiba",
+      "field": "Link Teste — YouTube",
+      "url": "https://www.youtube.com/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
       "source": "unit_meta",
       "unit": "Dourados",
       "field": "website",
@@ -888,6 +912,14 @@
       "unit": "Florianópolis",
       "field": "Atendimento WhatsApp Florianópolis",
       "url": "https://api.whatsapp.com/send?phone=5548988442828&text=Olá!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Florianópolis",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Acesso Rápido",
+      "unit": "Florianópolis",
+      "field": "Link Teste — YouTube",
+      "url": "https://www.youtube.com/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -1252,6 +1284,14 @@
       "ok": true
     },
     {
+      "source": "Acesso Rápido",
+      "unit": "Joinville",
+      "field": "Link Teste — YouTube",
+      "url": "https://www.youtube.com/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
       "source": "unit_meta",
       "unit": "Londrina",
       "field": "website",
@@ -1320,6 +1360,14 @@
       "unit": "Londrina",
       "field": "Matricule-se pelo WhatsApp",
       "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20nos%20cursos%20da%20Inspirar%20Londrina",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Acesso Rápido",
+      "unit": "Londrina",
+      "field": "Link Teste — YouTube",
+      "url": "https://www.youtube.com/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -1608,6 +1656,14 @@
       "unit": "Porto Alegre",
       "field": "Matricule-se pelo WhatsApp",
       "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20nos%20cursos%20da%20Inspirar%20Porto%20Alegre",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Acesso Rápido",
+      "unit": "Porto Alegre",
+      "field": "Link Teste — YouTube",
+      "url": "https://www.youtube.com/",
       "status": "FORMAT_OK",
       "ok": true
     },

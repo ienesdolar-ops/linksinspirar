@@ -45,4 +45,11 @@
 - CHECK: `node scripts/verify-all.js`
 - EXPECT: `ALL VERIFICATIONS PASSED (37 units)` (exit 0)
 
+## Gate 8: Regional Test Link Isolation (Sul Only)
+- Exactly the 7 units in the Sul region (`balneario-camboriu`, `blumenau`, `curitiba`, `florianopolis`, `joinville`, `londrina`, `porto-alegre`) contain the test link pointing to YouTube (`https://www.youtube.com/`).
+- None of the remaining 30 units (Sudeste, Norte, Centro-Oeste, Nordeste, Internacional) contain this test link.
+- CHECK: `node scripts/verify-all.js`
+- EXPECT: `Gate 8: Regional Test Link Isolation (Sul Only - 7/7 Sul, 0/30 Non-Sul)... ✅ OK`
+
+
 

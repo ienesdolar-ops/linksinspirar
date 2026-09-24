@@ -126,93 +126,144 @@ function buildCatalog() {
       instagramUser: raw.instagramUser || (existing ? existing.instagramUser : '@faculdadeinspirar'),
       website: raw.url,
       sympla: 'https://www.sympla.com.br/produtor/faculdadeinspirar',
-      gallery,
-      sections: existing && existing.sections ? existing.sections : [
-        {
-          id: 'cursos',
-          title: 'Cursos & Pós-Graduação',
-          icon: 'graduation-cap',
-          items: [
-            {
-              title: 'Fisioterapia em Terapia Intensiva',
-              desc: 'Adulto, Pediátrica e Neonatal — formação prática completa',
-              tag: 'Pós-Graduação',
-              badge: 'Semipresencial',
-              url: 'https://faculdadeinspirar.com.br/semi-intensiva/',
-              icon: 'activity',
-              accent: 'cyan'
-            },
-            {
-              title: 'Estética Avançada e Cosmetologia',
-              desc: 'Especialização para profissionais da área da saúde',
-              tag: 'Pós-Graduação',
-              badge: 'Turmas 2026',
-              url: 'https://faculdadeinspirar.com.br/',
-              icon: 'award',
-              accent: 'orange'
-            }
-          ]
-        },
-        {
-          id: 'eventos',
-          title: 'Eventos',
-          icon: 'calendar',
-          items: [
-            {
-              title: 'Amo Fisio',
-              desc: 'O maior evento presencial de Fisioterapia da Inspirar. Confira a programação!',
-              tag: 'Evento Presencial',
-              badge: '',
-              url: 'https://amofisio.vercel.app/',
-              icon: 'heart',
-              accent: 'purple',
-              startDate: '2024-01-01',
-              endDate: '2027-12-31'
-            },
-            {
-              title: 'Congresso Internacional em Estética',
-              desc: 'Congresso da Faculdade Inspirar — Inscrições abertas',
-              tag: 'Congresso',
-              badge: 'Internacional',
-              url: 'https://faculdadeinspirar.com.br/congresso-de-estetica/',
-              icon: 'award',
-              accent: 'orange',
-              startDate: '2024-01-01',
-              endDate: '2027-12-31'
-            }
-          ]
-        },
-        {
-          id: 'campus',
-          title: 'Nossa Unidade',
-          icon: 'image',
-          type: 'campus_banner',
-          bannerTitle: `Conheça a Unidade ${raw.name}`,
-          bannerSub: `${raw.address}`,
-          thumb: gallery.length > 1 ? gallery[1].src : gallery[0].src
-        },
-        {
-          id: 'acesso_rapido',
-          title: 'Acesso Rápido',
-          icon: 'settings',
-          items: [
-            {
-              title: `Site Oficial — ${raw.name}`,
-              desc: 'Todos os cursos, informações e matrículas',
-              url: raw.url,
-              icon: 'globe',
-              accent: ''
-            },
-            {
-              title: 'Matricule-se pelo WhatsApp',
-              desc: 'Fale com nossa equipe de consultores',
-              url: `https://api.whatsapp.com/send?phone=${defaultPhone}&text=${encodeURIComponent(`Olá! Tenho interesse nos cursos da Inspirar ${raw.name}`)}`,
-              icon: 'whatsapp',
-              accent: 'green'
-            }
-          ]
+    // Regional test link: Sul only (test configuration)
+    const YOUTUBE_TEST_ITEM = {
+      title: 'Link Teste — YouTube',
+      desc: 'Acesso ao canal do YouTube (exclusivo unidades da Região Sul)',
+      tag: 'Região Sul',
+      badge: 'Teste',
+      url: 'https://www.youtube.com/',
+      icon: 'youtube',
+      accent: 'red'
+    };
+
+    let sections = (existing && existing.sections) ? JSON.parse(JSON.stringify(existing.sections)) : [
+      {
+        id: 'cursos',
+        title: 'Cursos & Pós-Graduação',
+        icon: 'graduation-cap',
+        items: [
+          {
+            title: 'Fisioterapia em Terapia Intensiva',
+            desc: 'Adulto, Pediátrica e Neonatal — formação prática completa',
+            tag: 'Pós-Graduação',
+            badge: 'Semipresencial',
+            url: 'https://faculdadeinspirar.com.br/semi-intensiva/',
+            icon: 'activity',
+            accent: 'cyan'
+          },
+          {
+            title: 'Estética Avançada e Cosmetologia',
+            desc: 'Especialização para profissionais da área da saúde',
+            tag: 'Pós-Graduação',
+            badge: 'Turmas 2026',
+            url: 'https://faculdadeinspirar.com.br/',
+            icon: 'award',
+            accent: 'orange'
+          }
+        ]
+      },
+      {
+        id: 'eventos',
+        title: 'Eventos',
+        icon: 'calendar',
+        items: [
+          {
+            title: 'Amo Fisio',
+            desc: 'O maior evento presencial de Fisioterapia da Inspirar. Confira a programação!',
+            tag: 'Evento Presencial',
+            badge: '',
+            url: 'https://amofisio.vercel.app/',
+            icon: 'heart',
+            accent: 'purple',
+            startDate: '2024-01-01',
+            endDate: '2027-12-31'
+          },
+          {
+            title: 'Congresso Internacional em Estética',
+            desc: 'Congresso da Faculdade Inspirar — Inscrições abertas',
+            tag: 'Congresso',
+            badge: 'Internacional',
+            url: 'https://faculdadeinspirar.com.br/congresso-de-estetica/',
+            icon: 'award',
+            accent: 'orange',
+            startDate: '2024-01-01',
+            endDate: '2027-12-31'
+          }
+        ]
+      },
+      {
+        id: 'campus',
+        title: 'Nossa Unidade',
+        icon: 'image',
+        type: 'campus_banner',
+        bannerTitle: `Conheça a Unidade ${raw.name}`,
+        bannerSub: `${raw.address}`,
+        thumb: gallery.length > 1 ? gallery[1].src : gallery[0].src
+      },
+      {
+        id: 'acesso_rapido',
+        title: 'Acesso Rápido',
+        icon: 'settings',
+        items: [
+          {
+            title: `Site Oficial — ${raw.name}`,
+            desc: 'Todos os cursos, informações e matrículas',
+            url: raw.url,
+            icon: 'globe',
+            accent: ''
+          },
+          {
+            title: 'Matricule-se pelo WhatsApp',
+            desc: 'Fale com nossa equipe de consultores',
+            url: `https://api.whatsapp.com/send?phone=${defaultPhone}&text=${encodeURIComponent(`Olá! Tenho interesse nos cursos da Inspirar ${raw.name}`)}`,
+            icon: 'whatsapp',
+            accent: 'green'
+          }
+        ]
+      }
+    ];
+
+    // Handle regional test link: ONLY for Sul region
+    if (raw.region === 'Sul') {
+      const acessoRapido = sections.find(s => s.id === 'acesso_rapido');
+      if (acessoRapido && Array.isArray(acessoRapido.items)) {
+        if (!acessoRapido.items.some(it => it.url && it.url.includes('youtube.com'))) {
+          acessoRapido.items.push(YOUTUBE_TEST_ITEM);
         }
-      ]
+      }
+    } else {
+      // Ensure non-Sul units do not have any youtube test link
+      sections.forEach(s => {
+        if (Array.isArray(s.items)) {
+          s.items = s.items.filter(it => !it.url || !it.url.includes('youtube.com'));
+        }
+      });
+    }
+
+    const unitObj = {
+      slug: raw.slug,
+      name: raw.name,
+      state: raw.state,
+      stateName: raw.stateName,
+      region: raw.region,
+      badge: 'Unidade Oficial',
+      bio: existing ? existing.bio : `Referência no ensino da área da Saúde e Pós-graduação. Cursos, especializações e extensão em ${raw.name} (${raw.state}).`,
+      address: raw.address,
+      fullAddress: existing ? (existing.fullAddress || `${raw.address}, ${raw.name} — ${raw.state}`) : `${raw.address}, ${raw.name} — ${raw.state}`,
+      director: existing ? existing.director : `Coordenação Regional Inspirar — ${raw.name}`,
+      mapsUrl: existing ? existing.mapsUrl : `https://maps.google.com/?q=Faculdade+Inspirar+${encodeURIComponent(raw.name)}`,
+      coverImage,
+      logoImage: 'assets/images/Logo branca - horizontal.png',
+      whatsapp: existing ? existing.whatsapp : defaultPhone,
+      whatsappDisplay: existing ? existing.whatsappDisplay : defaultPhoneDisplay,
+      whatsappDefaultMessage: `Olá! Tenho interesse em saber mais sobre os cursos da Faculdade Inspirar - ${raw.name}`,
+      instagram: raw.instagram || (existing ? existing.instagram : 'https://www.instagram.com/faculdadeinspirar/'),
+      instagramUser: raw.instagramUser || (existing ? existing.instagramUser : '@faculdadeinspirar'),
+      website: raw.url,
+      sympla: 'https://www.sympla.com.br/produtor/faculdadeinspirar',
+      gallery,
+      sections
     };
 
     return unitObj;

@@ -146,6 +146,15 @@
               "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20nos%20cursos%20da%20Inspirar%20Balne%C3%A1rio%20Cambori%C3%BA",
               "icon": "whatsapp",
               "accent": "green"
+            },
+            {
+              "title": "Link Teste — YouTube",
+              "desc": "Acesso ao canal do YouTube (exclusivo unidades da Região Sul)",
+              "tag": "Região Sul",
+              "badge": "Teste",
+              "url": "https://www.youtube.com/",
+              "icon": "youtube",
+              "accent": "red"
             }
           ]
         }
@@ -639,6 +648,15 @@
               "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20nos%20cursos%20da%20Inspirar%20Blumenau",
               "icon": "whatsapp",
               "accent": "green"
+            },
+            {
+              "title": "Link Teste — YouTube",
+              "desc": "Acesso ao canal do YouTube (exclusivo unidades da Região Sul)",
+              "tag": "Região Sul",
+              "badge": "Teste",
+              "url": "https://www.youtube.com/",
+              "icon": "youtube",
+              "accent": "red"
             }
           ]
         }
@@ -1345,6 +1363,15 @@
               "url": "https://api.whatsapp.com/send?phone=558006022828&text=Olá!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Curitiba",
               "icon": "whatsapp",
               "accent": "green"
+            },
+            {
+              "title": "Link Teste — YouTube",
+              "desc": "Acesso ao canal do YouTube (exclusivo unidades da Região Sul)",
+              "tag": "Região Sul",
+              "badge": "Teste",
+              "url": "https://www.youtube.com/",
+              "icon": "youtube",
+              "accent": "red"
             }
           ]
         }
@@ -1622,6 +1649,15 @@
               "url": "https://api.whatsapp.com/send?phone=5548988442828&text=Olá!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Florianópolis",
               "icon": "whatsapp",
               "accent": "green"
+            },
+            {
+              "title": "Link Teste — YouTube",
+              "desc": "Acesso ao canal do YouTube (exclusivo unidades da Região Sul)",
+              "tag": "Região Sul",
+              "badge": "Teste",
+              "url": "https://www.youtube.com/",
+              "icon": "youtube",
+              "accent": "red"
             }
           ]
         }
@@ -2240,6 +2276,15 @@
               "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20nos%20cursos%20da%20Inspirar%20Joinville",
               "icon": "whatsapp",
               "accent": "green"
+            },
+            {
+              "title": "Link Teste — YouTube",
+              "desc": "Acesso ao canal do YouTube (exclusivo unidades da Região Sul)",
+              "tag": "Região Sul",
+              "badge": "Teste",
+              "url": "https://www.youtube.com/",
+              "icon": "youtube",
+              "accent": "red"
             }
           ]
         }
@@ -2378,6 +2423,15 @@
               "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20nos%20cursos%20da%20Inspirar%20Londrina",
               "icon": "whatsapp",
               "accent": "green"
+            },
+            {
+              "title": "Link Teste — YouTube",
+              "desc": "Acesso ao canal do YouTube (exclusivo unidades da Região Sul)",
+              "tag": "Região Sul",
+              "badge": "Teste",
+              "url": "https://www.youtube.com/",
+              "icon": "youtube",
+              "accent": "red"
             }
           ]
         }
@@ -2870,6 +2924,15 @@
               "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20nos%20cursos%20da%20Inspirar%20Porto%20Alegre",
               "icon": "whatsapp",
               "accent": "green"
+            },
+            {
+              "title": "Link Teste — YouTube",
+              "desc": "Acesso ao canal do YouTube (exclusivo unidades da Região Sul)",
+              "tag": "Região Sul",
+              "badge": "Teste",
+              "url": "https://www.youtube.com/",
+              "icon": "youtube",
+              "accent": "red"
             }
           ]
         }
