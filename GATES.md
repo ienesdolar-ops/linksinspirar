@@ -32,16 +32,17 @@
 - CHECK: `node scripts/check-links.js --dry-run`
 - EXPECT: `LINK CHECKER VALIDATION PASSED` (exit 0)
 
-## Gate 6: Dedicated Instagram Profiles (37 Unidades)
-- All 37 units have their verified Instagram URL and handle mapped.
-- 33 regional units have dedicated local accounts (e.g. `@inspirar_curitiba`, `@inspirarbelohorizonte`, `@inspirarcampinas`, etc.).
-- 4 units without separate local handles (Brasília, Luanda, Maceió, Parauapebas) link directly to the verified institutional profile `@faculdadeinspirar`.
-- Each unit's HTML page (`[slug]/index.html`) displays its designated Instagram handle badge, quick action button, and footer link.
+## Gate 6: Dedicated Instagram Profiles (100% — 37/37 Unidades) & 30 Anos Branding
+- All 37 units have their verified, dedicated Instagram URL and handle mapped (including Brasília, Luanda, Maceió, and Parauapebas).
+- Every unit HTML page (`[slug]/index.html`) displays its designated Instagram handle pill in the Hero, quick action button, and footer link.
+- Portal do Aluno points directly to the active student login portal (`portaldoaluno.inspirar.com.br/...`).
+- Footer across the Hub and all 37 units updated with the official celebratory branding "30 Anos de Inspirar".
 - CHECK: `node scripts/verify-all.js`
-- EXPECT: `Gate 7: Dedicated Instagram Profiles (37 Units)... ✅ OK`
+- EXPECT: `Gate 7: Dedicated Instagram Profiles (37/37 Units) & 30 Anos Branding... ✅ OK`
 
 ## Gate 7: Complete End-to-End Verification Suite
 - Comprehensive test `scripts/verify-all.js` validates that all 37 unit index.html files exist, are properly structured, Hub contains all 37 units, and all gates pass.
 - CHECK: `node scripts/verify-all.js`
 - EXPECT: `ALL VERIFICATIONS PASSED (37 units)` (exit 0)
+
 

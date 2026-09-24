@@ -313,11 +313,18 @@ function generateUnitHtml(unit, data) {
       <div class="footer-info">
         <div class="footer-director">${unit.director || 'Direção Regional Faculdade Inspirar'}</div>
         <div class="footer-address">${unit.fullAddress || unit.address}</div>
+        <div class="footer-anniversary">
+          <span class="footer-anniversary-spark"></span>
+          30 Anos de Inspirar
+          <span class="footer-anniversary-spark"></span>
+        </div>
       </div>
       <div class="footer-social-row">
         <a href="${unit.instagram}" target="_blank" rel="noopener" class="footer-social-link" title="${unit.instagramUser}">Instagram (${unit.instagramUser})</a>
         <span style="color:var(--text-dim);">•</span>
         <a href="${unit.website || data.project.globalSocial.website}" target="_blank" rel="noopener" class="footer-social-link">Site</a>
+        <span style="color:var(--text-dim);">•</span>
+        <a href="${data.project.globalSocial.portalAluno}" target="_blank" rel="noopener" class="footer-social-link">Portal do Aluno</a>
         <span style="color:var(--text-dim);">•</span>
         <a href="${unit.sympla || data.project.globalSocial.sympla}" target="_blank" rel="noopener" class="footer-social-link">Eventos</a>
         <span style="color:var(--text-dim);">•</span>
@@ -944,12 +951,19 @@ function generateHubHtml(data) {
       <img src="${logoPath}" alt="Logo Faculdade Inspirar" class="footer-logo">
       <div class="footer-info">
         <div class="footer-director">Faculdade Inspirar • Referência Nacional na Saúde</div>
-        <div class="footer-address">Mais de 25 anos transformando carreiras na saúde, estética e gestão.</div>
+        <div class="footer-address">30 anos de Inspirar transformando vidas, carreiras e o ensino na área da saúde.</div>
+        <div class="footer-anniversary">
+          <span class="footer-anniversary-spark"></span>
+          30 Anos de Inspirar
+          <span class="footer-anniversary-spark"></span>
+        </div>
       </div>
       <div class="footer-social-row">
         <a href="${data.project.globalSocial.instagram}" target="_blank" rel="noopener" class="footer-social-link">Instagram Nacional</a>
         <span style="color:var(--text-dim);">•</span>
         <a href="${data.project.globalSocial.website}" target="_blank" rel="noopener" class="footer-social-link">Site Oficial</a>
+        <span style="color:var(--text-dim);">•</span>
+        <a href="${data.project.globalSocial.portalAluno}" target="_blank" rel="noopener" class="footer-social-link">Portal do Aluno</a>
         <span style="color:var(--text-dim);">•</span>
         <a href="${data.project.globalSocial.sympla}" target="_blank" rel="noopener" class="footer-social-link">Eventos</a>
       </div>

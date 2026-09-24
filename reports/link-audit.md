@@ -1,6 +1,6 @@
 # Relatório de Verificação de Links — Bio no Link
 
-- **Data**: 24/09/2026, 12:08:33
+- **Data**: 24/09/2026, 13:54:57
 - **Modo**: Validação Estrutural (Dry Run)
 - **Total de Links Verificados**: 336
 
@@ -9,7 +9,7 @@
 | Institucional | instagram | [https://www.instagram.com/faculdadeinspirar/...](https://www.instagram.com/faculdadeinspirar/) | ✅ OK |
 | Institucional | website | [https://www.inspirar.com.br/...](https://www.inspirar.com.br/) | ✅ OK |
 | Institucional | sympla | [https://www.sympla.com.br/produtor/faculdadei...](https://www.sympla.com.br/produtor/faculdadeinspirar) | ✅ OK |
-| Institucional | portalAluno | [https://portal.faculdadeinspirar.com.br/...](https://portal.faculdadeinspirar.com.br/) | ✅ OK |
+| Institucional | portalAluno | [https://portaldoaluno.inspirar.com.br/projeto...](https://portaldoaluno.inspirar.com.br/projetos/nucleo/uteis/login.php?&tid=0&lid=0&pid=24&arq_ret=R5QT1WSRQBMCVQVPFFQSF99MCT5RT44Q9WRW0RBM0FMM5QQ4) | ✅ OK |
 | Institucional | whatsappCentral | [https://api.whatsapp.com/send?phone=558006022...](https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20a%20Faculdade%20Inspirar) | ✅ OK |
 | Balneário Camboriú | website | [https://www.inspirar.com.br/sc-balneario-camb...](https://www.inspirar.com.br/sc-balneario-camboriu/) | ✅ OK |
 | Balneário Camboriú | instagram | [https://www.instagram.com/inspirarbalcamboriu...](https://www.instagram.com/inspirarbalcamboriu/) | ✅ OK |
@@ -56,7 +56,7 @@
 | Blumenau | Site Oficial — Blumenau | [https://www.inspirar.com.br/sc-blumenau/...](https://www.inspirar.com.br/sc-blumenau/) | ✅ OK |
 | Blumenau | Matricule-se pelo WhatsApp | [https://api.whatsapp.com/send?phone=558006022...](https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20nos%20cursos%20da%20Inspirar%20Blumenau) | ✅ OK |
 | Brasília | website | [https://www.inspirar.com.br/df-distrito-feder...](https://www.inspirar.com.br/df-distrito-federal-brasilia/) | ✅ OK |
-| Brasília | instagram | [https://www.instagram.com/faculdadeinspirar/...](https://www.instagram.com/faculdadeinspirar/) | ✅ OK |
+| Brasília | instagram | [https://www.instagram.com/inspirar_brasilia/...](https://www.instagram.com/inspirar_brasilia/) | ✅ OK |
 | Brasília | mapsUrl | [https://maps.google.com/?q=Faculdade+Inspirar...](https://maps.google.com/?q=Faculdade+Inspirar+Bras%C3%ADlia) | ✅ OK |
 | Brasília | Fisioterapia em Terapia Intensiva | [https://faculdadeinspirar.com.br/semi-intensi...](https://faculdadeinspirar.com.br/semi-intensiva/) | ✅ OK |
 | Brasília | Estética Avançada e Cosmetologia | [https://faculdadeinspirar.com.br/...](https://faculdadeinspirar.com.br/) | ✅ OK |
@@ -172,7 +172,7 @@
 | Londrina | Site Oficial — Londrina | [https://www.inspirar.com.br/pr-londrina/...](https://www.inspirar.com.br/pr-londrina/) | ✅ OK |
 | Londrina | Matricule-se pelo WhatsApp | [https://api.whatsapp.com/send?phone=558006022...](https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20nos%20cursos%20da%20Inspirar%20Londrina) | ✅ OK |
 | Luanda | website | [https://www.inspirar.com.br/ao-luanda/...](https://www.inspirar.com.br/ao-luanda/) | ✅ OK |
-| Luanda | instagram | [https://www.instagram.com/faculdadeinspirar/...](https://www.instagram.com/faculdadeinspirar/) | ✅ OK |
+| Luanda | instagram | [https://www.instagram.com/inspirarangola/...](https://www.instagram.com/inspirarangola/) | ✅ OK |
 | Luanda | mapsUrl | [https://maps.google.com/?q=Faculdade+Inspirar...](https://maps.google.com/?q=Faculdade+Inspirar+Luanda) | ✅ OK |
 | Luanda | Fisioterapia em Terapia Intensiva | [https://faculdadeinspirar.com.br/semi-intensi...](https://faculdadeinspirar.com.br/semi-intensiva/) | ✅ OK |
 | Luanda | Estética Avançada e Cosmetologia | [https://faculdadeinspirar.com.br/...](https://faculdadeinspirar.com.br/) | ✅ OK |
@@ -181,7 +181,7 @@
 | Luanda | Site Oficial — Luanda | [https://www.inspirar.com.br/ao-luanda/...](https://www.inspirar.com.br/ao-luanda/) | ✅ OK |
 | Luanda | Matricule-se pelo WhatsApp | [https://api.whatsapp.com/send?phone=558006022...](https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20nos%20cursos%20da%20Inspirar%20Luanda) | ✅ OK |
 | Maceió | website | [https://www.inspirar.com.br/al-maceio-slim/...](https://www.inspirar.com.br/al-maceio-slim/) | ✅ OK |
-| Maceió | instagram | [https://www.instagram.com/faculdadeinspirar/...](https://www.instagram.com/faculdadeinspirar/) | ✅ OK |
+| Maceió | instagram | [https://www.instagram.com/faculdadeinspirarma...](https://www.instagram.com/faculdadeinspirarmaceio/) | ✅ OK |
 | Maceió | mapsUrl | [https://maps.google.com/?q=Faculdade+Inspirar...](https://maps.google.com/?q=Faculdade+Inspirar+Macei%C3%B3) | ✅ OK |
 | Maceió | Fisioterapia em Terapia Intensiva | [https://faculdadeinspirar.com.br/semi-intensi...](https://faculdadeinspirar.com.br/semi-intensiva/) | ✅ OK |
 | Maceió | Estética Avançada e Cosmetologia | [https://faculdadeinspirar.com.br/...](https://faculdadeinspirar.com.br/) | ✅ OK |
@@ -190,7 +190,7 @@
 | Maceió | Site Oficial — Maceió | [https://www.inspirar.com.br/al-maceio-slim/...](https://www.inspirar.com.br/al-maceio-slim/) | ✅ OK |
 | Maceió | Matricule-se pelo WhatsApp | [https://api.whatsapp.com/send?phone=558006022...](https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20nos%20cursos%20da%20Inspirar%20Macei%C3%B3) | ✅ OK |
 | Parauapebas | website | [https://www.inspirar.com.br/pa-parauapebas-sl...](https://www.inspirar.com.br/pa-parauapebas-slim/) | ✅ OK |
-| Parauapebas | instagram | [https://www.instagram.com/faculdadeinspirar/...](https://www.instagram.com/faculdadeinspirar/) | ✅ OK |
+| Parauapebas | instagram | [https://www.instagram.com/inspirarparauapebas...](https://www.instagram.com/inspirarparauapebas/) | ✅ OK |
 | Parauapebas | mapsUrl | [https://maps.google.com/?q=Faculdade+Inspirar...](https://maps.google.com/?q=Faculdade+Inspirar+Parauapebas) | ✅ OK |
 | Parauapebas | Fisioterapia em Terapia Intensiva | [https://faculdadeinspirar.com.br/semi-intensi...](https://faculdadeinspirar.com.br/semi-intensiva/) | ✅ OK |
 | Parauapebas | Estética Avançada e Cosmetologia | [https://faculdadeinspirar.com.br/...](https://faculdadeinspirar.com.br/) | ✅ OK |

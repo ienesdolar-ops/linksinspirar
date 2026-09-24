@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-24T15:08:33.367Z",
+  "timestamp": "2026-09-24T16:54:57.071Z",
   "total": 336,
   "dryRun": true,
   "results": [
@@ -31,7 +31,7 @@
       "source": "global",
       "unit": "Institucional",
       "field": "portalAluno",
-      "url": "https://portal.faculdadeinspirar.com.br/",
+      "url": "https://portaldoaluno.inspirar.com.br/projetos/nucleo/uteis/login.php?&tid=0&lid=0&pid=24&arq_ret=R5QT1WSRQBMCVQVPFFQSF99MCT5RT44Q9WRW0RBM0FMM5QQ4",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -407,7 +407,7 @@
       "source": "unit_meta",
       "unit": "Brasília",
       "field": "instagram",
-      "url": "https://www.instagram.com/faculdadeinspirar/",
+      "url": "https://www.instagram.com/inspirar_brasilia/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -1335,7 +1335,7 @@
       "source": "unit_meta",
       "unit": "Luanda",
       "field": "instagram",
-      "url": "https://www.instagram.com/faculdadeinspirar/",
+      "url": "https://www.instagram.com/inspirarangola/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -1407,7 +1407,7 @@
       "source": "unit_meta",
       "unit": "Maceió",
       "field": "instagram",
-      "url": "https://www.instagram.com/faculdadeinspirar/",
+      "url": "https://www.instagram.com/faculdadeinspirarmaceio/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -1479,7 +1479,7 @@
       "source": "unit_meta",
       "unit": "Parauapebas",
       "field": "instagram",
-      "url": "https://www.instagram.com/faculdadeinspirar/",
+      "url": "https://www.instagram.com/inspirarparauapebas/",
       "status": "FORMAT_OK",
       "ok": true
     },

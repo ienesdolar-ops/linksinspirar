@@ -97,31 +97,55 @@ runStep('Gate 6: Broken Link Checker (Dry Run)', () => {
   assert(fs.existsSync(path.join(ROOT_DIR, 'reports', 'link-audit.md')), 'Report md missing');
 });
 
-// 7. Dedicated Instagram Profiles Verification
-runStep('Gate 7: Dedicated Instagram Profiles (37 Units)', () => {
+// 7. Dedicated Instagram Profiles & 30 Anos Verification
+runStep('Gate 7: Dedicated Instagram Profiles (37/37 Units) & 30 Anos Branding', () => {
   const data = JSON.parse(fs.readFileSync(DATA_FILE, 'utf8'));
   assert.strictEqual(data.units.length, 37, 'Must have 37 units');
+
+  const expectedPortal = 'https://portaldoaluno.inspirar.com.br/projetos/nucleo/uteis/login.php?&tid=0&lid=0&pid=24&arq_ret=R5QT1WSRQBMCVQVPFFQSF99MCT5RT44Q9WRW0RBM0FMM5QQ4';
+  assert.strictEqual(data.project.globalSocial.portalAluno, expectedPortal, 'Portal do Aluno URL must match requested login portal');
+
+  // Verify the 4 specifically updated Instagrams
+  const bsb = data.units.find(u => u.slug === 'brasilia');
+  assert.strictEqual(bsb.instagram, 'https://www.instagram.com/inspirar_brasilia/');
+  assert.strictEqual(bsb.instagramUser, '@inspirar_brasilia');
+
+  const luanda = data.units.find(u => u.slug === 'luanda');
+  assert.strictEqual(luanda.instagram, 'https://www.instagram.com/inspirarangola/');
+  assert.strictEqual(luanda.instagramUser, '@inspirarangola');
+
+  const maceio = data.units.find(u => u.slug === 'maceio');
+  assert.strictEqual(maceio.instagram, 'https://www.instagram.com/faculdadeinspirarmaceio/');
+  assert.strictEqual(maceio.instagramUser, '@faculdadeinspirarmaceio');
+
+  const parauapebas = data.units.find(u => u.slug === 'parauapebas');
+  assert.strictEqual(parauapebas.instagram, 'https://www.instagram.com/inspirarparauapebas/');
+  assert.strictEqual(parauapebas.instagramUser, '@inspirarparauapebas');
 
   let dedicatedCount = 0;
   data.units.forEach(unit => {
     assert(unit.instagram && unit.instagram.includes('instagram.com'), `Unit ${unit.slug} missing instagram URL`);
     assert(unit.instagramUser && unit.instagramUser.startsWith('@'), `Unit ${unit.slug} missing instagram handle`);
 
-    // Verify unit index.html has its designated instagram link and handle
+    // Verify unit index.html has its designated instagram link, handle, and 30 anos seal
     const unitHtml = fs.readFileSync(path.join(ROOT_DIR, unit.slug, 'index.html'), 'utf8');
     assert(unitHtml.includes(unit.instagram), `Unit ${unit.slug} HTML missing instagram link: ${unit.instagram}`);
     assert(unitHtml.includes(unit.instagramUser), `Unit ${unit.slug} HTML missing instagram handle: ${unit.instagramUser}`);
+    assert(unitHtml.includes('30 Anos de Inspirar'), `Unit ${unit.slug} HTML missing 30 Anos de Inspirar in footer`);
+    assert(unitHtml.includes(expectedPortal), `Unit ${unit.slug} HTML missing Portal do Aluno in footer`);
 
     if (unit.instagramUser !== '@faculdadeinspirar') {
       dedicatedCount++;
     }
   });
 
-  // Exactly 33 units have regional dedicated accounts; 4 institutional fallbacks (Brasília, Luanda, Maceió, Parauapebas)
-  assert.strictEqual(dedicatedCount, 33, `Expected 33 dedicated unit Instagrams, got ${dedicatedCount}`);
+  // Exactly 37 out of 37 units now have their own dedicated accounts!
+  assert.strictEqual(dedicatedCount, 37, `Expected all 37 dedicated unit Instagrams, got ${dedicatedCount}`);
 
-  // Verify Hub index.html contains all 37 unit Instagram links
+  // Verify Hub index.html contains all 37 unit Instagram links and 30 Anos branding
   const hubHtml = fs.readFileSync(path.join(ROOT_DIR, 'index.html'), 'utf8');
+  assert(hubHtml.includes('30 Anos de Inspirar'), 'Hub HTML missing 30 Anos de Inspirar in footer');
+  assert(hubHtml.includes(expectedPortal), 'Hub HTML missing Portal do Aluno URL');
   data.units.forEach(unit => {
     assert(hubHtml.includes(unit.instagram), `Hub HTML missing instagram link for ${unit.slug}`);
   });
