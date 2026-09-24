@@ -247,7 +247,15 @@ function generateUnitHtml(unit, data) {
 
   <!-- Ambient Background Orbs -->
   <div class="ambient-glow ambient-glow-1"></div>
-  <div class="ambient-glow ambient-glow-2"></div>
+  <!-- ── V2 COMPARISON BAR ── -->
+  <aside class="v2-comparison-bar" aria-label="Seletor de Versão">
+    <span class="v2-pill-tag">
+      Versão 1 (Original)
+    </span>
+    <a href="../v2/${unit.slug}/index.html" class="v2-pill-switch-btn" title="Comparar com a Versão 2 (Impeccable Craft)">
+      Experimentar Versão 2 ✨ →
+    </a>
+  </aside>
 
   <!-- ========== MAIN CONTAINER ========== -->
   <main class="app-container">
@@ -886,6 +894,16 @@ function generateHubHtml(data) {
   <!-- Ambient Background Orbs -->
   <div class="ambient-glow ambient-glow-1"></div>
   <div class="ambient-glow ambient-glow-2"></div>
+
+  <!-- ── V2 COMPARISON BAR ── -->
+  <aside class="v2-comparison-bar" aria-label="Seletor de Versão">
+    <span class="v2-pill-tag">
+      Versão 1 (Original)
+    </span>
+    <a href="v2/index.html" class="v2-pill-switch-btn" title="Comparar com o Hub Versão 2">
+      Experimentar Versão 2 ✨ →
+    </a>
+  </aside>
 
   <!-- ========== MAIN CONTAINER ========== -->
   <main class="app-container">
