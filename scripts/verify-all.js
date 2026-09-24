@@ -222,7 +222,12 @@ runStep('Gate 9: Browser Tab Icon (Favicon with Símbolo Branco)', () => {
   });
 });
 
+// 10. Schema.org JSON-LD Structured Data Validation
+runStep('Gate 10: Schema.org JSON-LD Structured Data (Hub + 37 Units)', () => {
+  execSync('node scripts/validate-schema.js', { cwd: ROOT_DIR, stdio: 'pipe' });
+});
+
 console.log('\n====================================================');
-console.log('ALL VERIFICATIONS PASSED (37 units)');
+console.log('ALL VERIFICATIONS PASSED (10 Gates / 37 units)');
 console.log('====================================================');
 process.exit(0);

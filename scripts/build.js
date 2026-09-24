@@ -86,8 +86,155 @@ function isEventActive(item, referenceDate = TODAY) {
 }
 
 /**
- * Builds an individual unit's HTML page.
+ * Generates Schema.org JSON-LD structured data for an individual unit.
  */
+function generateUnitJsonLd(unit) {
+  const courseItems = [];
+  if (Array.isArray(unit.sections)) {
+    unit.sections.forEach(sec => {
+      if (sec.id === 'cursos' && Array.isArray(sec.items)) {
+        sec.items.forEach(item => {
+          if (!item.url.includes('youtube.com') && !item.url.includes('whatsapp.com')) {
+            courseItems.push({
+              "@type": "Course",
+              "name": item.title,
+              "description": item.desc ? item.desc.replace(/\s*—\s*/g, ' • ') : `${item.title} — Faculdade Inspirar ${unit.name}`,
+              "provider": {
+                "@id": `https://linksinspirar.vercel.app/${unit.slug}/#business`
+              },
+              "url": item.url
+            });
+          }
+        });
+      }
+    });
+  }
+
+  const sameAsList = [unit.instagram];
+  if (unit.website && !sameAsList.includes(unit.website)) {
+    sameAsList.push(unit.website);
+  }
+
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": ["LocalBusiness", "EducationalOrganization"],
+        "@id": `https://linksinspirar.vercel.app/${unit.slug}/#business`,
+        "name": `Faculdade Inspirar — ${unit.name}`,
+        "description": unit.bio,
+        "url": `https://linksinspirar.vercel.app/${unit.slug}/`,
+        "telephone": "+55-800-602-2828",
+        "parentOrganization": {
+          "@id": "https://linksinspirar.vercel.app/#organization"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": unit.fullAddress || unit.address,
+          "addressLocality": unit.name,
+          "addressRegion": unit.state,
+          "addressCountry": unit.slug === 'luanda' ? 'AO' : 'BR'
+        },
+        "sameAs": sameAsList
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Unidades Inspirar",
+            "item": "https://linksinspirar.vercel.app/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": unit.name,
+            "item": `https://linksinspirar.vercel.app/${unit.slug}/`
+          }
+        ]
+      },
+      ...courseItems
+    ]
+  };
+}
+
+/**
+ * Generates Schema.org JSON-LD structured data for the Central Hub.
+ */
+function generateHubJsonLd(data) {
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://linksinspirar.vercel.app/#organization",
+        "name": "Faculdade Inspirar",
+        "url": "https://linksinspirar.vercel.app/",
+        "logo": "https://linksinspirar.vercel.app/assets/images/Logo branca - horizontal.png",
+        "sameAs": [
+          "https://www.instagram.com/faculdadeinspirar/",
+          "https://www.facebook.com/faculdadeinspirar",
+          "https://www.youtube.com/@FaculdadeInspirarOficial",
+          "https://www.linkedin.com/school/faculdade-inspirar/"
+        ],
+        "telephone": "+55-800-602-2828",
+        "description": "Rede de ensino superior e pós-graduação com foco em Saúde, Bem-Estar e Gestão, presente em todas as regiões do Brasil."
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://linksinspirar.vercel.app/#website",
+        "url": "https://linksinspirar.vercel.app/",
+        "name": "Bio no Link — Faculdade Inspirar",
+        "publisher": {
+          "@id": "https://linksinspirar.vercel.app/#organization"
+        },
+        "inLanguage": "pt-BR"
+      },
+      {
+        "@type": "Service",
+        "@id": "https://linksinspirar.vercel.app/#graduacao",
+        "name": "Cursos de Graduação",
+        "provider": {
+          "@id": "https://linksinspirar.vercel.app/#organization"
+        },
+        "serviceType": "Ensino Superior",
+        "description": "Graduação presencial e digital com foco em formação prática e excelência no mercado da saúde."
+      },
+      {
+        "@type": "Service",
+        "@id": "https://linksinspirar.vercel.app/#pos-graduacao",
+        "name": "Cursos de Pós-Graduação e MBA",
+        "provider": {
+          "@id": "https://linksinspirar.vercel.app/#organization"
+        },
+        "serviceType": "Especialização Lato Sensu",
+        "description": "Programas de especialização e MBA nas áreas de Fisioterapia, Odontologia, Medicina, Enfermagem e Gestão em Saúde."
+      },
+      {
+        "@type": "Service",
+        "@id": "https://linksinspirar.vercel.app/#extensao",
+        "name": "Cursos de Extensão e Aperfeiçoamento",
+        "provider": {
+          "@id": "https://linksinspirar.vercel.app/#organization"
+        },
+        "serviceType": "Educação Continuada",
+        "description": "Cursos de curta duração e aperfeiçoamento profissional com práticas clínicas intensivas."
+      },
+      {
+        "@type": "Service",
+        "@id": "https://linksinspirar.vercel.app/#eventos",
+        "name": "Congressos, Simpósios e Jornadas Acadêmicas",
+        "provider": {
+          "@id": "https://linksinspirar.vercel.app/#organization"
+        },
+        "serviceType": "Eventos Científicos",
+        "description": "Eventos e congressos científicos nas áreas de saúde e bem-estar para alunos e comunidade profissional."
+      }
+    ]
+  };
+}
+
 /**
  * Builds an individual unit's HTML page (Versão 2 — Impeccable Craft Edition).
  * - Símbolo branco icon in hero profile avatar
@@ -247,6 +394,11 @@ function generateUnitHtml(unit, data) {
   <link rel="icon" type="image/png" href="${faviconPath}">
   <link rel="shortcut icon" type="image/png" href="${faviconPath}">
   <link rel="apple-touch-icon" href="${faviconPath}">
+
+  <!-- Schema.org JSON-LD Structured Data -->
+  <script type="application/ld+json">
+${JSON.stringify(generateUnitJsonLd(unit), null, 2)}
+  </script>
 
   <!-- Stylesheet -->
   <link rel="stylesheet" href="${cssPath}">
@@ -595,6 +747,11 @@ function generateHubHtml(data) {
   <link rel="icon" type="image/png" href="${faviconPath}">
   <link rel="shortcut icon" type="image/png" href="${faviconPath}">
   <link rel="apple-touch-icon" href="${faviconPath}">
+
+  <!-- Schema.org JSON-LD Structured Data (Hub) -->
+  <script type="application/ld+json">
+${JSON.stringify(generateHubJsonLd(data), null, 2)}
+  </script>
 
   <!-- Stylesheet -->
   <link rel="stylesheet" href="${cssPath}">
