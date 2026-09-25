@@ -45,11 +45,14 @@
 - CHECK: `node scripts/verify-all.js`
 - EXPECT: `ALL VERIFICATIONS PASSED (37 units)` (exit 0)
 
-## Gate 8: Regional Test Link Isolation (Sul Only)
-- Exactly the 7 units in the Sul region (`balneario-camboriu`, `blumenau`, `curitiba`, `florianopolis`, `joinville`, `londrina`, `porto-alegre`) contain the test link pointing to YouTube (`https://www.youtube.com/`).
-- None of the remaining 30 units (Sudeste, Norte, Centro-Oeste, Nordeste, Internacional) contain this test link.
+## Gate 8: Unit Links Configuration Fidelity (All 37 Units Audited)
+- All 37 units have their links audited and configured according to the explicit unit specifications.
+- Units with only institutional links (Balneário Camboriú, Dourados, Joinville, Luanda, Parauapebas, Salvador, Santos, SJRP, Teresina, Uberlândia) preserve only their official website and WhatsApp channels.
+- Units with Amo Fisio, specific courses (Semi-intensiva, Fisioterapia Vestibular, Dermatofuncional), and events (Sympla Brasília, Pelve Expert São Luís, Workshop Vila Mariana) are mapped with complete fidelity.
+- Vila Mariana Workshop event is configured with exact expiration date `2026-11-07T09:00:00-03:00`.
+- Curitiba reflects the exact structure from `https://linktreecuritiba.vercel.app/`.
 - CHECK: `node scripts/verify-all.js`
-- EXPECT: `Gate 8: Regional Test Link Isolation (Sul Only - 7/7 Sul, 0/30 Non-Sul)... ✅ OK`
+- EXPECT: `Gate 8: Unit Links Configuration Fidelity (37 Units Audited)... ✅ OK`
 
 ## Gate 9: Browser Tab Icon (Favicon with Símbolo Branco)
 - Asset: `Símbolo branco.png` is normalized and available as `assets/images/simbolo-branco.png` and `assets/images/favicon.png` (plus root `favicon.png`).

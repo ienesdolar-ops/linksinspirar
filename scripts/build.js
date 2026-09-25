@@ -76,11 +76,16 @@ function getIconSvg(name) {
  * Checks if an event is currently active based on start and end dates.
  */
 function isEventActive(item, referenceDate = TODAY) {
-  if (item.startDate && item.startDate > referenceDate) {
-    return false; // Not yet started
+  if (item.startDate) {
+    const startStr = item.startDate.split('T')[0];
+    if (startStr > referenceDate) return false;
   }
-  if (item.endDate && item.endDate < referenceDate) {
-    return false; // Expired
+  if (item.endDate) {
+    if (item.endDate.includes('T')) {
+      if (new Date(item.endDate).getTime() < Date.now()) return false;
+    } else {
+      if (item.endDate < referenceDate) return false;
+    }
   }
   return true;
 }
@@ -657,14 +662,25 @@ ${JSON.stringify(generateUnitJsonLd(unit), null, 2)}
 
     /* Auto-expiring events */
     (function filterExpiredEvents() {
+      const now = Date.now();
       const nowStr = new Date().toISOString().split('T')[0];
       document.querySelectorAll('[data-end-date]').forEach(el => {
         const end = el.getAttribute('data-end-date');
-        if (end && end < nowStr) el.remove();
+        if (!end) return;
+        if (end.includes('T')) {
+          if (new Date(end).getTime() < now) el.remove();
+        } else if (end < nowStr) {
+          el.remove();
+        }
       });
       document.querySelectorAll('[data-start-date]').forEach(el => {
         const start = el.getAttribute('data-start-date');
-        if (start && start > nowStr) el.remove();
+        if (!start) return;
+        if (start.includes('T')) {
+          if (new Date(start).getTime() > now) el.remove();
+        } else if (start > nowStr) {
+          el.remove();
+        }
       });
     })();
   </script>

@@ -32,7 +32,7 @@ function validate() {
 
   console.log(`Found ${data.units.length} units configured.`);
   const slugs = new Set();
-  const dateRegex = /^\d{4}-\d{2}-\d{2}$/;
+  const dateRegex = /^\d{4}-\d{2}-\d{2}(T\d{2}:\d{2}(:\d{2})?([+-]\d{2}:\d{2}|Z)?)?$/;
 
   data.units.forEach((unit, idx) => {
     if (!unit.slug || typeof unit.slug !== 'string') {

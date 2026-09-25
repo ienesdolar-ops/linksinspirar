@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-09-24T21:52:01.157Z",
-  "total": 343,
+  "timestamp": "2026-09-25T13:09:11.637Z",
+  "total": 233,
   "dryRun": true,
   "results": [
     {
@@ -68,38 +68,6 @@
       "ok": true
     },
     {
-      "source": "Cursos & Pós-Graduação",
-      "unit": "Balneário Camboriú",
-      "field": "Fisioterapia em Terapia Intensiva",
-      "url": "https://faculdadeinspirar.com.br/semi-intensiva/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Cursos & Pós-Graduação",
-      "unit": "Balneário Camboriú",
-      "field": "Estética Avançada e Cosmetologia",
-      "url": "https://faculdadeinspirar.com.br/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Eventos",
-      "unit": "Balneário Camboriú",
-      "field": "Amo Fisio",
-      "url": "https://amofisio.vercel.app/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Eventos",
-      "unit": "Balneário Camboriú",
-      "field": "Congresso Internacional em Estética",
-      "url": "https://faculdadeinspirar.com.br/congresso-de-estetica/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
       "source": "Acesso Rápido",
       "unit": "Balneário Camboriú",
       "field": "Site Oficial — Balneário Camboriú",
@@ -111,15 +79,7 @@
       "source": "Acesso Rápido",
       "unit": "Balneário Camboriú",
       "field": "Matricule-se pelo WhatsApp",
-      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20nos%20cursos%20da%20Inspirar%20Balne%C3%A1rio%20Cambori%C3%BA",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Acesso Rápido",
-      "unit": "Balneário Camboriú",
-      "field": "Link Teste — YouTube",
-      "url": "https://www.youtube.com/",
+      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Balne%C3%A1rio%20Cambori%C3%BA",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -148,34 +108,10 @@
       "ok": true
     },
     {
-      "source": "Cursos & Pós-Graduação",
-      "unit": "Bauru",
-      "field": "Fisioterapia em Terapia Intensiva",
-      "url": "https://faculdadeinspirar.com.br/semi-intensiva/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Cursos & Pós-Graduação",
-      "unit": "Bauru",
-      "field": "Estética Avançada e Cosmetologia",
-      "url": "https://faculdadeinspirar.com.br/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
       "source": "Eventos",
       "unit": "Bauru",
       "field": "Amo Fisio",
       "url": "https://amofisio.vercel.app/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Eventos",
-      "unit": "Bauru",
-      "field": "Congresso Internacional em Estética",
-      "url": "https://faculdadeinspirar.com.br/congresso-de-estetica/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -191,7 +127,7 @@
       "source": "Acesso Rápido",
       "unit": "Bauru",
       "field": "Matricule-se pelo WhatsApp",
-      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20nos%20cursos%20da%20Inspirar%20Bauru",
+      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Bauru",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -220,33 +156,17 @@
       "ok": true
     },
     {
-      "source": "Cursos & Pós-Graduação",
+      "source": "Eventos",
       "unit": "Belém",
-      "field": "Fisioterapia em UTI & Reabilitação",
-      "url": "https://faculdadeinspirar.com.br/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Cursos & Pós-Graduação",
-      "unit": "Belém",
-      "field": "Estética Avançada e Cosmetologia",
-      "url": "https://faculdadeinspirar.com.br/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Eventos & Workshops",
-      "unit": "Belém",
-      "field": "Jornada de Fisioterapia Norte",
-      "url": "https://www.sympla.com.br/produtor/faculdadeinspirar",
+      "field": "Amo Fisio",
+      "url": "https://amofisio.vercel.app/",
       "status": "FORMAT_OK",
       "ok": true
     },
     {
       "source": "Acesso Rápido",
       "unit": "Belém",
-      "field": "Site Oficial — Unidade Belém",
+      "field": "Site Oficial — Belém",
       "url": "https://www.inspirar.com.br/pa-belem/",
       "status": "FORMAT_OK",
       "ok": true
@@ -254,8 +174,16 @@
     {
       "source": "Acesso Rápido",
       "unit": "Belém",
-      "field": "Fale com o Consultor de Belém",
-      "url": "https://api.whatsapp.com/send?phone=5591981112828&text=Olá!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Belém",
+      "field": "Matricule-se pelo WhatsApp",
+      "url": "https://api.whatsapp.com/send?phone=5591981112828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Bel%C3%A9m",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Acesso Rápido",
+      "unit": "Belém",
+      "field": "Linktree Oficial — Belém",
+      "url": "https://tr.ee/Yb2RHb61F2",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -284,34 +212,10 @@
       "ok": true
     },
     {
-      "source": "Cursos & Pós-Graduação",
-      "unit": "Belo Horizonte",
-      "field": "Fisioterapia em Terapia Intensiva",
-      "url": "https://faculdadeinspirar.com.br/semi-intensiva/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Cursos & Pós-Graduação",
-      "unit": "Belo Horizonte",
-      "field": "Estética Avançada e Cosmetologia",
-      "url": "https://faculdadeinspirar.com.br/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
       "source": "Eventos",
       "unit": "Belo Horizonte",
       "field": "Amo Fisio",
       "url": "https://amofisio.vercel.app/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Eventos",
-      "unit": "Belo Horizonte",
-      "field": "Congresso Internacional em Estética",
-      "url": "https://faculdadeinspirar.com.br/congresso-de-estetica/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -327,7 +231,7 @@
       "source": "Acesso Rápido",
       "unit": "Belo Horizonte",
       "field": "Matricule-se pelo WhatsApp",
-      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20nos%20cursos%20da%20Inspirar%20Belo%20Horizonte",
+      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Belo%20Horizonte",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -356,34 +260,10 @@
       "ok": true
     },
     {
-      "source": "Cursos & Pós-Graduação",
-      "unit": "Blumenau",
-      "field": "Fisioterapia em Terapia Intensiva",
-      "url": "https://faculdadeinspirar.com.br/semi-intensiva/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Cursos & Pós-Graduação",
-      "unit": "Blumenau",
-      "field": "Estética Avançada e Cosmetologia",
-      "url": "https://faculdadeinspirar.com.br/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
       "source": "Eventos",
       "unit": "Blumenau",
       "field": "Amo Fisio",
       "url": "https://amofisio.vercel.app/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Eventos",
-      "unit": "Blumenau",
-      "field": "Congresso Internacional em Estética",
-      "url": "https://faculdadeinspirar.com.br/congresso-de-estetica/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -399,15 +279,7 @@
       "source": "Acesso Rápido",
       "unit": "Blumenau",
       "field": "Matricule-se pelo WhatsApp",
-      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20nos%20cursos%20da%20Inspirar%20Blumenau",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Acesso Rápido",
-      "unit": "Blumenau",
-      "field": "Link Teste — YouTube",
-      "url": "https://www.youtube.com/",
+      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Blumenau",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -436,34 +308,10 @@
       "ok": true
     },
     {
-      "source": "Cursos & Pós-Graduação",
-      "unit": "Brasília",
-      "field": "Fisioterapia em Terapia Intensiva",
-      "url": "https://faculdadeinspirar.com.br/semi-intensiva/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Cursos & Pós-Graduação",
-      "unit": "Brasília",
-      "field": "Estética Avançada e Cosmetologia",
-      "url": "https://faculdadeinspirar.com.br/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
       "source": "Eventos",
       "unit": "Brasília",
-      "field": "Amo Fisio",
-      "url": "https://amofisio.vercel.app/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Eventos",
-      "unit": "Brasília",
-      "field": "Congresso Internacional em Estética",
-      "url": "https://faculdadeinspirar.com.br/congresso-de-estetica/",
+      "field": "I Simpósio de Acupuntura — Inspirar Brasília",
+      "url": "https://www.sympla.com.br/evento/i-simposio-de-acupuntura-da-faculdade-inspirar-brasilia/3565985?share_id=copiarlink",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -479,7 +327,7 @@
       "source": "Acesso Rápido",
       "unit": "Brasília",
       "field": "Matricule-se pelo WhatsApp",
-      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20nos%20cursos%20da%20Inspirar%20Bras%C3%ADlia",
+      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Bras%C3%ADlia",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -510,16 +358,8 @@
     {
       "source": "Cursos & Pós-Graduação",
       "unit": "Campinas",
-      "field": "Fisioterapia em Terapia Intensiva",
-      "url": "https://faculdadeinspirar.com.br/semi-intensiva/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Cursos & Pós-Graduação",
-      "unit": "Campinas",
-      "field": "Estética Avançada e Cosmetologia",
-      "url": "https://faculdadeinspirar.com.br/",
+      "field": "Fisioterapia Vestibular",
+      "url": "https://cursoinspirar.com.br/fisioterapia-vestibular/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAaccEPg8deK-5BrzIzDPxqUwdnLPmGw8kLXZQkXNC1och6NoiulA0KLY5hNnVQ_aem_PCcDNCxVijxPrcV-_UTP9Q",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -528,14 +368,6 @@
       "unit": "Campinas",
       "field": "Amo Fisio",
       "url": "https://amofisio.vercel.app/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Eventos",
-      "unit": "Campinas",
-      "field": "Congresso Internacional em Estética",
-      "url": "https://faculdadeinspirar.com.br/congresso-de-estetica/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -551,7 +383,7 @@
       "source": "Acesso Rápido",
       "unit": "Campinas",
       "field": "Matricule-se pelo WhatsApp",
-      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20nos%20cursos%20da%20Inspirar%20Campinas",
+      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Campinas",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -580,34 +412,10 @@
       "ok": true
     },
     {
-      "source": "Cursos & Pós-Graduação",
-      "unit": "Campo Grande",
-      "field": "Fisioterapia em Terapia Intensiva",
-      "url": "https://faculdadeinspirar.com.br/semi-intensiva/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Cursos & Pós-Graduação",
-      "unit": "Campo Grande",
-      "field": "Estética Avançada e Cosmetologia",
-      "url": "https://faculdadeinspirar.com.br/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
       "source": "Eventos",
       "unit": "Campo Grande",
       "field": "Amo Fisio",
       "url": "https://amofisio.vercel.app/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Eventos",
-      "unit": "Campo Grande",
-      "field": "Congresso Internacional em Estética",
-      "url": "https://faculdadeinspirar.com.br/congresso-de-estetica/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -623,7 +431,7 @@
       "source": "Acesso Rápido",
       "unit": "Campo Grande",
       "field": "Matricule-se pelo WhatsApp",
-      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20nos%20cursos%20da%20Inspirar%20Campo%20Grande",
+      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Campo%20Grande",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -652,34 +460,10 @@
       "ok": true
     },
     {
-      "source": "Cursos & Pós-Graduação",
-      "unit": "Cuiabá",
-      "field": "Fisioterapia em Terapia Intensiva",
-      "url": "https://faculdadeinspirar.com.br/semi-intensiva/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Cursos & Pós-Graduação",
-      "unit": "Cuiabá",
-      "field": "Estética Avançada e Cosmetologia",
-      "url": "https://faculdadeinspirar.com.br/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
       "source": "Eventos",
       "unit": "Cuiabá",
       "field": "Amo Fisio",
       "url": "https://amofisio.vercel.app/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Eventos",
-      "unit": "Cuiabá",
-      "field": "Congresso Internacional em Estética",
-      "url": "https://faculdadeinspirar.com.br/congresso-de-estetica/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -695,7 +479,15 @@
       "source": "Acesso Rápido",
       "unit": "Cuiabá",
       "field": "Matricule-se pelo WhatsApp",
-      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20nos%20cursos%20da%20Inspirar%20Cuiab%C3%A1",
+      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Cuiab%C3%A1",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Acesso Rápido",
+      "unit": "Cuiabá",
+      "field": "Atendimento via WhatsApp — Cuiabá",
+      "url": "https://api.whatsapp.com/send/?phone=%2B5565999572156&text&type=phone_number&app_absent=0&utm_source=ig",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -767,15 +559,7 @@
       "source": "Acesso Rápido",
       "unit": "Curitiba",
       "field": "Matricule-se pelo WhatsApp",
-      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Olá!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Curitiba",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Acesso Rápido",
-      "unit": "Curitiba",
-      "field": "Link Teste — YouTube",
-      "url": "https://www.youtube.com/",
+      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Curitiba",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -804,38 +588,6 @@
       "ok": true
     },
     {
-      "source": "Cursos & Pós-Graduação",
-      "unit": "Dourados",
-      "field": "Fisioterapia em Terapia Intensiva",
-      "url": "https://faculdadeinspirar.com.br/semi-intensiva/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Cursos & Pós-Graduação",
-      "unit": "Dourados",
-      "field": "Estética Avançada e Cosmetologia",
-      "url": "https://faculdadeinspirar.com.br/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Eventos",
-      "unit": "Dourados",
-      "field": "Amo Fisio",
-      "url": "https://amofisio.vercel.app/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Eventos",
-      "unit": "Dourados",
-      "field": "Congresso Internacional em Estética",
-      "url": "https://faculdadeinspirar.com.br/congresso-de-estetica/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
       "source": "Acesso Rápido",
       "unit": "Dourados",
       "field": "Site Oficial — Dourados",
@@ -847,7 +599,7 @@
       "source": "Acesso Rápido",
       "unit": "Dourados",
       "field": "Matricule-se pelo WhatsApp",
-      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20nos%20cursos%20da%20Inspirar%20Dourados",
+      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Dourados",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -878,23 +630,15 @@
     {
       "source": "Cursos & Pós-Graduação",
       "unit": "Florianópolis",
-      "field": "Osteopatia & Terapia Manual Avançada",
-      "url": "https://faculdadeinspirar.com.br/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Cursos & Pós-Graduação",
-      "unit": "Florianópolis",
-      "field": "Fisioterapia Pélvica & Saúde da Mulher",
-      "url": "https://faculdadeinspirar.com.br/",
+      "field": "Fisioterapia em Terapia Intensiva",
+      "url": "https://faculdadeinspirar.com.br/semi-intensiva/",
       "status": "FORMAT_OK",
       "ok": true
     },
     {
       "source": "Eventos",
       "unit": "Florianópolis",
-      "field": "Amo Fisio — Edição Sul",
+      "field": "Amo Fisio",
       "url": "https://amofisio.vercel.app/",
       "status": "FORMAT_OK",
       "ok": true
@@ -902,7 +646,7 @@
     {
       "source": "Acesso Rápido",
       "unit": "Florianópolis",
-      "field": "Site Oficial — Unidade Florianópolis",
+      "field": "Site Oficial — Florianópolis",
       "url": "https://www.inspirar.com.br/sc-florianopolis/",
       "status": "FORMAT_OK",
       "ok": true
@@ -910,16 +654,8 @@
     {
       "source": "Acesso Rápido",
       "unit": "Florianópolis",
-      "field": "Atendimento WhatsApp Florianópolis",
-      "url": "https://api.whatsapp.com/send?phone=5548988442828&text=Olá!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Florianópolis",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Acesso Rápido",
-      "unit": "Florianópolis",
-      "field": "Link Teste — YouTube",
-      "url": "https://www.youtube.com/",
+      "field": "Matricule-se pelo WhatsApp",
+      "url": "https://api.whatsapp.com/send?phone=5548988442828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Florian%C3%B3polis",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -956,26 +692,10 @@
       "ok": true
     },
     {
-      "source": "Cursos & Pós-Graduação",
-      "unit": "Fortaleza",
-      "field": "Estética Avançada e Cosmetologia",
-      "url": "https://faculdadeinspirar.com.br/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
       "source": "Eventos",
       "unit": "Fortaleza",
       "field": "Amo Fisio",
       "url": "https://amofisio.vercel.app/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Eventos",
-      "unit": "Fortaleza",
-      "field": "Congresso Internacional em Estética",
-      "url": "https://faculdadeinspirar.com.br/congresso-de-estetica/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -991,7 +711,7 @@
       "source": "Acesso Rápido",
       "unit": "Fortaleza",
       "field": "Matricule-se pelo WhatsApp",
-      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20nos%20cursos%20da%20Inspirar%20Fortaleza",
+      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Fortaleza",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -1020,34 +740,10 @@
       "ok": true
     },
     {
-      "source": "Cursos & Pós-Graduação",
-      "unit": "Goiânia",
-      "field": "Fisioterapia em Terapia Intensiva",
-      "url": "https://faculdadeinspirar.com.br/semi-intensiva/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Cursos & Pós-Graduação",
-      "unit": "Goiânia",
-      "field": "Estética Avançada e Cosmetologia",
-      "url": "https://faculdadeinspirar.com.br/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
       "source": "Eventos",
       "unit": "Goiânia",
       "field": "Amo Fisio",
       "url": "https://amofisio.vercel.app/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Eventos",
-      "unit": "Goiânia",
-      "field": "Congresso Internacional em Estética",
-      "url": "https://faculdadeinspirar.com.br/congresso-de-estetica/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -1063,7 +759,15 @@
       "source": "Acesso Rápido",
       "unit": "Goiânia",
       "field": "Matricule-se pelo WhatsApp",
-      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20nos%20cursos%20da%20Inspirar%20Goi%C3%A2nia",
+      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Goi%C3%A2nia",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Acesso Rápido",
+      "unit": "Goiânia",
+      "field": "Fale no WhatsApp — Goiânia",
+      "url": "https://api.whatsapp.com/send/?phone=5562999909917&text&type=phone_number&app_absent=0&utm_source=ig",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -1092,34 +796,10 @@
       "ok": true
     },
     {
-      "source": "Cursos & Pós-Graduação",
-      "unit": "Guarulhos",
-      "field": "Fisioterapia em Terapia Intensiva",
-      "url": "https://faculdadeinspirar.com.br/semi-intensiva/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Cursos & Pós-Graduação",
-      "unit": "Guarulhos",
-      "field": "Estética Avançada e Cosmetologia",
-      "url": "https://faculdadeinspirar.com.br/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
       "source": "Eventos",
       "unit": "Guarulhos",
       "field": "Amo Fisio",
       "url": "https://amofisio.vercel.app/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Eventos",
-      "unit": "Guarulhos",
-      "field": "Congresso Internacional em Estética",
-      "url": "https://faculdadeinspirar.com.br/congresso-de-estetica/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -1135,7 +815,7 @@
       "source": "Acesso Rápido",
       "unit": "Guarulhos",
       "field": "Matricule-se pelo WhatsApp",
-      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20nos%20cursos%20da%20Inspirar%20Guarulhos",
+      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Guarulhos",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -1172,30 +852,6 @@
       "ok": true
     },
     {
-      "source": "Cursos & Pós-Graduação",
-      "unit": "Ipatinga",
-      "field": "Estética Avançada e Cosmetologia",
-      "url": "https://faculdadeinspirar.com.br/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Eventos",
-      "unit": "Ipatinga",
-      "field": "Amo Fisio",
-      "url": "https://amofisio.vercel.app/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Eventos",
-      "unit": "Ipatinga",
-      "field": "Congresso Internacional em Estética",
-      "url": "https://faculdadeinspirar.com.br/congresso-de-estetica/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
       "source": "Acesso Rápido",
       "unit": "Ipatinga",
       "field": "Site Oficial — Ipatinga",
@@ -1207,7 +863,7 @@
       "source": "Acesso Rápido",
       "unit": "Ipatinga",
       "field": "Matricule-se pelo WhatsApp",
-      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20nos%20cursos%20da%20Inspirar%20Ipatinga",
+      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Ipatinga",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -1236,38 +892,6 @@
       "ok": true
     },
     {
-      "source": "Cursos & Pós-Graduação",
-      "unit": "Joinville",
-      "field": "Fisioterapia em Terapia Intensiva",
-      "url": "https://faculdadeinspirar.com.br/semi-intensiva/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Cursos & Pós-Graduação",
-      "unit": "Joinville",
-      "field": "Estética Avançada e Cosmetologia",
-      "url": "https://faculdadeinspirar.com.br/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Eventos",
-      "unit": "Joinville",
-      "field": "Amo Fisio",
-      "url": "https://amofisio.vercel.app/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Eventos",
-      "unit": "Joinville",
-      "field": "Congresso Internacional em Estética",
-      "url": "https://faculdadeinspirar.com.br/congresso-de-estetica/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
       "source": "Acesso Rápido",
       "unit": "Joinville",
       "field": "Site Oficial — Joinville",
@@ -1279,15 +903,7 @@
       "source": "Acesso Rápido",
       "unit": "Joinville",
       "field": "Matricule-se pelo WhatsApp",
-      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20nos%20cursos%20da%20Inspirar%20Joinville",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Acesso Rápido",
-      "unit": "Joinville",
-      "field": "Link Teste — YouTube",
-      "url": "https://www.youtube.com/",
+      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Joinville",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -1316,34 +932,10 @@
       "ok": true
     },
     {
-      "source": "Cursos & Pós-Graduação",
-      "unit": "Londrina",
-      "field": "Fisioterapia em Terapia Intensiva",
-      "url": "https://faculdadeinspirar.com.br/semi-intensiva/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Cursos & Pós-Graduação",
-      "unit": "Londrina",
-      "field": "Estética Avançada e Cosmetologia",
-      "url": "https://faculdadeinspirar.com.br/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
       "source": "Eventos",
       "unit": "Londrina",
       "field": "Amo Fisio",
       "url": "https://amofisio.vercel.app/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Eventos",
-      "unit": "Londrina",
-      "field": "Congresso Internacional em Estética",
-      "url": "https://faculdadeinspirar.com.br/congresso-de-estetica/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -1359,15 +951,7 @@
       "source": "Acesso Rápido",
       "unit": "Londrina",
       "field": "Matricule-se pelo WhatsApp",
-      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20nos%20cursos%20da%20Inspirar%20Londrina",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Acesso Rápido",
-      "unit": "Londrina",
-      "field": "Link Teste — YouTube",
-      "url": "https://www.youtube.com/",
+      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Londrina",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -1396,38 +980,6 @@
       "ok": true
     },
     {
-      "source": "Cursos & Pós-Graduação",
-      "unit": "Luanda",
-      "field": "Fisioterapia em Terapia Intensiva",
-      "url": "https://faculdadeinspirar.com.br/semi-intensiva/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Cursos & Pós-Graduação",
-      "unit": "Luanda",
-      "field": "Estética Avançada e Cosmetologia",
-      "url": "https://faculdadeinspirar.com.br/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Eventos",
-      "unit": "Luanda",
-      "field": "Amo Fisio",
-      "url": "https://amofisio.vercel.app/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Eventos",
-      "unit": "Luanda",
-      "field": "Congresso Internacional em Estética",
-      "url": "https://faculdadeinspirar.com.br/congresso-de-estetica/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
       "source": "Acesso Rápido",
       "unit": "Luanda",
       "field": "Site Oficial — Luanda",
@@ -1439,7 +991,7 @@
       "source": "Acesso Rápido",
       "unit": "Luanda",
       "field": "Matricule-se pelo WhatsApp",
-      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20nos%20cursos%20da%20Inspirar%20Luanda",
+      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Luanda",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -1468,34 +1020,10 @@
       "ok": true
     },
     {
-      "source": "Cursos & Pós-Graduação",
-      "unit": "Maceió",
-      "field": "Fisioterapia em Terapia Intensiva",
-      "url": "https://faculdadeinspirar.com.br/semi-intensiva/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Cursos & Pós-Graduação",
-      "unit": "Maceió",
-      "field": "Estética Avançada e Cosmetologia",
-      "url": "https://faculdadeinspirar.com.br/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
       "source": "Eventos",
       "unit": "Maceió",
       "field": "Amo Fisio",
       "url": "https://amofisio.vercel.app/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Eventos",
-      "unit": "Maceió",
-      "field": "Congresso Internacional em Estética",
-      "url": "https://faculdadeinspirar.com.br/congresso-de-estetica/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -1511,7 +1039,7 @@
       "source": "Acesso Rápido",
       "unit": "Maceió",
       "field": "Matricule-se pelo WhatsApp",
-      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20nos%20cursos%20da%20Inspirar%20Macei%C3%B3",
+      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Macei%C3%B3",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -1540,38 +1068,6 @@
       "ok": true
     },
     {
-      "source": "Cursos & Pós-Graduação",
-      "unit": "Parauapebas",
-      "field": "Fisioterapia em Terapia Intensiva",
-      "url": "https://faculdadeinspirar.com.br/semi-intensiva/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Cursos & Pós-Graduação",
-      "unit": "Parauapebas",
-      "field": "Estética Avançada e Cosmetologia",
-      "url": "https://faculdadeinspirar.com.br/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Eventos",
-      "unit": "Parauapebas",
-      "field": "Amo Fisio",
-      "url": "https://amofisio.vercel.app/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Eventos",
-      "unit": "Parauapebas",
-      "field": "Congresso Internacional em Estética",
-      "url": "https://faculdadeinspirar.com.br/congresso-de-estetica/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
       "source": "Acesso Rápido",
       "unit": "Parauapebas",
       "field": "Site Oficial — Parauapebas",
@@ -1583,7 +1079,7 @@
       "source": "Acesso Rápido",
       "unit": "Parauapebas",
       "field": "Matricule-se pelo WhatsApp",
-      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20nos%20cursos%20da%20Inspirar%20Parauapebas",
+      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Parauapebas",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -1620,30 +1116,6 @@
       "ok": true
     },
     {
-      "source": "Cursos & Pós-Graduação",
-      "unit": "Porto Alegre",
-      "field": "Estética Avançada e Cosmetologia",
-      "url": "https://faculdadeinspirar.com.br/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Eventos",
-      "unit": "Porto Alegre",
-      "field": "Amo Fisio",
-      "url": "https://amofisio.vercel.app/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Eventos",
-      "unit": "Porto Alegre",
-      "field": "Congresso Internacional em Estética",
-      "url": "https://faculdadeinspirar.com.br/congresso-de-estetica/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
       "source": "Acesso Rápido",
       "unit": "Porto Alegre",
       "field": "Site Oficial — Porto Alegre",
@@ -1655,15 +1127,7 @@
       "source": "Acesso Rápido",
       "unit": "Porto Alegre",
       "field": "Matricule-se pelo WhatsApp",
-      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20nos%20cursos%20da%20Inspirar%20Porto%20Alegre",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Acesso Rápido",
-      "unit": "Porto Alegre",
-      "field": "Link Teste — YouTube",
-      "url": "https://www.youtube.com/",
+      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Porto%20Alegre",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -1692,34 +1156,10 @@
       "ok": true
     },
     {
-      "source": "Cursos & Pós-Graduação",
-      "unit": "Porto Velho",
-      "field": "Fisioterapia em Terapia Intensiva",
-      "url": "https://faculdadeinspirar.com.br/semi-intensiva/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Cursos & Pós-Graduação",
-      "unit": "Porto Velho",
-      "field": "Estética Avançada e Cosmetologia",
-      "url": "https://faculdadeinspirar.com.br/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
       "source": "Eventos",
       "unit": "Porto Velho",
       "field": "Amo Fisio",
       "url": "https://amofisio.vercel.app/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Eventos",
-      "unit": "Porto Velho",
-      "field": "Congresso Internacional em Estética",
-      "url": "https://faculdadeinspirar.com.br/congresso-de-estetica/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -1735,7 +1175,7 @@
       "source": "Acesso Rápido",
       "unit": "Porto Velho",
       "field": "Matricule-se pelo WhatsApp",
-      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20nos%20cursos%20da%20Inspirar%20Porto%20Velho",
+      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Porto%20Velho",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -1764,34 +1204,10 @@
       "ok": true
     },
     {
-      "source": "Cursos & Pós-Graduação",
-      "unit": "Ribeirão Preto",
-      "field": "Fisioterapia em Terapia Intensiva",
-      "url": "https://faculdadeinspirar.com.br/semi-intensiva/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Cursos & Pós-Graduação",
-      "unit": "Ribeirão Preto",
-      "field": "Estética Avançada e Cosmetologia",
-      "url": "https://faculdadeinspirar.com.br/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
       "source": "Eventos",
       "unit": "Ribeirão Preto",
       "field": "Amo Fisio",
       "url": "https://amofisio.vercel.app/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Eventos",
-      "unit": "Ribeirão Preto",
-      "field": "Congresso Internacional em Estética",
-      "url": "https://faculdadeinspirar.com.br/congresso-de-estetica/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -1807,7 +1223,7 @@
       "source": "Acesso Rápido",
       "unit": "Ribeirão Preto",
       "field": "Matricule-se pelo WhatsApp",
-      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20nos%20cursos%20da%20Inspirar%20Ribeir%C3%A3o%20Preto",
+      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Ribeir%C3%A3o%20Preto",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -1844,26 +1260,10 @@
       "ok": true
     },
     {
-      "source": "Cursos & Pós-Graduação",
-      "unit": "Rio de Janeiro",
-      "field": "Estética Avançada e Cosmetologia",
-      "url": "https://faculdadeinspirar.com.br/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
       "source": "Eventos",
       "unit": "Rio de Janeiro",
       "field": "Amo Fisio",
       "url": "https://amofisio.vercel.app/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Eventos",
-      "unit": "Rio de Janeiro",
-      "field": "Congresso Internacional em Estética",
-      "url": "https://faculdadeinspirar.com.br/congresso-de-estetica/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -1879,7 +1279,7 @@
       "source": "Acesso Rápido",
       "unit": "Rio de Janeiro",
       "field": "Matricule-se pelo WhatsApp",
-      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20nos%20cursos%20da%20Inspirar%20Rio%20de%20Janeiro",
+      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Rio%20de%20Janeiro",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -1908,38 +1308,6 @@
       "ok": true
     },
     {
-      "source": "Cursos & Pós-Graduação",
-      "unit": "Salvador",
-      "field": "Fisioterapia em Terapia Intensiva",
-      "url": "https://faculdadeinspirar.com.br/semi-intensiva/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Cursos & Pós-Graduação",
-      "unit": "Salvador",
-      "field": "Estética Avançada e Cosmetologia",
-      "url": "https://faculdadeinspirar.com.br/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Eventos",
-      "unit": "Salvador",
-      "field": "Amo Fisio",
-      "url": "https://amofisio.vercel.app/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Eventos",
-      "unit": "Salvador",
-      "field": "Congresso Internacional em Estética",
-      "url": "https://faculdadeinspirar.com.br/congresso-de-estetica/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
       "source": "Acesso Rápido",
       "unit": "Salvador",
       "field": "Site Oficial — Salvador",
@@ -1951,7 +1319,7 @@
       "source": "Acesso Rápido",
       "unit": "Salvador",
       "field": "Matricule-se pelo WhatsApp",
-      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20nos%20cursos%20da%20Inspirar%20Salvador",
+      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Salvador",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -1980,38 +1348,6 @@
       "ok": true
     },
     {
-      "source": "Cursos & Pós-Graduação",
-      "unit": "Santo André",
-      "field": "Fisioterapia em Terapia Intensiva",
-      "url": "https://faculdadeinspirar.com.br/semi-intensiva/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Cursos & Pós-Graduação",
-      "unit": "Santo André",
-      "field": "Estética Avançada e Cosmetologia",
-      "url": "https://faculdadeinspirar.com.br/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Eventos",
-      "unit": "Santo André",
-      "field": "Amo Fisio",
-      "url": "https://amofisio.vercel.app/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Eventos",
-      "unit": "Santo André",
-      "field": "Congresso Internacional em Estética",
-      "url": "https://faculdadeinspirar.com.br/congresso-de-estetica/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
       "source": "Acesso Rápido",
       "unit": "Santo André",
       "field": "Site Oficial — Santo André",
@@ -2023,7 +1359,15 @@
       "source": "Acesso Rápido",
       "unit": "Santo André",
       "field": "Matricule-se pelo WhatsApp",
-      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20nos%20cursos%20da%20Inspirar%20Santo%20Andr%C3%A9",
+      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Santo%20Andr%C3%A9",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Acesso Rápido",
+      "unit": "Santo André",
+      "field": "Grupo VIP WhatsApp — Santo André",
+      "url": "https://chat.whatsapp.com/FoL3NtlyVanFISrz20muP6?mode=gi_t&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0DMTAwAHBkb2YCc3J0YwZhcHBfaWQPOTM2NjE5NzQzMzkyNDU5AAGnNHIRTMbhHiisZSU1FeX335d48FyQPSe8Nw_IgWKDF0Z44e2yjDx3JRtSKmY_aem_k_59wE_els5hN8giRS88dw",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -2052,38 +1396,6 @@
       "ok": true
     },
     {
-      "source": "Cursos & Pós-Graduação",
-      "unit": "Santos",
-      "field": "Fisioterapia em Terapia Intensiva",
-      "url": "https://faculdadeinspirar.com.br/semi-intensiva/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Cursos & Pós-Graduação",
-      "unit": "Santos",
-      "field": "Estética Avançada e Cosmetologia",
-      "url": "https://faculdadeinspirar.com.br/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Eventos",
-      "unit": "Santos",
-      "field": "Amo Fisio",
-      "url": "https://amofisio.vercel.app/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Eventos",
-      "unit": "Santos",
-      "field": "Congresso Internacional em Estética",
-      "url": "https://faculdadeinspirar.com.br/congresso-de-estetica/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
       "source": "Acesso Rápido",
       "unit": "Santos",
       "field": "Site Oficial — Santos",
@@ -2095,7 +1407,7 @@
       "source": "Acesso Rápido",
       "unit": "Santos",
       "field": "Matricule-se pelo WhatsApp",
-      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20nos%20cursos%20da%20Inspirar%20Santos",
+      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Santos",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -2124,38 +1436,6 @@
       "ok": true
     },
     {
-      "source": "Cursos & Pós-Graduação",
-      "unit": "São José do Rio Preto",
-      "field": "Fisioterapia em Terapia Intensiva",
-      "url": "https://faculdadeinspirar.com.br/semi-intensiva/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Cursos & Pós-Graduação",
-      "unit": "São José do Rio Preto",
-      "field": "Estética Avançada e Cosmetologia",
-      "url": "https://faculdadeinspirar.com.br/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Eventos",
-      "unit": "São José do Rio Preto",
-      "field": "Amo Fisio",
-      "url": "https://amofisio.vercel.app/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Eventos",
-      "unit": "São José do Rio Preto",
-      "field": "Congresso Internacional em Estética",
-      "url": "https://faculdadeinspirar.com.br/congresso-de-estetica/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
       "source": "Acesso Rápido",
       "unit": "São José do Rio Preto",
       "field": "Site Oficial — São José do Rio Preto",
@@ -2167,7 +1447,7 @@
       "source": "Acesso Rápido",
       "unit": "São José do Rio Preto",
       "field": "Matricule-se pelo WhatsApp",
-      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20nos%20cursos%20da%20Inspirar%20S%C3%A3o%20Jos%C3%A9%20do%20Rio%20Preto",
+      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20S%C3%A3o%20Jos%C3%A9%20do%20Rio%20Preto",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -2196,34 +1476,10 @@
       "ok": true
     },
     {
-      "source": "Cursos & Pós-Graduação",
-      "unit": "São José dos Campos",
-      "field": "Fisioterapia em Terapia Intensiva",
-      "url": "https://faculdadeinspirar.com.br/semi-intensiva/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Cursos & Pós-Graduação",
-      "unit": "São José dos Campos",
-      "field": "Estética Avançada e Cosmetologia",
-      "url": "https://faculdadeinspirar.com.br/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
       "source": "Eventos",
       "unit": "São José dos Campos",
       "field": "Amo Fisio",
       "url": "https://amofisio.vercel.app/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Eventos",
-      "unit": "São José dos Campos",
-      "field": "Congresso Internacional em Estética",
-      "url": "https://faculdadeinspirar.com.br/congresso-de-estetica/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -2239,7 +1495,7 @@
       "source": "Acesso Rápido",
       "unit": "São José dos Campos",
       "field": "Matricule-se pelo WhatsApp",
-      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20nos%20cursos%20da%20Inspirar%20S%C3%A3o%20Jos%C3%A9%20dos%20Campos",
+      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20S%C3%A3o%20Jos%C3%A9%20dos%20Campos",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -2268,22 +1524,6 @@
       "ok": true
     },
     {
-      "source": "Cursos & Pós-Graduação",
-      "unit": "São Luís",
-      "field": "Fisioterapia em Terapia Intensiva",
-      "url": "https://faculdadeinspirar.com.br/semi-intensiva/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Cursos & Pós-Graduação",
-      "unit": "São Luís",
-      "field": "Estética Avançada e Cosmetologia",
-      "url": "https://faculdadeinspirar.com.br/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
       "source": "Eventos",
       "unit": "São Luís",
       "field": "Amo Fisio",
@@ -2294,8 +1534,8 @@
     {
       "source": "Eventos",
       "unit": "São Luís",
-      "field": "Congresso Internacional em Estética",
-      "url": "https://faculdadeinspirar.com.br/congresso-de-estetica/",
+      "field": "Pelve Expert — São Luís do Maranhão",
+      "url": "https://www.sympla.com.br/evento/pelve-expert-sao-luis-do-maranhao/3578577?share_id=copiarlink&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAadGoaxKcEBtBo3p15vT13mhFZHRzyTnQ1MsPK3XrG7zLj8prqblFos25wIRKw_aem_5l1tPJLkRK_d6LWXGjU6Ow&utm_id=97760_v0_s00_e0_tv3&referrer=l.instagram.com",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -2311,7 +1551,15 @@
       "source": "Acesso Rápido",
       "unit": "São Luís",
       "field": "Matricule-se pelo WhatsApp",
-      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20nos%20cursos%20da%20Inspirar%20S%C3%A3o%20Lu%C3%ADs",
+      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20S%C3%A3o%20Lu%C3%ADs",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Acesso Rápido",
+      "unit": "São Luís",
+      "field": "Fale no WhatsApp — São Luís",
+      "url": "https://api.whatsapp.com/message/7HAT7265HDZNL1?autoload=1&app_absent=0&utm_source=ig",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -2342,16 +1590,16 @@
     {
       "source": "Cursos & Pós-Graduação",
       "unit": "São Paulo - Borba Gato",
-      "field": "Fisioterapia em Terapia Intensiva",
-      "url": "https://faculdadeinspirar.com.br/semi-intensiva/",
+      "field": "Fisioterapia Vestibular",
+      "url": "https://cursoinspirar.com.br/fisioterapia-vestibular/",
       "status": "FORMAT_OK",
       "ok": true
     },
     {
       "source": "Cursos & Pós-Graduação",
       "unit": "São Paulo - Borba Gato",
-      "field": "Estética Avançada e Cosmetologia",
-      "url": "https://faculdadeinspirar.com.br/",
+      "field": "Dermatofuncional Internacional",
+      "url": "https://cursoinspirar.com.br/dermatofuncional-internacional/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -2360,14 +1608,6 @@
       "unit": "São Paulo - Borba Gato",
       "field": "Amo Fisio",
       "url": "https://amofisio.vercel.app/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Eventos",
-      "unit": "São Paulo - Borba Gato",
-      "field": "Congresso Internacional em Estética",
-      "url": "https://faculdadeinspirar.com.br/congresso-de-estetica/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -2383,7 +1623,7 @@
       "source": "Acesso Rápido",
       "unit": "São Paulo - Borba Gato",
       "field": "Matricule-se pelo WhatsApp",
-      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20nos%20cursos%20da%20Inspirar%20S%C3%A3o%20Paulo%20-%20Borba%20Gato",
+      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20S%C3%A3o%20Paulo%20-%20Borba%20Gato",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -2412,22 +1652,6 @@
       "ok": true
     },
     {
-      "source": "Cursos & Pós-Graduação",
-      "unit": "São Paulo - Vila Mariana",
-      "field": "Fisioterapia em Terapia Intensiva",
-      "url": "https://faculdadeinspirar.com.br/semi-intensiva/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Cursos & Pós-Graduação",
-      "unit": "São Paulo - Vila Mariana",
-      "field": "Estética Avançada e Cosmetologia",
-      "url": "https://faculdadeinspirar.com.br/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
       "source": "Eventos",
       "unit": "São Paulo - Vila Mariana",
       "field": "Amo Fisio",
@@ -2438,8 +1662,8 @@
     {
       "source": "Eventos",
       "unit": "São Paulo - Vila Mariana",
-      "field": "Congresso Internacional em Estética",
-      "url": "https://faculdadeinspirar.com.br/congresso-de-estetica/",
+      "field": "Workshop Estética Íntima Feminina na Fisioterapia Pélvica",
+      "url": "https://www.sympla.com.br/evento/workshop-estetica-intima-feminina-na-fisioterapia-pelvica/3590103?share_id=copiarlink%2F&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAadsjolk_hhPzaursBaOIL7pr4iGbrqYzBJWgTjSlkOJW3Co-PsCeU4L1Y8crA_aem_k2l8iFfmgjWP_yqpXPXV1g&utm_id=97760_v0_s00_e0_tv3&referrer=l.instagram.com&referrer=l.instagram.com",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -2455,7 +1679,7 @@
       "source": "Acesso Rápido",
       "unit": "São Paulo - Vila Mariana",
       "field": "Matricule-se pelo WhatsApp",
-      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20nos%20cursos%20da%20Inspirar%20S%C3%A3o%20Paulo%20-%20Vila%20Mariana",
+      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20S%C3%A3o%20Paulo%20-%20Vila%20Mariana",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -2484,34 +1708,10 @@
       "ok": true
     },
     {
-      "source": "Cursos & Pós-Graduação",
-      "unit": "Sorocaba",
-      "field": "Fisioterapia em Terapia Intensiva",
-      "url": "https://faculdadeinspirar.com.br/semi-intensiva/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Cursos & Pós-Graduação",
-      "unit": "Sorocaba",
-      "field": "Estética Avançada e Cosmetologia",
-      "url": "https://faculdadeinspirar.com.br/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
       "source": "Eventos",
       "unit": "Sorocaba",
       "field": "Amo Fisio",
       "url": "https://amofisio.vercel.app/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Eventos",
-      "unit": "Sorocaba",
-      "field": "Congresso Internacional em Estética",
-      "url": "https://faculdadeinspirar.com.br/congresso-de-estetica/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -2527,7 +1727,7 @@
       "source": "Acesso Rápido",
       "unit": "Sorocaba",
       "field": "Matricule-se pelo WhatsApp",
-      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20nos%20cursos%20da%20Inspirar%20Sorocaba",
+      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Sorocaba",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -2556,38 +1756,6 @@
       "ok": true
     },
     {
-      "source": "Cursos & Pós-Graduação",
-      "unit": "Teresina",
-      "field": "Fisioterapia em Terapia Intensiva",
-      "url": "https://faculdadeinspirar.com.br/semi-intensiva/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Cursos & Pós-Graduação",
-      "unit": "Teresina",
-      "field": "Estética Avançada e Cosmetologia",
-      "url": "https://faculdadeinspirar.com.br/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Eventos",
-      "unit": "Teresina",
-      "field": "Amo Fisio",
-      "url": "https://amofisio.vercel.app/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Eventos",
-      "unit": "Teresina",
-      "field": "Congresso Internacional em Estética",
-      "url": "https://faculdadeinspirar.com.br/congresso-de-estetica/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
       "source": "Acesso Rápido",
       "unit": "Teresina",
       "field": "Site Oficial — Teresina",
@@ -2599,7 +1767,7 @@
       "source": "Acesso Rápido",
       "unit": "Teresina",
       "field": "Matricule-se pelo WhatsApp",
-      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20nos%20cursos%20da%20Inspirar%20Teresina",
+      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Teresina",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -2628,38 +1796,6 @@
       "ok": true
     },
     {
-      "source": "Cursos & Pós-Graduação",
-      "unit": "Uberlândia",
-      "field": "Fisioterapia em Terapia Intensiva",
-      "url": "https://faculdadeinspirar.com.br/semi-intensiva/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Cursos & Pós-Graduação",
-      "unit": "Uberlândia",
-      "field": "Estética Avançada e Cosmetologia",
-      "url": "https://faculdadeinspirar.com.br/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Eventos",
-      "unit": "Uberlândia",
-      "field": "Amo Fisio",
-      "url": "https://amofisio.vercel.app/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Eventos",
-      "unit": "Uberlândia",
-      "field": "Congresso Internacional em Estética",
-      "url": "https://faculdadeinspirar.com.br/congresso-de-estetica/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
       "source": "Acesso Rápido",
       "unit": "Uberlândia",
       "field": "Site Oficial — Uberlândia",
@@ -2671,7 +1807,7 @@
       "source": "Acesso Rápido",
       "unit": "Uberlândia",
       "field": "Matricule-se pelo WhatsApp",
-      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20nos%20cursos%20da%20Inspirar%20Uberl%C3%A2ndia",
+      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Uberl%C3%A2ndia",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -2708,26 +1844,10 @@
       "ok": true
     },
     {
-      "source": "Cursos & Pós-Graduação",
-      "unit": "Vitória",
-      "field": "Estética Avançada e Cosmetologia",
-      "url": "https://faculdadeinspirar.com.br/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
       "source": "Eventos",
       "unit": "Vitória",
       "field": "Amo Fisio",
       "url": "https://amofisio.vercel.app/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Eventos",
-      "unit": "Vitória",
-      "field": "Congresso Internacional em Estética",
-      "url": "https://faculdadeinspirar.com.br/congresso-de-estetica/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -2743,7 +1863,7 @@
       "source": "Acesso Rápido",
       "unit": "Vitória",
       "field": "Matricule-se pelo WhatsApp",
-      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20nos%20cursos%20da%20Inspirar%20Vit%C3%B3ria",
+      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Vit%C3%B3ria",
       "status": "FORMAT_OK",
       "ok": true
     }

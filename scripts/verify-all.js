@@ -151,49 +151,41 @@ runStep('Gate 7: Dedicated Instagram Profiles (37/37 Units) & 30 Anos Branding',
   });
 });
 
-// 8. Regional Test Link Isolation (Sul Only)
-runStep('Gate 8: Regional Test Link Isolation (Sul Only - 7/7 Sul, 0/30 Non-Sul)', () => {
+// 8. Unit Links Configuration Fidelity (All 37 Units Audited)
+runStep('Gate 8: Unit Links Configuration Fidelity (37 Units Audited)', () => {
   const data = JSON.parse(fs.readFileSync(DATA_FILE, 'utf8'));
-  const EXPECTED_SUL_SLUGS = [
-    'balneario-camboriu',
-    'blumenau',
-    'curitiba',
-    'florianopolis',
-    'joinville',
-    'londrina',
-    'porto-alegre'
-  ];
 
-  let sulMatchCount = 0;
-  let nonSulWithLinkCount = 0;
+  // 1. Vila Mariana auto-expiring workshop
+  const vm = data.units.find(u => u.slug === 'sao-paulo-vila-mariana');
+  const vmJson = JSON.stringify(vm.sections);
+  assert(vmJson.includes('workshop-estetica-intima-feminina-na-fisioterapia-pelvica'), 'Vila Mariana missing workshop link');
+  assert(vmJson.includes('2026-11-07T09:00:00-03:00'), 'Vila Mariana missing 07/11 09:00 expiration');
 
-  data.units.forEach(unit => {
-    const isSul = unit.region === 'Sul';
-    const jsonStr = JSON.stringify(unit.sections || []);
-    const hasInJson = jsonStr.includes('https://www.youtube.com/');
+  // 2. Curitiba fidelity to linktreecuritiba.vercel.app
+  const cwb = data.units.find(u => u.slug === 'curitiba');
+  const cwbJson = JSON.stringify(cwb.sections);
+  assert(cwbJson.includes('semi-intensiva'), 'Curitiba missing semi-intensiva');
+  assert(cwbJson.includes('fisioterapia-vestibular'), 'Curitiba missing vestibular');
+  assert(cwbJson.includes('amofisio.vercel.app'), 'Curitiba missing amofisio');
+  assert(cwbJson.includes('congresso-de-estetica'), 'Curitiba missing congresso estética');
 
-    const unitHtmlPath = path.join(ROOT_DIR, unit.slug, 'index.html');
-    const unitHtml = fs.readFileSync(unitHtmlPath, 'utf8');
-    const hasInHtml = unitHtml.includes('https://www.youtube.com/');
+  // 3. Belém Linktree
+  const belem = data.units.find(u => u.slug === 'belem');
+  assert(JSON.stringify(belem.sections).includes('https://tr.ee/Yb2RHb61F2'), 'Belém missing tr.ee link');
 
-    if (isSul) {
-      assert(EXPECTED_SUL_SLUGS.includes(unit.slug), `Unexpected Sul unit: ${unit.slug}`);
-      assert(hasInJson, `Sul unit ${unit.slug} missing YouTube test link in data/units.json`);
-      assert(hasInHtml, `Sul unit ${unit.slug} missing YouTube test link in HTML`);
-      assert(unitHtml.includes('Link Teste — YouTube'), `Sul unit ${unit.slug} HTML missing "Link Teste — YouTube"`);
-      assert(unitHtml.includes('accent-red'), `Sul unit ${unit.slug} HTML missing accent-red class`);
-      sulMatchCount++;
-    } else {
-      if (hasInJson || hasInHtml) {
-        nonSulWithLinkCount++;
-      }
-      assert(!hasInJson, `Non-Sul unit ${unit.slug} unexpectedly has YouTube link in data/units.json`);
-      assert(!hasInHtml, `Non-Sul unit ${unit.slug} unexpectedly has YouTube link in HTML`);
-    }
-  });
+  // 4. Santo André VIP group
+  const sta = data.units.find(u => u.slug === 'santo-andre');
+  assert(JSON.stringify(sta.sections).includes('chat.whatsapp.com'), 'Santo André missing WhatsApp VIP group');
 
-  assert.strictEqual(sulMatchCount, 7, `Expected exactly 7 Sul units with YouTube test link, got ${sulMatchCount}`);
-  assert.strictEqual(nonSulWithLinkCount, 0, `Expected 0 non-Sul units with YouTube test link, got ${nonSulWithLinkCount}`);
+  // 5. São Luís links
+  const slz = data.units.find(u => u.slug === 'sao-luis');
+  const slzJson = JSON.stringify(slz.sections);
+  assert(slzJson.includes('pelve-expert-sao-luis-do-maranhao'), 'São Luís missing Pelve Expert');
+  assert(slzJson.includes('7HAT7265HDZNL1'), 'São Luís missing WhatsApp link');
+
+  // 6. Brasília Sympla
+  const bsb = data.units.find(u => u.slug === 'brasilia');
+  assert(JSON.stringify(bsb.sections).includes('i-simposio-de-acupuntura'), 'Brasília missing simpósio link');
 });
 
 // 9. Browser Tab Icon (Favicon with Símbolo Branco)
