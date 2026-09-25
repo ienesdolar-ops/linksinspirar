@@ -1363,15 +1363,6 @@
               "url": "https://api.whatsapp.com/send?phone=558006022828&text=Olá!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Curitiba",
               "icon": "whatsapp",
               "accent": "green"
-            },
-            {
-              "title": "Link Teste — YouTube",
-              "desc": "Acesso ao canal do YouTube (exclusivo unidades da Região Sul)",
-              "tag": "Região Sul",
-              "badge": "Teste",
-              "url": "https://www.youtube.com/",
-              "icon": "youtube",
-              "accent": "red"
             }
           ]
         }
