@@ -62,6 +62,16 @@ const itemDermatoInternacional = {
   accent: "coral"
 };
 
+const itemYoutubeTest = {
+  title: "Link Teste — YouTube",
+  desc: "Acesso ao canal do YouTube",
+  tag: "YouTube",
+  badge: "Teste",
+  url: "https://www.youtube.com/",
+  icon: "youtube",
+  accent: "red"
+};
+
 function getInstitutionalItems(unit) {
   const items = [];
   if (unit.website) {
@@ -437,6 +447,7 @@ data.units = data.units.map(unit => {
       items: eventos
     });
   }
+  institucionais.push(itemYoutubeTest);
   sections.push(campusBanner);
   sections.push({
     id: "acesso_rapido",

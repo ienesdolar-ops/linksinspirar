@@ -50,7 +50,8 @@
 - Units with only institutional links (Balneário Camboriú, Dourados, Joinville, Luanda, Parauapebas, Salvador, Santos, SJRP, Teresina, Uberlândia) preserve only their official website and WhatsApp channels.
 - Units with Amo Fisio, specific courses (Semi-intensiva, Fisioterapia Vestibular, Dermatofuncional), and events (Sympla Brasília, Pelve Expert São Luís, Workshop Vila Mariana) are mapped with complete fidelity.
 - Vila Mariana Workshop event is configured with exact expiration date `2026-11-07T09:00:00-03:00`.
-- Curitiba reflects the exact structure from `https://linktreecuritiba.vercel.app/`.
+- Curitiba reflects the exact structure from `https://linktreecuritiba.vercel.app/` plus Pelve Expert.
+- YouTube test link (`https://www.youtube.com/`) is added across all 37 units.
 - CHECK: `node scripts/verify-all.js`
 - EXPECT: `Gate 8: Unit Links Configuration Fidelity (37 Units Audited)... ✅ OK`
 

@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-09-25T15:31:04.154Z",
-  "total": 231,
+  "timestamp": "2026-09-25T17:07:41.580Z",
+  "total": 268,
   "dryRun": true,
   "results": [
     {
@@ -84,6 +84,14 @@
       "ok": true
     },
     {
+      "source": "Acesso Rápido",
+      "unit": "Balneário Camboriú",
+      "field": "Link Teste — YouTube",
+      "url": "https://www.youtube.com/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
       "source": "unit_meta",
       "unit": "Bauru",
       "field": "website",
@@ -128,6 +136,14 @@
       "unit": "Bauru",
       "field": "Matricule-se pelo WhatsApp",
       "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Bauru",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Acesso Rápido",
+      "unit": "Bauru",
+      "field": "Link Teste — YouTube",
+      "url": "https://www.youtube.com/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -188,6 +204,14 @@
       "ok": true
     },
     {
+      "source": "Acesso Rápido",
+      "unit": "Belém",
+      "field": "Link Teste — YouTube",
+      "url": "https://www.youtube.com/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
       "source": "unit_meta",
       "unit": "Belo Horizonte",
       "field": "website",
@@ -232,6 +256,14 @@
       "unit": "Belo Horizonte",
       "field": "Matricule-se pelo WhatsApp",
       "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Belo%20Horizonte",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Acesso Rápido",
+      "unit": "Belo Horizonte",
+      "field": "Link Teste — YouTube",
+      "url": "https://www.youtube.com/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -284,6 +316,14 @@
       "ok": true
     },
     {
+      "source": "Acesso Rápido",
+      "unit": "Blumenau",
+      "field": "Link Teste — YouTube",
+      "url": "https://www.youtube.com/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
       "source": "unit_meta",
       "unit": "Brasília",
       "field": "website",
@@ -328,6 +368,14 @@
       "unit": "Brasília",
       "field": "Matricule-se pelo WhatsApp",
       "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Bras%C3%ADlia",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Acesso Rápido",
+      "unit": "Brasília",
+      "field": "Link Teste — YouTube",
+      "url": "https://www.youtube.com/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -388,6 +436,14 @@
       "ok": true
     },
     {
+      "source": "Acesso Rápido",
+      "unit": "Campinas",
+      "field": "Link Teste — YouTube",
+      "url": "https://www.youtube.com/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
       "source": "unit_meta",
       "unit": "Campo Grande",
       "field": "website",
@@ -436,6 +492,14 @@
       "ok": true
     },
     {
+      "source": "Acesso Rápido",
+      "unit": "Campo Grande",
+      "field": "Link Teste — YouTube",
+      "url": "https://www.youtube.com/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
       "source": "unit_meta",
       "unit": "Cuiabá",
       "field": "website",
@@ -480,6 +544,14 @@
       "unit": "Cuiabá",
       "field": "Atendimento via WhatsApp — Cuiabá",
       "url": "https://api.whatsapp.com/send/?phone=%2B5565999572156&text&type=phone_number&app_absent=0&utm_source=ig",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Acesso Rápido",
+      "unit": "Cuiabá",
+      "field": "Link Teste — YouTube",
+      "url": "https://www.youtube.com/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -564,6 +636,14 @@
       "ok": true
     },
     {
+      "source": "Acesso Rápido",
+      "unit": "Curitiba",
+      "field": "Link Teste — YouTube",
+      "url": "https://www.youtube.com/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
       "source": "unit_meta",
       "unit": "Dourados",
       "field": "website",
@@ -600,6 +680,14 @@
       "unit": "Dourados",
       "field": "Matricule-se pelo WhatsApp",
       "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Dourados",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Acesso Rápido",
+      "unit": "Dourados",
+      "field": "Link Teste — YouTube",
+      "url": "https://www.youtube.com/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -660,6 +748,14 @@
       "ok": true
     },
     {
+      "source": "Acesso Rápido",
+      "unit": "Florianópolis",
+      "field": "Link Teste — YouTube",
+      "url": "https://www.youtube.com/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
       "source": "unit_meta",
       "unit": "Fortaleza",
       "field": "website",
@@ -716,6 +812,14 @@
       "ok": true
     },
     {
+      "source": "Acesso Rápido",
+      "unit": "Fortaleza",
+      "field": "Link Teste — YouTube",
+      "url": "https://www.youtube.com/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
       "source": "unit_meta",
       "unit": "Goiânia",
       "field": "website",
@@ -760,6 +864,14 @@
       "unit": "Goiânia",
       "field": "Fale no WhatsApp — Goiânia",
       "url": "https://api.whatsapp.com/send/?phone=5562999909917&text&type=phone_number&app_absent=0&utm_source=ig",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Acesso Rápido",
+      "unit": "Goiânia",
+      "field": "Link Teste — YouTube",
+      "url": "https://www.youtube.com/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -812,6 +924,14 @@
       "ok": true
     },
     {
+      "source": "Acesso Rápido",
+      "unit": "Guarulhos",
+      "field": "Link Teste — YouTube",
+      "url": "https://www.youtube.com/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
       "source": "unit_meta",
       "unit": "Ipatinga",
       "field": "website",
@@ -860,6 +980,14 @@
       "ok": true
     },
     {
+      "source": "Acesso Rápido",
+      "unit": "Ipatinga",
+      "field": "Link Teste — YouTube",
+      "url": "https://www.youtube.com/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
       "source": "unit_meta",
       "unit": "Joinville",
       "field": "website",
@@ -896,6 +1024,14 @@
       "unit": "Joinville",
       "field": "Matricule-se pelo WhatsApp",
       "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Joinville",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Acesso Rápido",
+      "unit": "Joinville",
+      "field": "Link Teste — YouTube",
+      "url": "https://www.youtube.com/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -948,6 +1084,14 @@
       "ok": true
     },
     {
+      "source": "Acesso Rápido",
+      "unit": "Londrina",
+      "field": "Link Teste — YouTube",
+      "url": "https://www.youtube.com/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
       "source": "unit_meta",
       "unit": "Luanda",
       "field": "website",
@@ -984,6 +1128,14 @@
       "unit": "Luanda",
       "field": "Matricule-se pelo WhatsApp",
       "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Luanda",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Acesso Rápido",
+      "unit": "Luanda",
+      "field": "Link Teste — YouTube",
+      "url": "https://www.youtube.com/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -1036,6 +1188,14 @@
       "ok": true
     },
     {
+      "source": "Acesso Rápido",
+      "unit": "Maceió",
+      "field": "Link Teste — YouTube",
+      "url": "https://www.youtube.com/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
       "source": "unit_meta",
       "unit": "Parauapebas",
       "field": "website",
@@ -1072,6 +1232,14 @@
       "unit": "Parauapebas",
       "field": "Matricule-se pelo WhatsApp",
       "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Parauapebas",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Acesso Rápido",
+      "unit": "Parauapebas",
+      "field": "Link Teste — YouTube",
+      "url": "https://www.youtube.com/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -1124,6 +1292,14 @@
       "ok": true
     },
     {
+      "source": "Acesso Rápido",
+      "unit": "Porto Alegre",
+      "field": "Link Teste — YouTube",
+      "url": "https://www.youtube.com/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
       "source": "unit_meta",
       "unit": "Porto Velho",
       "field": "website",
@@ -1172,6 +1348,14 @@
       "ok": true
     },
     {
+      "source": "Acesso Rápido",
+      "unit": "Porto Velho",
+      "field": "Link Teste — YouTube",
+      "url": "https://www.youtube.com/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
       "source": "unit_meta",
       "unit": "Ribeirão Preto",
       "field": "website",
@@ -1216,6 +1400,14 @@
       "unit": "Ribeirão Preto",
       "field": "Matricule-se pelo WhatsApp",
       "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Ribeir%C3%A3o%20Preto",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Acesso Rápido",
+      "unit": "Ribeirão Preto",
+      "field": "Link Teste — YouTube",
+      "url": "https://www.youtube.com/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -1276,6 +1468,14 @@
       "ok": true
     },
     {
+      "source": "Acesso Rápido",
+      "unit": "Rio de Janeiro",
+      "field": "Link Teste — YouTube",
+      "url": "https://www.youtube.com/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
       "source": "unit_meta",
       "unit": "Salvador",
       "field": "website",
@@ -1312,6 +1512,14 @@
       "unit": "Salvador",
       "field": "Matricule-se pelo WhatsApp",
       "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Salvador",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Acesso Rápido",
+      "unit": "Salvador",
+      "field": "Link Teste — YouTube",
+      "url": "https://www.youtube.com/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -1364,6 +1572,14 @@
       "ok": true
     },
     {
+      "source": "Acesso Rápido",
+      "unit": "Santo André",
+      "field": "Link Teste — YouTube",
+      "url": "https://www.youtube.com/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
       "source": "unit_meta",
       "unit": "Santos",
       "field": "website",
@@ -1404,6 +1620,14 @@
       "ok": true
     },
     {
+      "source": "Acesso Rápido",
+      "unit": "Santos",
+      "field": "Link Teste — YouTube",
+      "url": "https://www.youtube.com/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
       "source": "unit_meta",
       "unit": "São José do Rio Preto",
       "field": "website",
@@ -1440,6 +1664,14 @@
       "unit": "São José do Rio Preto",
       "field": "Matricule-se pelo WhatsApp",
       "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20S%C3%A3o%20Jos%C3%A9%20do%20Rio%20Preto",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Acesso Rápido",
+      "unit": "São José do Rio Preto",
+      "field": "Link Teste — YouTube",
+      "url": "https://www.youtube.com/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -1488,6 +1720,14 @@
       "unit": "São José dos Campos",
       "field": "Matricule-se pelo WhatsApp",
       "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20S%C3%A3o%20Jos%C3%A9%20dos%20Campos",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Acesso Rápido",
+      "unit": "São José dos Campos",
+      "field": "Link Teste — YouTube",
+      "url": "https://www.youtube.com/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -1544,6 +1784,14 @@
       "unit": "São Luís",
       "field": "Fale no WhatsApp — São Luís",
       "url": "https://api.whatsapp.com/message/7HAT7265HDZNL1?autoload=1&app_absent=0&utm_source=ig",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Acesso Rápido",
+      "unit": "São Luís",
+      "field": "Link Teste — YouTube",
+      "url": "https://www.youtube.com/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -1612,6 +1860,14 @@
       "ok": true
     },
     {
+      "source": "Acesso Rápido",
+      "unit": "São Paulo - Borba Gato",
+      "field": "Link Teste — YouTube",
+      "url": "https://www.youtube.com/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
       "source": "unit_meta",
       "unit": "São Paulo - Vila Mariana",
       "field": "website",
@@ -1668,6 +1924,14 @@
       "ok": true
     },
     {
+      "source": "Acesso Rápido",
+      "unit": "São Paulo - Vila Mariana",
+      "field": "Link Teste — YouTube",
+      "url": "https://www.youtube.com/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
       "source": "unit_meta",
       "unit": "Sorocaba",
       "field": "website",
@@ -1716,6 +1980,14 @@
       "ok": true
     },
     {
+      "source": "Acesso Rápido",
+      "unit": "Sorocaba",
+      "field": "Link Teste — YouTube",
+      "url": "https://www.youtube.com/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
       "source": "unit_meta",
       "unit": "Teresina",
       "field": "website",
@@ -1756,6 +2028,14 @@
       "ok": true
     },
     {
+      "source": "Acesso Rápido",
+      "unit": "Teresina",
+      "field": "Link Teste — YouTube",
+      "url": "https://www.youtube.com/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
       "source": "unit_meta",
       "unit": "Uberlândia",
       "field": "website",
@@ -1792,6 +2072,14 @@
       "unit": "Uberlândia",
       "field": "Matricule-se pelo WhatsApp",
       "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Uberl%C3%A2ndia",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Acesso Rápido",
+      "unit": "Uberlândia",
+      "field": "Link Teste — YouTube",
+      "url": "https://www.youtube.com/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -1848,6 +2136,14 @@
       "unit": "Vitória",
       "field": "Matricule-se pelo WhatsApp",
       "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Vit%C3%B3ria",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Acesso Rápido",
+      "unit": "Vitória",
+      "field": "Link Teste — YouTube",
+      "url": "https://www.youtube.com/",
       "status": "FORMAT_OK",
       "ok": true
     }
