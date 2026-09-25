@@ -200,13 +200,13 @@ runStep('Gate 8: Unit Links Configuration Fidelity (37 Units Audited)', () => {
     assert.strictEqual(waCount, expected, `Unit ${u.slug} must have exactly ${expected} WhatsApp link(s), got ${waCount}`);
   });
 
-  // 8. YouTube test link present in all 37 units
+  // 8. YouTube test link removed from all 37 units
   data.units.forEach(u => {
-    const hasYt = (u.sections || []).some(s => (s.items || []).some(item => item.url && item.url.includes('youtube.com')));
-    assert(hasYt, `Unit ${u.slug} missing YouTube test link in data/units.json`);
+    const hasYt = (u.sections || []).some(s => (s.items || []).some(item => item.url && item.url === 'https://www.youtube.com/'));
+    assert(!hasYt, `Unit ${u.slug} unexpectedly has YouTube test link in data/units.json`);
     const unitHtmlPath = path.join(ROOT_DIR, u.slug, 'index.html');
     const unitHtml = fs.readFileSync(unitHtmlPath, 'utf8');
-    assert(unitHtml.includes('https://www.youtube.com/'), `Unit ${u.slug} missing YouTube link in HTML`);
+    assert(!unitHtml.includes('https://www.youtube.com/'), `Unit ${u.slug} unexpectedly has YouTube link in HTML`);
   });
 });
 
