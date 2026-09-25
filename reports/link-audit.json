@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-09-25T13:21:14.082Z",
-  "total": 229,
+  "timestamp": "2026-09-25T13:43:55.050Z",
+  "total": 230,
   "dryRun": true,
   "results": [
     {
@@ -1336,6 +1336,14 @@
       "unit": "Santo André",
       "field": "Site Oficial — Santo André",
       "url": "https://www.inspirar.com.br/sp-santo-andre-slim/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Acesso Rápido",
+      "unit": "Santo André",
+      "field": "Matricule-se pelo WhatsApp",
+      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Santo%20Andr%C3%A9",
       "status": "FORMAT_OK",
       "ok": true
     },

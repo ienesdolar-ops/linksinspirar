@@ -1,8 +1,8 @@
 # Relatório de Verificação de Links — Bio no Link
 
-- **Data**: 25/09/2026, 10:21:14
+- **Data**: 25/09/2026, 10:43:55
 - **Modo**: Validação Estrutural (Dry Run)
-- **Total de Links Verificados**: 229
+- **Total de Links Verificados**: 230
 
 | Unidade | Campo / Título | URL | Status |
 | :--- | :--- | :--- | :--- |
@@ -173,6 +173,7 @@
 | Santo André | instagram | [https://www.instagram.com/inspirar_santoandre...](https://www.instagram.com/inspirar_santoandre/) | ✅ OK |
 | Santo André | mapsUrl | [https://maps.google.com/?q=Faculdade+Inspirar...](https://maps.google.com/?q=Faculdade+Inspirar+Santo%20Andr%C3%A9) | ✅ OK |
 | Santo André | Site Oficial — Santo André | [https://www.inspirar.com.br/sp-santo-andre-sl...](https://www.inspirar.com.br/sp-santo-andre-slim/) | ✅ OK |
+| Santo André | Matricule-se pelo WhatsApp | [https://api.whatsapp.com/send?phone=558006022...](https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Santo%20Andr%C3%A9) | ✅ OK |
 | Santo André | Grupo VIP WhatsApp — Santo André | [https://chat.whatsapp.com/FoL3NtlyVanFISrz20m...](https://chat.whatsapp.com/FoL3NtlyVanFISrz20muP6?mode=gi_t&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0DMTAwAHBkb2YCc3J0YwZhcHBfaWQPOTM2NjE5NzQzMzkyNDU5AAGnNHIRTMbhHiisZSU1FeX335d48FyQPSe8Nw_IgWKDF0Z44e2yjDx3JRtSKmY_aem_k_59wE_els5hN8giRS88dw) | ✅ OK |
 | Santos | website | [https://www.inspirar.com.br/sp-sao-paulo-sant...](https://www.inspirar.com.br/sp-sao-paulo-santos/) | ✅ OK |
 | Santos | instagram | [https://www.instagram.com/inspirar.santos/...](https://www.instagram.com/inspirar.santos/) | ✅ OK |

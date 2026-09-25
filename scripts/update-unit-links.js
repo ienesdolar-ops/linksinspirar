@@ -75,7 +75,7 @@ function getInstitutionalItems(unit) {
   }
 
   // Only add standard 0800 WhatsApp if unit does NOT have a dedicated custom WhatsApp
-  const unitsWithCustomWhatsApp = ['cuiaba', 'goiania', 'santo-andre', 'sao-luis'];
+  const unitsWithCustomWhatsApp = ['cuiaba', 'goiania', 'sao-luis'];
   if (!unitsWithCustomWhatsApp.includes(unit.slug)) {
     const defaultMsg = unit.whatsappDefaultMessage
       ? encodeURIComponent(unit.whatsappDefaultMessage)
@@ -303,8 +303,7 @@ data.units = data.units.map(unit => {
       break;
 
     case 'santo-andre':
-      // santo andre: institucional e WhatsApp único (Grupo VIP) enviado pelo usuário
-      unit.whatsappCustomUrl = "https://chat.whatsapp.com/FoL3NtlyVanFISrz20muP6?mode=gi_t&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0DMTAwAHBkb2YCc3J0YwZhcHBfaWQPOTM2NjE5NzQzMzkyNDU5AAGnNHIRTMbhHiisZSU1FeX335d48FyQPSe8Nw_IgWKDF0Z44e2yjDx3JRtSKmY_aem_k_59wE_els5hN8giRS88dw";
+      // santo andre: institucional (Site + WhatsApp Matricule-se) e Grupo VIP WhatsApp
       institucionais.push({
         title: "Grupo VIP WhatsApp — Santo André",
         desc: "Acesse nosso grupo exclusivo no WhatsApp",

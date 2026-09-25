@@ -190,11 +190,12 @@ runStep('Gate 8: Unit Links Configuration Fidelity (37 Units Audited)', () => {
   assert(bsbJson.includes('i-simposio-de-acupuntura'), 'Brasília missing simpósio link');
   assert(bsbJson.includes('2026-12-05T08:00:00-03:00'), 'Brasília missing 05/12 08:00 expiration');
 
-  // 7. No duplicate WhatsApp links across all 37 units
+  // 7. WhatsApp links validation: 1 standard link, and 2 for Santo André (standard + VIP group)
   data.units.forEach(u => {
     const waCount = (u.sections || []).flatMap(s => s.items || [])
       .filter(item => (item.url && (item.url.includes('whatsapp.com') || item.url.includes('wa.me'))) || item.icon === 'whatsapp').length;
-    assert.strictEqual(waCount, 1, `Unit ${u.slug} must have exactly 1 WhatsApp link, got ${waCount}`);
+    const expected = u.slug === 'santo-andre' ? 2 : 1;
+    assert.strictEqual(waCount, expected, `Unit ${u.slug} must have exactly ${expected} WhatsApp link(s), got ${waCount}`);
   });
 });
 
