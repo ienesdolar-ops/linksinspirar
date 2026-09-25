@@ -512,7 +512,9 @@
               "badge": "Inscrições",
               "url": "https://www.sympla.com.br/evento/i-simposio-de-acupuntura-da-faculdade-inspirar-brasilia/3565985?share_id=copiarlink",
               "icon": "calendar",
-              "accent": "coral"
+              "accent": "coral",
+              "startDate": "2026-09-01",
+              "endDate": "2026-12-05T08:00:00-03:00"
             }
           ]
         },
@@ -856,15 +858,8 @@
               "accent": ""
             },
             {
-              "title": "Matricule-se pelo WhatsApp",
-              "desc": "Fale com nossa equipe • 0800 602 2828",
-              "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Cuiab%C3%A1",
-              "icon": "whatsapp",
-              "accent": "green"
-            },
-            {
               "title": "Atendimento via WhatsApp — Cuiabá",
-              "desc": "Fale com nossa equipe da unidade Cuiabá",
+              "desc": "Fale diretamente com a equipe da Inspirar Cuiabá",
               "tag": "WhatsApp",
               "badge": "Online",
               "url": "https://api.whatsapp.com/send/?phone=%2B5565999572156&text&type=phone_number&app_absent=0&utm_source=ig",
@@ -873,7 +868,8 @@
             }
           ]
         }
-      ]
+      ],
+      "whatsappCustomUrl": "https://api.whatsapp.com/send/?phone=%2B5565999572156&text&type=phone_number&app_absent=0&utm_source=ig"
     },
     {
       "slug": "curitiba",
@@ -1415,13 +1411,6 @@
               "accent": ""
             },
             {
-              "title": "Matricule-se pelo WhatsApp",
-              "desc": "Fale com nossa equipe • 0800 602 2828",
-              "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Goi%C3%A2nia",
-              "icon": "whatsapp",
-              "accent": "green"
-            },
-            {
               "title": "Fale no WhatsApp — Goiânia",
               "desc": "Atendimento direto com a equipe de Goiânia",
               "tag": "WhatsApp",
@@ -1432,7 +1421,8 @@
             }
           ]
         }
-      ]
+      ],
+      "whatsappCustomUrl": "https://api.whatsapp.com/send/?phone=5562999909917&text&type=phone_number&app_absent=0&utm_source=ig"
     },
     {
       "slug": "guarulhos",
@@ -2478,13 +2468,6 @@
               "accent": ""
             },
             {
-              "title": "Matricule-se pelo WhatsApp",
-              "desc": "Fale com nossa equipe • 0800 602 2828",
-              "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Santo%20Andr%C3%A9",
-              "icon": "whatsapp",
-              "accent": "green"
-            },
-            {
               "title": "Grupo VIP WhatsApp — Santo André",
               "desc": "Acesse nosso grupo exclusivo no WhatsApp",
               "tag": "Grupo VIP",
@@ -2495,7 +2478,8 @@
             }
           ]
         }
-      ]
+      ],
+      "whatsappCustomUrl": "https://chat.whatsapp.com/FoL3NtlyVanFISrz20muP6?mode=gi_t&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0DMTAwAHBkb2YCc3J0YwZhcHBfaWQPOTM2NjE5NzQzMzkyNDU5AAGnNHIRTMbhHiisZSU1FeX335d48FyQPSe8Nw_IgWKDF0Z44e2yjDx3JRtSKmY_aem_k_59wE_els5hN8giRS88dw"
     },
     {
       "slug": "santos",
@@ -2792,7 +2776,9 @@
               "badge": "Sympla",
               "url": "https://www.sympla.com.br/evento/pelve-expert-sao-luis-do-maranhao/3578577?share_id=copiarlink&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAadGoaxKcEBtBo3p15vT13mhFZHRzyTnQ1MsPK3XrG7zLj8prqblFos25wIRKw_aem_5l1tPJLkRK_d6LWXGjU6Ow&utm_id=97760_v0_s00_e0_tv3&referrer=l.instagram.com",
               "icon": "calendar",
-              "accent": "coral"
+              "accent": "coral",
+              "startDate": "2026-09-01",
+              "endDate": "2026-12-10T18:30:00-03:00"
             }
           ]
         },
@@ -2816,13 +2802,6 @@
               "accent": ""
             },
             {
-              "title": "Matricule-se pelo WhatsApp",
-              "desc": "Fale com nossa equipe • 0800 602 2828",
-              "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20S%C3%A3o%20Lu%C3%ADs",
-              "icon": "whatsapp",
-              "accent": "green"
-            },
-            {
               "title": "Fale no WhatsApp — São Luís",
               "desc": "Atendimento direto pelo WhatsApp da Inspirar São Luís",
               "tag": "WhatsApp",
@@ -2833,7 +2812,8 @@
             }
           ]
         }
-      ]
+      ],
+      "whatsappCustomUrl": "https://api.whatsapp.com/message/7HAT7265HDZNL1?autoload=1&app_absent=0&utm_source=ig"
     },
     {
       "slug": "sao-paulo-borba-gato",

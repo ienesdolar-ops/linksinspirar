@@ -1,6 +1,11 @@
 /**
  * scripts/update-unit-links.js
- * Updates data/units.json according to the user's manual audit of all 37 units.
+ * Updates data/units.json according to user instructions:
+ * 1. Deduplicate WhatsApp: keep ONLY the specific WhatsApp sent in the update (Cuiabá, Goiânia, Santo André, São Luís).
+ * 2. Set auto-expiration on all Sympla events to exact event start date and time:
+ *    - Brasília (I Simpósio de Acupuntura): 05/12/2026 08:00
+ *    - São Luís (Pelve Expert): 10/12/2026 18:30
+ *    - Vila Mariana (Workshop Estética Íntima): 07/11/2026 09:00
  */
 
 const fs = require('fs');
@@ -68,19 +73,24 @@ function getInstitutionalItems(unit) {
       accent: ""
     });
   }
-  const defaultMsg = unit.whatsappDefaultMessage
-    ? encodeURIComponent(unit.whatsappDefaultMessage)
-    : encodeURIComponent(`Olá! Tenho interesse nos cursos da Inspirar ${unit.name}`);
-  const phone = unit.whatsapp ? unit.whatsapp.replace(/\D/g, '') : '558006022828';
-  const displayPhone = unit.whatsappDisplay || '0800 602 2828';
 
-  items.push({
-    title: "Matricule-se pelo WhatsApp",
-    desc: `Fale com nossa equipe • ${displayPhone}`,
-    url: `https://api.whatsapp.com/send?phone=${phone}&text=${defaultMsg}`,
-    icon: "whatsapp",
-    accent: "green"
-  });
+  // Only add standard 0800 WhatsApp if unit does NOT have a dedicated custom WhatsApp
+  const unitsWithCustomWhatsApp = ['cuiaba', 'goiania', 'santo-andre', 'sao-luis'];
+  if (!unitsWithCustomWhatsApp.includes(unit.slug)) {
+    const defaultMsg = unit.whatsappDefaultMessage
+      ? encodeURIComponent(unit.whatsappDefaultMessage)
+      : encodeURIComponent(`Olá! Tenho interesse nos cursos da Inspirar ${unit.name}`);
+    const phone = unit.whatsapp ? unit.whatsapp.replace(/\D/g, '') : '558006022828';
+    const displayPhone = unit.whatsappDisplay || '0800 602 2828';
+
+    items.push({
+      title: "Matricule-se pelo WhatsApp",
+      desc: `Fale com nossa equipe • ${displayPhone}`,
+      url: `https://api.whatsapp.com/send?phone=${phone}&text=${defaultMsg}`,
+      icon: "whatsapp",
+      accent: "green"
+    });
+  }
 
   return items;
 }
@@ -101,6 +111,9 @@ data.units = data.units.map(unit => {
   const eventos = [];
   const institucionais = getInstitutionalItems(unit);
   const campusBanner = getCampusBanner(unit);
+
+  // Clear any existing whatsappCustomUrl by default
+  delete unit.whatsappCustomUrl;
 
   switch (slug) {
     case 'balneario-camboriu':
@@ -137,7 +150,7 @@ data.units = data.units.map(unit => {
       break;
 
     case 'brasilia':
-      // brasilia: institucionais e https://www.sympla.com.br/evento/i-simposio-de-acupuntura-da-faculdade-inspirar-brasilia/3565985?share_id=copiarlink
+      // brasilia: institucionais e simpósio acupuntura (inicia 05/12/2026 às 08:00)
       eventos.push({
         title: "I Simpósio de Acupuntura — Inspirar Brasília",
         desc: "Garanta sua vaga no I Simpósio de Acupuntura da Faculdade Inspirar Brasília",
@@ -145,7 +158,9 @@ data.units = data.units.map(unit => {
         badge: "Inscrições",
         url: "https://www.sympla.com.br/evento/i-simposio-de-acupuntura-da-faculdade-inspirar-brasilia/3565985?share_id=copiarlink",
         icon: "calendar",
-        accent: "coral"
+        accent: "coral",
+        startDate: "2026-09-01",
+        endDate: "2026-12-05T08:00:00-03:00"
       });
       break;
 
@@ -169,11 +184,12 @@ data.units = data.units.map(unit => {
       break;
 
     case 'cuiaba':
-      // cuiaba, amofisio, institucionais e https://api.whatsapp.com/send/?phone=%2B5565999572156&text&type=phone_number&app_absent=0&utm_source=ig
+      // cuiaba: amofisio, institucional e WhatsApp único enviado pelo usuário
       eventos.push(itemAmoFisio);
+      unit.whatsappCustomUrl = "https://api.whatsapp.com/send/?phone=%2B5565999572156&text&type=phone_number&app_absent=0&utm_source=ig";
       institucionais.push({
         title: "Atendimento via WhatsApp — Cuiabá",
-        desc: "Fale com nossa equipe da unidade Cuiabá",
+        desc: "Fale diretamente com a equipe da Inspirar Cuiabá",
         tag: "WhatsApp",
         badge: "Online",
         url: "https://api.whatsapp.com/send/?phone=%2B5565999572156&text&type=phone_number&app_absent=0&utm_source=ig",
@@ -183,7 +199,7 @@ data.units = data.units.map(unit => {
       break;
 
     case 'curitiba':
-      // curitiba: institucioanis e copiar desse site: https://linktreecuritiba.vercel.app/
+      // curitiba: institucionais e copiar desse site: https://linktreecuritiba.vercel.app/
       cursos.push(itemSemiIntensiva);
       cursos.push({
         title: "Fisioterapia Vestibular",
@@ -199,7 +215,7 @@ data.units = data.units.map(unit => {
       break;
 
     case 'dourados':
-      // dourados: instituciionais
+      // dourados: institucionais
       break;
 
     case 'florianopolis':
@@ -215,8 +231,9 @@ data.units = data.units.map(unit => {
       break;
 
     case 'goiania':
-      // goiania, institucionais , amofisio e https://api.whatsapp.com/send/?phone=5562999909917&text&type=phone_number&app_absent=0&utm_source=ig
+      // goiania: institucionais , amofisio e WhatsApp único enviado pelo usuário
       eventos.push(itemAmoFisio);
+      unit.whatsappCustomUrl = "https://api.whatsapp.com/send/?phone=5562999909917&text&type=phone_number&app_absent=0&utm_source=ig";
       institucionais.push({
         title: "Fale no WhatsApp — Goiânia",
         desc: "Atendimento direto com a equipe de Goiânia",
@@ -252,7 +269,7 @@ data.units = data.units.map(unit => {
       break;
 
     case 'maceio':
-      // maceio: institucional, amofisio,
+      // maceio: institucional, amofisio
       eventos.push(itemAmoFisio);
       break;
 
@@ -286,7 +303,8 @@ data.units = data.units.map(unit => {
       break;
 
     case 'santo-andre':
-      // santo andre: institucional  e https://chat.whatsapp.com/FoL3NtlyVanFISrz20muP6?mode=gi_t&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0DMTAwAHBkb2YCc3J0YwZhcHBfaWQPOTM2NjE5NzQzMzkyNDU5AAGnNHIRTMbhHiisZSU1FeX335d48FyQPSe8Nw_IgWKDF0Z44e2yjDx3JRtSKmY_aem_k_59wE_els5hN8giRS88dw
+      // santo andre: institucional e WhatsApp único (Grupo VIP) enviado pelo usuário
+      unit.whatsappCustomUrl = "https://chat.whatsapp.com/FoL3NtlyVanFISrz20muP6?mode=gi_t&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0DMTAwAHBkb2YCc3J0YwZhcHBfaWQPOTM2NjE5NzQzMzkyNDU5AAGnNHIRTMbhHiisZSU1FeX335d48FyQPSe8Nw_IgWKDF0Z44e2yjDx3JRtSKmY_aem_k_59wE_els5hN8giRS88dw";
       institucionais.push({
         title: "Grupo VIP WhatsApp — Santo André",
         desc: "Acesse nosso grupo exclusivo no WhatsApp",
@@ -312,7 +330,7 @@ data.units = data.units.map(unit => {
       break;
 
     case 'sao-luis':
-      // sao luis: amofisio, institucional, whatsapp e sympla pelve expert
+      // sao luis: amofisio, institucional, whatsapp único e sympla pelve expert (inicia 10/12/2026 às 18:30)
       eventos.push(itemAmoFisio);
       eventos.push({
         title: "Pelve Expert — São Luís do Maranhão",
@@ -321,8 +339,11 @@ data.units = data.units.map(unit => {
         badge: "Sympla",
         url: "https://www.sympla.com.br/evento/pelve-expert-sao-luis-do-maranhao/3578577?share_id=copiarlink&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAadGoaxKcEBtBo3p15vT13mhFZHRzyTnQ1MsPK3XrG7zLj8prqblFos25wIRKw_aem_5l1tPJLkRK_d6LWXGjU6Ow&utm_id=97760_v0_s00_e0_tv3&referrer=l.instagram.com",
         icon: "calendar",
-        accent: "coral"
+        accent: "coral",
+        startDate: "2026-09-01",
+        endDate: "2026-12-10T18:30:00-03:00"
       });
+      unit.whatsappCustomUrl = "https://api.whatsapp.com/message/7HAT7265HDZNL1?autoload=1&app_absent=0&utm_source=ig";
       institucionais.push({
         title: "Fale no WhatsApp — São Luís",
         desc: "Atendimento direto pelo WhatsApp da Inspirar São Luís",
@@ -335,7 +356,7 @@ data.units = data.units.map(unit => {
       break;
 
     case 'sao-paulo-borba-gato':
-      // borbagato: amo fisio, institucional, https://cursoinspirar.com.br/fisioterapia-vestibular/ e https://cursoinspirar.com.br/dermatofuncional-internacional/
+      // borbagato: amo fisio, institucional, vestibular e dermatofuncional internacional
       cursos.push({
         title: "Fisioterapia Vestibular",
         desc: "Avaliação e tratamento das disfunções vestibulares",
@@ -350,7 +371,7 @@ data.units = data.units.map(unit => {
       break;
 
     case 'sao-paulo-vila-mariana':
-      // vila mariana: amofisio, institucional e workshop sympla expirando 07/11 às 09:00 BRT
+      // vila mariana: amofisio, institucional e workshop sympla (inicia 07/11/2026 às 09:00 BRT)
       eventos.push(itemAmoFisio);
       eventos.push({
         title: "Workshop Estética Íntima Feminina na Fisioterapia Pélvica",
@@ -419,4 +440,4 @@ data.units = data.units.map(unit => {
 });
 
 fs.writeFileSync(DATA_FILE, JSON.stringify(data, null, 2) + '\n', 'utf8');
-console.log('Successfully updated data/units.json for all 37 units!');
+console.log('Successfully updated data/units.json with deduplicated WhatsApp and Sympla expirations!');

@@ -1,8 +1,8 @@
 # Relatório de Verificação de Links — Bio no Link
 
-- **Data**: 25/09/2026, 10:09:11
+- **Data**: 25/09/2026, 10:21:14
 - **Modo**: Validação Estrutural (Dry Run)
-- **Total de Links Verificados**: 233
+- **Total de Links Verificados**: 229
 
 | Unidade | Campo / Título | URL | Status |
 | :--- | :--- | :--- | :--- |
@@ -65,7 +65,6 @@
 | Cuiabá | mapsUrl | [https://maps.google.com/?q=Faculdade+Inspirar...](https://maps.google.com/?q=Faculdade+Inspirar+Cuiab%C3%A1) | ✅ OK |
 | Cuiabá | Amo Fisio | [https://amofisio.vercel.app/...](https://amofisio.vercel.app/) | ✅ OK |
 | Cuiabá | Site Oficial — Cuiabá | [https://www.inspirar.com.br/mt-cuiaba/...](https://www.inspirar.com.br/mt-cuiaba/) | ✅ OK |
-| Cuiabá | Matricule-se pelo WhatsApp | [https://api.whatsapp.com/send?phone=558006022...](https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Cuiab%C3%A1) | ✅ OK |
 | Cuiabá | Atendimento via WhatsApp — Cuiabá | [https://api.whatsapp.com/send/?phone=%2B55659...](https://api.whatsapp.com/send/?phone=%2B5565999572156&text&type=phone_number&app_absent=0&utm_source=ig) | ✅ OK |
 | Curitiba | website | [https://www.inspirar.com.br/pr-curitiba/...](https://www.inspirar.com.br/pr-curitiba/) | ✅ OK |
 | Curitiba | instagram | [https://www.instagram.com/inspirar_curitiba/...](https://www.instagram.com/inspirar_curitiba/) | ✅ OK |
@@ -100,7 +99,6 @@
 | Goiânia | mapsUrl | [https://maps.google.com/?q=Faculdade+Inspirar...](https://maps.google.com/?q=Faculdade+Inspirar+Goi%C3%A2nia) | ✅ OK |
 | Goiânia | Amo Fisio | [https://amofisio.vercel.app/...](https://amofisio.vercel.app/) | ✅ OK |
 | Goiânia | Site Oficial — Goiânia | [https://www.inspirar.com.br/go-goiania/...](https://www.inspirar.com.br/go-goiania/) | ✅ OK |
-| Goiânia | Matricule-se pelo WhatsApp | [https://api.whatsapp.com/send?phone=558006022...](https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Goi%C3%A2nia) | ✅ OK |
 | Goiânia | Fale no WhatsApp — Goiânia | [https://api.whatsapp.com/send/?phone=55629999...](https://api.whatsapp.com/send/?phone=5562999909917&text&type=phone_number&app_absent=0&utm_source=ig) | ✅ OK |
 | Guarulhos | website | [https://www.inspirar.com.br/sp-guarulhos/...](https://www.inspirar.com.br/sp-guarulhos/) | ✅ OK |
 | Guarulhos | instagram | [https://www.instagram.com/inspirarguarulhos/...](https://www.instagram.com/inspirarguarulhos/) | ✅ OK |
@@ -175,7 +173,6 @@
 | Santo André | instagram | [https://www.instagram.com/inspirar_santoandre...](https://www.instagram.com/inspirar_santoandre/) | ✅ OK |
 | Santo André | mapsUrl | [https://maps.google.com/?q=Faculdade+Inspirar...](https://maps.google.com/?q=Faculdade+Inspirar+Santo%20Andr%C3%A9) | ✅ OK |
 | Santo André | Site Oficial — Santo André | [https://www.inspirar.com.br/sp-santo-andre-sl...](https://www.inspirar.com.br/sp-santo-andre-slim/) | ✅ OK |
-| Santo André | Matricule-se pelo WhatsApp | [https://api.whatsapp.com/send?phone=558006022...](https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Santo%20Andr%C3%A9) | ✅ OK |
 | Santo André | Grupo VIP WhatsApp — Santo André | [https://chat.whatsapp.com/FoL3NtlyVanFISrz20m...](https://chat.whatsapp.com/FoL3NtlyVanFISrz20muP6?mode=gi_t&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0DMTAwAHBkb2YCc3J0YwZhcHBfaWQPOTM2NjE5NzQzMzkyNDU5AAGnNHIRTMbhHiisZSU1FeX335d48FyQPSe8Nw_IgWKDF0Z44e2yjDx3JRtSKmY_aem_k_59wE_els5hN8giRS88dw) | ✅ OK |
 | Santos | website | [https://www.inspirar.com.br/sp-sao-paulo-sant...](https://www.inspirar.com.br/sp-sao-paulo-santos/) | ✅ OK |
 | Santos | instagram | [https://www.instagram.com/inspirar.santos/...](https://www.instagram.com/inspirar.santos/) | ✅ OK |
@@ -199,7 +196,6 @@
 | São Luís | Amo Fisio | [https://amofisio.vercel.app/...](https://amofisio.vercel.app/) | ✅ OK |
 | São Luís | Pelve Expert — São Luís do Maranhão | [https://www.sympla.com.br/evento/pelve-expert...](https://www.sympla.com.br/evento/pelve-expert-sao-luis-do-maranhao/3578577?share_id=copiarlink&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAadGoaxKcEBtBo3p15vT13mhFZHRzyTnQ1MsPK3XrG7zLj8prqblFos25wIRKw_aem_5l1tPJLkRK_d6LWXGjU6Ow&utm_id=97760_v0_s00_e0_tv3&referrer=l.instagram.com) | ✅ OK |
 | São Luís | Site Oficial — São Luís | [https://www.inspirar.com.br/ma-sao-luis/...](https://www.inspirar.com.br/ma-sao-luis/) | ✅ OK |
-| São Luís | Matricule-se pelo WhatsApp | [https://api.whatsapp.com/send?phone=558006022...](https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20S%C3%A3o%20Lu%C3%ADs) | ✅ OK |
 | São Luís | Fale no WhatsApp — São Luís | [https://api.whatsapp.com/message/7HAT7265HDZN...](https://api.whatsapp.com/message/7HAT7265HDZNL1?autoload=1&app_absent=0&utm_source=ig) | ✅ OK |
 | São Paulo - Borba Gato | website | [https://www.inspirar.com.br/sp-sao-paulo-borb...](https://www.inspirar.com.br/sp-sao-paulo-borba-gato/) | ✅ OK |
 | São Paulo - Borba Gato | instagram | [https://www.instagram.com/inspirarsaopaulobor...](https://www.instagram.com/inspirarsaopauloborbagato/) | ✅ OK |

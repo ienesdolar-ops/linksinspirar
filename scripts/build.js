@@ -378,7 +378,7 @@ function generateUnitHtml(unit, data) {
 
   // Pre-filled WhatsApp link
   const waMsg = encodeURIComponent(unit.whatsappDefaultMessage || `Olá! Tenho interesse em saber mais sobre os cursos da Faculdade Inspirar - ${unit.name}`);
-  const waLink = `https://api.whatsapp.com/send?phone=${unit.whatsapp}&text=${waMsg}`;
+  const waLink = unit.whatsappCustomUrl || `https://api.whatsapp.com/send?phone=${unit.whatsapp}&text=${waMsg}`;
 
   return `<!DOCTYPE html>
 <html lang="pt-BR">
@@ -702,7 +702,7 @@ function generateHubHtml(data) {
     const unitPage = `${unit.slug}/index.html`;
     const coverPath = unit.coverImage || 'assets/images/UNIDADE CWB sem gourmet.png';
     const waMsg = encodeURIComponent(unit.whatsappDefaultMessage || `Olá! Gostaria de informações sobre a unidade ${unit.name}`);
-    const waLink = `https://api.whatsapp.com/send?phone=${unit.whatsapp}&text=${waMsg}`;
+    const waLink = unit.whatsappCustomUrl || `https://api.whatsapp.com/send?phone=${unit.whatsapp}&text=${waMsg}`;
 
     return `
       <!-- Unit Card: ${unit.name} -->

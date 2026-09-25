@@ -177,15 +177,25 @@ runStep('Gate 8: Unit Links Configuration Fidelity (37 Units Audited)', () => {
   const sta = data.units.find(u => u.slug === 'santo-andre');
   assert(JSON.stringify(sta.sections).includes('chat.whatsapp.com'), 'Santo André missing WhatsApp VIP group');
 
-  // 5. São Luís links
+  // 5. São Luís links & Sympla expiration
   const slz = data.units.find(u => u.slug === 'sao-luis');
   const slzJson = JSON.stringify(slz.sections);
   assert(slzJson.includes('pelve-expert-sao-luis-do-maranhao'), 'São Luís missing Pelve Expert');
+  assert(slzJson.includes('2026-12-10T18:30:00-03:00'), 'São Luís missing 10/12 18:30 expiration');
   assert(slzJson.includes('7HAT7265HDZNL1'), 'São Luís missing WhatsApp link');
 
-  // 6. Brasília Sympla
+  // 6. Brasília Sympla & expiration
   const bsb = data.units.find(u => u.slug === 'brasilia');
-  assert(JSON.stringify(bsb.sections).includes('i-simposio-de-acupuntura'), 'Brasília missing simpósio link');
+  const bsbJson = JSON.stringify(bsb.sections);
+  assert(bsbJson.includes('i-simposio-de-acupuntura'), 'Brasília missing simpósio link');
+  assert(bsbJson.includes('2026-12-05T08:00:00-03:00'), 'Brasília missing 05/12 08:00 expiration');
+
+  // 7. No duplicate WhatsApp links across all 37 units
+  data.units.forEach(u => {
+    const waCount = (u.sections || []).flatMap(s => s.items || [])
+      .filter(item => (item.url && (item.url.includes('whatsapp.com') || item.url.includes('wa.me'))) || item.icon === 'whatsapp').length;
+    assert.strictEqual(waCount, 1, `Unit ${u.slug} must have exactly 1 WhatsApp link, got ${waCount}`);
+  });
 });
 
 // 9. Browser Tab Icon (Favicon with Símbolo Branco)

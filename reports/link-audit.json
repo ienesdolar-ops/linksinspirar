@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-09-25T13:09:11.637Z",
-  "total": 233,
+  "timestamp": "2026-09-25T13:21:14.082Z",
+  "total": 229,
   "dryRun": true,
   "results": [
     {
@@ -478,14 +478,6 @@
     {
       "source": "Acesso Rápido",
       "unit": "Cuiabá",
-      "field": "Matricule-se pelo WhatsApp",
-      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Cuiab%C3%A1",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Acesso Rápido",
-      "unit": "Cuiabá",
       "field": "Atendimento via WhatsApp — Cuiabá",
       "url": "https://api.whatsapp.com/send/?phone=%2B5565999572156&text&type=phone_number&app_absent=0&utm_source=ig",
       "status": "FORMAT_OK",
@@ -752,14 +744,6 @@
       "unit": "Goiânia",
       "field": "Site Oficial — Goiânia",
       "url": "https://www.inspirar.com.br/go-goiania/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Acesso Rápido",
-      "unit": "Goiânia",
-      "field": "Matricule-se pelo WhatsApp",
-      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Goi%C3%A2nia",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -1358,14 +1342,6 @@
     {
       "source": "Acesso Rápido",
       "unit": "Santo André",
-      "field": "Matricule-se pelo WhatsApp",
-      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Santo%20Andr%C3%A9",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Acesso Rápido",
-      "unit": "Santo André",
       "field": "Grupo VIP WhatsApp — Santo André",
       "url": "https://chat.whatsapp.com/FoL3NtlyVanFISrz20muP6?mode=gi_t&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0DMTAwAHBkb2YCc3J0YwZhcHBfaWQPOTM2NjE5NzQzMzkyNDU5AAGnNHIRTMbhHiisZSU1FeX335d48FyQPSe8Nw_IgWKDF0Z44e2yjDx3JRtSKmY_aem_k_59wE_els5hN8giRS88dw",
       "status": "FORMAT_OK",
@@ -1544,14 +1520,6 @@
       "unit": "São Luís",
       "field": "Site Oficial — São Luís",
       "url": "https://www.inspirar.com.br/ma-sao-luis/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Acesso Rápido",
-      "unit": "São Luís",
-      "field": "Matricule-se pelo WhatsApp",
-      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20S%C3%A3o%20Lu%C3%ADs",
       "status": "FORMAT_OK",
       "ok": true
     },
