@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-09-25T13:43:55.050Z",
-  "total": 230,
+  "timestamp": "2026-09-25T15:31:04.154Z",
+  "total": 231,
   "dryRun": true,
   "results": [
     {
@@ -520,6 +520,14 @@
       "unit": "Curitiba",
       "field": "Fisioterapia Vestibular",
       "url": "https://cursoinspirar.com.br/fisioterapia-vestibular/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Eventos",
+      "unit": "Curitiba",
+      "field": "Pelve Expert — Curitiba",
+      "url": "https://www.sympla.com.br/evento/pelve-expert-curitiba/3582004?referrer=www.google.com&referrer=www.google.com",
       "status": "FORMAT_OK",
       "ok": true
     },

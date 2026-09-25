@@ -199,7 +199,7 @@ data.units = data.units.map(unit => {
       break;
 
     case 'curitiba':
-      // curitiba: institucionais e copiar desse site: https://linktreecuritiba.vercel.app/
+      // curitiba: institucionais e copiar desse site: https://linktreecuritiba.vercel.app/ + Pelve Expert Curitiba
       cursos.push(itemSemiIntensiva);
       cursos.push({
         title: "Fisioterapia Vestibular",
@@ -209,6 +209,17 @@ data.units = data.units.map(unit => {
         url: "https://cursoinspirar.com.br/fisioterapia-vestibular/",
         icon: "activity",
         accent: "coral"
+      });
+      eventos.push({
+        title: "Pelve Expert — Curitiba",
+        desc: "Eletrotermofototerapia na Avaliação e Tratamento das Disfunções Pélvicas • Sympla",
+        tag: "Evento",
+        badge: "Sympla",
+        url: "https://www.sympla.com.br/evento/pelve-expert-curitiba/3582004?referrer=www.google.com&referrer=www.google.com",
+        icon: "calendar",
+        accent: "coral",
+        startDate: "2026-09-01",
+        endDate: "2026-12-03T18:30:00-03:00"
       });
       eventos.push(itemAmoFisio);
       eventos.push(itemCongressoEstetica);

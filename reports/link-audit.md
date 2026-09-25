@@ -1,8 +1,8 @@
 # Relatório de Verificação de Links — Bio no Link
 
-- **Data**: 25/09/2026, 10:43:55
+- **Data**: 25/09/2026, 12:31:04
 - **Modo**: Validação Estrutural (Dry Run)
-- **Total de Links Verificados**: 230
+- **Total de Links Verificados**: 231
 
 | Unidade | Campo / Título | URL | Status |
 | :--- | :--- | :--- | :--- |
@@ -71,6 +71,7 @@
 | Curitiba | mapsUrl | [https://goo.gl/maps/FbkwEndWyWYKLLkA6...](https://goo.gl/maps/FbkwEndWyWYKLLkA6) | ✅ OK |
 | Curitiba | Fisioterapia em Terapia Intensiva | [https://faculdadeinspirar.com.br/semi-intensi...](https://faculdadeinspirar.com.br/semi-intensiva/) | ✅ OK |
 | Curitiba | Fisioterapia Vestibular | [https://cursoinspirar.com.br/fisioterapia-ves...](https://cursoinspirar.com.br/fisioterapia-vestibular/) | ✅ OK |
+| Curitiba | Pelve Expert — Curitiba | [https://www.sympla.com.br/evento/pelve-expert...](https://www.sympla.com.br/evento/pelve-expert-curitiba/3582004?referrer=www.google.com&referrer=www.google.com) | ✅ OK |
 | Curitiba | Amo Fisio | [https://amofisio.vercel.app/...](https://amofisio.vercel.app/) | ✅ OK |
 | Curitiba | Congresso Internacional em Estética | [https://faculdadeinspirar.com.br/congresso-de...](https://faculdadeinspirar.com.br/congresso-de-estetica/) | ✅ OK |
 | Curitiba | Site Oficial — Curitiba | [https://www.inspirar.com.br/pr-curitiba/...](https://www.inspirar.com.br/pr-curitiba/) | ✅ OK |

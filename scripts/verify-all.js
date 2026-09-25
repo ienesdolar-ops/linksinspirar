@@ -161,11 +161,13 @@ runStep('Gate 8: Unit Links Configuration Fidelity (37 Units Audited)', () => {
   assert(vmJson.includes('workshop-estetica-intima-feminina-na-fisioterapia-pelvica'), 'Vila Mariana missing workshop link');
   assert(vmJson.includes('2026-11-07T09:00:00-03:00'), 'Vila Mariana missing 07/11 09:00 expiration');
 
-  // 2. Curitiba fidelity to linktreecuritiba.vercel.app
+  // 2. Curitiba fidelity to linktreecuritiba.vercel.app + Pelve Expert
   const cwb = data.units.find(u => u.slug === 'curitiba');
   const cwbJson = JSON.stringify(cwb.sections);
   assert(cwbJson.includes('semi-intensiva'), 'Curitiba missing semi-intensiva');
   assert(cwbJson.includes('fisioterapia-vestibular'), 'Curitiba missing vestibular');
+  assert(cwbJson.includes('pelve-expert-curitiba'), 'Curitiba missing pelve-expert-curitiba');
+  assert(cwbJson.includes('2026-12-03T18:30:00-03:00'), 'Curitiba missing 03/12 18:30 expiration');
   assert(cwbJson.includes('amofisio.vercel.app'), 'Curitiba missing amofisio');
   assert(cwbJson.includes('congresso-de-estetica'), 'Curitiba missing congresso estética');
 

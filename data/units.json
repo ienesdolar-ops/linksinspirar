@@ -974,6 +974,17 @@
           "icon": "calendar",
           "items": [
             {
+              "title": "Pelve Expert — Curitiba",
+              "desc": "Eletrotermofototerapia na Avaliação e Tratamento das Disfunções Pélvicas • Sympla",
+              "tag": "Evento",
+              "badge": "Sympla",
+              "url": "https://www.sympla.com.br/evento/pelve-expert-curitiba/3582004?referrer=www.google.com&referrer=www.google.com",
+              "icon": "calendar",
+              "accent": "coral",
+              "startDate": "2026-09-01",
+              "endDate": "2026-12-03T18:30:00-03:00"
+            },
+            {
               "title": "Amo Fisio",
               "desc": "O maior evento presencial de Fisioterapia da Inspirar. Confira a programação!",
               "tag": "Evento Presencial",
