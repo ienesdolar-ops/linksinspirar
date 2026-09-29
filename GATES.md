@@ -62,6 +62,15 @@
 - CHECK: `node scripts/verify-all.js`
 - EXPECT: `Gate 9: Browser Tab Icon (Favicon with Símbolo Branco)... ✅ OK`
 
+## Gate 10: Schema.org JSON-LD Structured Data
+- Root Hub (`index.html`) declares EducationalOrganization (`#organization`), WebSite (`#website`), and core services.
+- All 37 unit pages declare LocalBusiness, PostalAddress, parentOrganization reference, BreadcrumbList, and Course structured entities.
+- CHECK: `node scripts/validate-schema.js`
+- EXPECT: `ALL 37 UNITS PASSED SCHEMA VALIDATION` (exit 0)
 
-
-
+## Gate 11: Sympla API Auto-Enriched Cover Banners & Cards
+- Integration with Sympla Public API v3 automatically fetches event cover/banner image and start dates for any Sympla event link.
+- Events with banners render high-impact responsive cards (`.link-card.has-banner`) with aspect ratio `1.91:1`, gradient overlay, floating badges, and smooth hover zoom effects.
+- Banners are cached in `data/units.json` and automatically refreshed during build.
+- CHECK: `node scripts/verify-all.js`
+- EXPECT: `Gate 11: Sympla Event Banners & Cards... ✅ OK` (exit 0)

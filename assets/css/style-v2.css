@@ -701,6 +701,95 @@ body {
 }
 
 /* --------------------------------------------------------------------------
+   9.1. CARD COM BANNER / CAPA (Ex: Eventos Sympla)
+   -------------------------------------------------------------------------- */
+.link-card.has-banner {
+  flex-direction: column;
+  align-items: stretch;
+  padding: 0;
+  gap: 0;
+  overflow: hidden;
+  min-height: auto;
+}
+
+.link-card.has-banner::before {
+  z-index: 3;
+}
+
+.link-card-banner-media {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1.91 / 1;
+  background: #080B10;
+  overflow: hidden;
+}
+
+.link-card-banner-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), filter 0.3s ease;
+}
+
+.link-card.has-banner:hover .link-card-banner-img {
+  transform: scale(1.035);
+}
+
+.link-card-banner-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(8, 11, 16, 0.05) 0%, rgba(8, 11, 16, 0.25) 50%, rgba(13, 18, 28, 0.95) 100%);
+  pointer-events: none;
+}
+
+.link-card-banner-badge {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  z-index: 2;
+}
+
+.sympla-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 4px 10px;
+  border-radius: var(--radius-full);
+  background: rgba(0, 166, 255, 0.95);
+  color: #FFFFFF;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(8px);
+}
+
+.sympla-pill.coral,
+.link-card.accent-coral .sympla-pill {
+  background: rgba(255, 90, 70, 0.95);
+}
+
+.link-card.accent-purple .sympla-pill {
+  background: rgba(142, 68, 173, 0.95);
+}
+
+.link-card-banner-footer {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 14px 18px 16px;
+  background: transparent;
+  position: relative;
+  z-index: 2;
+  width: 100%;
+}
+
+/* --------------------------------------------------------------------------
    10. HUB ESPECÍFICO (PESQUISA, CHIPS DE REGIÃO COM MÁSCARA, GRID)
    -------------------------------------------------------------------------- */
 .hub-header {

@@ -313,7 +313,36 @@ function generateUnitHtml(unit, data) {
           ? ` data-start-date="${item.startDate || ''}" data-end-date="${item.endDate || ''}"`
           : '';
 
-        streamItemsHtml += `
+        if (item.banner) {
+          const bannerBadges = (item.badge || item.tag) ? `
+          <div class="link-card-banner-badge">
+            ${item.badge ? `<span class="sympla-pill">${item.badge}</span>` : ''}
+            ${item.tag ? `<span class="link-badge-pill">${item.tag}</span>` : ''}
+          </div>` : '';
+
+          streamItemsHtml += `
+      <!-- ${item.title} (com Capa/Banner) -->
+      <a href="${item.url}" target="_blank" rel="noopener" class="link-card has-banner${accentClass}"${dateAttrs}>
+        <div class="link-card-banner-media">
+          <img src="${item.banner}" alt="${item.title}" loading="lazy" class="link-card-banner-img">
+          <div class="link-card-banner-overlay"></div>
+          ${bannerBadges}
+        </div>
+        <div class="link-card-banner-footer">
+          <div class="link-icon-box">
+            ${getIconSvg(item.icon)}
+          </div>
+          <div class="link-details">
+            <h3 class="link-title">${item.title}</h3>
+            ${item.desc ? `<p class="link-desc">${cleanSubtext(item.desc)}</p>` : ''}
+          </div>
+          <span class="link-action-indicator">
+            ${ICONS.arrowRight}
+          </span>
+        </div>
+      </a>`;
+        } else {
+          streamItemsHtml += `
       <!-- ${item.title} -->
       <a href="${item.url}" target="_blank" rel="noopener" class="link-card${accentClass}"${dateAttrs}>
         <div class="link-icon-box">
@@ -328,6 +357,7 @@ function generateUnitHtml(unit, data) {
           ${ICONS.arrowRight}
         </span>
       </a>`;
+        }
       });
     });
   }
@@ -1271,7 +1301,7 @@ ${JSON.stringify(generateHubJsonLd(data), null, 2)}
 `;
 }
 
-function build() {
+async function build() {
   console.log('--- Building Bio no Link Static Site ---');
 
   if (!fs.existsSync(DATA_FILE)) {
@@ -1280,7 +1310,18 @@ function build() {
   }
 
   const raw = fs.readFileSync(DATA_FILE, 'utf8');
-  const data = JSON.parse(raw);
+  let data = JSON.parse(raw);
+
+  // Automatically enrich any Sympla links with cover banner
+  try {
+    const { enrichSymplaEvents } = require('./sympla');
+    const syncRes = await enrichSymplaEvents(data, { force: false, save: true });
+    if (syncRes && syncRes.data) {
+      data = syncRes.data;
+    }
+  } catch (err) {
+    console.warn('[Build] Sympla banner sync note:', err.message);
+  }
 
   // 1. Build Root index.html (Central Hub)
   const hubHtml = generateHubHtml(data);
@@ -1302,7 +1343,9 @@ function build() {
 
   console.log(`\nSite successfully built! Total units: ${data.units.length}`);
   console.log('BUILD SUCCESSFUL (37 units)');
-  process.exit(0);
 }
 
-build();
+build().catch(err => {
+  console.error('BUILD FAILED:', err);
+  process.exit(1);
+});

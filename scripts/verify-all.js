@@ -17,6 +17,13 @@ const assert = require('assert');
 const ROOT_DIR = path.resolve(__dirname, '..');
 const DATA_FILE = path.join(ROOT_DIR, 'data', 'units.json');
 
+if (process.platform === 'win32') {
+  const localNode = 'C:\\Users\\Usuario\\AppData\\Local\\Programs\\node';
+  if (fs.existsSync(localNode) && !process.env.PATH.includes(localNode)) {
+    process.env.PATH = `${localNode};${process.env.PATH}`;
+  }
+}
+
 function runStep(name, fn) {
   process.stdout.write(`Checking ${name}... `);
   try {
@@ -241,7 +248,36 @@ runStep('Gate 10: Schema.org JSON-LD Structured Data (Hub + 37 Units)', () => {
   execSync('node scripts/validate-schema.js', { cwd: ROOT_DIR, stdio: 'pipe' });
 });
 
+// 11. Sympla Event Banners Integration
+runStep('Gate 11: Sympla Event Banners & Cards', () => {
+  const { extractSymplaEventId } = require('./sympla');
+  assert.strictEqual(extractSymplaEventId('https://www.sympla.com.br/evento/pelve-expert-curitiba/3582004'), '3582004');
+
+  const data = JSON.parse(fs.readFileSync(DATA_FILE, 'utf8'));
+  const symplaUnits = ['brasilia', 'curitiba', 'sao-luis', 'sao-paulo-vila-mariana'];
+
+  symplaUnits.forEach(slug => {
+    const unit = data.units.find(u => u.slug === slug);
+    assert(unit, `Unit ${slug} not found`);
+
+    const symplaItem = (unit.sections || [])
+      .flatMap(s => s.items || [])
+      .find(i => i.url && i.url.includes('sympla.com.br'));
+
+    assert(symplaItem, `Unit ${slug} missing Sympla item in data/units.json`);
+    assert(symplaItem.banner, `Unit ${slug} Sympla item missing banner URL`);
+    assert(symplaItem.banner.startsWith('https://images.sympla.com.br/'), `Unit ${slug} banner URL invalid: ${symplaItem.banner}`);
+
+    // Check generated HTML
+    const htmlPath = path.join(ROOT_DIR, slug, 'index.html');
+    const html = fs.readFileSync(htmlPath, 'utf8');
+    assert(html.includes('link-card has-banner'), `Unit ${slug} HTML missing "link-card has-banner" class`);
+    assert(html.includes(symplaItem.banner), `Unit ${slug} HTML missing banner image: ${symplaItem.banner}`);
+    assert(html.includes('link-card-banner-img'), `Unit ${slug} HTML missing link-card-banner-img class`);
+  });
+});
+
 console.log('\n====================================================');
-console.log('ALL VERIFICATIONS PASSED (10 Gates / 37 units)');
+console.log('ALL VERIFICATIONS PASSED (11 Gates / 37 units)');
 console.log('====================================================');
 process.exit(0);

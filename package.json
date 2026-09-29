@@ -11,6 +11,7 @@
     "test:dates": "node scripts/test-event-dates.js",
     "check-links": "node scripts/check-links.js",
     "check-links:dry": "node scripts/check-links.js --dry-run",
+    "sync:sympla": "node scripts/sympla.js",
     "verify": "node scripts/verify-all.js",
     "test": "node scripts/verify-all.js"
   },

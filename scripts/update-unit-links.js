@@ -160,7 +160,8 @@ data.units = data.units.map(unit => {
         icon: "calendar",
         accent: "coral",
         startDate: "2026-09-01",
-        endDate: "2026-12-05T08:00:00-03:00"
+        endDate: "2026-12-05T08:00:00-03:00",
+        banner: "https://images.sympla.com.br/6a997d6f9d487.png"
       });
       break;
 
@@ -219,7 +220,8 @@ data.units = data.units.map(unit => {
         icon: "calendar",
         accent: "coral",
         startDate: "2026-09-01",
-        endDate: "2026-12-03T18:30:00-03:00"
+        endDate: "2026-12-03T18:30:00-03:00",
+        banner: "https://images.sympla.com.br/6aaabd1a23caa.png"
       });
       eventos.push(itemAmoFisio);
       eventos.push(itemCongressoEstetica);
@@ -351,7 +353,8 @@ data.units = data.units.map(unit => {
         icon: "calendar",
         accent: "coral",
         startDate: "2026-09-01",
-        endDate: "2026-12-10T18:30:00-03:00"
+        endDate: "2026-12-10T18:30:00-03:00",
+        banner: "https://images.sympla.com.br/6aa82b5b16764.png"
       });
       unit.whatsappCustomUrl = "https://api.whatsapp.com/message/7HAT7265HDZNL1?autoload=1&app_absent=0&utm_source=ig";
       institucionais.push({
@@ -392,7 +395,8 @@ data.units = data.units.map(unit => {
         icon: "calendar",
         accent: "coral",
         startDate: "2026-09-01",
-        endDate: "2026-11-07T09:00:00-03:00"
+        endDate: "2026-11-07T09:00:00-03:00",
+        banner: "https://images.sympla.com.br/6ab2d598f1635.png"
       });
       break;
 
@@ -449,5 +453,17 @@ data.units = data.units.map(unit => {
   return unit;
 });
 
-fs.writeFileSync(DATA_FILE, JSON.stringify(data, null, 2) + '\n', 'utf8');
-console.log('Successfully updated data/units.json with deduplicated WhatsApp and Sympla expirations!');
+async function main() {
+  fs.writeFileSync(DATA_FILE, JSON.stringify(data, null, 2) + '\n', 'utf8');
+  console.log('Successfully updated data/units.json with deduplicated WhatsApp and Sympla expirations!');
+
+  // Enrich with Sympla API (banners + metadata)
+  try {
+    const { enrichSymplaEvents } = require('./sympla');
+    await enrichSymplaEvents(data, { force: false, save: true });
+  } catch (err) {
+    console.warn('Sympla enrichment skipped:', err.message);
+  }
+}
+
+main().catch(console.error);

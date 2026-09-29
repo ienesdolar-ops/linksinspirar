@@ -514,7 +514,8 @@
               "icon": "calendar",
               "accent": "coral",
               "startDate": "2026-09-01",
-              "endDate": "2026-12-05T08:00:00-03:00"
+              "endDate": "2026-12-05T08:00:00-03:00",
+              "banner": "https://images.sympla.com.br/6a997d6f9d487.png"
             }
           ]
         },
@@ -982,7 +983,8 @@
               "icon": "calendar",
               "accent": "coral",
               "startDate": "2026-09-01",
-              "endDate": "2026-12-03T18:30:00-03:00"
+              "endDate": "2026-12-03T18:30:00-03:00",
+              "banner": "https://images.sympla.com.br/6aaabd1a23caa.png"
             },
             {
               "title": "Amo Fisio",
@@ -2795,7 +2797,8 @@
               "icon": "calendar",
               "accent": "coral",
               "startDate": "2026-09-01",
-              "endDate": "2026-12-10T18:30:00-03:00"
+              "endDate": "2026-12-10T18:30:00-03:00",
+              "banner": "https://images.sympla.com.br/6aa82b5b16764.png"
             }
           ]
         },
@@ -3034,7 +3037,8 @@
               "icon": "calendar",
               "accent": "coral",
               "startDate": "2026-09-01",
-              "endDate": "2026-11-07T09:00:00-03:00"
+              "endDate": "2026-11-07T09:00:00-03:00",
+              "banner": "https://images.sympla.com.br/6ab2d598f1635.png"
             }
           ]
         },
