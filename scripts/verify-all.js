@@ -283,6 +283,17 @@ runStep('Gate 11: Sympla Event Banners & Cards', () => {
     const html = fs.readFileSync(htmlPath, 'utf8');
     assert(html.includes('link-card has-banner'), `Unit ${slug} HTML missing "link-card has-banner" class`);
     assert(html.includes('link-card-banner-img'), `Unit ${slug} HTML missing link-card-banner-img class`);
+    assert(!html.includes('link-card-banner-badge'), `Unit ${slug} HTML should not contain floating banner badges`);
+  });
+
+  // Verify Site Oficial is the FIRST link across all 37 units
+  data.units.forEach(u => {
+    const html = fs.readFileSync(path.join(ROOT_DIR, u.slug, 'index.html'), 'utf8');
+    const streamMatch = html.match(/<section class="links-stream"[^>]*>([\s\S]*?)<\/section>/i);
+    assert(streamMatch, `Unit ${u.slug} missing links-stream`);
+    const firstLinkMatch = streamMatch[1].match(/<a\s+[^>]*href="([^"]+)"[^>]*>/i);
+    assert(firstLinkMatch, `Unit ${u.slug} has no links in stream`);
+    assert.strictEqual(firstLinkMatch[1], u.website, `Unit ${u.slug} first link must be site (${u.website}), got (${firstLinkMatch[1]})`);
   });
 });
 

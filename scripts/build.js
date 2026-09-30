@@ -268,10 +268,14 @@ function generateUnitHtml(unit, data) {
     return desc.replace(/\s*—\s*/g, ' • ');
   }
 
-  // Unified Linktree Stream HTML
+  // Unified Linktree Stream HTML — Site Oficial sempre como primeiro link
   let streamItemsHtml = '';
   if (Array.isArray(unit.sections)) {
-    unit.sections.forEach(sec => {
+    const portalSec = unit.sections.find(s => s.id === 'portal_oficial');
+    const otherSecs = unit.sections.filter(s => s.id !== 'portal_oficial');
+    const orderedSections = portalSec ? [portalSec, ...otherSecs] : unit.sections;
+
+    orderedSections.forEach(sec => {
       if (sec.type === 'campus_banner') {
         const thumbPath = sec.thumb.startsWith('http') ? sec.thumb : `${relativeRoot}/${sec.thumb}`;
         streamItemsHtml += `
@@ -303,7 +307,8 @@ function generateUnitHtml(unit, data) {
 
       activeItems.forEach(item => {
         const accentClass = item.accent ? ` accent-${item.accent}` : '';
-        const tagRow = (item.tag || item.badge) ? `
+        const isEvent = sec.id === 'eventos';
+        const tagRow = (!isEvent && (item.tag || item.badge)) ? `
           <div class="link-tag-row">
             ${item.tag ? `<span class="link-tag">${item.tag}</span>` : ''}
             ${item.badge ? `<span class="link-badge-pill">${item.badge}</span>` : ''}
@@ -314,19 +319,12 @@ function generateUnitHtml(unit, data) {
           : '';
 
         if (item.banner) {
-          const bannerBadges = (item.badge || item.tag) ? `
-          <div class="link-card-banner-badge">
-            ${item.badge ? `<span class="sympla-pill">${item.badge}</span>` : ''}
-            ${item.tag ? `<span class="link-badge-pill">${item.tag}</span>` : ''}
-          </div>` : '';
-
           streamItemsHtml += `
       <!-- ${item.title} (com Capa/Banner) -->
       <a href="${item.url}" target="_blank" rel="noopener" class="link-card has-banner${accentClass}"${dateAttrs}>
         <div class="link-card-banner-media">
           <img src="${item.banner}" alt="${item.title}" loading="lazy" class="link-card-banner-img">
           <div class="link-card-banner-overlay"></div>
-          ${bannerBadges}
         </div>
         <div class="link-card-banner-footer">
           <div class="link-icon-box">

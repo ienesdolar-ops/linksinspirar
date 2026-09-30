@@ -151,8 +151,6 @@ data.units = data.units.map(unit => {
       eventos.push({
         title: "I Simpósio de Acupuntura — Inspirar Brasília",
         desc: "Garanta sua vaga no I Simpósio de Acupuntura da Faculdade Inspirar Brasília",
-        tag: "Simpósio",
-        badge: "Inscrições",
         url: "https://www.sympla.com.br/evento/i-simposio-de-acupuntura-da-faculdade-inspirar-brasilia/3565985?share_id=copiarlink",
         icon: "calendar",
         accent: "coral",
@@ -211,8 +209,6 @@ data.units = data.units.map(unit => {
       eventos.push({
         title: "Pelve Expert — Curitiba",
         desc: "Eletrotermofototerapia na Avaliação e Tratamento das Disfunções Pélvicas • Sympla",
-        tag: "Evento",
-        badge: "Sympla",
         url: "https://www.sympla.com.br/evento/pelve-expert-curitiba/3582004?referrer=www.google.com&referrer=www.google.com",
         icon: "calendar",
         accent: "coral",
@@ -344,8 +340,6 @@ data.units = data.units.map(unit => {
       eventos.push({
         title: "Pelve Expert — São Luís do Maranhão",
         desc: "Inscrições abertas para o evento Pelve Expert em São Luís",
-        tag: "Evento",
-        badge: "Sympla",
         url: "https://www.sympla.com.br/evento/pelve-expert-sao-luis-do-maranhao/3578577?share_id=copiarlink&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAadGoaxKcEBtBo3p15vT13mhFZHRzyTnQ1MsPK3XrG7zLj8prqblFos25wIRKw_aem_5l1tPJLkRK_d6LWXGjU6Ow&utm_id=97760_v0_s00_e0_tv3&referrer=l.instagram.com",
         icon: "calendar",
         accent: "coral",
@@ -386,8 +380,6 @@ data.units = data.units.map(unit => {
       eventos.push({
         title: "Workshop Estética Íntima Feminina na Fisioterapia Pélvica",
         desc: "Workshop presencial na Inspirar Vila Mariana • Inscrições abertas",
-        tag: "Workshop",
-        badge: "Sympla",
         url: "https://www.sympla.com.br/evento/workshop-estetica-intima-feminina-na-fisioterapia-pelvica/3590103?share_id=copiarlink%2F&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAadsjolk_hhPzaursBaOIL7pr4iGbrqYzBJWgTjSlkOJW3Co-PsCeU4L1Y8crA_aem_k2l8iFfmgjWP_yqpXPXV1g&utm_id=97760_v0_s00_e0_tv3&referrer=l.instagram.com&referrer=l.instagram.com",
         icon: "calendar",
         accent: "coral",
@@ -422,6 +414,19 @@ data.units = data.units.map(unit => {
 
   // Construct cleanly structured sections array
   const sections = [];
+
+  // 1. Site Oficial — SEMPRE O PRIMEIRO LINK
+  const siteItem = institucionais.find(i => i.url === unit.website);
+  if (siteItem) {
+    sections.push({
+      id: "portal_oficial",
+      title: "Portal Oficial",
+      icon: "globe",
+      items: [siteItem]
+    });
+  }
+
+  // 2. Cursos & Pós-Graduação
   if (cursos.length > 0) {
     sections.push({
       id: "cursos",
@@ -430,6 +435,8 @@ data.units = data.units.map(unit => {
       items: cursos
     });
   }
+
+  // 3. Eventos
   if (eventos.length > 0) {
     sections.push({
       id: "eventos",
@@ -438,13 +445,20 @@ data.units = data.units.map(unit => {
       items: eventos
     });
   }
+
+  // 4. Conheça a Unidade
   sections.push(campusBanner);
-  sections.push({
-    id: "acesso_rapido",
-    title: "Acesso Rápido",
-    icon: "settings",
-    items: institucionais
-  });
+
+  // 5. Acesso Rápido (WhatsApp, Linktree se houver)
+  const remainingInstitucionais = institucionais.filter(i => i.url !== unit.website);
+  if (remainingInstitucionais.length > 0) {
+    sections.push({
+      id: "acesso_rapido",
+      title: "Acesso Rápido",
+      icon: "settings",
+      items: remainingInstitucionais
+    });
+  }
 
   unit.sections = sections;
   return unit;

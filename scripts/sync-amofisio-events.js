@@ -169,8 +169,6 @@ async function main() {
       const item = {
         title: `Amo Fisio — ${c.title}`,
         desc: c.description ? `${c.category || 'Workshop Presencial'} • ${c.description}` : `${c.category || 'Workshop Presencial'} • Amo Fisio Inspirar`,
-        tag: "Amo Fisio",
-        badge: c.badge || "Sympla",
         url: symplaUrl,
         icon: "heart",
         accent: "purple",

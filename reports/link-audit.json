@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-30T18:09:38.164Z",
+  "timestamp": "2026-09-30T18:22:53.505Z",
   "total": 280,
   "dryRun": true,
   "results": [
@@ -68,7 +68,7 @@
       "ok": true
     },
     {
-      "source": "Acesso Rápido",
+      "source": "Portal Oficial",
       "unit": "Balneário Camboriú",
       "field": "Site Oficial — Balneário Camboriú",
       "url": "https://www.inspirar.com.br/sc-balneario-camboriu/",
@@ -104,6 +104,14 @@
       "unit": "Bauru",
       "field": "mapsUrl",
       "url": "https://maps.google.com/?q=Faculdade+Inspirar+Bauru",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Portal Oficial",
+      "unit": "Bauru",
+      "field": "Site Oficial — Bauru",
+      "url": "https://www.inspirar.com.br/sp-bauru/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -150,14 +158,6 @@
     {
       "source": "Acesso Rápido",
       "unit": "Bauru",
-      "field": "Site Oficial — Bauru",
-      "url": "https://www.inspirar.com.br/sp-bauru/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Acesso Rápido",
-      "unit": "Bauru",
       "field": "Matricule-se pelo WhatsApp",
       "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Bauru",
       "status": "FORMAT_OK",
@@ -188,6 +188,14 @@
       "ok": true
     },
     {
+      "source": "Portal Oficial",
+      "unit": "Belém",
+      "field": "Site Oficial — Belém",
+      "url": "https://www.inspirar.com.br/pa-belem/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
       "source": "Eventos",
       "unit": "Belém",
       "field": "Amo Fisio — Lesão dos Isquiotibiais - Do consultório ao retorno ao esporte",
@@ -208,14 +216,6 @@
       "unit": "Belém",
       "field": "Amo Fisio — Disfunções Urinárias - do Diagnóstico Funcional ao Plano de Tratamento",
       "url": "https://www.sympla.com.br/evento/amofisio-disfuncoes-urinarias-do-diagnostico-funcional-ao-plano-de-tratamento/3562962",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Acesso Rápido",
-      "unit": "Belém",
-      "field": "Site Oficial — Belém",
-      "url": "https://www.inspirar.com.br/pa-belem/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -260,6 +260,14 @@
       "ok": true
     },
     {
+      "source": "Portal Oficial",
+      "unit": "Belo Horizonte",
+      "field": "Site Oficial — Belo Horizonte",
+      "url": "https://www.inspirar.com.br/mg-belo-horizonte/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
       "source": "Eventos",
       "unit": "Belo Horizonte",
       "field": "Amo Fisio — Mobilização Articular MMSS (Membros Superiores)",
@@ -272,14 +280,6 @@
       "unit": "Belo Horizonte",
       "field": "Amo Fisio — Mobilização Articular MMII (Membros Inferiores)",
       "url": "https://www.sympla.com.br/evento/amofisio-mobilizacao-articular-mmii-membros-inferiores/3573028",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Acesso Rápido",
-      "unit": "Belo Horizonte",
-      "field": "Site Oficial — Belo Horizonte",
-      "url": "https://www.inspirar.com.br/mg-belo-horizonte/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -316,18 +316,18 @@
       "ok": true
     },
     {
-      "source": "Eventos",
+      "source": "Portal Oficial",
       "unit": "Blumenau",
-      "field": "Amo Fisio — Quiropraxia na atenção à saúde",
-      "url": "https://www.sympla.com.br/evento/amofisio-quiropraxia-na-atencao-a-saude/3583906",
+      "field": "Site Oficial — Blumenau",
+      "url": "https://www.inspirar.com.br/sc-blumenau/",
       "status": "FORMAT_OK",
       "ok": true
     },
     {
-      "source": "Acesso Rápido",
+      "source": "Eventos",
       "unit": "Blumenau",
-      "field": "Site Oficial — Blumenau",
-      "url": "https://www.inspirar.com.br/sc-blumenau/",
+      "field": "Amo Fisio — Quiropraxia na atenção à saúde",
+      "url": "https://www.sympla.com.br/evento/amofisio-quiropraxia-na-atencao-a-saude/3583906",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -364,18 +364,18 @@
       "ok": true
     },
     {
-      "source": "Eventos",
+      "source": "Portal Oficial",
       "unit": "Brasília",
-      "field": "I Simpósio de Acupuntura — Inspirar Brasília",
-      "url": "https://www.sympla.com.br/evento/i-simposio-de-acupuntura-da-faculdade-inspirar-brasilia/3565985?share_id=copiarlink",
+      "field": "Site Oficial — Brasília",
+      "url": "https://www.inspirar.com.br/df-distrito-federal-brasilia/",
       "status": "FORMAT_OK",
       "ok": true
     },
     {
-      "source": "Acesso Rápido",
+      "source": "Eventos",
       "unit": "Brasília",
-      "field": "Site Oficial — Brasília",
-      "url": "https://www.inspirar.com.br/df-distrito-federal-brasilia/",
+      "field": "I Simpósio de Acupuntura — Inspirar Brasília",
+      "url": "https://www.sympla.com.br/evento/i-simposio-de-acupuntura-da-faculdade-inspirar-brasilia/3565985?share_id=copiarlink",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -408,6 +408,14 @@
       "unit": "Campinas",
       "field": "mapsUrl",
       "url": "https://maps.google.com/?q=Faculdade+Inspirar+Campinas",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Portal Oficial",
+      "unit": "Campinas",
+      "field": "Site Oficial — Campinas",
+      "url": "https://www.inspirar.com.br/sp-campinas/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -446,14 +454,6 @@
     {
       "source": "Acesso Rápido",
       "unit": "Campinas",
-      "field": "Site Oficial — Campinas",
-      "url": "https://www.inspirar.com.br/sp-campinas/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Acesso Rápido",
-      "unit": "Campinas",
       "field": "Matricule-se pelo WhatsApp",
       "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Campinas",
       "status": "FORMAT_OK",
@@ -484,18 +484,18 @@
       "ok": true
     },
     {
-      "source": "Eventos",
+      "source": "Portal Oficial",
       "unit": "Campo Grande",
-      "field": "Amo Fisio — Fisioterapia Além da Clínica - Home Care",
-      "url": "https://www.sympla.com.br/evento/amofisio-fisioterapia-alem-da-clinica-home-care/3555189",
+      "field": "Site Oficial — Campo Grande",
+      "url": "https://www.inspirar.com.br/ms-campo-grande/",
       "status": "FORMAT_OK",
       "ok": true
     },
     {
-      "source": "Acesso Rápido",
+      "source": "Eventos",
       "unit": "Campo Grande",
-      "field": "Site Oficial — Campo Grande",
-      "url": "https://www.inspirar.com.br/ms-campo-grande/",
+      "field": "Amo Fisio — Fisioterapia Além da Clínica - Home Care",
+      "url": "https://www.sympla.com.br/evento/amofisio-fisioterapia-alem-da-clinica-home-care/3555189",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -528,6 +528,14 @@
       "unit": "Cuiabá",
       "field": "mapsUrl",
       "url": "https://maps.google.com/?q=Faculdade+Inspirar+Cuiab%C3%A1",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Portal Oficial",
+      "unit": "Cuiabá",
+      "field": "Site Oficial — Cuiabá",
+      "url": "https://www.inspirar.com.br/mt-cuiaba/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -582,14 +590,6 @@
     {
       "source": "Acesso Rápido",
       "unit": "Cuiabá",
-      "field": "Site Oficial — Cuiabá",
-      "url": "https://www.inspirar.com.br/mt-cuiaba/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Acesso Rápido",
-      "unit": "Cuiabá",
       "field": "Atendimento via WhatsApp — Cuiabá",
       "url": "https://api.whatsapp.com/send/?phone=%2B5565999572156&text&type=phone_number&app_absent=0&utm_source=ig",
       "status": "FORMAT_OK",
@@ -616,6 +616,14 @@
       "unit": "Curitiba",
       "field": "mapsUrl",
       "url": "https://goo.gl/maps/FbkwEndWyWYKLLkA6",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Portal Oficial",
+      "unit": "Curitiba",
+      "field": "Site Oficial — Curitiba",
+      "url": "https://www.inspirar.com.br/pr-curitiba/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -702,14 +710,6 @@
     {
       "source": "Acesso Rápido",
       "unit": "Curitiba",
-      "field": "Site Oficial — Curitiba",
-      "url": "https://www.inspirar.com.br/pr-curitiba/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Acesso Rápido",
-      "unit": "Curitiba",
       "field": "Matricule-se pelo WhatsApp",
       "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Curitiba",
       "status": "FORMAT_OK",
@@ -740,7 +740,7 @@
       "ok": true
     },
     {
-      "source": "Acesso Rápido",
+      "source": "Portal Oficial",
       "unit": "Dourados",
       "field": "Site Oficial — Dourados",
       "url": "https://www.inspirar.com.br/ms-dourados-3/",
@@ -780,6 +780,14 @@
       "ok": true
     },
     {
+      "source": "Portal Oficial",
+      "unit": "Florianópolis",
+      "field": "Site Oficial — Florianópolis",
+      "url": "https://www.inspirar.com.br/sc-florianopolis/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
       "source": "Cursos & Pós-Graduação",
       "unit": "Florianópolis",
       "field": "Fisioterapia em Terapia Intensiva",
@@ -792,14 +800,6 @@
       "unit": "Florianópolis",
       "field": "Amo Fisio — A importância da Anatomia Palpatória no raciocínio clínico",
       "url": "https://www.sympla.com.br/evento/amofisio-a-importancia-da-anatomia-palpatoria-no-raciocinio-clinico/3583921",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Acesso Rápido",
-      "unit": "Florianópolis",
-      "field": "Site Oficial — Florianópolis",
-      "url": "https://www.inspirar.com.br/sc-florianopolis/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -836,6 +836,14 @@
       "ok": true
     },
     {
+      "source": "Portal Oficial",
+      "unit": "Fortaleza",
+      "field": "Site Oficial — Fortaleza",
+      "url": "https://www.inspirar.com.br/ce-fortaleza-slim/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
       "source": "Cursos & Pós-Graduação",
       "unit": "Fortaleza",
       "field": "Fisioterapia em Terapia Intensiva",
@@ -848,14 +856,6 @@
       "unit": "Fortaleza",
       "field": "Amo Fisio — Avaliação e Reabilitação de Fraturas",
       "url": "https://www.sympla.com.br/evento/amofisio-avaliacao-e-reabilitacao-de-fraturas/3574421",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Acesso Rápido",
-      "unit": "Fortaleza",
-      "field": "Site Oficial — Fortaleza",
-      "url": "https://www.inspirar.com.br/ce-fortaleza-slim/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -892,18 +892,18 @@
       "ok": true
     },
     {
-      "source": "Eventos",
+      "source": "Portal Oficial",
       "unit": "Goiânia",
-      "field": "Amo Fisio — Reabilitação Pós-Parto e Pilates na Prática",
-      "url": "https://www.sympla.com.br/evento/amofisio-reabilitacao-pos-parto-e-pilates-na-pratica/3567347",
+      "field": "Site Oficial — Goiânia",
+      "url": "https://www.inspirar.com.br/go-goiania/",
       "status": "FORMAT_OK",
       "ok": true
     },
     {
-      "source": "Acesso Rápido",
+      "source": "Eventos",
       "unit": "Goiânia",
-      "field": "Site Oficial — Goiânia",
-      "url": "https://www.inspirar.com.br/go-goiania/",
+      "field": "Amo Fisio — Reabilitação Pós-Parto e Pilates na Prática",
+      "url": "https://www.sympla.com.br/evento/amofisio-reabilitacao-pos-parto-e-pilates-na-pratica/3567347",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -936,6 +936,14 @@
       "unit": "Guarulhos",
       "field": "mapsUrl",
       "url": "https://maps.google.com/?q=Faculdade+Inspirar+Guarulhos",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Portal Oficial",
+      "unit": "Guarulhos",
+      "field": "Site Oficial — Guarulhos",
+      "url": "https://www.inspirar.com.br/sp-guarulhos/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -1006,14 +1014,6 @@
     {
       "source": "Acesso Rápido",
       "unit": "Guarulhos",
-      "field": "Site Oficial — Guarulhos",
-      "url": "https://www.inspirar.com.br/sp-guarulhos/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Acesso Rápido",
-      "unit": "Guarulhos",
       "field": "Matricule-se pelo WhatsApp",
       "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Guarulhos",
       "status": "FORMAT_OK",
@@ -1044,18 +1044,18 @@
       "ok": true
     },
     {
-      "source": "Cursos & Pós-Graduação",
+      "source": "Portal Oficial",
       "unit": "Ipatinga",
-      "field": "Fisioterapia em Terapia Intensiva",
-      "url": "https://faculdadeinspirar.com.br/semi-intensiva/",
+      "field": "Site Oficial — Ipatinga",
+      "url": "https://www.inspirar.com.br/mg-ipatinga/",
       "status": "FORMAT_OK",
       "ok": true
     },
     {
-      "source": "Acesso Rápido",
+      "source": "Cursos & Pós-Graduação",
       "unit": "Ipatinga",
-      "field": "Site Oficial — Ipatinga",
-      "url": "https://www.inspirar.com.br/mg-ipatinga/",
+      "field": "Fisioterapia em Terapia Intensiva",
+      "url": "https://faculdadeinspirar.com.br/semi-intensiva/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -1092,7 +1092,7 @@
       "ok": true
     },
     {
-      "source": "Acesso Rápido",
+      "source": "Portal Oficial",
       "unit": "Joinville",
       "field": "Site Oficial — Joinville",
       "url": "https://www.inspirar.com.br/sc-joinville/",
@@ -1132,6 +1132,14 @@
       "ok": true
     },
     {
+      "source": "Portal Oficial",
+      "unit": "Londrina",
+      "field": "Site Oficial — Londrina",
+      "url": "https://www.inspirar.com.br/pr-londrina/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
       "source": "Eventos",
       "unit": "Londrina",
       "field": "Amo Fisio — Estratégias Nutricionais na Prevenção e Tratamento de Lesões no Esporte",
@@ -1152,14 +1160,6 @@
       "unit": "Londrina",
       "field": "Amo Fisio — Introdução à Quiropraxia",
       "url": "https://www.sympla.com.br/evento/amofisio-introducao-a-quiropraxia/3555299",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Acesso Rápido",
-      "unit": "Londrina",
-      "field": "Site Oficial — Londrina",
-      "url": "https://www.inspirar.com.br/pr-londrina/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -1196,7 +1196,7 @@
       "ok": true
     },
     {
-      "source": "Acesso Rápido",
+      "source": "Portal Oficial",
       "unit": "Luanda",
       "field": "Site Oficial — Luanda",
       "url": "https://www.inspirar.com.br/ao-luanda/",
@@ -1236,18 +1236,18 @@
       "ok": true
     },
     {
-      "source": "Eventos",
+      "source": "Portal Oficial",
       "unit": "Maceió",
-      "field": "Amo Fisio — Liderança não espera cargo",
-      "url": "https://www.sympla.com.br/evento/amofisio-lideranca-nao-espera-cargo/3589911",
+      "field": "Site Oficial — Maceió",
+      "url": "https://www.inspirar.com.br/al-maceio-slim/",
       "status": "FORMAT_OK",
       "ok": true
     },
     {
-      "source": "Acesso Rápido",
+      "source": "Eventos",
       "unit": "Maceió",
-      "field": "Site Oficial — Maceió",
-      "url": "https://www.inspirar.com.br/al-maceio-slim/",
+      "field": "Amo Fisio — Liderança não espera cargo",
+      "url": "https://www.sympla.com.br/evento/amofisio-lideranca-nao-espera-cargo/3589911",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -1284,7 +1284,7 @@
       "ok": true
     },
     {
-      "source": "Acesso Rápido",
+      "source": "Portal Oficial",
       "unit": "Parauapebas",
       "field": "Site Oficial — Parauapebas",
       "url": "https://www.inspirar.com.br/pa-parauapebas-slim/",
@@ -1324,18 +1324,18 @@
       "ok": true
     },
     {
-      "source": "Cursos & Pós-Graduação",
+      "source": "Portal Oficial",
       "unit": "Porto Alegre",
-      "field": "Fisioterapia em Terapia Intensiva",
-      "url": "https://faculdadeinspirar.com.br/semi-intensiva/",
+      "field": "Site Oficial — Porto Alegre",
+      "url": "https://www.inspirar.com.br/rs-porto-alegre/",
       "status": "FORMAT_OK",
       "ok": true
     },
     {
-      "source": "Acesso Rápido",
+      "source": "Cursos & Pós-Graduação",
       "unit": "Porto Alegre",
-      "field": "Site Oficial — Porto Alegre",
-      "url": "https://www.inspirar.com.br/rs-porto-alegre/",
+      "field": "Fisioterapia em Terapia Intensiva",
+      "url": "https://faculdadeinspirar.com.br/semi-intensiva/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -1372,18 +1372,18 @@
       "ok": true
     },
     {
-      "source": "Eventos",
+      "source": "Portal Oficial",
       "unit": "Porto Velho",
-      "field": "Amo Fisio — Escolha 2 aulas e amplie seus conhecimentos em Fisioterapia",
-      "url": "https://www.sympla.com.br/evento/amofisio-escolha-2-aulas-e-amplie-seus-conhecimentos-em-fisioterapia/3584713",
+      "field": "Site Oficial — Porto Velho",
+      "url": "https://www.inspirar.com.br/ro-porto-velho/",
       "status": "FORMAT_OK",
       "ok": true
     },
     {
-      "source": "Acesso Rápido",
+      "source": "Eventos",
       "unit": "Porto Velho",
-      "field": "Site Oficial — Porto Velho",
-      "url": "https://www.inspirar.com.br/ro-porto-velho/",
+      "field": "Amo Fisio — Escolha 2 aulas e amplie seus conhecimentos em Fisioterapia",
+      "url": "https://www.sympla.com.br/evento/amofisio-escolha-2-aulas-e-amplie-seus-conhecimentos-em-fisioterapia/3584713",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -1416,6 +1416,14 @@
       "unit": "Ribeirão Preto",
       "field": "mapsUrl",
       "url": "https://maps.google.com/?q=Faculdade+Inspirar+Ribeir%C3%A3o%20Preto",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Portal Oficial",
+      "unit": "Ribeirão Preto",
+      "field": "Site Oficial — Ribeirão Preto",
+      "url": "https://www.inspirar.com.br/sp-ribeirao-preto/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -1454,14 +1462,6 @@
     {
       "source": "Acesso Rápido",
       "unit": "Ribeirão Preto",
-      "field": "Site Oficial — Ribeirão Preto",
-      "url": "https://www.inspirar.com.br/sp-ribeirao-preto/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Acesso Rápido",
-      "unit": "Ribeirão Preto",
       "field": "Matricule-se pelo WhatsApp",
       "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Ribeir%C3%A3o%20Preto",
       "status": "FORMAT_OK",
@@ -1488,6 +1488,14 @@
       "unit": "Rio de Janeiro",
       "field": "mapsUrl",
       "url": "https://maps.google.com/?q=Faculdade+Inspirar+Rio%20de%20Janeiro",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Portal Oficial",
+      "unit": "Rio de Janeiro",
+      "field": "Site Oficial — Rio de Janeiro",
+      "url": "https://www.inspirar.com.br/rj-rio-de-janeiro/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -1526,14 +1534,6 @@
     {
       "source": "Acesso Rápido",
       "unit": "Rio de Janeiro",
-      "field": "Site Oficial — Rio de Janeiro",
-      "url": "https://www.inspirar.com.br/rj-rio-de-janeiro/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Acesso Rápido",
-      "unit": "Rio de Janeiro",
       "field": "Matricule-se pelo WhatsApp",
       "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Rio%20de%20Janeiro",
       "status": "FORMAT_OK",
@@ -1564,7 +1564,7 @@
       "ok": true
     },
     {
-      "source": "Acesso Rápido",
+      "source": "Portal Oficial",
       "unit": "Salvador",
       "field": "Site Oficial — Salvador",
       "url": "https://www.inspirar.com.br/ba-salvador-slim/",
@@ -1604,7 +1604,7 @@
       "ok": true
     },
     {
-      "source": "Acesso Rápido",
+      "source": "Portal Oficial",
       "unit": "Santo André",
       "field": "Site Oficial — Santo André",
       "url": "https://www.inspirar.com.br/sp-santo-andre-slim/",
@@ -1652,7 +1652,7 @@
       "ok": true
     },
     {
-      "source": "Acesso Rápido",
+      "source": "Portal Oficial",
       "unit": "Santos",
       "field": "Site Oficial — Santos",
       "url": "https://www.inspirar.com.br/sp-sao-paulo-santos/",
@@ -1692,7 +1692,7 @@
       "ok": true
     },
     {
-      "source": "Acesso Rápido",
+      "source": "Portal Oficial",
       "unit": "São José do Rio Preto",
       "field": "Site Oficial — São José do Rio Preto",
       "url": "https://www.inspirar.com.br/sp-sao-jose-do-rio-preto-2/",
@@ -1732,6 +1732,14 @@
       "ok": true
     },
     {
+      "source": "Portal Oficial",
+      "unit": "São José dos Campos",
+      "field": "Site Oficial — São José dos Campos",
+      "url": "https://www.inspirar.com.br/sp-sao-jose-dos-campos/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
       "source": "Eventos",
       "unit": "São José dos Campos",
       "field": "Amo Fisio — Fisioterapia Pélvica é uma área promissora. Entenda o porquê!",
@@ -1744,14 +1752,6 @@
       "unit": "São José dos Campos",
       "field": "Amo Fisio — Disfunções na ATM e suas repercussões no corpo humano",
       "url": "https://www.sympla.com.br/evento/amofisio-disfuncoes-na-atm-e-suas-repercussoes-no-corpo-humano/3553401",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Acesso Rápido",
-      "unit": "São José dos Campos",
-      "field": "Site Oficial — São José dos Campos",
-      "url": "https://www.inspirar.com.br/sp-sao-jose-dos-campos/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -1784,6 +1784,14 @@
       "unit": "São Luís",
       "field": "mapsUrl",
       "url": "https://maps.google.com/?q=Faculdade+Inspirar+S%C3%A3o%20Lu%C3%ADs",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Portal Oficial",
+      "unit": "São Luís",
+      "field": "Site Oficial — São Luís",
+      "url": "https://www.inspirar.com.br/ma-sao-luis/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -1854,14 +1862,6 @@
     {
       "source": "Acesso Rápido",
       "unit": "São Luís",
-      "field": "Site Oficial — São Luís",
-      "url": "https://www.inspirar.com.br/ma-sao-luis/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Acesso Rápido",
-      "unit": "São Luís",
       "field": "Fale no WhatsApp — São Luís",
       "url": "https://api.whatsapp.com/message/7HAT7265HDZNL1?autoload=1&app_absent=0&utm_source=ig",
       "status": "FORMAT_OK",
@@ -1888,6 +1888,14 @@
       "unit": "São Paulo - Borba Gato",
       "field": "mapsUrl",
       "url": "https://maps.google.com/?q=Faculdade+Inspirar+S%C3%A3o%20Paulo%20-%20Borba%20Gato",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Portal Oficial",
+      "unit": "São Paulo - Borba Gato",
+      "field": "Site Oficial — São Paulo - Borba Gato",
+      "url": "https://www.inspirar.com.br/sp-sao-paulo-borba-gato/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -1926,14 +1934,6 @@
     {
       "source": "Acesso Rápido",
       "unit": "São Paulo - Borba Gato",
-      "field": "Site Oficial — São Paulo - Borba Gato",
-      "url": "https://www.inspirar.com.br/sp-sao-paulo-borba-gato/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Acesso Rápido",
-      "unit": "São Paulo - Borba Gato",
       "field": "Matricule-se pelo WhatsApp",
       "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20S%C3%A3o%20Paulo%20-%20Borba%20Gato",
       "status": "FORMAT_OK",
@@ -1964,6 +1964,14 @@
       "ok": true
     },
     {
+      "source": "Portal Oficial",
+      "unit": "São Paulo - Vila Mariana",
+      "field": "Site Oficial — São Paulo - Vila Mariana",
+      "url": "https://www.inspirar.com.br/sp-sao-paulo-vila-mariana/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
       "source": "Eventos",
       "unit": "São Paulo - Vila Mariana",
       "field": "Amo Fisio — Fotobiomodulação: Ampliando Possibilidades na Prática Clínica",
@@ -1984,14 +1992,6 @@
       "unit": "São Paulo - Vila Mariana",
       "field": "Workshop Estética Íntima Feminina na Fisioterapia Pélvica",
       "url": "https://www.sympla.com.br/evento/workshop-estetica-intima-feminina-na-fisioterapia-pelvica/3590103?share_id=copiarlink%2F&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAadsjolk_hhPzaursBaOIL7pr4iGbrqYzBJWgTjSlkOJW3Co-PsCeU4L1Y8crA_aem_k2l8iFfmgjWP_yqpXPXV1g&utm_id=97760_v0_s00_e0_tv3&referrer=l.instagram.com&referrer=l.instagram.com",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Acesso Rápido",
-      "unit": "São Paulo - Vila Mariana",
-      "field": "Site Oficial — São Paulo - Vila Mariana",
-      "url": "https://www.inspirar.com.br/sp-sao-paulo-vila-mariana/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -2028,6 +2028,14 @@
       "ok": true
     },
     {
+      "source": "Portal Oficial",
+      "unit": "Sorocaba",
+      "field": "Site Oficial — Sorocaba",
+      "url": "https://www.inspirar.com.br/sp-sorocaba/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
       "source": "Eventos",
       "unit": "Sorocaba",
       "field": "Amo Fisio — Atuação do Fisioterapeuta nas Doenças Neurodegenerativas e Demências na Pessoa Idosa",
@@ -2040,14 +2048,6 @@
       "unit": "Sorocaba",
       "field": "Amo Fisio — Construção do Raciocínio Clínico na Fisioterapia Pélvica",
       "url": "https://www.sympla.com.br/evento/amofisio-construcao-do-raciocinio-clinico-na-fisioterapia-pelvica/3555390",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Acesso Rápido",
-      "unit": "Sorocaba",
-      "field": "Site Oficial — Sorocaba",
-      "url": "https://www.inspirar.com.br/sp-sorocaba/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -2084,7 +2084,7 @@
       "ok": true
     },
     {
-      "source": "Acesso Rápido",
+      "source": "Portal Oficial",
       "unit": "Teresina",
       "field": "Site Oficial — Teresina",
       "url": "https://www.inspirar.com.br/pi-teresina/",
@@ -2124,7 +2124,7 @@
       "ok": true
     },
     {
-      "source": "Acesso Rápido",
+      "source": "Portal Oficial",
       "unit": "Uberlândia",
       "field": "Site Oficial — Uberlândia",
       "url": "https://www.inspirar.com.br/mg-uberlandia/",
@@ -2160,6 +2160,14 @@
       "unit": "Vitória",
       "field": "mapsUrl",
       "url": "https://maps.google.com/?q=Faculdade+Inspirar+Vit%C3%B3ria",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Portal Oficial",
+      "unit": "Vitória",
+      "field": "Site Oficial — Vitória",
+      "url": "https://www.inspirar.com.br/es-vitoria/",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -2224,14 +2232,6 @@
       "unit": "Vitória",
       "field": "Amo Fisio — Atuação do Fisioterapeuta no Tratamento do Lipedema – Do diagnóstico ao Tratamento",
       "url": "https://www.sympla.com.br/evento/amofisio-atuacao-do-fisioterapeuta-no-tratamento-do-lipedema-do-diagnostico-ao-tratamento/3557056",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Acesso Rápido",
-      "unit": "Vitória",
-      "field": "Site Oficial — Vitória",
-      "url": "https://www.inspirar.com.br/es-vitoria/",
       "status": "FORMAT_OK",
       "ok": true
     },
