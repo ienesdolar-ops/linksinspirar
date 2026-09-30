@@ -23,16 +23,31 @@ const FOLDER_TO_SLUG = {
   'campo-grande': 'campo-grande',
   'cuiaba': 'cuiaba',
   'curitiba 2': 'curitiba',
+  'Dourados': 'dourados',
   'Florianópolis': 'florianopolis',
+  'Fortaleza': 'fortaleza',
+  'Goiânia': 'goiania',
   'guarulhos-': 'guarulhos',
+  'Ipatinga': 'ipatinga',
+  'Joinville': 'joinville',
   'Londrina -': 'londrina',
+  'Luanda': 'luanda',
+  'Maceió': 'maceio',
+  'Parauapebas': 'parauapebas',
   'porto-alegre': 'porto-alegre',
+  'Porto Velho': 'porto-velho',
+  'Ribeirão Preto': 'ribeirao-preto',
   'rio de janeiro': 'rio-de-janeiro',
+  'Salvador': 'salvador',
+  'Santo André': 'santo-andre',
+  'Santos': 'santos',
+  'São José do Rio Preto': 'sao-jose-do-rio-preto',
   'sao jose dos campos': 'sao-jose-dos-campos',
   'sao paulo - borba gato': 'sao-paulo-borba-gato',
   'sao paulo - vila mariana-': 'sao-paulo-vila-mariana',
   'sorocaba -': 'sorocaba',
   'são luís': 'sao-luis',
+  'Teresina': 'teresina',
   'uberlândia': 'uberlandia',
   'vitoria': 'vitoria'
 };
@@ -62,6 +77,7 @@ function generateCaption(fileName) {
   if (lower.includes('estacionamento') || lower.includes('entrada')) return 'Entrada e Estacionamento';
   if (lower.includes('auditorio')) return 'Auditório de Eventos';
   if (lower.includes('metro')) return 'Acesso Próximo ao Metrô';
+  if (lower.includes('cidade') || lower.includes('pontos-turisticos')) return 'Foto da Cidade';
   return 'Instalações da Unidade';
 }
 

@@ -783,5 +783,155 @@
         "caption": "Salas de Aula e Prática"
       }
     ]
+  },
+  "dourados": {
+    "coverImage": "assets/images/units/dourados/cidade-dourados.jpg",
+    "gallery": [
+      {
+        "file": "cidade-dourados.jpg",
+        "src": "assets/images/units/dourados/cidade-dourados.jpg",
+        "caption": "Cidade de Dourados"
+      }
+    ]
+  },
+  "fortaleza": {
+    "coverImage": "assets/images/units/fortaleza/cidade-fortaleza.jpg",
+    "gallery": [
+      {
+        "file": "cidade-fortaleza.jpg",
+        "src": "assets/images/units/fortaleza/cidade-fortaleza.jpg",
+        "caption": "Cidade de Fortaleza"
+      }
+    ]
+  },
+  "goiania": {
+    "coverImage": "assets/images/units/goiania/cidade-goiania.jpeg",
+    "gallery": [
+      {
+        "file": "cidade-goiania.jpeg",
+        "src": "assets/images/units/goiania/cidade-goiania.jpeg",
+        "caption": "Cidade de Goiânia"
+      }
+    ]
+  },
+  "ipatinga": {
+    "coverImage": "assets/images/units/ipatinga/cidade-ipatinga.jpg",
+    "gallery": [
+      {
+        "file": "cidade-ipatinga.jpg",
+        "src": "assets/images/units/ipatinga/cidade-ipatinga.jpg",
+        "caption": "Cidade de Ipatinga"
+      }
+    ]
+  },
+  "joinville": {
+    "coverImage": "assets/images/units/joinville/cidade-joinville.jpg",
+    "gallery": [
+      {
+        "file": "cidade-joinville.jpg",
+        "src": "assets/images/units/joinville/cidade-joinville.jpg",
+        "caption": "Cidade de Joinville"
+      }
+    ]
+  },
+  "luanda": {
+    "coverImage": "assets/images/units/luanda/cidade-luanda.jpg",
+    "gallery": [
+      {
+        "file": "cidade-luanda.jpg",
+        "src": "assets/images/units/luanda/cidade-luanda.jpg",
+        "caption": "Cidade de Luanda"
+      }
+    ]
+  },
+  "maceio": {
+    "coverImage": "assets/images/units/maceio/cidade-maceio.jpg",
+    "gallery": [
+      {
+        "file": "cidade-maceio.jpg",
+        "src": "assets/images/units/maceio/cidade-maceio.jpg",
+        "caption": "Cidade de Maceió"
+      }
+    ]
+  },
+  "parauapebas": {
+    "coverImage": "assets/images/units/parauapebas/cidade-parauapebas.jpeg",
+    "gallery": [
+      {
+        "file": "cidade-parauapebas.jpeg",
+        "src": "assets/images/units/parauapebas/cidade-parauapebas.jpeg",
+        "caption": "Cidade de Parauapebas"
+      }
+    ]
+  },
+  "salvador": {
+    "coverImage": "assets/images/units/salvador/cidade-salvador.jpg",
+    "gallery": [
+      {
+        "file": "cidade-salvador.jpg",
+        "src": "assets/images/units/salvador/cidade-salvador.jpg",
+        "caption": "Cidade de Salvador"
+      }
+    ]
+  },
+  "porto-velho": {
+    "coverImage": "assets/images/units/porto-velho/cidade-porto-velho.jpg",
+    "gallery": [
+      {
+        "file": "cidade-porto-velho.jpg",
+        "src": "assets/images/units/porto-velho/cidade-porto-velho.jpg",
+        "caption": "Cidade de Porto Velho"
+      }
+    ]
+  },
+  "ribeirao-preto": {
+    "coverImage": "assets/images/units/ribeirao-preto/cidade-ribeirao-preto.jpg",
+    "gallery": [
+      {
+        "file": "cidade-ribeirao-preto.jpg",
+        "src": "assets/images/units/ribeirao-preto/cidade-ribeirao-preto.jpg",
+        "caption": "Cidade de Ribeirão Preto"
+      }
+    ]
+  },
+  "santo-andre": {
+    "coverImage": "assets/images/units/santo-andre/cidade-santo-andre.webp",
+    "gallery": [
+      {
+        "file": "cidade-santo-andre.webp",
+        "src": "assets/images/units/santo-andre/cidade-santo-andre.webp",
+        "caption": "Cidade de Santo André"
+      }
+    ]
+  },
+  "santos": {
+    "coverImage": "assets/images/units/santos/cidade-santos.webp",
+    "gallery": [
+      {
+        "file": "cidade-santos.webp",
+        "src": "assets/images/units/santos/cidade-santos.webp",
+        "caption": "Cidade de Santos"
+      }
+    ]
+  },
+  "sao-jose-do-rio-preto": {
+    "coverImage": "assets/images/units/sao-jose-do-rio-preto/cidade-sao-jose-do-rio-preto.jpg",
+    "gallery": [
+      {
+        "file": "cidade-sao-jose-do-rio-preto.jpg",
+        "src": "assets/images/units/sao-jose-do-rio-preto/cidade-sao-jose-do-rio-preto.jpg",
+        "caption": "Cidade de São José do Rio Preto"
+      }
+    ]
+  },
+  "teresina": {
+    "coverImage": "assets/images/units/teresina/cidade-teresina.jpg",
+    "gallery": [
+      {
+        "file": "cidade-teresina.jpg",
+        "src": "assets/images/units/teresina/cidade-teresina.jpg",
+        "caption": "Cidade de Teresina"
+      }
+    ]
   }
 }

@@ -1300,7 +1300,7 @@
       "fullAddress": "Rua Toshinobu Katayama, 720 — Centro, Dourados — MS",
       "director": "Coordenação Regional Inspirar — Dourados",
       "mapsUrl": "https://maps.google.com/?q=Faculdade+Inspirar+Dourados",
-      "coverImage": "assets/images/UNIDADE CWB sem gourmet.png",
+      "coverImage": "assets/images/units/dourados/cidade-dourados.jpg",
       "logoImage": "assets/images/Logo branca - horizontal.png",
       "whatsapp": "558006022828",
       "whatsappDisplay": "0800 602 2828",
@@ -1311,16 +1311,9 @@
       "sympla": "https://www.sympla.com.br/produtor/faculdadeinspirar",
       "gallery": [
         {
-          "src": "assets/images/UNIDADE CWB sem gourmet.png",
-          "caption": "Unidade Dourados"
-        },
-        {
-          "src": "assets/images/UNIDADE CWB sem gourmet 2.png",
-          "caption": "Estrutura Inspirar"
-        },
-        {
-          "src": "assets/images/WhatsApp Image 2024-07-24 at 16.50.30.jpeg",
-          "caption": "Área de Convivência"
+          "file": "cidade-dourados.jpg",
+          "src": "assets/images/units/dourados/cidade-dourados.jpg",
+          "caption": "Cidade de Dourados"
         }
       ],
       "sections": [
@@ -1343,7 +1336,7 @@
           "id": "campus",
           "bannerTitle": "Conheça a Unidade",
           "bannerSub": "Rua Toshinobu Katayama, 720 — Centro, Dourados — MS",
-          "thumb": "assets/images/UNIDADE CWB sem gourmet.png"
+          "thumb": "assets/images/units/dourados/cidade-dourados.jpg"
         },
         {
           "id": "acesso_rapido",
@@ -1523,7 +1516,7 @@
       "fullAddress": "Av. Santos Dumont, 1200 — Aldeota, Fortaleza — CE",
       "director": "Coordenação Regional Inspirar — Fortaleza",
       "mapsUrl": "https://maps.google.com/?q=Faculdade+Inspirar+Fortaleza",
-      "coverImage": "assets/images/UNIDADE CWB sem gourmet.png",
+      "coverImage": "assets/images/units/fortaleza/cidade-fortaleza.jpg",
       "logoImage": "assets/images/Logo branca - horizontal.png",
       "whatsapp": "558006022828",
       "whatsappDisplay": "0800 602 2828",
@@ -1534,16 +1527,9 @@
       "sympla": "https://www.sympla.com.br/produtor/faculdadeinspirar",
       "gallery": [
         {
-          "src": "assets/images/UNIDADE CWB sem gourmet.png",
-          "caption": "Unidade Fortaleza"
-        },
-        {
-          "src": "assets/images/UNIDADE CWB sem gourmet 2.png",
-          "caption": "Estrutura Inspirar"
-        },
-        {
-          "src": "assets/images/WhatsApp Image 2024-07-24 at 16.50.30.jpeg",
-          "caption": "Área de Convivência"
+          "file": "cidade-fortaleza.jpg",
+          "src": "assets/images/units/fortaleza/cidade-fortaleza.jpg",
+          "caption": "Cidade de Fortaleza"
         }
       ],
       "sections": [
@@ -1599,7 +1585,7 @@
           "id": "campus",
           "bannerTitle": "Conheça a Unidade",
           "bannerSub": "Av. Santos Dumont, 1200 — Aldeota, Fortaleza — CE",
-          "thumb": "assets/images/UNIDADE CWB sem gourmet.png"
+          "thumb": "assets/images/units/fortaleza/cidade-fortaleza.jpg"
         },
         {
           "id": "acesso_rapido",
@@ -1629,7 +1615,7 @@
       "fullAddress": "Av. T-9, 150 — Setor Marista, Goiânia — GO",
       "director": "Coordenação Regional Inspirar — Goiânia",
       "mapsUrl": "https://maps.google.com/?q=Faculdade+Inspirar+Goi%C3%A2nia",
-      "coverImage": "assets/images/UNIDADE CWB sem gourmet.png",
+      "coverImage": "assets/images/units/goiania/cidade-goiania.jpeg",
       "logoImage": "assets/images/Logo branca - horizontal.png",
       "whatsapp": "558006022828",
       "whatsappDisplay": "0800 602 2828",
@@ -1640,16 +1626,9 @@
       "sympla": "https://www.sympla.com.br/produtor/faculdadeinspirar",
       "gallery": [
         {
-          "src": "assets/images/UNIDADE CWB sem gourmet.png",
-          "caption": "Unidade Goiânia"
-        },
-        {
-          "src": "assets/images/UNIDADE CWB sem gourmet 2.png",
-          "caption": "Estrutura Inspirar"
-        },
-        {
-          "src": "assets/images/WhatsApp Image 2024-07-24 at 16.50.30.jpeg",
-          "caption": "Área de Convivência"
+          "file": "cidade-goiania.jpeg",
+          "src": "assets/images/units/goiania/cidade-goiania.jpeg",
+          "caption": "Cidade de Goiânia"
         }
       ],
       "sections": [
@@ -1689,7 +1668,7 @@
           "id": "campus",
           "bannerTitle": "Conheça a Unidade",
           "bannerSub": "Av. T-9, 150 — Setor Marista, Goiânia — GO",
-          "thumb": "assets/images/UNIDADE CWB sem gourmet.png"
+          "thumb": "assets/images/units/goiania/cidade-goiania.jpeg"
         },
         {
           "id": "acesso_rapido",
@@ -1890,7 +1869,7 @@
       "fullAddress": "Rua Belo Horizonte, 450 — Centro, Ipatinga — MG",
       "director": "Coordenação Regional Inspirar — Ipatinga",
       "mapsUrl": "https://maps.google.com/?q=Faculdade+Inspirar+Ipatinga",
-      "coverImage": "assets/images/UNIDADE CWB sem gourmet.png",
+      "coverImage": "assets/images/units/ipatinga/cidade-ipatinga.jpg",
       "logoImage": "assets/images/Logo branca - horizontal.png",
       "whatsapp": "558006022828",
       "whatsappDisplay": "0800 602 2828",
@@ -1901,16 +1880,9 @@
       "sympla": "https://www.sympla.com.br/produtor/faculdadeinspirar",
       "gallery": [
         {
-          "src": "assets/images/UNIDADE CWB sem gourmet.png",
-          "caption": "Unidade Ipatinga"
-        },
-        {
-          "src": "assets/images/UNIDADE CWB sem gourmet 2.png",
-          "caption": "Estrutura Inspirar"
-        },
-        {
-          "src": "assets/images/WhatsApp Image 2024-07-24 at 16.50.30.jpeg",
-          "caption": "Área de Convivência"
+          "file": "cidade-ipatinga.jpg",
+          "src": "assets/images/units/ipatinga/cidade-ipatinga.jpg",
+          "caption": "Cidade de Ipatinga"
         }
       ],
       "sections": [
@@ -1949,7 +1921,7 @@
           "id": "campus",
           "bannerTitle": "Conheça a Unidade",
           "bannerSub": "Rua Belo Horizonte, 450 — Centro, Ipatinga — MG",
-          "thumb": "assets/images/UNIDADE CWB sem gourmet.png"
+          "thumb": "assets/images/units/ipatinga/cidade-ipatinga.jpg"
         },
         {
           "id": "acesso_rapido",
@@ -1979,7 +1951,7 @@
       "fullAddress": "Rua Blumenau, 64 — Centro, Joinville — SC",
       "director": "Coordenação Regional Inspirar — Joinville",
       "mapsUrl": "https://maps.google.com/?q=Faculdade+Inspirar+Joinville",
-      "coverImage": "assets/images/UNIDADE CWB sem gourmet.png",
+      "coverImage": "assets/images/units/joinville/cidade-joinville.jpg",
       "logoImage": "assets/images/Logo branca - horizontal.png",
       "whatsapp": "558006022828",
       "whatsappDisplay": "0800 602 2828",
@@ -1990,16 +1962,9 @@
       "sympla": "https://www.sympla.com.br/produtor/faculdadeinspirar",
       "gallery": [
         {
-          "src": "assets/images/UNIDADE CWB sem gourmet.png",
-          "caption": "Unidade Joinville"
-        },
-        {
-          "src": "assets/images/UNIDADE CWB sem gourmet 2.png",
-          "caption": "Estrutura Inspirar"
-        },
-        {
-          "src": "assets/images/WhatsApp Image 2024-07-24 at 16.50.30.jpeg",
-          "caption": "Área de Convivência"
+          "file": "cidade-joinville.jpg",
+          "src": "assets/images/units/joinville/cidade-joinville.jpg",
+          "caption": "Cidade de Joinville"
         }
       ],
       "sections": [
@@ -2022,7 +1987,7 @@
           "id": "campus",
           "bannerTitle": "Conheça a Unidade",
           "bannerSub": "Rua Blumenau, 64 — Centro, Joinville — SC",
-          "thumb": "assets/images/UNIDADE CWB sem gourmet.png"
+          "thumb": "assets/images/units/joinville/cidade-joinville.jpg"
         },
         {
           "id": "acesso_rapido",
@@ -2178,7 +2143,7 @@
       "fullAddress": "Edifício Kilamba — Luanda, Angola, Luanda — AO",
       "director": "Coordenação Regional Inspirar — Luanda",
       "mapsUrl": "https://maps.google.com/?q=Faculdade+Inspirar+Luanda",
-      "coverImage": "assets/images/UNIDADE CWB sem gourmet.png",
+      "coverImage": "assets/images/units/luanda/cidade-luanda.jpg",
       "logoImage": "assets/images/Logo branca - horizontal.png",
       "whatsapp": "558006022828",
       "whatsappDisplay": "0800 602 2828",
@@ -2189,16 +2154,9 @@
       "sympla": "https://www.sympla.com.br/produtor/faculdadeinspirar",
       "gallery": [
         {
-          "src": "assets/images/UNIDADE CWB sem gourmet.png",
-          "caption": "Unidade Luanda"
-        },
-        {
-          "src": "assets/images/UNIDADE CWB sem gourmet 2.png",
-          "caption": "Estrutura Inspirar"
-        },
-        {
-          "src": "assets/images/WhatsApp Image 2024-07-24 at 16.50.30.jpeg",
-          "caption": "Área de Convivência"
+          "file": "cidade-luanda.jpg",
+          "src": "assets/images/units/luanda/cidade-luanda.jpg",
+          "caption": "Cidade de Luanda"
         }
       ],
       "sections": [
@@ -2221,7 +2179,7 @@
           "id": "campus",
           "bannerTitle": "Conheça a Unidade",
           "bannerSub": "Edifício Kilamba — Luanda, Angola, Luanda — AO",
-          "thumb": "assets/images/UNIDADE CWB sem gourmet.png"
+          "thumb": "assets/images/units/luanda/cidade-luanda.jpg"
         },
         {
           "id": "acesso_rapido",
@@ -2251,7 +2209,7 @@
       "fullAddress": "Av. Comendador Gustavo Paiva, 2990 — Mangabeiras, Maceió — AL",
       "director": "Coordenação Regional Inspirar — Maceió",
       "mapsUrl": "https://maps.google.com/?q=Faculdade+Inspirar+Macei%C3%B3",
-      "coverImage": "assets/images/UNIDADE CWB sem gourmet.png",
+      "coverImage": "assets/images/units/maceio/cidade-maceio.jpg",
       "logoImage": "assets/images/Logo branca - horizontal.png",
       "whatsapp": "558006022828",
       "whatsappDisplay": "0800 602 2828",
@@ -2262,16 +2220,9 @@
       "sympla": "https://www.sympla.com.br/produtor/faculdadeinspirar",
       "gallery": [
         {
-          "src": "assets/images/UNIDADE CWB sem gourmet.png",
-          "caption": "Unidade Maceió"
-        },
-        {
-          "src": "assets/images/UNIDADE CWB sem gourmet 2.png",
-          "caption": "Estrutura Inspirar"
-        },
-        {
-          "src": "assets/images/WhatsApp Image 2024-07-24 at 16.50.30.jpeg",
-          "caption": "Área de Convivência"
+          "file": "cidade-maceio.jpg",
+          "src": "assets/images/units/maceio/cidade-maceio.jpg",
+          "caption": "Cidade de Maceió"
         }
       ],
       "sections": [
@@ -2311,7 +2262,7 @@
           "id": "campus",
           "bannerTitle": "Conheça a Unidade",
           "bannerSub": "Av. Comendador Gustavo Paiva, 2990 — Mangabeiras, Maceió — AL",
-          "thumb": "assets/images/UNIDADE CWB sem gourmet.png"
+          "thumb": "assets/images/units/maceio/cidade-maceio.jpg"
         },
         {
           "id": "acesso_rapido",
@@ -2341,7 +2292,7 @@
       "fullAddress": "Rua D, 250 — Cidade Nova, Parauapebas — PA",
       "director": "Coordenação Regional Inspirar — Parauapebas",
       "mapsUrl": "https://maps.google.com/?q=Faculdade+Inspirar+Parauapebas",
-      "coverImage": "assets/images/UNIDADE CWB sem gourmet.png",
+      "coverImage": "assets/images/units/parauapebas/cidade-parauapebas.jpeg",
       "logoImage": "assets/images/Logo branca - horizontal.png",
       "whatsapp": "558006022828",
       "whatsappDisplay": "0800 602 2828",
@@ -2352,16 +2303,9 @@
       "sympla": "https://www.sympla.com.br/produtor/faculdadeinspirar",
       "gallery": [
         {
-          "src": "assets/images/UNIDADE CWB sem gourmet.png",
-          "caption": "Unidade Parauapebas"
-        },
-        {
-          "src": "assets/images/UNIDADE CWB sem gourmet 2.png",
-          "caption": "Estrutura Inspirar"
-        },
-        {
-          "src": "assets/images/WhatsApp Image 2024-07-24 at 16.50.30.jpeg",
-          "caption": "Área de Convivência"
+          "file": "cidade-parauapebas.jpeg",
+          "src": "assets/images/units/parauapebas/cidade-parauapebas.jpeg",
+          "caption": "Cidade de Parauapebas"
         }
       ],
       "sections": [
@@ -2384,7 +2328,7 @@
           "id": "campus",
           "bannerTitle": "Conheça a Unidade",
           "bannerSub": "Rua D, 250 — Cidade Nova, Parauapebas — PA",
-          "thumb": "assets/images/UNIDADE CWB sem gourmet.png"
+          "thumb": "assets/images/units/parauapebas/cidade-parauapebas.jpeg"
         },
         {
           "id": "acesso_rapido",
@@ -2507,7 +2451,7 @@
       "fullAddress": "Av. Gov. Jorge Teixeira, 1800 — Embratel, Porto Velho — RO",
       "director": "Coordenação Regional Inspirar — Porto Velho",
       "mapsUrl": "https://maps.google.com/?q=Faculdade+Inspirar+Porto%20Velho",
-      "coverImage": "assets/images/UNIDADE CWB sem gourmet.png",
+      "coverImage": "assets/images/units/porto-velho/cidade-porto-velho.jpg",
       "logoImage": "assets/images/Logo branca - horizontal.png",
       "whatsapp": "558006022828",
       "whatsappDisplay": "0800 602 2828",
@@ -2518,16 +2462,9 @@
       "sympla": "https://www.sympla.com.br/produtor/faculdadeinspirar",
       "gallery": [
         {
-          "src": "assets/images/UNIDADE CWB sem gourmet.png",
-          "caption": "Unidade Porto Velho"
-        },
-        {
-          "src": "assets/images/UNIDADE CWB sem gourmet 2.png",
-          "caption": "Estrutura Inspirar"
-        },
-        {
-          "src": "assets/images/WhatsApp Image 2024-07-24 at 16.50.30.jpeg",
-          "caption": "Área de Convivência"
+          "file": "cidade-porto-velho.jpg",
+          "src": "assets/images/units/porto-velho/cidade-porto-velho.jpg",
+          "caption": "Cidade de Porto Velho"
         }
       ],
       "sections": [
@@ -2567,7 +2504,7 @@
           "id": "campus",
           "bannerTitle": "Conheça a Unidade",
           "bannerSub": "Av. Gov. Jorge Teixeira, 1800 — Embratel, Porto Velho — RO",
-          "thumb": "assets/images/UNIDADE CWB sem gourmet.png"
+          "thumb": "assets/images/units/porto-velho/cidade-porto-velho.jpg"
         },
         {
           "id": "acesso_rapido",
@@ -2597,7 +2534,7 @@
       "fullAddress": "Av. Independência, 3840 — Alto da Boa Vista, Ribeirão Preto — SP",
       "director": "Coordenação Regional Inspirar — Ribeirão Preto",
       "mapsUrl": "https://maps.google.com/?q=Faculdade+Inspirar+Ribeir%C3%A3o%20Preto",
-      "coverImage": "assets/images/UNIDADE CWB sem gourmet.png",
+      "coverImage": "assets/images/units/ribeirao-preto/cidade-ribeirao-preto.jpg",
       "logoImage": "assets/images/Logo branca - horizontal.png",
       "whatsapp": "558006022828",
       "whatsappDisplay": "0800 602 2828",
@@ -2608,16 +2545,9 @@
       "sympla": "https://www.sympla.com.br/produtor/faculdadeinspirar",
       "gallery": [
         {
-          "src": "assets/images/UNIDADE CWB sem gourmet.png",
-          "caption": "Unidade Ribeirão Preto"
-        },
-        {
-          "src": "assets/images/UNIDADE CWB sem gourmet 2.png",
-          "caption": "Estrutura Inspirar"
-        },
-        {
-          "src": "assets/images/WhatsApp Image 2024-07-24 at 16.50.30.jpeg",
-          "caption": "Área de Convivência"
+          "file": "cidade-ribeirao-preto.jpg",
+          "src": "assets/images/units/ribeirao-preto/cidade-ribeirao-preto.jpg",
+          "caption": "Cidade de Ribeirão Preto"
         }
       ],
       "sections": [
@@ -2687,7 +2617,7 @@
           "id": "campus",
           "bannerTitle": "Conheça a Unidade",
           "bannerSub": "Av. Independência, 3840 — Alto da Boa Vista, Ribeirão Preto — SP",
-          "thumb": "assets/images/UNIDADE CWB sem gourmet.png"
+          "thumb": "assets/images/units/ribeirao-preto/cidade-ribeirao-preto.jpg"
         },
         {
           "id": "acesso_rapido",
@@ -2855,7 +2785,7 @@
       "fullAddress": "Av. Tancredo Neves, 1283 — Caminho das Árvores, Salvador — BA",
       "director": "Coordenação Regional Inspirar — Salvador",
       "mapsUrl": "https://maps.google.com/?q=Faculdade+Inspirar+Salvador",
-      "coverImage": "assets/images/UNIDADE CWB sem gourmet.png",
+      "coverImage": "assets/images/units/salvador/cidade-salvador.jpg",
       "logoImage": "assets/images/Logo branca - horizontal.png",
       "whatsapp": "558006022828",
       "whatsappDisplay": "0800 602 2828",
@@ -2866,16 +2796,9 @@
       "sympla": "https://www.sympla.com.br/produtor/faculdadeinspirar",
       "gallery": [
         {
-          "src": "assets/images/UNIDADE CWB sem gourmet.png",
-          "caption": "Unidade Salvador"
-        },
-        {
-          "src": "assets/images/UNIDADE CWB sem gourmet 2.png",
-          "caption": "Estrutura Inspirar"
-        },
-        {
-          "src": "assets/images/WhatsApp Image 2024-07-24 at 16.50.30.jpeg",
-          "caption": "Área de Convivência"
+          "file": "cidade-salvador.jpg",
+          "src": "assets/images/units/salvador/cidade-salvador.jpg",
+          "caption": "Cidade de Salvador"
         }
       ],
       "sections": [
@@ -2898,7 +2821,7 @@
           "id": "campus",
           "bannerTitle": "Conheça a Unidade",
           "bannerSub": "Av. Tancredo Neves, 1283 — Caminho das Árvores, Salvador — BA",
-          "thumb": "assets/images/UNIDADE CWB sem gourmet.png"
+          "thumb": "assets/images/units/salvador/cidade-salvador.jpg"
         },
         {
           "id": "acesso_rapido",
@@ -2928,7 +2851,7 @@
       "fullAddress": "Rua General Glicério, 350 — Centro, Santo André — SP",
       "director": "Coordenação Regional Inspirar — Santo André",
       "mapsUrl": "https://maps.google.com/?q=Faculdade+Inspirar+Santo%20Andr%C3%A9",
-      "coverImage": "assets/images/UNIDADE CWB sem gourmet.png",
+      "coverImage": "assets/images/units/santo-andre/cidade-santo-andre.webp",
       "logoImage": "assets/images/Logo branca - horizontal.png",
       "whatsapp": "558006022828",
       "whatsappDisplay": "0800 602 2828",
@@ -2939,16 +2862,9 @@
       "sympla": "https://www.sympla.com.br/produtor/faculdadeinspirar",
       "gallery": [
         {
-          "src": "assets/images/UNIDADE CWB sem gourmet.png",
-          "caption": "Unidade Santo André"
-        },
-        {
-          "src": "assets/images/UNIDADE CWB sem gourmet 2.png",
-          "caption": "Estrutura Inspirar"
-        },
-        {
-          "src": "assets/images/WhatsApp Image 2024-07-24 at 16.50.30.jpeg",
-          "caption": "Área de Convivência"
+          "file": "cidade-santo-andre.webp",
+          "src": "assets/images/units/santo-andre/cidade-santo-andre.webp",
+          "caption": "Cidade de Santo André"
         }
       ],
       "sections": [
@@ -2971,7 +2887,7 @@
           "id": "campus",
           "bannerTitle": "Conheça a Unidade",
           "bannerSub": "Rua General Glicério, 350 — Centro, Santo André — SP",
-          "thumb": "assets/images/UNIDADE CWB sem gourmet.png"
+          "thumb": "assets/images/units/santo-andre/cidade-santo-andre.webp"
         },
         {
           "id": "acesso_rapido",
@@ -3010,7 +2926,7 @@
       "fullAddress": "Av. Ana Costa, 484 — Gonzaga, Santos — SP",
       "director": "Coordenação Regional Inspirar — Santos",
       "mapsUrl": "https://maps.google.com/?q=Faculdade+Inspirar+Santos",
-      "coverImage": "assets/images/UNIDADE CWB sem gourmet.png",
+      "coverImage": "assets/images/units/santos/cidade-santos.webp",
       "logoImage": "assets/images/Logo branca - horizontal.png",
       "whatsapp": "558006022828",
       "whatsappDisplay": "0800 602 2828",
@@ -3021,16 +2937,9 @@
       "sympla": "https://www.sympla.com.br/produtor/faculdadeinspirar",
       "gallery": [
         {
-          "src": "assets/images/UNIDADE CWB sem gourmet.png",
-          "caption": "Unidade Santos"
-        },
-        {
-          "src": "assets/images/UNIDADE CWB sem gourmet 2.png",
-          "caption": "Estrutura Inspirar"
-        },
-        {
-          "src": "assets/images/WhatsApp Image 2024-07-24 at 16.50.30.jpeg",
-          "caption": "Área de Convivência"
+          "file": "cidade-santos.webp",
+          "src": "assets/images/units/santos/cidade-santos.webp",
+          "caption": "Cidade de Santos"
         }
       ],
       "sections": [
@@ -3053,7 +2962,7 @@
           "id": "campus",
           "bannerTitle": "Conheça a Unidade",
           "bannerSub": "Av. Ana Costa, 484 — Gonzaga, Santos — SP",
-          "thumb": "assets/images/UNIDADE CWB sem gourmet.png"
+          "thumb": "assets/images/units/santos/cidade-santos.webp"
         },
         {
           "id": "acesso_rapido",
@@ -3083,7 +2992,7 @@
       "fullAddress": "Rua Bernardino de Campos, 3180 — Centro, São José do Rio Preto — SP",
       "director": "Coordenação Regional Inspirar — São José do Rio Preto",
       "mapsUrl": "https://maps.google.com/?q=Faculdade+Inspirar+S%C3%A3o%20Jos%C3%A9%20do%20Rio%20Preto",
-      "coverImage": "assets/images/UNIDADE CWB sem gourmet.png",
+      "coverImage": "assets/images/units/sao-jose-do-rio-preto/cidade-sao-jose-do-rio-preto.jpg",
       "logoImage": "assets/images/Logo branca - horizontal.png",
       "whatsapp": "558006022828",
       "whatsappDisplay": "0800 602 2828",
@@ -3094,16 +3003,9 @@
       "sympla": "https://www.sympla.com.br/produtor/faculdadeinspirar",
       "gallery": [
         {
-          "src": "assets/images/UNIDADE CWB sem gourmet.png",
-          "caption": "Unidade São José do Rio Preto"
-        },
-        {
-          "src": "assets/images/UNIDADE CWB sem gourmet 2.png",
-          "caption": "Estrutura Inspirar"
-        },
-        {
-          "src": "assets/images/WhatsApp Image 2024-07-24 at 16.50.30.jpeg",
-          "caption": "Área de Convivência"
+          "file": "cidade-sao-jose-do-rio-preto.jpg",
+          "src": "assets/images/units/sao-jose-do-rio-preto/cidade-sao-jose-do-rio-preto.jpg",
+          "caption": "Cidade de São José do Rio Preto"
         }
       ],
       "sections": [
@@ -3126,7 +3028,7 @@
           "id": "campus",
           "bannerTitle": "Conheça a Unidade",
           "bannerSub": "Rua Bernardino de Campos, 3180 — Centro, São José do Rio Preto — SP",
-          "thumb": "assets/images/UNIDADE CWB sem gourmet.png"
+          "thumb": "assets/images/units/sao-jose-do-rio-preto/cidade-sao-jose-do-rio-preto.jpg"
         },
         {
           "id": "acesso_rapido",
@@ -3810,7 +3712,7 @@
       "fullAddress": "Av. Frei Serafim, 2300 — Centro, Teresina — PI",
       "director": "Coordenação Regional Inspirar — Teresina",
       "mapsUrl": "https://maps.google.com/?q=Faculdade+Inspirar+Teresina",
-      "coverImage": "assets/images/UNIDADE CWB sem gourmet.png",
+      "coverImage": "assets/images/units/teresina/cidade-teresina.jpg",
       "logoImage": "assets/images/Logo branca - horizontal.png",
       "whatsapp": "558006022828",
       "whatsappDisplay": "0800 602 2828",
@@ -3821,16 +3723,9 @@
       "sympla": "https://www.sympla.com.br/produtor/faculdadeinspirar",
       "gallery": [
         {
-          "src": "assets/images/UNIDADE CWB sem gourmet.png",
-          "caption": "Unidade Teresina"
-        },
-        {
-          "src": "assets/images/UNIDADE CWB sem gourmet 2.png",
-          "caption": "Estrutura Inspirar"
-        },
-        {
-          "src": "assets/images/WhatsApp Image 2024-07-24 at 16.50.30.jpeg",
-          "caption": "Área de Convivência"
+          "file": "cidade-teresina.jpg",
+          "src": "assets/images/units/teresina/cidade-teresina.jpg",
+          "caption": "Cidade de Teresina"
         }
       ],
       "sections": [
@@ -3853,7 +3748,7 @@
           "id": "campus",
           "bannerTitle": "Conheça a Unidade",
           "bannerSub": "Av. Frei Serafim, 2300 — Centro, Teresina — PI",
-          "thumb": "assets/images/UNIDADE CWB sem gourmet.png"
+          "thumb": "assets/images/units/teresina/cidade-teresina.jpg"
         },
         {
           "id": "acesso_rapido",

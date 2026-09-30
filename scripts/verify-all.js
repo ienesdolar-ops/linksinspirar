@@ -46,7 +46,7 @@ runStep('Gate 1: Photo Ingestion & Manifest', () => {
   assert(fs.existsSync(manifestPath), 'manifest.json missing');
   const manifest = JSON.parse(fs.readFileSync(manifestPath, 'utf8'));
   const unitFolders = Object.keys(manifest);
-  assert(unitFolders.length >= 22, `Expected at least 22 photo folders, found ${unitFolders.length}`);
+  assert.strictEqual(unitFolders.length, 37, `Expected all 37 photo folders, found ${unitFolders.length}`);
 });
 
 // 2. Data Validation
