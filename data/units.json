@@ -145,15 +145,64 @@
           "icon": "calendar",
           "items": [
             {
-              "title": "Amo Fisio",
-              "desc": "O maior evento presencial de Fisioterapia da Inspirar. Confira a programação!",
-              "tag": "Evento Presencial",
-              "badge": "Oficial",
-              "url": "https://amofisio.vercel.app/",
+              "title": "Amo Fisio — Abordagem Estética e Cosmetológica ao Paciente em Uso de Canetas Emagrecedoras",
+              "desc": "Dermatofuncional & Cosmetologia • Manejo da flacidez tissular e protocolos estéticos adaptados aos efeitos do emagrecimento rápido.",
+              "tag": "Amo Fisio",
+              "badge": "Presencial",
+              "url": "https://www.sympla.com.br/evento/amofisio-abordagem-estetica-e-cosmetologica-ao-paciente-em-uso-de-canetas-emagrecedoras/3552261",
               "icon": "heart",
               "accent": "purple",
-              "startDate": "2024-01-01",
-              "endDate": "2027-12-31"
+              "startDate": "2026-09-01",
+              "endDate": "2026-10-31T14:00:00-03:00",
+              "banner": "https://images.sympla.com.br/6a8c8727d2043.png"
+            },
+            {
+              "title": "Amo Fisio — Neuropediatria – usando a CIF e escalas para planejar intervenções",
+              "desc": "Neuropediatria & CIF • Utilização prática da Classificação Internacional de Funcionalidade para mensuração de metas clínicas.",
+              "tag": "Amo Fisio",
+              "badge": "Presencial",
+              "url": "https://www.sympla.com.br/evento/amofisio-neuropediatria-usando-a-cif-e-escalas-para-planejar-intervencoes/3552294",
+              "icon": "heart",
+              "accent": "purple",
+              "startDate": "2026-09-01",
+              "endDate": "2026-10-31T08:00:00-03:00",
+              "banner": "https://images.sympla.com.br/6a8c897d5e5cd.png"
+            },
+            {
+              "title": "Amo Fisio — Como a PBE pode auxiliar o fisioterapeuta esportivo?",
+              "desc": "Prática Baseada em Evidências • Como aplicar artigos científicos de alta qualidade para fundamentar tratamentos e condutas no esporte.",
+              "tag": "Amo Fisio",
+              "badge": "Presencial",
+              "url": "https://www.sympla.com.br/evento/amofisio-como-a-pbe-pode-auxiliar-o-fisioterapeuta-esportivo/3552282",
+              "icon": "heart",
+              "accent": "purple",
+              "startDate": "2026-09-01",
+              "endDate": "2026-10-31T08:00:00-03:00",
+              "banner": "https://images.sympla.com.br/6a8c88b91e519.png"
+            },
+            {
+              "title": "Amo Fisio — Da Gestação ao Puerpério - Avaliação e Condutas Fisioterapêuticas",
+              "desc": "Saúde da Mulher & Fisioterapia Obstétrica • Avaliação biomecânica, intervenções fisioterapêuticas no pré-natal, parto e condutas essenciais no pós-parto imediato e tardio.",
+              "tag": "Amo Fisio",
+              "badge": "Presencial",
+              "url": "https://www.sympla.com.br/evento/amofisio-da-gestacao-ao-puerperio-avaliacao-e-condutas-fisioterapeuticas/3564737",
+              "icon": "heart",
+              "accent": "purple",
+              "startDate": "2026-09-01",
+              "endDate": "2026-10-31T08:00:00-03:00",
+              "banner": "https://images.sympla.com.br/6a985c0d57b85.png"
+            },
+            {
+              "title": "Amo Fisio — A Fisioterapia como protagonista na prevenção da Síndrome da Fragilidade",
+              "desc": "Gerontologia & Saúde do Idoso • Estratégias clínicas e exercícios preventivos para conter o avanço da fragilidade, sarcopenia e risco de quedas na pessoa idosa.",
+              "tag": "Amo Fisio",
+              "badge": "Presencial",
+              "url": "https://www.sympla.com.br/evento/amofisio-a-fisioterapia-como-protagonista-na-prevencao-da-sindrome-da-fragilidade/3564725",
+              "icon": "heart",
+              "accent": "purple",
+              "startDate": "2026-09-01",
+              "endDate": "2026-10-31T14:00:00-03:00",
+              "banner": "https://images.sympla.com.br/6a985a7bd3503.png"
             }
           ]
         },
@@ -233,15 +282,40 @@
           "icon": "calendar",
           "items": [
             {
-              "title": "Amo Fisio",
-              "desc": "O maior evento presencial de Fisioterapia da Inspirar. Confira a programação!",
-              "tag": "Evento Presencial",
-              "badge": "Oficial",
-              "url": "https://amofisio.vercel.app/",
+              "title": "Amo Fisio — Lesão dos Isquiotibiais - Do consultório ao retorno ao esporte",
+              "desc": "Fisioterapia Esportiva & Ortopedia • Diagnóstico, fases de cicatrização tecidual, dosagem de carga e critérios clínicos para o Return to Play em lesões de isquiotibiais.",
+              "tag": "Amo Fisio",
+              "badge": "Presencial",
+              "url": "https://www.sympla.com.br/evento/amofisio-lesao-dos-isquiotibiais-do-consultorio-ao-retorno-ao-esporte/3562953",
               "icon": "heart",
               "accent": "purple",
-              "startDate": "2024-01-01",
-              "endDate": "2027-12-31"
+              "startDate": "2026-09-01",
+              "endDate": "2026-11-07T08:00:00-03:00",
+              "banner": "https://images.sympla.com.br/6a96f6c7ef379.png"
+            },
+            {
+              "title": "Amo Fisio — Imersão prática em ventilação mecânica invasiva e não invasiva",
+              "desc": "Fisioterapia Hospitalar & Terapia Intensiva • Manejo prático dos modos ventilatórios invasivos e VNI, ajustes de parâmetros, assincronias e condutas na terapia intensiva.",
+              "tag": "Amo Fisio",
+              "badge": "Presencial",
+              "url": "https://www.sympla.com.br/evento/amofisio-imersao-pratica-em-ventilacao-mecanica-invasiva-e-nao-invasiva/3562957",
+              "icon": "heart",
+              "accent": "purple",
+              "startDate": "2026-09-01",
+              "endDate": "2026-11-07T08:00:00-03:00",
+              "banner": "https://images.sympla.com.br/6a96f7672fa99.png"
+            },
+            {
+              "title": "Amo Fisio — Disfunções Urinárias - do Diagnóstico Funcional ao Plano de Tratamento",
+              "desc": "Fisioterapia Pélvica & Uroginecologia • Avaliação do assoalho pélvico, diagnóstico funcional das incontinências e elaboração de planos terapêuticos personalizados.",
+              "tag": "Amo Fisio",
+              "badge": "Presencial",
+              "url": "https://www.sympla.com.br/evento/amofisio-disfuncoes-urinarias-do-diagnostico-funcional-ao-plano-de-tratamento/3562962",
+              "icon": "heart",
+              "accent": "purple",
+              "startDate": "2026-09-01",
+              "endDate": "2026-11-07T08:00:00-03:00",
+              "banner": "https://images.sympla.com.br/6a96f8097473c.png"
             }
           ]
         },
@@ -326,15 +400,28 @@
           "icon": "calendar",
           "items": [
             {
-              "title": "Amo Fisio",
-              "desc": "O maior evento presencial de Fisioterapia da Inspirar. Confira a programação!",
-              "tag": "Evento Presencial",
-              "badge": "Oficial",
-              "url": "https://amofisio.vercel.app/",
+              "title": "Amo Fisio — Mobilização Articular MMSS (Membros Superiores)",
+              "desc": "Terapia Manual & Ortopedia • Técnicas manuais de avaliação e mobilização articular aplicadas às disfunções e alívio da dor nos membros superiores.",
+              "tag": "Amo Fisio",
+              "badge": "Presencial",
+              "url": "https://www.sympla.com.br/evento/amofisio-mobilizacao-articular-mmss-membros-superiores/3573015",
               "icon": "heart",
               "accent": "purple",
-              "startDate": "2024-01-01",
-              "endDate": "2027-12-31"
+              "startDate": "2026-09-01",
+              "endDate": "2026-10-24T08:30:00-03:00",
+              "banner": "https://images.sympla.com.br/6aa1adf9d007b.png"
+            },
+            {
+              "title": "Amo Fisio — Mobilização Articular MMII (Membros Inferiores)",
+              "desc": "Terapia Manual & Ortopedia • Prática clínica de mobilização articular direcionada às articulações de quadril, joelho e tornozelo para ganho de amplitude de movimento e função.",
+              "tag": "Amo Fisio",
+              "badge": "Presencial",
+              "url": "https://www.sympla.com.br/evento/amofisio-mobilizacao-articular-mmii-membros-inferiores/3573028",
+              "icon": "heart",
+              "accent": "purple",
+              "startDate": "2026-09-01",
+              "endDate": "2026-10-24T13:00:00-03:00",
+              "banner": "https://images.sympla.com.br/6aa1af21a9e2c.png"
             }
           ]
         },
@@ -414,15 +501,16 @@
           "icon": "calendar",
           "items": [
             {
-              "title": "Amo Fisio",
-              "desc": "O maior evento presencial de Fisioterapia da Inspirar. Confira a programação!",
-              "tag": "Evento Presencial",
-              "badge": "Oficial",
-              "url": "https://amofisio.vercel.app/",
+              "title": "Amo Fisio — Quiropraxia na atenção à saúde",
+              "desc": "Quiropraxia & Terapia Manual • Princípios dos ajustes quiropráticos, avaliação vertebral e aplicação clínica integrada aos cuidados em saúde.",
+              "tag": "Amo Fisio",
+              "badge": "Presencial",
+              "url": "https://www.sympla.com.br/evento/amofisio-quiropraxia-na-atencao-a-saude/3583906",
               "icon": "heart",
               "accent": "purple",
-              "startDate": "2024-01-01",
-              "endDate": "2027-12-31"
+              "startDate": "2026-09-01",
+              "endDate": "2026-10-23T18:00:00-03:00",
+              "banner": "https://images.sympla.com.br/6aac306f7986c.png"
             }
           ]
         },
@@ -627,15 +715,40 @@
           "icon": "calendar",
           "items": [
             {
-              "title": "Amo Fisio",
-              "desc": "O maior evento presencial de Fisioterapia da Inspirar. Confira a programação!",
-              "tag": "Evento Presencial",
-              "badge": "Oficial",
-              "url": "https://amofisio.vercel.app/",
+              "title": "Amo Fisio — Fisioterapia Manipulativa na Prática - Da Evidência ao Raciocínio Clínico",
+              "desc": "Terapia Manual & Ortopedia • Raciocínio clínico avançado e técnicas de manipulação baseadas em evidências para disfunções neuromusculoesqueléticas.",
+              "tag": "Amo Fisio",
+              "badge": "Presencial",
+              "url": "https://www.sympla.com.br/evento/amofisio-fisioterapia-manipulativa-na-pratica-da-evidencia-ao-raciocinio-clinico/3589937",
               "icon": "heart",
               "accent": "purple",
-              "startDate": "2024-01-01",
-              "endDate": "2027-12-31"
+              "startDate": "2026-09-01",
+              "endDate": "2026-10-23T18:00:00-03:00",
+              "banner": "https://images.sympla.com.br/6ab2c99195ec0.png"
+            },
+            {
+              "title": "Amo Fisio — Atuação do profissional da estética no estímulo de colágeno",
+              "desc": "Dermatofuncional & Estética • Técnicas, tecnologias e abordagens clínicas para indução e estímulo de colágeno nos tratamentos estéticos.",
+              "tag": "Amo Fisio",
+              "badge": "Presencial",
+              "url": "https://www.sympla.com.br/evento/amofisio-atuacao-do-profissional-da-estetica-no-estimulo-de-colageno/3589946",
+              "icon": "heart",
+              "accent": "purple",
+              "startDate": "2026-09-01",
+              "endDate": "2026-10-24T08:00:00-03:00",
+              "banner": "https://images.sympla.com.br/6ab2ca587b93c.png"
+            },
+            {
+              "title": "Amo Fisio — Atuação do fisioterapeuta na sarcopenia e síndrome da fragilidade",
+              "desc": "Gerontologia & Saúde do Idoso • Estratégias de avaliação e intervenção no manejo da sarcopenia e fragilidade.",
+              "tag": "Amo Fisio",
+              "badge": "Presencial",
+              "url": "https://www.sympla.com.br/evento/amofisio-atuacao-do-fisioterapeuta-na-sarcopenia-e-sindrome-da-fragilidade/3589956",
+              "icon": "heart",
+              "accent": "purple",
+              "startDate": "2026-09-01",
+              "endDate": "2026-10-23T19:00:00-03:00",
+              "banner": "https://images.sympla.com.br/6ab2caffc6da1.png"
             }
           ]
         },
@@ -727,15 +840,16 @@
           "icon": "calendar",
           "items": [
             {
-              "title": "Amo Fisio",
-              "desc": "O maior evento presencial de Fisioterapia da Inspirar. Confira a programação!",
-              "tag": "Evento Presencial",
-              "badge": "Oficial",
-              "url": "https://amofisio.vercel.app/",
+              "title": "Amo Fisio — Fisioterapia Além da Clínica - Home Care",
+              "desc": "Passaporte Especial • 4 Cursos por R$ 30 • Inscrição com valor único de R$ 30,00 que dá acesso completo aos 4 cursos diferentes da unidade Campo Grande.",
+              "tag": "Amo Fisio",
+              "badge": "Combo R$ 30 (4 Cursos)",
+              "url": "https://www.sympla.com.br/evento/amofisio-fisioterapia-alem-da-clinica-home-care/3555189",
               "icon": "heart",
               "accent": "purple",
-              "startDate": "2024-01-01",
-              "endDate": "2027-12-31"
+              "startDate": "2026-09-01",
+              "endDate": "2026-10-24T08:00:00-03:00",
+              "banner": "https://images.sympla.com.br/6a8efadd36195.png"
             }
           ]
         },
@@ -827,15 +941,76 @@
           "icon": "calendar",
           "items": [
             {
-              "title": "Amo Fisio",
-              "desc": "O maior evento presencial de Fisioterapia da Inspirar. Confira a programação!",
-              "tag": "Evento Presencial",
-              "badge": "Oficial",
-              "url": "https://amofisio.vercel.app/",
+              "title": "Amo Fisio — Recuperação Funcional da Criança na UTI",
+              "desc": "Fisioterapia Pediátrica & UTI • Estratégias de reabilitação e desmame ventilatório na UTI Pediátrica para preservação funcional da criança.",
+              "tag": "Amo Fisio",
+              "badge": "Presencial",
+              "url": "https://www.sympla.com.br/evento/amofisio-recuperacao-funcional-da-crianca-na-uti/3552045",
               "icon": "heart",
               "accent": "purple",
-              "startDate": "2024-01-01",
-              "endDate": "2027-12-31"
+              "startDate": "2026-09-01",
+              "endDate": "2026-10-31T14:00:00-03:00",
+              "banner": "https://images.sympla.com.br/6a8c749d6ee6c.png"
+            },
+            {
+              "title": "Amo Fisio — Corrida Inteligente - Atuação da Fisioterapia",
+              "desc": "Fisioterapia Esportiva & Corrida • Análise biomecânica do padrão de corrida, calçados e prevenção de lesões comuns em corredores.",
+              "tag": "Amo Fisio",
+              "badge": "Presencial",
+              "url": "https://www.sympla.com.br/evento/amofisio-corrida-inteligente-atuacao-da-fisioterapia/3552122",
+              "icon": "heart",
+              "accent": "purple",
+              "startDate": "2026-09-01",
+              "endDate": "2026-10-31T09:00:00-03:00",
+              "banner": "https://images.sympla.com.br/6a8c7b8711a19.png"
+            },
+            {
+              "title": "Amo Fisio — Fisioterapia Dermato Funcional - Full Face Estratégico na Harmonização Facial",
+              "desc": "Dermatofuncional & Harmonização Facial • Abordagem anatômica global da face para tratamentos estéticos e regenerativos integrados.",
+              "tag": "Amo Fisio",
+              "badge": "Presencial",
+              "url": "https://www.sympla.com.br/evento/amofisio-fisioterapia-dermato-funcional-full-face-estrategico-na-harmonizacao-facial/3552028",
+              "icon": "heart",
+              "accent": "purple",
+              "startDate": "2026-09-01",
+              "endDate": "2026-10-31T14:00:00-03:00",
+              "banner": "https://images.sympla.com.br/6a8c730a6527d.png"
+            },
+            {
+              "title": "Amo Fisio — Atuação da Fisioterapia na Gestação e Parto",
+              "desc": "Saúde da Mulher & Obstetrícia • Preparação corporal no pré-natal, alívio não farmacológico da dor e condução biomecânica no trabalho de parto.",
+              "tag": "Amo Fisio",
+              "badge": "Presencial",
+              "url": "https://www.sympla.com.br/evento/amofisio-atuacao-da-fisioterapia-na-gestacao-e-parto/3552112",
+              "icon": "heart",
+              "accent": "purple",
+              "startDate": "2026-09-01",
+              "endDate": "2026-10-31T09:00:00-03:00",
+              "banner": "https://images.sympla.com.br/6a8c7a6504b90.png"
+            },
+            {
+              "title": "Amo Fisio — Fisioterapia Neurofuncional Pediátrica e seu Campo de Atuação",
+              "desc": "Neurofuncional Pediátrica • Conceitos neurológicos, escalas de desenvolvimento e estimulação precoce na neuropediatria.",
+              "tag": "Amo Fisio",
+              "badge": "Presencial",
+              "url": "https://www.sympla.com.br/evento/amofisio-fisioterapia-neurofuncional-pediatrica-e-seu-campo-de-atuacao/3552098",
+              "icon": "heart",
+              "accent": "purple",
+              "startDate": "2026-09-01",
+              "endDate": "2026-10-31T09:00:00-03:00",
+              "banner": "https://images.sympla.com.br/6a8c79285e306.png"
+            },
+            {
+              "title": "Amo Fisio — Biomecânica e Cinesioterapia - Aplicação Perfeita de Exercícios",
+              "desc": "Cinesioterapia & Biomecânica • Braço de momento, linhas de ação muscular e prescrição precisa de exercícios terapêuticos.",
+              "tag": "Amo Fisio",
+              "badge": "Presencial",
+              "url": "https://www.sympla.com.br/evento/amofisio-biomecanica-e-cinesioterapia-aplicacao-perfeita-de-exercicios/3552076",
+              "icon": "heart",
+              "accent": "purple",
+              "startDate": "2026-09-01",
+              "endDate": "2026-10-31T14:00:00-03:00",
+              "banner": "https://images.sympla.com.br/6a8c777c2c25d.png"
             }
           ]
         },
@@ -987,15 +1162,76 @@
               "banner": "https://images.sympla.com.br/6aaabd1a23caa.png"
             },
             {
-              "title": "Amo Fisio",
-              "desc": "O maior evento presencial de Fisioterapia da Inspirar. Confira a programação!",
-              "tag": "Evento Presencial",
-              "badge": "Oficial",
-              "url": "https://amofisio.vercel.app/",
+              "title": "Amo Fisio — Intervenção Fisioterapêutica nas Disfunções Miccionais em Crianças e Adolescentes",
+              "desc": "Fisioterapia Pélvica & Urologia Pediátrica • Abordagem fisioterapêutica, avaliação e condutas nas disfunções miccionais e do assoalho pélvico em crianças e adolescentes.",
+              "tag": "Amo Fisio",
+              "badge": "Presencial",
+              "url": "https://www.sympla.com.br/evento/amofisio-intervencao-fisioterapeutica-nas-disfuncoes-miccionais-em-criancas-e-adolescentes/3560627",
               "icon": "heart",
               "accent": "purple",
-              "startDate": "2024-01-01",
-              "endDate": "2027-12-31"
+              "startDate": "2026-09-01",
+              "endDate": "2026-10-24T08:00:00-03:00",
+              "banner": "https://images.sympla.com.br/6a958faba2903.png"
+            },
+            {
+              "title": "Amo Fisio — Liberação Miofascial Manual Integrada na Síndrome do Piriforme",
+              "desc": "Terapia Manual & Fáscias • Técnicas manuais integradas e descompressão miofascial no manejo da dor e disfunção do músculo piriforme.",
+              "tag": "Amo Fisio",
+              "badge": "Presencial",
+              "url": "https://www.sympla.com.br/evento/amofisio-liberacao-miofascial-manual-integrada-na-sindrome-do-piriforme/3560590",
+              "icon": "heart",
+              "accent": "purple",
+              "startDate": "2026-09-01",
+              "endDate": "2026-10-24T08:00:00-03:00",
+              "banner": "https://images.sympla.com.br/6a958b997fa16.png"
+            },
+            {
+              "title": "Amo Fisio — Reabilitação avançada do complexo articular do ombro",
+              "desc": "Ortopedia & Reabilitação • Avaliação biomecânica, raciocínio clínico e protocolos avançados de reabilitação para o complexo articular do ombro.",
+              "tag": "Amo Fisio",
+              "badge": "Presencial",
+              "url": "https://www.sympla.com.br/evento/amofisio-reabilitacao-avancada-do-complexo-articular-do-ombro/3560614",
+              "icon": "heart",
+              "accent": "purple",
+              "startDate": "2026-09-01",
+              "endDate": "2026-10-24T08:00:00-03:00",
+              "banner": "https://images.sympla.com.br/6a958dec9c849.png"
+            },
+            {
+              "title": "Amo Fisio — Introdução à Disfunção Temporomandibular",
+              "desc": "Terapia Manual & DTM • Fundamentos clínicos, diagnóstico diferencial e intervenção fisioterapêutica nas desordens da articulação temporomandibular.",
+              "tag": "Amo Fisio",
+              "badge": "Presencial",
+              "url": "https://www.sympla.com.br/evento/amofisio-introducao-a-disfuncao-temporomandibular/3561113",
+              "icon": "heart",
+              "accent": "purple",
+              "startDate": "2026-09-01",
+              "endDate": "2026-10-23T18:00:00-03:00",
+              "banner": "https://images.sympla.com.br/6a95b7e9ac7f8.png"
+            },
+            {
+              "title": "Amo Fisio — Correntes Diadinâmicas de Bernard na Reabilitação Musculoesquelética",
+              "desc": "Eletroterapia & Ortopedia • Aplicações clínicas das correntes diadinâmicas para analgesia rápida, modulação inflamatória e reabilitação musculoesquelética.",
+              "tag": "Amo Fisio",
+              "badge": "Presencial",
+              "url": "https://www.sympla.com.br/evento/amofisio-correntes-diadinamicas-de-bernard-na-reabilitacao-musculoesqueletica/3562993",
+              "icon": "heart",
+              "accent": "purple",
+              "startDate": "2026-09-01",
+              "endDate": "2026-10-26T18:00:00-03:00",
+              "banner": "https://images.sympla.com.br/6a96fde2e55d1.png"
+            },
+            {
+              "title": "Amo Fisio — Interpretação de Exames Laboratoriais Aplicada à Dermatofuncional",
+              "desc": "Dermatofuncional & Prática Clínica • Raciocínio clínico laboratorial: leitura e interpretação de biomarcadores para potencializar e personalizar condutas em dermatofuncional.",
+              "tag": "Amo Fisio",
+              "badge": "Presencial",
+              "url": "https://www.sympla.com.br/evento/amofisio-interpretacao-de-exames-laboratoriais-aplicada-a-dermatofuncional/3563006",
+              "icon": "heart",
+              "accent": "purple",
+              "startDate": "2026-09-01",
+              "endDate": "2026-10-26T18:00:00-03:00",
+              "banner": "https://images.sympla.com.br/6a97002638e29.png"
             },
             {
               "title": "Congresso Internacional em Estética",
@@ -1208,15 +1444,16 @@
           "icon": "calendar",
           "items": [
             {
-              "title": "Amo Fisio",
-              "desc": "O maior evento presencial de Fisioterapia da Inspirar. Confira a programação!",
-              "tag": "Evento Presencial",
-              "badge": "Oficial",
-              "url": "https://amofisio.vercel.app/",
+              "title": "Amo Fisio — A importância da Anatomia Palpatória no raciocínio clínico",
+              "desc": "Terapia Manual & Anatomia • Palpação precisa de estruturas musculoesqueléticas, referências anatômicas de segurança e construção do raciocínio clínico assertivo.",
+              "tag": "Amo Fisio",
+              "badge": "Presencial",
+              "url": "https://www.sympla.com.br/evento/amofisio-a-importancia-da-anatomia-palpatoria-no-raciocinio-clinico/3583921",
               "icon": "heart",
               "accent": "purple",
-              "startDate": "2024-01-01",
-              "endDate": "2027-12-31"
+              "startDate": "2026-09-01",
+              "endDate": "2026-10-24T08:00:00-03:00",
+              "banner": "https://images.sympla.com.br/6aac320d41539.png"
             }
           ]
         },
@@ -1308,15 +1545,16 @@
           "icon": "calendar",
           "items": [
             {
-              "title": "Amo Fisio",
-              "desc": "O maior evento presencial de Fisioterapia da Inspirar. Confira a programação!",
-              "tag": "Evento Presencial",
-              "badge": "Oficial",
-              "url": "https://amofisio.vercel.app/",
+              "title": "Amo Fisio — Avaliação e Reabilitação de Fraturas",
+              "desc": "Ortopedia & Traumatologia • Consolidação óssea, fases de reabilitação pós-fratura, controle de carga e condutas fisioterapêuticas para retorno funcional.",
+              "tag": "Amo Fisio",
+              "badge": "Presencial",
+              "url": "https://www.sympla.com.br/evento/amofisio-avaliacao-e-reabilitacao-de-fraturas/3574421",
               "icon": "heart",
               "accent": "purple",
-              "startDate": "2024-01-01",
-              "endDate": "2027-12-31"
+              "startDate": "2026-09-01",
+              "endDate": "2026-10-23T18:00:00-03:00",
+              "banner": "https://images.sympla.com.br/6aa2e8c69903a.png"
             }
           ]
         },
@@ -1392,15 +1630,16 @@
           "icon": "calendar",
           "items": [
             {
-              "title": "Amo Fisio",
-              "desc": "O maior evento presencial de Fisioterapia da Inspirar. Confira a programação!",
-              "tag": "Evento Presencial",
-              "badge": "Oficial",
-              "url": "https://amofisio.vercel.app/",
+              "title": "Amo Fisio — Reabilitação Pós-Parto e Pilates na Prática",
+              "desc": "Saúde da Mulher & Pilates • Fundamentos, avaliação do puerpério e aplicação prática do método Pilates na recuperação funcional pós-parto.",
+              "tag": "Amo Fisio",
+              "badge": "Presencial",
+              "url": "https://www.sympla.com.br/evento/amofisio-reabilitacao-pos-parto-e-pilates-na-pratica/3567347",
               "icon": "heart",
               "accent": "purple",
-              "startDate": "2024-01-01",
-              "endDate": "2027-12-31"
+              "startDate": "2026-09-01",
+              "endDate": "2026-10-24T13:00:00-03:00",
+              "banner": "https://images.sympla.com.br/6a9ac2d7ed656.png"
             }
           ]
         },
@@ -1487,15 +1726,100 @@
           "icon": "calendar",
           "items": [
             {
-              "title": "Amo Fisio",
-              "desc": "O maior evento presencial de Fisioterapia da Inspirar. Confira a programação!",
-              "tag": "Evento Presencial",
-              "badge": "Oficial",
-              "url": "https://amofisio.vercel.app/",
+              "title": "Amo Fisio — Fisioterapia nas Disfunções Sexuais",
+              "desc": "Fisioterapia Pélvica & Sexologia • Manejo fisioterapêutico de vaginismo, dispareunia, disfunção erétil e dores pélvicas crônicas.",
+              "tag": "Amo Fisio",
+              "badge": "Presencial",
+              "url": "https://www.sympla.com.br/evento/amofisio-fisioterapia-nas-disfuncoes-sexuais/3552239",
               "icon": "heart",
               "accent": "purple",
-              "startDate": "2024-01-01",
-              "endDate": "2027-12-31"
+              "startDate": "2026-09-01",
+              "endDate": "2026-10-24T14:30:00-03:00",
+              "banner": "https://images.sympla.com.br/6a8c84b6a4bbb.png"
+            },
+            {
+              "title": "Amo Fisio — Fisioterapia no Esporte – Prevenção, Reabilitação e Performance",
+              "desc": "Fisioterapia Esportiva • Avaliação funcional do movimento, controle de sobrecarga e estratégias de ganho de rendimento atlético.",
+              "tag": "Amo Fisio",
+              "badge": "Presencial",
+              "url": "https://www.sympla.com.br/evento/amofisio-fisioterapia-no-esporte-prevencao-reabilitacao-e-performance/3552228",
+              "icon": "heart",
+              "accent": "purple",
+              "startDate": "2026-09-01",
+              "endDate": "2026-10-24T12:30:00-03:00",
+              "banner": "https://images.sympla.com.br/6a8c842f0aff8.png"
+            },
+            {
+              "title": "Amo Fisio — Microagulhamento – da teoria à prática",
+              "desc": "Dermatofuncional & Estética • Técnica de indução percutânea de colágeno, drug delivery e protocolos para rejuvenescimento e cicatrizes.",
+              "tag": "Amo Fisio",
+              "badge": "Presencial",
+              "url": "https://www.sympla.com.br/evento/amofisio-microagulhamento-da-teoria-a-pratica/3552207",
+              "icon": "heart",
+              "accent": "purple",
+              "startDate": "2026-09-01",
+              "endDate": "2026-10-24T09:00:00-03:00",
+              "banner": "https://images.sympla.com.br/6a8c82cccaa21.png"
+            },
+            {
+              "title": "Amo Fisio — Harmonização Labial — conhecimento, prática e excelência",
+              "desc": "Dermatofuncional & Harmonização • Conhecimento aprofundado, técnicas práticas e critérios de excelência e segurança na harmonização labial.",
+              "tag": "Amo Fisio",
+              "badge": "Presencial",
+              "url": "https://www.sympla.com.br/evento/amofisio-harmonizacao-labial-conhecimento-pratica-e-excelencia/3564711",
+              "icon": "heart",
+              "accent": "purple",
+              "startDate": "2026-09-01",
+              "endDate": "2026-10-26T19:30:00-03:00",
+              "banner": "https://images.sympla.com.br/6a98592a7f4d2.png"
+            },
+            {
+              "title": "Amo Fisio — CosmiFY - Entendendo como fazer da cosmetologia um potencializador dos seus resultados",
+              "desc": "Dermatofuncional & Cosmetologia • Aplicação avançada de cosmetologia e dermocosméticos para potencializar protocolos e resultados em fisioterapia dermatofuncional.",
+              "tag": "Amo Fisio",
+              "badge": "Presencial",
+              "url": "https://www.sympla.com.br/evento/amofisio-cosmify-entendendo-como-fazer-da-cosmetologia-um-potencializador-dos-seus-resultados/3583895",
+              "icon": "heart",
+              "accent": "purple",
+              "startDate": "2026-09-01",
+              "endDate": "2026-10-28T19:00:00-03:00",
+              "banner": "https://images.sympla.com.br/6aac2f98147cf.png"
+            },
+            {
+              "title": "Amo Fisio — Fisioterapia Traumato-Ortopédica, Esportiva e Quiropraxia",
+              "desc": "Ortopedia & Quiropraxia • Integração prática da reabilitação ortopédica com ajustes de quiropraxia para rápida recuperação funcional.",
+              "tag": "Amo Fisio",
+              "badge": "Esgotado",
+              "url": "https://www.sympla.com.br/evento/amofisio-fisioterapia-traumato-ortopedica-esportiva-e-quiropraxia/3552221",
+              "icon": "heart",
+              "accent": "purple",
+              "startDate": "2026-09-01",
+              "endDate": "2026-10-24T10:30:00-03:00",
+              "banner": "https://images.sympla.com.br/6a8c839a3f5f5.png"
+            },
+            {
+              "title": "Amo Fisio — Técnicas e Manobras de Fisioterapia Respiratória – Adulto e Pediátrico",
+              "desc": "Fisioterapia Respiratória • Manobras de desobstrução brônquica e reexpansão pulmonar em pacientes adultos e pediátricos.",
+              "tag": "Amo Fisio",
+              "badge": "Esgotado",
+              "url": "https://www.sympla.com.br/evento/amofisio-tecnicas-e-manobras-de-fisioterapia-respiratoria-adulto-e-pediatrico/3552255",
+              "icon": "heart",
+              "accent": "purple",
+              "startDate": "2026-09-01",
+              "endDate": "2026-10-31T10:00:00-03:00",
+              "banner": "https://images.sympla.com.br/6a8c864cad6f8.png"
+            },
+            {
+              "title": "Amo Fisio — Atuação na Urgência, Emergência e Terapia Intensiva",
+              "desc": "Fisioterapia Hospitalar & UTI • Atuação ágil e segura em pronto-socorro, paradas cardiorrespiratórias e suporte ventilatório avançado.",
+              "tag": "Amo Fisio",
+              "badge": "Esgotado",
+              "url": "https://www.sympla.com.br/evento/amofisio-atuacao-na-urgencia-emergencia-e-terapia-intensiva/3552251",
+              "icon": "heart",
+              "accent": "purple",
+              "startDate": "2026-09-01",
+              "endDate": "2026-10-24T15:30:00-03:00",
+              "banner": "https://images.sympla.com.br/6a8c85d159a3e.png"
             }
           ]
         },
@@ -1735,15 +2059,40 @@
           "icon": "calendar",
           "items": [
             {
-              "title": "Amo Fisio",
-              "desc": "O maior evento presencial de Fisioterapia da Inspirar. Confira a programação!",
-              "tag": "Evento Presencial",
-              "badge": "Oficial",
-              "url": "https://amofisio.vercel.app/",
+              "title": "Amo Fisio — Estratégias Nutricionais na Prevenção e Tratamento de Lesões no Esporte",
+              "desc": "Nutrição Esportiva & Fisioterapia • Abordagem interdisciplinar entre suporte nutricional e fisioterapia na recuperação e prevenção de lesões.",
+              "tag": "Amo Fisio",
+              "badge": "Presencial",
+              "url": "https://www.sympla.com.br/evento/amofisio-estrategias-nutricionais-na-prevencao-e-tratamento-de-lesoes-no-esporte/3555278",
               "icon": "heart",
               "accent": "purple",
-              "startDate": "2024-01-01",
-              "endDate": "2027-12-31"
+              "startDate": "2026-09-01",
+              "endDate": "2026-10-24T08:00:00-03:00",
+              "banner": "https://images.sympla.com.br/6a8f042bcbc05.png"
+            },
+            {
+              "title": "Amo Fisio — Lesões Musculares em Atletas: Diagnóstico e Tratamento Baseado em Evidências",
+              "desc": "Fisioterapia Esportiva • Classificação ecográfica/clínica, dosagem de carga e reabilitação baseada nas melhores evidências mundiais.",
+              "tag": "Amo Fisio",
+              "badge": "Presencial",
+              "url": "https://www.sympla.com.br/evento/amofisio-lesoes-musculares-em-atletas-diagnostico-e-tratamento-baseado-em-evidencias/3555322",
+              "icon": "heart",
+              "accent": "purple",
+              "startDate": "2026-09-01",
+              "endDate": "2026-10-24T08:00:00-03:00",
+              "banner": "https://images.sympla.com.br/6a8f095231068.png"
+            },
+            {
+              "title": "Amo Fisio — Introdução à Quiropraxia",
+              "desc": "Quiropraxia & Terapia Manual • Fundamentos teóricos e princípios dos ajustes articulares quiropráticos para alinhamento vertebral.",
+              "tag": "Amo Fisio",
+              "badge": "Presencial",
+              "url": "https://www.sympla.com.br/evento/amofisio-introducao-a-quiropraxia/3555299",
+              "icon": "heart",
+              "accent": "purple",
+              "startDate": "2026-09-01",
+              "endDate": "2026-10-24T13:00:00-03:00",
+              "banner": "https://images.sympla.com.br/6a8f0f82eea88.png"
             }
           ]
         },
@@ -1885,15 +2234,16 @@
           "icon": "calendar",
           "items": [
             {
-              "title": "Amo Fisio",
-              "desc": "O maior evento presencial de Fisioterapia da Inspirar. Confira a programação!",
-              "tag": "Evento Presencial",
-              "badge": "Oficial",
-              "url": "https://amofisio.vercel.app/",
+              "title": "Amo Fisio — Liderança não espera cargo",
+              "desc": "Carreira & Gestão • Desenvolvimento de habilidades de liderança e gestão de carreira para fisioterapeutas.",
+              "tag": "Amo Fisio",
+              "badge": "Presencial",
+              "url": "https://www.sympla.com.br/evento/amofisio-lideranca-nao-espera-cargo/3589911",
               "icon": "heart",
               "accent": "purple",
-              "startDate": "2024-01-01",
-              "endDate": "2027-12-31"
+              "startDate": "2026-09-01",
+              "endDate": "2026-10-24T08:00:00-03:00",
+              "banner": "https://images.sympla.com.br/6ab2c84ad1130.png"
             }
           ]
         },
@@ -2121,15 +2471,16 @@
           "icon": "calendar",
           "items": [
             {
-              "title": "Amo Fisio",
-              "desc": "O maior evento presencial de Fisioterapia da Inspirar. Confira a programação!",
-              "tag": "Evento Presencial",
-              "badge": "Oficial",
-              "url": "https://amofisio.vercel.app/",
+              "title": "Amo Fisio — Escolha 2 aulas e amplie seus conhecimentos em Fisioterapia",
+              "desc": "Passaporte Especial • Escolha 2 Aulas • Inscrição especial que permite selecionar e participar de 2 aulas de imersão prática na unidade Porto Velho.",
+              "tag": "Amo Fisio",
+              "badge": "Passaporte 2 Aulas",
+              "url": "https://www.sympla.com.br/evento/amofisio-escolha-2-aulas-e-amplie-seus-conhecimentos-em-fisioterapia/3584713",
               "icon": "heart",
               "accent": "purple",
-              "startDate": "2024-01-01",
-              "endDate": "2027-12-31"
+              "startDate": "2026-09-01",
+              "endDate": "2026-10-31T08:00:00-03:00",
+              "banner": "https://images.sympla.com.br/6aad2f8841544.png"
             }
           ]
         },
@@ -2205,15 +2556,52 @@
           "icon": "calendar",
           "items": [
             {
-              "title": "Amo Fisio",
-              "desc": "O maior evento presencial de Fisioterapia da Inspirar. Confira a programação!",
-              "tag": "Evento Presencial",
-              "badge": "Oficial",
-              "url": "https://amofisio.vercel.app/",
+              "title": "Amo Fisio — Análise do movimento e intervenção no sentar e ficar em pé",
+              "desc": "Biomecânica & Reabilitação Funcional • Avaliação cinemática e cinética das transferências posturais de sentar e levantar, com intervenções para ganho de mobilidade e controle motor.",
+              "tag": "Amo Fisio",
+              "badge": "Presencial",
+              "url": "https://www.sympla.com.br/evento/amofisio-analise-do-movimento-e-intervencao-no-sentar-e-ficar-em-pe/3564953",
               "icon": "heart",
               "accent": "purple",
-              "startDate": "2024-01-01",
-              "endDate": "2027-12-31"
+              "startDate": "2026-09-01",
+              "endDate": "2026-10-31T14:00:00-03:00",
+              "banner": "https://images.sympla.com.br/6a986fdf4c1fb.png"
+            },
+            {
+              "title": "Amo Fisio — Avaliação Funcional de Membros Inferiores - Testes e Aplicação Clínica",
+              "desc": "Ortopedia & Avaliação Funcional • Bateria de testes funcionais, raciocínio clínico e aplicação prática na avaliação de membros inferiores em atletas e pacientes ortopédicos.",
+              "tag": "Amo Fisio",
+              "badge": "Presencial",
+              "url": "https://www.sympla.com.br/evento/amofisio-avaliacao-funcional-de-membros-inferiores---testes-e-aplicacao-clinica/3564928",
+              "icon": "heart",
+              "accent": "purple",
+              "startDate": "2026-09-01",
+              "endDate": "2026-10-31T08:00:00-03:00",
+              "banner": "https://images.sympla.com.br/6a986e43b1b72.png"
+            },
+            {
+              "title": "Amo Fisio — Avaliação da mecânica ventilatória - fundamentos, parâmetros e curvas",
+              "desc": "Fisioterapia Respiratória & UTI • Interpretação gráfica, mecânica respiratória avançada, análise de curvas e monitorização ventilatória na prática clínica.",
+              "tag": "Amo Fisio",
+              "badge": "Presencial",
+              "url": "https://www.sympla.com.br/evento/amofisio-avaliacao-da-mecanica-ventilatoria-fundamentos-parametros-e-curvas/3567342",
+              "icon": "heart",
+              "accent": "purple",
+              "startDate": "2026-09-01",
+              "endDate": "2026-10-31T14:00:00-03:00",
+              "banner": "https://images.sympla.com.br/6a9ac1f40f150.png"
+            },
+            {
+              "title": "Amo Fisio — Do consultório à maternidade - como a fisioterapia transforma a jornada da gestante",
+              "desc": "Saúde da Mulher & Fisioterapia Obstétrica • Abordagem fisioterapêutica completa na gestação, parto e puerpério, integrando cuidados ambulatoriais e atuação hospitalar.",
+              "tag": "Amo Fisio",
+              "badge": "Presencial",
+              "url": "https://www.sympla.com.br/evento/amofisio-do-consultorio-a-maternidade---como-a-fisioterapia-transforma-a-jornada-da-gestante/3599001",
+              "icon": "heart",
+              "accent": "purple",
+              "startDate": "2026-09-01",
+              "endDate": "2026-10-31T08:00:00-03:00",
+              "banner": "https://images.sympla.com.br/6abbce38645b2.png"
             }
           ]
         },
@@ -2317,15 +2705,40 @@
           "icon": "calendar",
           "items": [
             {
-              "title": "Amo Fisio",
-              "desc": "O maior evento presencial de Fisioterapia da Inspirar. Confira a programação!",
-              "tag": "Evento Presencial",
-              "badge": "Oficial",
-              "url": "https://amofisio.vercel.app/",
+              "title": "Amo Fisio — Quiropraxia - Uma especialidade do fisioterapeuta. Como ampliar seus resultados clínicos",
+              "desc": "Quiropraxia & Terapia Manual • Fundamentos, diferenciais e raciocínio clínico da Quiropraxia como especialidade para potencializar resultados na prática fisioterapêutica.",
+              "tag": "Amo Fisio",
+              "badge": "Presencial",
+              "url": "https://www.sympla.com.br/evento/amofisio-quiropraxia-uma-especialidade-do-fisioterapeuta-como-ampliar-seus-resultados-clinicos/3568100",
               "icon": "heart",
               "accent": "purple",
-              "startDate": "2024-01-01",
-              "endDate": "2027-12-31"
+              "startDate": "2026-09-01",
+              "endDate": "2026-10-24T08:00:00-03:00",
+              "banner": "https://images.sympla.com.br/6a9b192777695.png"
+            },
+            {
+              "title": "Amo Fisio — Critérios de progressão e alta após a reconstrução de LCA",
+              "desc": "Fisioterapia Esportiva & Ortopedia • Testes funcionais, controle de carga, marcadores de segurança e critérios baseados em evidência para a progressão de fases e Return to Play no pós-LCA.",
+              "tag": "Amo Fisio",
+              "badge": "Últimas Vagas",
+              "url": "https://www.sympla.com.br/evento/amofisio-criterios-de-progressao-e-alta-apos-a-reconstrucao-de-lca/3568083",
+              "icon": "heart",
+              "accent": "purple",
+              "startDate": "2026-09-01",
+              "endDate": "2026-10-24T08:00:00-03:00",
+              "banner": "https://images.sympla.com.br/6a9b17b65721a.png"
+            },
+            {
+              "title": "Amo Fisio — Pele Pós-Emagrecimento - GLP-1, Flacidez e Remodelamento Tecidual",
+              "desc": "Dermatofuncional & Estética • Abordagem estética da flacidez e remodelamento tecidual em pacientes pós-emagrecimento, incluindo o uso de medicamentos como GLP-1.",
+              "tag": "Amo Fisio",
+              "badge": "Presencial",
+              "url": "https://www.sympla.com.br/evento/amofisio-pele-pos-emagrecimento-glp-1-flacidez-e-remodelamento-tecidual/3589969",
+              "icon": "heart",
+              "accent": "purple",
+              "startDate": "2026-09-01",
+              "endDate": "2026-10-24T13:00:00-03:00",
+              "banner": "https://images.sympla.com.br/6ab2cc06161a4.png"
             }
           ]
         },
@@ -2670,15 +3083,28 @@
           "icon": "calendar",
           "items": [
             {
-              "title": "Amo Fisio",
-              "desc": "O maior evento presencial de Fisioterapia da Inspirar. Confira a programação!",
-              "tag": "Evento Presencial",
-              "badge": "Oficial",
-              "url": "https://amofisio.vercel.app/",
+              "title": "Amo Fisio — Fisioterapia Pélvica é uma área promissora. Entenda o porquê!",
+              "desc": "Fisioterapia Pélvica & Carreira • Panorama de mercado, diferenciais de atuação e oportunidades clínicas da fisioterapia pélvica.",
+              "tag": "Amo Fisio",
+              "badge": "Presencial",
+              "url": "https://www.sympla.com.br/evento/amofisio-fisioterapia-pelvica-e-uma-area-promissora-entenda-o-porque/3553362",
               "icon": "heart",
               "accent": "purple",
-              "startDate": "2024-01-01",
-              "endDate": "2027-12-31"
+              "startDate": "2026-09-01",
+              "endDate": "2026-10-24T08:00:00-03:00",
+              "banner": "https://images.sympla.com.br/6a8d91afc6b8d.png"
+            },
+            {
+              "title": "Amo Fisio — Disfunções na ATM e suas repercussões no corpo humano",
+              "desc": "Terapia Manual & DTM • Conexões biomecânicas entre a Articulação Temporomandibular, coluna cervical e postura corporal.",
+              "tag": "Amo Fisio",
+              "badge": "Presencial",
+              "url": "https://www.sympla.com.br/evento/amofisio-disfuncoes-na-atm-e-suas-repercussoes-no-corpo-humano/3553401",
+              "icon": "heart",
+              "accent": "purple",
+              "startDate": "2026-09-01",
+              "endDate": "2026-10-24T10:00:00-03:00",
+              "banner": "https://images.sympla.com.br/6a8d958f12eef.png"
             }
           ]
         },
@@ -2778,15 +3204,88 @@
           "icon": "calendar",
           "items": [
             {
-              "title": "Amo Fisio",
-              "desc": "O maior evento presencial de Fisioterapia da Inspirar. Confira a programação!",
-              "tag": "Evento Presencial",
-              "badge": "Oficial",
-              "url": "https://amofisio.vercel.app/",
+              "title": "Amo Fisio — LCA na prática - da lesão ao retorno ao esporte",
+              "desc": "Fisioterapia Esportiva & Ortopedia • Reabilitação completa de Ligamento Cruzado Anterior: critérios de progressão e testes de Return to Play.",
+              "tag": "Amo Fisio",
+              "badge": "Presencial",
+              "url": "https://www.sympla.com.br/evento/amofisio-lca-na-pratica-da-lesao-ao-retorno-ao-esporte/3552163",
               "icon": "heart",
               "accent": "purple",
-              "startDate": "2024-01-01",
-              "endDate": "2027-12-31"
+              "startDate": "2026-09-01",
+              "endDate": "2026-10-24T09:00:00-03:00",
+              "banner": "https://images.sympla.com.br/6a8c7f7572d31.png"
+            },
+            {
+              "title": "Amo Fisio — Do raciocínio clínico à prática com injetáveis na Fisioterapia Dermatofuncional",
+              "desc": "Dermatofuncional & Injetáveis • Fundamentos, segurança, indicações e técnicas injetáveis na estética e reabilitação tegumentar.",
+              "tag": "Amo Fisio",
+              "badge": "Presencial",
+              "url": "https://www.sympla.com.br/evento/amofisio-do-raciocinio-clinico-a-pratica-com-injetaveis-na-fisioterapia-dermatofuncional/3552138",
+              "icon": "heart",
+              "accent": "purple",
+              "startDate": "2026-09-01",
+              "endDate": "2026-10-24T14:00:00-03:00",
+              "banner": "https://images.sympla.com.br/6a8c7cee8a572.png"
+            },
+            {
+              "title": "Amo Fisio — Exercícios Funcionais em Grupo para Idosos",
+              "desc": "Gerontologia & Cinesioterapia • Dinâmicas de treinamento funcional coletivo para melhora do equilíbrio, força e autonomia na terceira idade.",
+              "tag": "Amo Fisio",
+              "badge": "Presencial",
+              "url": "https://www.sympla.com.br/evento/amofisio-exercicios-funcionais-em-grupo-para-idosos/3557081",
+              "icon": "heart",
+              "accent": "purple",
+              "startDate": "2026-09-01",
+              "endDate": "2026-10-24T14:00:00-03:00",
+              "banner": "https://images.sympla.com.br/6a907a4f14573.png"
+            },
+            {
+              "title": "Amo Fisio — Domine a Mobilização do Paciente Crítico com Segurança",
+              "desc": "Fisioterapia Hospitalar & UTI • Critérios de segurança, monitorização hemodinâmica e mobilização precoce em Unidade de Terapia Intensiva.",
+              "tag": "Amo Fisio",
+              "badge": "Presencial",
+              "url": "https://www.sympla.com.br/evento/amofisio-domine-a-mobilizacao-do-paciente-critico-com-seguranca/3552149",
+              "icon": "heart",
+              "accent": "purple",
+              "startDate": "2026-09-01",
+              "endDate": "2026-10-24T09:00:00-03:00",
+              "banner": "https://images.sympla.com.br/6a8c7e0b38e61.png"
+            },
+            {
+              "title": "Amo Fisio — Intervenções Fisioterapêuticas, Diagnósticas e Terapêuticas na Criança TEA",
+              "desc": "Fisioterapia Pediátrica & Neurodesenvolvimento • Avaliação motora, integração sensorial e condutas terapêuticas lúdicas no Transtorno do Espectro Autista.",
+              "tag": "Amo Fisio",
+              "badge": "Presencial",
+              "url": "https://www.sympla.com.br/evento/amofisio-intervencoes-fisioterapeuticas-diagnosticas-e-terapeuticas-na-crianca-tea/3552156",
+              "icon": "heart",
+              "accent": "purple",
+              "startDate": "2026-09-01",
+              "endDate": "2026-10-24T09:00:00-03:00",
+              "banner": "https://images.sympla.com.br/6a8c7ee0c1cf3.png"
+            },
+            {
+              "title": "Amo Fisio — Reabilitação funcional no câncer de mama",
+              "desc": "Fisioterapia Oncológica • Do pós-operatório imediato ao manejo do linfedema e retorno às atividades de vida diária.",
+              "tag": "Amo Fisio",
+              "badge": "Presencial",
+              "url": "https://www.sympla.com.br/evento/amofisio-reabilitacao-funcional-no-cancer-de-mama/3557073",
+              "icon": "heart",
+              "accent": "purple",
+              "startDate": "2026-09-01",
+              "endDate": "2026-10-24T09:00:00-03:00",
+              "banner": "https://images.sympla.com.br/6a9078cfe43f2.png"
+            },
+            {
+              "title": "Amo Fisio — Boas práticas em neonatologia em situações críticas",
+              "desc": "Neonatologia & Pediatria Crítica • Posicionamento terapêutico, ventilação mecânica neonatal e assistência integral ao recém-nascido crítico.",
+              "tag": "Amo Fisio",
+              "badge": "Presencial",
+              "url": "https://www.sympla.com.br/evento/amofisio-boas-praticas-em-neonatologia-em-situacoes-criticas/3557098",
+              "icon": "heart",
+              "accent": "purple",
+              "startDate": "2026-09-01",
+              "endDate": "2026-10-24T14:00:00-03:00",
+              "banner": "https://images.sympla.com.br/6a907adf3120d.png"
             },
             {
               "title": "Pelve Expert — São Luís do Maranhão",
@@ -2922,15 +3421,28 @@
           "icon": "calendar",
           "items": [
             {
-              "title": "Amo Fisio",
-              "desc": "O maior evento presencial de Fisioterapia da Inspirar. Confira a programação!",
-              "tag": "Evento Presencial",
-              "badge": "Oficial",
-              "url": "https://amofisio.vercel.app/",
+              "title": "Amo Fisio — Como Tratar Lipedema",
+              "desc": "Dermatofuncional & Vascular • Protocolos baseados em evidência para avaliação, descompressão tecidual e tratamento do lipedema.",
+              "tag": "Amo Fisio",
+              "badge": "Presencial",
+              "url": "https://www.sympla.com.br/evento/amofisio-como-tratar-lipedema/3555339",
               "icon": "heart",
               "accent": "purple",
-              "startDate": "2024-01-01",
-              "endDate": "2027-12-31"
+              "startDate": "2026-09-01",
+              "endDate": "2026-10-24T09:00:00-03:00",
+              "banner": "https://images.sympla.com.br/6a8f0c6148677.png"
+            },
+            {
+              "title": "Amo Fisio — FisioTech Experience: TCAR e Ondas de Choque na Prática Clínica",
+              "desc": "Tecnologias Avançadas & Ortopedia • Experiência prática de alta tecnologia com Tecarterapia e Ondas de Choque na recuperação musculoesquelética.",
+              "tag": "Amo Fisio",
+              "badge": "Presencial",
+              "url": "https://www.sympla.com.br/evento/amofisio-fisiotech-experience-tcar-e-ondas-de-choque-na-pratica-clinica/3555369",
+              "icon": "heart",
+              "accent": "purple",
+              "startDate": "2026-09-01",
+              "endDate": "2026-10-24T09:00:00-03:00",
+              "banner": "https://images.sympla.com.br/6a9869ac8e34b.png"
             }
           ]
         },
@@ -3018,15 +3530,28 @@
           "icon": "calendar",
           "items": [
             {
-              "title": "Amo Fisio",
-              "desc": "O maior evento presencial de Fisioterapia da Inspirar. Confira a programação!",
-              "tag": "Evento Presencial",
-              "badge": "Oficial",
-              "url": "https://amofisio.vercel.app/",
+              "title": "Amo Fisio — Fotobiomodulação: Ampliando Possibilidades na Prática Clínica",
+              "desc": "Eletroterapia & Prática Clínica • Laserterapia e fotobiomodulação aplicada com evidências para acelerar a regeneração e modular a dor.",
+              "tag": "Amo Fisio",
+              "badge": "Presencial",
+              "url": "https://www.sympla.com.br/evento/amofisio-fotobiomodulacao-ampliando-possibilidades-na-pratica-clinica/3555403",
               "icon": "heart",
               "accent": "purple",
-              "startDate": "2024-01-01",
-              "endDate": "2027-12-31"
+              "startDate": "2026-09-01",
+              "endDate": "2026-10-29T20:30:00-03:00",
+              "banner": "https://images.sympla.com.br/6a8f1448b6813.png"
+            },
+            {
+              "title": "Amo Fisio — O Paciente Está em Casa. E Agora? Desafios e Decisões da Fisioterapia Domiciliar",
+              "desc": "Home Care & Atendimento Domiciliar • Tomada de decisão clínica, biossegurança, adaptação de ambiente e condutas no atendimento domiciliar.",
+              "tag": "Amo Fisio",
+              "badge": "Presencial",
+              "url": "https://www.sympla.com.br/evento/amofisio-o-paciente-esta-em-casa-e-agora-desafios-e-decisoes-da-fisioterapia-domiciliar/3555399",
+              "icon": "heart",
+              "accent": "purple",
+              "startDate": "2026-09-01",
+              "endDate": "2026-10-29T18:30:00-03:00",
+              "banner": "https://images.sympla.com.br/6a8f134b4d955.png"
             },
             {
               "title": "Workshop Estética Íntima Feminina na Fisioterapia Pélvica",
@@ -3118,15 +3643,28 @@
           "icon": "calendar",
           "items": [
             {
-              "title": "Amo Fisio",
-              "desc": "O maior evento presencial de Fisioterapia da Inspirar. Confira a programação!",
-              "tag": "Evento Presencial",
-              "badge": "Oficial",
-              "url": "https://amofisio.vercel.app/",
+              "title": "Amo Fisio — Atuação do Fisioterapeuta nas Doenças Neurodegenerativas e Demências na Pessoa Idosa",
+              "desc": "Neurofuncional & Gerontologia • Estratégias de intervenção fisioterapêutica e reabilitação em demências e doenças neurodegenerativas.",
+              "tag": "Amo Fisio",
+              "badge": "Presencial",
+              "url": "https://www.sympla.com.br/evento/amofisio-atuacao-do-fisioterapeuta-nas-doencas-neurodegenerativas-e-demencias-na-pessoa-idosa/3555397",
               "icon": "heart",
               "accent": "purple",
-              "startDate": "2024-01-01",
-              "endDate": "2027-12-31"
+              "startDate": "2026-09-01",
+              "endDate": "2026-10-24T10:00:00-03:00",
+              "banner": "https://images.sympla.com.br/6a8f127f4972c.png"
+            },
+            {
+              "title": "Amo Fisio — Construção do Raciocínio Clínico na Fisioterapia Pélvica",
+              "desc": "Fisioterapia Pélvica & Saúde da Mulher • Metodologia prática para diagnóstico assertivo e estruturação de condutas em fisioterapia pélvica.",
+              "tag": "Amo Fisio",
+              "badge": "Presencial",
+              "url": "https://www.sympla.com.br/evento/amofisio-construcao-do-raciocinio-clinico-na-fisioterapia-pelvica/3555390",
+              "icon": "heart",
+              "accent": "purple",
+              "startDate": "2026-09-01",
+              "endDate": "2026-10-24T08:00:00-03:00",
+              "banner": "https://images.sympla.com.br/6a8f118de3579.png"
             }
           ]
         },
@@ -3370,15 +3908,88 @@
           "icon": "calendar",
           "items": [
             {
-              "title": "Amo Fisio",
-              "desc": "O maior evento presencial de Fisioterapia da Inspirar. Confira a programação!",
-              "tag": "Evento Presencial",
-              "badge": "Oficial",
-              "url": "https://amofisio.vercel.app/",
+              "title": "Amo Fisio — Limpeza de Pele Personalizada - Protocolos para Peles Young & Old",
+              "desc": "Dermatofuncional & Estética • Protocolos avançados e personalizados para diferentes faixas etárias e tipos de pele.",
+              "tag": "Amo Fisio",
+              "badge": "Presencial",
+              "url": "https://www.sympla.com.br/evento/amofisio-limpeza-de-pele-personalizada-protocolos-para-peles-young-old/3557069",
               "icon": "heart",
               "accent": "purple",
-              "startDate": "2024-01-01",
-              "endDate": "2027-12-31"
+              "startDate": "2026-09-01",
+              "endDate": "2026-10-23T18:00:00-03:00",
+              "banner": "https://images.sympla.com.br/6a907823c0a2a.png"
+            },
+            {
+              "title": "Amo Fisio — Somatotopias e Reflexologias na MTC - Mapas do corpo para o cuidado integral",
+              "desc": "Medicina Tradicional Chinesa & Acupuntura • Mapas corporais, somatotopias e técnicas de reflexologia para o cuidado integral.",
+              "tag": "Amo Fisio",
+              "badge": "Presencial",
+              "url": "https://www.sympla.com.br/evento/amofisio-somatotopias-e-reflexologias-na-mtc-mapas-do-corpo-para-o-cuidado-integral/3556990",
+              "icon": "heart",
+              "accent": "purple",
+              "startDate": "2026-09-01",
+              "endDate": "2026-10-24T08:00:00-03:00",
+              "banner": "https://images.sympla.com.br/6a907258cd7ba.png"
+            },
+            {
+              "title": "Amo Fisio — Como avaliar e aplicar a técnica de Ventosoterapia",
+              "desc": "Terapia Manual & MTC • Fundamentos práticos de avaliação e aplicação clínica da ventosoterapia.",
+              "tag": "Amo Fisio",
+              "badge": "Presencial",
+              "url": "https://www.sympla.com.br/evento/amofisio-como-avaliar-e-aplicar-a-tecnica-de-ventosoterapia/3556996",
+              "icon": "heart",
+              "accent": "purple",
+              "startDate": "2026-09-01",
+              "endDate": "2026-10-23T18:00:00-03:00",
+              "banner": "https://images.sympla.com.br/6a90733975194.png"
+            },
+            {
+              "title": "Amo Fisio — Saúde Mental e Acupuntura - Fundamentos e ferramentas da MTC para o cuidado da mente",
+              "desc": "MTC & Saúde Mental • Fundamentos e ferramentas práticas da MTC para o cuidado da mente e saúde emocional.",
+              "tag": "Amo Fisio",
+              "badge": "Presencial",
+              "url": "https://www.sympla.com.br/evento/amofisio-saude-mental-e-acupuntura-fundamentos-e-ferramentas-da-mtc-para-o-cuidado-da-mente/3556987",
+              "icon": "heart",
+              "accent": "purple",
+              "startDate": "2026-09-01",
+              "endDate": "2026-10-23T18:00:00-03:00",
+              "banner": "https://images.sympla.com.br/6a9071a468615.png"
+            },
+            {
+              "title": "Amo Fisio — Manipulação das Fáscias: Da Avaliação ao Tratamento",
+              "desc": "Terapia Manual & Fáscias • Avaliação fascial e técnicas práticas de manipulação miofascial para reabilitação.",
+              "tag": "Amo Fisio",
+              "badge": "Presencial",
+              "url": "https://www.sympla.com.br/evento/amofisio-manipulacao-das-fascias-da-avaliacao-ao-tratamento/3557045",
+              "icon": "heart",
+              "accent": "purple",
+              "startDate": "2026-09-01",
+              "endDate": "2026-10-24T08:00:00-03:00",
+              "banner": "https://images.sympla.com.br/6a90762ec5928.png"
+            },
+            {
+              "title": "Amo Fisio — Tuiná no Tratamento de Atletas",
+              "desc": "MTC & Fisioterapia Esportiva • Aplicação das técnicas milenares do Tuiná na recuperação e alta performance de atletas.",
+              "tag": "Amo Fisio",
+              "badge": "Presencial",
+              "url": "https://www.sympla.com.br/evento/amofisio-tuina-no-tratamento-de-atletas/3556968",
+              "icon": "heart",
+              "accent": "purple",
+              "startDate": "2026-09-01",
+              "endDate": "2026-10-24T13:00:00-03:00",
+              "banner": "https://images.sympla.com.br/6a918a3f0df28.png"
+            },
+            {
+              "title": "Amo Fisio — Atuação do Fisioterapeuta no Tratamento do Lipedema – Do diagnóstico ao Tratamento",
+              "desc": "Dermatofuncional & Vascular • Condutas terapêuticas completas para diagnóstico, manejo clínico e tratamento do Lipedema.",
+              "tag": "Amo Fisio",
+              "badge": "Presencial",
+              "url": "https://www.sympla.com.br/evento/amofisio-atuacao-do-fisioterapeuta-no-tratamento-do-lipedema-do-diagnostico-ao-tratamento/3557056",
+              "icon": "heart",
+              "accent": "purple",
+              "startDate": "2026-09-01",
+              "endDate": "2026-10-24T08:00:00-03:00",
+              "banner": "https://images.sympla.com.br/6a907778c3793.png"
             }
           ]
         },

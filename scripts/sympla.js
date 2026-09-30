@@ -36,10 +36,62 @@ function extractSymplaEventId(url) {
 }
 
 /**
- * Fetches event data from Sympla API v3.
+ * Scrapes public Sympla event page as fallback if API returns 401/403 or event is from another organizer account.
+ */
+async function fetchSymplaPublicEvent(eventIdOrUrl) {
+  const url = eventIdOrUrl.startsWith('http') 
+    ? eventIdOrUrl 
+    : `https://www.sympla.com.br/${eventIdOrUrl}`;
+
+  try {
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 7000);
+
+    const res = await fetch(url, {
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+      },
+      signal: controller.signal
+    });
+    clearTimeout(timeout);
+
+    if (!res.ok) {
+      console.warn(`[Sympla Public] HTTP ${res.status} for ${url}`);
+      return null;
+    }
+
+    const html = await res.text();
+    const nextMatch = html.match(/<script id="__NEXT_DATA__"[^>]*>([\s\S]*?)<\/script>/i);
+    if (nextMatch) {
+      const data = JSON.parse(nextMatch[1]);
+      const ev = data.props?.pageProps?.hydrationData?.eventHydration?.event;
+      if (ev) {
+        return {
+          id: ev.id,
+          name: ev.name,
+          image: ev.logoUrl || null,
+          start_date: ev.startDate,
+          end_date: ev.endDate,
+          url: ev.newUrl || url
+        };
+      }
+    }
+
+    const ogImg = html.match(/<meta property=["']og:image["'] content=["']([^"']+)["']/i);
+    if (ogImg) {
+      return { image: ogImg[1] };
+    }
+  } catch (err) {
+    console.warn(`[Sympla Public] Failed to fetch ${eventIdOrUrl}:`, err.message);
+  }
+  return null;
+}
+
+/**
+ * Fetches event data from Sympla API v3 with automatic fallback to public event page.
  * Returns null if network fails or event not found.
  */
-async function fetchSymplaEvent(eventId, token = SYMPLA_TOKEN) {
+async function fetchSymplaEvent(eventId, token = SYMPLA_TOKEN, eventUrl = null) {
   if (!eventId) return null;
   const endpoint = `${SYMPLA_API_BASE}/events/${eventId}`;
 
@@ -56,17 +108,18 @@ async function fetchSymplaEvent(eventId, token = SYMPLA_TOKEN) {
     });
     clearTimeout(timeout);
 
-    if (!res.ok) {
-      console.warn(`[Sympla API] HTTP ${res.status} for event ${eventId}`);
-      return null;
+    if (res.ok) {
+      const json = await res.json();
+      if (json.data) return json.data;
+    } else {
+      // 401/403: event belongs to a different organizer account; fallback to public page
+      return await fetchSymplaPublicEvent(eventUrl || eventId);
     }
-
-    const json = await res.json();
-    return json.data || null;
   } catch (err) {
-    console.warn(`[Sympla API] Failed to fetch event ${eventId}:`, err.message);
-    return null;
+    // On API error, fallback to public page
+    return await fetchSymplaPublicEvent(eventUrl || eventId);
   }
+  return null;
 }
 
 /**
@@ -126,7 +179,7 @@ async function enrichSymplaEvents(data, options = {}) {
         // Check in-memory cache
         let eventData = cache.get(eventId);
         if (!eventData && !cache.has(eventId)) {
-          eventData = await fetchSymplaEvent(eventId);
+          eventData = await fetchSymplaEvent(eventId, SYMPLA_TOKEN, item.url);
           cache.set(eventId, eventData);
         }
 

@@ -168,15 +168,21 @@ runStep('Gate 8: Unit Links Configuration Fidelity (37 Units Audited)', () => {
   assert(vmJson.includes('workshop-estetica-intima-feminina-na-fisioterapia-pelvica'), 'Vila Mariana missing workshop link');
   assert(vmJson.includes('2026-11-07T09:00:00-03:00'), 'Vila Mariana missing 07/11 09:00 expiration');
 
-  // 2. Curitiba fidelity to linktreecuritiba.vercel.app + Pelve Expert
+  // 2. Curitiba fidelity to linktreecuritiba.vercel.app + Pelve Expert + Amo Fisio Sympla events
   const cwb = data.units.find(u => u.slug === 'curitiba');
   const cwbJson = JSON.stringify(cwb.sections);
   assert(cwbJson.includes('semi-intensiva'), 'Curitiba missing semi-intensiva');
   assert(cwbJson.includes('fisioterapia-vestibular'), 'Curitiba missing vestibular');
   assert(cwbJson.includes('pelve-expert-curitiba'), 'Curitiba missing pelve-expert-curitiba');
   assert(cwbJson.includes('2026-12-03T18:30:00-03:00'), 'Curitiba missing 03/12 18:30 expiration');
-  assert(cwbJson.includes('amofisio.vercel.app'), 'Curitiba missing amofisio');
+  assert(cwbJson.includes('amofisio-'), 'Curitiba missing Amo Fisio Sympla events');
   assert(cwbJson.includes('congresso-de-estetica'), 'Curitiba missing congresso estética');
+
+  // Verify generic amofisio.vercel.app is completely replaced across all 37 units
+  data.units.forEach(u => {
+    const json = JSON.stringify(u.sections);
+    assert(!json.includes('amofisio.vercel.app'), `Unit ${u.slug} still contains generic amofisio.vercel.app link`);
+  });
 
   // 3. Belém Linktree
   const belem = data.units.find(u => u.slug === 'belem');
@@ -248,31 +254,34 @@ runStep('Gate 10: Schema.org JSON-LD Structured Data (Hub + 37 Units)', () => {
   execSync('node scripts/validate-schema.js', { cwd: ROOT_DIR, stdio: 'pipe' });
 });
 
-// 11. Sympla Event Banners Integration
+// 11. Sympla Event Banners & Cards (including all 23 Amo Fisio units)
 runStep('Gate 11: Sympla Event Banners & Cards', () => {
   const { extractSymplaEventId } = require('./sympla');
   assert.strictEqual(extractSymplaEventId('https://www.sympla.com.br/evento/pelve-expert-curitiba/3582004'), '3582004');
 
   const data = JSON.parse(fs.readFileSync(DATA_FILE, 'utf8'));
-  const symplaUnits = ['brasilia', 'curitiba', 'sao-luis', 'sao-paulo-vila-mariana'];
+  const symplaUnits = ['brasilia', 'curitiba', 'sao-luis', 'sao-paulo-vila-mariana', 'blumenau', 'campinas', 'guarulhos', 'vitoria'];
 
   symplaUnits.forEach(slug => {
     const unit = data.units.find(u => u.slug === slug);
     assert(unit, `Unit ${slug} not found`);
 
-    const symplaItem = (unit.sections || [])
+    const symplaItems = (unit.sections || [])
       .flatMap(s => s.items || [])
-      .find(i => i.url && i.url.includes('sympla.com.br'));
+      .filter(i => i.url && i.url.includes('sympla.com.br'));
 
-    assert(symplaItem, `Unit ${slug} missing Sympla item in data/units.json`);
-    assert(symplaItem.banner, `Unit ${slug} Sympla item missing banner URL`);
-    assert(symplaItem.banner.startsWith('https://images.sympla.com.br/'), `Unit ${slug} banner URL invalid: ${symplaItem.banner}`);
+    assert(symplaItems.length > 0, `Unit ${slug} missing Sympla items in data/units.json`);
+
+    symplaItems.forEach(item => {
+      assert(item.banner, `Unit ${slug} Sympla item "${item.title}" missing banner URL`);
+      assert(item.banner.startsWith('https://images.sympla.com.br/'), `Unit ${slug} banner URL invalid: ${item.banner}`);
+      assert(item.endDate, `Unit ${slug} Sympla item "${item.title}" missing endDate`);
+    });
 
     // Check generated HTML
     const htmlPath = path.join(ROOT_DIR, slug, 'index.html');
     const html = fs.readFileSync(htmlPath, 'utf8');
     assert(html.includes('link-card has-banner'), `Unit ${slug} HTML missing "link-card has-banner" class`);
-    assert(html.includes(symplaItem.banner), `Unit ${slug} HTML missing banner image: ${symplaItem.banner}`);
     assert(html.includes('link-card-banner-img'), `Unit ${slug} HTML missing link-card-banner-img class`);
   });
 });

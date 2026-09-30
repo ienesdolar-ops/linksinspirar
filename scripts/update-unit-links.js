@@ -17,18 +17,15 @@ const DATA_FILE = path.join(ROOT_DIR, 'data', 'units.json');
 const raw = fs.readFileSync(DATA_FILE, 'utf8');
 const data = JSON.parse(raw);
 
-// Standard item definitions
-const itemAmoFisio = {
-  title: "Amo Fisio",
-  desc: "O maior evento presencial de Fisioterapia da Inspirar. Confira a programação!",
-  tag: "Evento Presencial",
-  badge: "Oficial",
-  url: "https://amofisio.vercel.app/",
-  icon: "heart",
-  accent: "purple",
-  startDate: "2024-01-01",
-  endDate: "2027-12-31"
-};
+// Load unit-specific Amo Fisio events with Sympla banners and start-date expirations
+const amoFisioEventsPath = path.join(ROOT_DIR, 'data', 'amofisio-events.json');
+const amoFisioEventsBySlug = fs.existsSync(amoFisioEventsPath)
+  ? JSON.parse(fs.readFileSync(amoFisioEventsPath, 'utf8'))
+  : {};
+
+function getAmoFisioEvents(slug) {
+  return amoFisioEventsBySlug[slug] || [];
+}
 
 const itemSemiIntensiva = {
   title: "Fisioterapia em Terapia Intensiva",
@@ -122,12 +119,12 @@ data.units = data.units.map(unit => {
 
     case 'bauru':
       // Bauru: institucionais, amofisio
-      eventos.push(itemAmoFisio);
+      eventos.push(...getAmoFisioEvents(slug));
       break;
 
     case 'belem':
       // belém: amofisio, https://tr.ee/Yb2RHb61F2, institucionais
-      eventos.push(itemAmoFisio);
+      eventos.push(...getAmoFisioEvents(slug));
       institucionais.push({
         title: "Linktree Oficial — Belém",
         desc: "Todos os cursos, eventos e comunicados da Inspirar Belém",
@@ -141,12 +138,12 @@ data.units = data.units.map(unit => {
 
     case 'belo-horizonte':
       // bh: amofisio e institucionais
-      eventos.push(itemAmoFisio);
+      eventos.push(...getAmoFisioEvents(slug));
       break;
 
     case 'blumenau':
       // blumenau: amofisio e institucionais
-      eventos.push(itemAmoFisio);
+      eventos.push(...getAmoFisioEvents(slug));
       break;
 
     case 'brasilia':
@@ -176,17 +173,17 @@ data.units = data.units.map(unit => {
         icon: "activity",
         accent: "coral"
       });
-      eventos.push(itemAmoFisio);
+      eventos.push(...getAmoFisioEvents(slug));
       break;
 
     case 'campo-grande':
       // campo grande : institucionais e amofisio
-      eventos.push(itemAmoFisio);
+      eventos.push(...getAmoFisioEvents(slug));
       break;
 
     case 'cuiaba':
       // cuiaba: amofisio, institucional e WhatsApp único enviado pelo usuário
-      eventos.push(itemAmoFisio);
+      eventos.push(...getAmoFisioEvents(slug));
       unit.whatsappCustomUrl = "https://api.whatsapp.com/send/?phone=%2B5565999572156&text&type=phone_number&app_absent=0&utm_source=ig";
       institucionais.push({
         title: "Atendimento via WhatsApp — Cuiabá",
@@ -223,7 +220,7 @@ data.units = data.units.map(unit => {
         endDate: "2026-12-03T18:30:00-03:00",
         banner: "https://images.sympla.com.br/6aaabd1a23caa.png"
       });
-      eventos.push(itemAmoFisio);
+      eventos.push(...getAmoFisioEvents(slug));
       eventos.push(itemCongressoEstetica);
       break;
 
@@ -234,18 +231,18 @@ data.units = data.units.map(unit => {
     case 'florianopolis':
       // florianopolis: institucionais, amofisio, e https://faculdadeinspirar.com.br/semi-intensiva/
       cursos.push(itemSemiIntensiva);
-      eventos.push(itemAmoFisio);
+      eventos.push(...getAmoFisioEvents(slug));
       break;
 
     case 'fortaleza':
       // fortaleza: institucionais, amofisio e https://faculdadeinspirar.com.br/semi-intensiva/
       cursos.push(itemSemiIntensiva);
-      eventos.push(itemAmoFisio);
+      eventos.push(...getAmoFisioEvents(slug));
       break;
 
     case 'goiania':
       // goiania: institucionais , amofisio e WhatsApp único enviado pelo usuário
-      eventos.push(itemAmoFisio);
+      eventos.push(...getAmoFisioEvents(slug));
       unit.whatsappCustomUrl = "https://api.whatsapp.com/send/?phone=5562999909917&text&type=phone_number&app_absent=0&utm_source=ig";
       institucionais.push({
         title: "Fale no WhatsApp — Goiânia",
@@ -260,7 +257,7 @@ data.units = data.units.map(unit => {
 
     case 'guarulhos':
       // guarulhos: institucional, amofisio
-      eventos.push(itemAmoFisio);
+      eventos.push(...getAmoFisioEvents(slug));
       break;
 
     case 'ipatinga':
@@ -274,7 +271,7 @@ data.units = data.units.map(unit => {
 
     case 'londrina':
       // londrina: amofisio, institucional
-      eventos.push(itemAmoFisio);
+      eventos.push(...getAmoFisioEvents(slug));
       break;
 
     case 'luanda':
@@ -283,7 +280,7 @@ data.units = data.units.map(unit => {
 
     case 'maceio':
       // maceio: institucional, amofisio
-      eventos.push(itemAmoFisio);
+      eventos.push(...getAmoFisioEvents(slug));
       break;
 
     case 'parauapebas':
@@ -297,18 +294,18 @@ data.units = data.units.map(unit => {
 
     case 'porto-velho':
       // porto velho: amofisio e institucional
-      eventos.push(itemAmoFisio);
+      eventos.push(...getAmoFisioEvents(slug));
       break;
 
     case 'ribeirao-preto':
       // rbeirao preto: institucional e amofisio
-      eventos.push(itemAmoFisio);
+      eventos.push(...getAmoFisioEvents(slug));
       break;
 
     case 'rio-de-janeiro':
       // rio de janeiro: amofisio, institucional e https://faculdadeinspirar.com.br/semi-intensiva/
       cursos.push(itemSemiIntensiva);
-      eventos.push(itemAmoFisio);
+      eventos.push(...getAmoFisioEvents(slug));
       break;
 
     case 'salvador':
@@ -338,12 +335,12 @@ data.units = data.units.map(unit => {
 
     case 'sao-jose-dos-campos':
       // sao jose dos campos: amofisio e institucional
-      eventos.push(itemAmoFisio);
+      eventos.push(...getAmoFisioEvents(slug));
       break;
 
     case 'sao-luis':
       // sao luis: amofisio, institucional, whatsapp único e sympla pelve expert (inicia 10/12/2026 às 18:30)
-      eventos.push(itemAmoFisio);
+      eventos.push(...getAmoFisioEvents(slug));
       eventos.push({
         title: "Pelve Expert — São Luís do Maranhão",
         desc: "Inscrições abertas para o evento Pelve Expert em São Luís",
@@ -380,12 +377,12 @@ data.units = data.units.map(unit => {
         accent: "coral"
       });
       cursos.push(itemDermatoInternacional);
-      eventos.push(itemAmoFisio);
+      eventos.push(...getAmoFisioEvents(slug));
       break;
 
     case 'sao-paulo-vila-mariana':
       // vila mariana: amofisio, institucional e workshop sympla (inicia 07/11/2026 às 09:00 BRT)
-      eventos.push(itemAmoFisio);
+      eventos.push(...getAmoFisioEvents(slug));
       eventos.push({
         title: "Workshop Estética Íntima Feminina na Fisioterapia Pélvica",
         desc: "Workshop presencial na Inspirar Vila Mariana • Inscrições abertas",
@@ -402,7 +399,7 @@ data.units = data.units.map(unit => {
 
     case 'sorocaba':
       // sorocaba: amofisio e institucional
-      eventos.push(itemAmoFisio);
+      eventos.push(...getAmoFisioEvents(slug));
       break;
 
     case 'teresina':
@@ -416,7 +413,7 @@ data.units = data.units.map(unit => {
     case 'vitoria':
       // vitoria: institucional , amofisio e https://faculdadeinspirar.com.br/semi-intensiva/
       cursos.push(itemSemiIntensiva);
-      eventos.push(itemAmoFisio);
+      eventos.push(...getAmoFisioEvents(slug));
       break;
 
     default:
