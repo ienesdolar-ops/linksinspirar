@@ -169,7 +169,7 @@ function buildCatalog() {
         icon: 'calendar',
         items: [
           {
-            title: 'Amo Fisio',
+            title: 'AmoFisio',
             desc: 'O maior evento presencial de Fisioterapia da Inspirar. Confira a programação!',
             tag: 'Evento Presencial',
             badge: '',

@@ -47,11 +47,11 @@
 
 ## Gate 8: Unit Links Configuration Fidelity (All 37 Units Audited)
 - All 37 units have their links audited and configured according to the explicit unit specifications.
-- Generic `amofisio.vercel.app` link has been 100% replaced by unit-specific Amo Fisio Sympla event links (72 courses across 23 units) with official banners and start-time auto-expirations.
+- Generic `amofisio.vercel.app` link has been 100% replaced by unit-specific AmoFisio Sympla event links (72 courses across 23 units) with official banners and start-time auto-expirations.
 - Units with only institutional links (Balneário Camboriú, Dourados, Joinville, Luanda, Parauapebas, Salvador, Santos, SJRP, Teresina, Uberlândia) preserve only their official website and WhatsApp channels.
-- Units with Amo Fisio, specific courses (Semi-intensiva, Fisioterapia Vestibular, Dermatofuncional), and events (Sympla Brasília, Pelve Expert Curitiba, Pelve Expert São Luís, Workshop Vila Mariana) are mapped with complete fidelity.
+- Units with AmoFisio, specific courses (Semi-intensiva, Fisioterapia Vestibular, Dermatofuncional), and events (Sympla Brasília, Pelve Expert Curitiba, Pelve Expert São Luís, Workshop Vila Mariana) are mapped with complete fidelity.
 - Vila Mariana Workshop event is configured with exact expiration date `2026-11-07T09:00:00-03:00`.
-- Curitiba reflects the exact structure from `https://linktreecuritiba.vercel.app/` plus Pelve Expert and unit Amo Fisio events.
+- Curitiba reflects the exact structure from `https://linktreecuritiba.vercel.app/` plus Pelve Expert and unit AmoFisio events.
 - YouTube test link is removed, preserving only official audited unit links.
 - CHECK: `node scripts/verify-all.js`
 - EXPECT: `Gate 8: Unit Links Configuration Fidelity (37 Units Audited)... ✅ OK`
@@ -71,7 +71,7 @@
 
 ## Gate 11: Sympla API Auto-Enriched Cover Banners & Cards
 - Integration with Sympla Public API v3 (and public event fallback) automatically fetches event cover/banner image and start dates for any Sympla event link.
-- Covers all 76 Sympla event links across all 23 Amo Fisio units and individual unit events (Brasília, Curitiba, São Luís, Vila Mariana).
+- Covers all 76 Sympla event links across all 23 AmoFisio units and individual unit events (Brasília, Curitiba, São Luís, Vila Mariana).
 - Events with banners render high-impact responsive cards (`.link-card.has-banner`) with aspect ratio `1.91:1`, gradient overlay, floating badges, and smooth hover zoom effects.
 - Banners are cached in `data/units.json` and automatically refreshed during build.
 - Auto-expiration set to exact event start date & time (`endDate: YYYY-MM-DDTHH:mm:ss-03:00`).

@@ -1,6 +1,6 @@
 /**
  * scripts/sync-amofisio-events.js
- * Fetches all Amo Fisio events for each unit from https://amofisio.vercel.app/data.js,
+ * Fetches all AmoFisio events for each unit from https://amofisio.vercel.app/data.js,
  * enriches them with official Sympla banners and start dates (for expiration),
  * and saves the catalog to data/amofisio-events.json.
  */
@@ -13,7 +13,7 @@ const ROOT_DIR = path.resolve(__dirname, '..');
 const AMOFISIO_DATA_FILE = path.join(ROOT_DIR, 'reports', 'amofisio_data.js');
 const OUTPUT_FILE = path.join(ROOT_DIR, 'data', 'amofisio-events.json');
 
-// Map Amo Fisio unit IDs to linksinspirar slugs
+// Map AmoFisio unit IDs to linksinspirar slugs
 const SLUG_MAP = {
   'bauru': 'bauru',
   'belem': 'belem',
@@ -109,7 +109,7 @@ async function getEventDetails(symplaUrl) {
 }
 
 async function main() {
-  console.log('--- Syncing Amo Fisio Events from amofisio.vercel.app ---');
+  console.log('--- Syncing AmoFisio Events from amofisio.vercel.app ---');
 
   if (!fs.existsSync(AMOFISIO_DATA_FILE)) {
     console.error(`ERROR: ${AMOFISIO_DATA_FILE} not found. Please download it first.`);
@@ -121,7 +121,7 @@ async function main() {
   eval(code);
   const amoData = global.AMO_FISIO_DATA;
 
-  console.log(`Found ${amoData.units.length} units in Amo Fisio catalog.`);
+  console.log(`Found ${amoData.units.length} units in AmoFisio catalog.`);
 
   // Load existing cache if present to avoid re-fetching
   let existingCache = {};
@@ -167,8 +167,8 @@ async function main() {
       const startDateTime = details?.startDate ? formatSymplaDate(details.startDate) : null;
 
       const item = {
-        title: `Amo Fisio — ${c.title}`,
-        desc: c.description ? `${c.category || 'Workshop Presencial'} • ${c.description}` : `${c.category || 'Workshop Presencial'} • Amo Fisio Inspirar`,
+        title: `AmoFisio — ${c.title}`,
+        desc: c.description ? `${c.category || 'Workshop Presencial'} • ${c.description}` : `${c.category || 'Workshop Presencial'} • AmoFisio Inspirar`,
         url: symplaUrl,
         icon: "heart",
         accent: "purple",
@@ -186,11 +186,11 @@ async function main() {
   }
 
   fs.writeFileSync(OUTPUT_FILE, JSON.stringify(resultBySlug, null, 2) + '\n', 'utf8');
-  console.log(`\nSuccessfully saved ${totalCourses} Amo Fisio events to ${OUTPUT_FILE}!`);
+  console.log(`\nSuccessfully saved ${totalCourses} AmoFisio events to ${OUTPUT_FILE}!`);
   console.log(`(Newly fetched: ${fetchedCount})`);
 }
 
 main().catch(err => {
-  console.error('Failed syncing Amo Fisio events:', err);
+  console.error('Failed syncing AmoFisio events:', err);
   process.exit(1);
 });

@@ -79,7 +79,7 @@ runStep('Gate 3: Static Generation (Hub + 37 Units)', () => {
 runStep('Gate 4: Content Fidelity & Custom Photos', () => {
   const cwbHtml = fs.readFileSync(path.join(ROOT_DIR, 'curitiba', 'index.html'), 'utf8');
   assert(cwbHtml.includes('Fisioterapia em Terapia Intensiva'), 'Must have Intensive Care course');
-  assert(cwbHtml.includes('Amo Fisio'), 'Must have Amo Fisio event');
+  assert(cwbHtml.includes('AmoFisio'), 'Must have AmoFisio event');
   assert(cwbHtml.includes('Jardim Schaffer'), 'Must have Jardim Schaffer address');
   assert(cwbHtml.includes('0800 602 2828'), 'Must have 0800 phone');
   assert(cwbHtml.includes('UNIDADE CWB sem gourmet.png'), 'Must have facade cover image');
@@ -168,20 +168,21 @@ runStep('Gate 8: Unit Links Configuration Fidelity (37 Units Audited)', () => {
   assert(vmJson.includes('workshop-estetica-intima-feminina-na-fisioterapia-pelvica'), 'Vila Mariana missing workshop link');
   assert(vmJson.includes('2026-11-07T09:00:00-03:00'), 'Vila Mariana missing 07/11 09:00 expiration');
 
-  // 2. Curitiba fidelity to linktreecuritiba.vercel.app + Pelve Expert + Amo Fisio Sympla events
+  // 2. Curitiba fidelity to linktreecuritiba.vercel.app + Pelve Expert + AmoFisio Sympla events
   const cwb = data.units.find(u => u.slug === 'curitiba');
   const cwbJson = JSON.stringify(cwb.sections);
   assert(cwbJson.includes('semi-intensiva'), 'Curitiba missing semi-intensiva');
   assert(cwbJson.includes('fisioterapia-vestibular'), 'Curitiba missing vestibular');
   assert(cwbJson.includes('pelve-expert-curitiba'), 'Curitiba missing pelve-expert-curitiba');
   assert(cwbJson.includes('2026-12-03T18:30:00-03:00'), 'Curitiba missing 03/12 18:30 expiration');
-  assert(cwbJson.includes('amofisio-'), 'Curitiba missing Amo Fisio Sympla events');
+  assert(cwbJson.includes('amofisio-'), 'Curitiba missing AmoFisio Sympla events');
   assert(cwbJson.includes('congresso-de-estetica'), 'Curitiba missing congresso estética');
 
   // Verify generic amofisio.vercel.app is completely replaced across all 37 units
   data.units.forEach(u => {
     const json = JSON.stringify(u.sections);
     assert(!json.includes('amofisio.vercel.app'), `Unit ${u.slug} still contains generic amofisio.vercel.app link`);
+    assert(!/amo\s+fisio/i.test(json), `Unit ${u.slug} must write "AmoFisio" together without spaces`);
   });
 
   // 3. Belém Linktree
@@ -254,7 +255,7 @@ runStep('Gate 10: Schema.org JSON-LD Structured Data (Hub + 37 Units)', () => {
   execSync('node scripts/validate-schema.js', { cwd: ROOT_DIR, stdio: 'pipe' });
 });
 
-// 11. Sympla Event Banners & Cards (including all 23 Amo Fisio units)
+// 11. Sympla Event Banners & Cards (including all 23 AmoFisio units)
 runStep('Gate 11: Sympla Event Banners & Cards', () => {
   const { extractSymplaEventId } = require('./sympla');
   assert.strictEqual(extractSymplaEventId('https://www.sympla.com.br/evento/pelve-expert-curitiba/3582004'), '3582004');

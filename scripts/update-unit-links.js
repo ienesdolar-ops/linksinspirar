@@ -17,7 +17,7 @@ const DATA_FILE = path.join(ROOT_DIR, 'data', 'units.json');
 const raw = fs.readFileSync(DATA_FILE, 'utf8');
 const data = JSON.parse(raw);
 
-// Load unit-specific Amo Fisio events with Sympla banners and start-date expirations
+// Load unit-specific AmoFisio events with Sympla banners and start-date expirations
 const amoFisioEventsPath = path.join(ROOT_DIR, 'data', 'amofisio-events.json');
 const amoFisioEventsBySlug = fs.existsSync(amoFisioEventsPath)
   ? JSON.parse(fs.readFileSync(amoFisioEventsPath, 'utf8'))
@@ -360,7 +360,7 @@ data.units = data.units.map(unit => {
       break;
 
     case 'sao-paulo-borba-gato':
-      // borbagato: amo fisio, institucional, vestibular e dermatofuncional internacional
+      // borbagato: AmoFisio, institucional, vestibular e dermatofuncional internacional
       cursos.push({
         title: "Fisioterapia Vestibular",
         desc: "Avaliação e tratamento das disfunções vestibulares",

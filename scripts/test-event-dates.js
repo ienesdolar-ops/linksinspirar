@@ -55,7 +55,7 @@ function runTests() {
 
   // Test Case 3: Currently active event
   const activeEvent = {
-    title: 'Amo Fisio 2026',
+    title: 'AmoFisio 2026',
     startDate: '2026-09-01',
     endDate: '2026-10-30'
   };
