@@ -1154,7 +1154,7 @@ ${JSON.stringify(generateHubJsonLd(data), null, 2)}
         <a href="${data.project.globalSocial.website}" target="_blank" rel="noopener" class="link-card">
           <div class="link-icon-box">${ICONS.globe}</div>
           <div class="link-details">
-            <h3 class="link-title">Portal Faculdade Inspirar</h3>
+            <h3 class="link-title">Site</h3>
             <p class="link-desc">Site institucional com todas as informações e novidades</p>
           </div>
           <span class="link-action-indicator">${ICONS.arrowRight}</span>
@@ -1163,7 +1163,7 @@ ${JSON.stringify(generateHubJsonLd(data), null, 2)}
         <a href="${data.project.globalSocial.portalAluno}" target="_blank" rel="noopener" class="link-card accent-cyan">
           <div class="link-icon-box">${ICONS.graduationCap}</div>
           <div class="link-details">
-            <h3 class="link-title">Portal do Aluno & Professor</h3>
+            <h3 class="link-title">Portal do Aluno</h3>
             <p class="link-desc">Acesse sua área acadêmica, notas e materiais</p>
           </div>
           <span class="link-action-indicator">${ICONS.arrowRight}</span>
