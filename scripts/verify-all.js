@@ -296,6 +296,14 @@ runStep('Gate 11: Sympla Event Banners & Cards', () => {
     assert(firstLinkMatch, `Unit ${u.slug} has no links in stream`);
     assert.strictEqual(firstLinkMatch[1], u.website, `Unit ${u.slug} first link must be site (${u.website}), got (${firstLinkMatch[1]})`);
   });
+
+  // Verify Site is the FIRST link on Hub (index.html)
+  const hubHtml = fs.readFileSync(path.join(ROOT_DIR, 'index.html'), 'utf8');
+  const hubMainMatch = hubHtml.match(/<main class="app-container"[^>]*>([\s\S]*?)<\/main>/i);
+  assert(hubMainMatch, 'Hub missing main container');
+  const hubFirstLink = hubMainMatch[1].match(/<a\s+[^>]*href="([^"]+)"[^>]*>/i);
+  assert(hubFirstLink, 'Hub has no links in main');
+  assert.strictEqual(hubFirstLink[1], data.project.globalSocial.website, `Hub first link must be site (${data.project.globalSocial.website}), got (${hubFirstLink[1]})`);
 });
 
 console.log('\n====================================================');

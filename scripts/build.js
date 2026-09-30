@@ -1111,39 +1111,7 @@ ${JSON.stringify(generateHubJsonLd(data), null, 2)}
       </p>
     </header>
 
-    <!-- ── SEARCH BAR ── -->
-    <div class="hub-search-box">
-      <span class="hub-search-icon">${ICONS.search}</span>
-      <input type="text" id="unit-search" class="hub-search-input" placeholder="Buscar unidade por cidade ou estado (ex: Curitiba, PR, Belém)..." autocomplete="off">
-      <button id="search-clear" class="hub-search-clear" onclick="clearSearch()" title="Limpar busca">&times;</button>
-    </div>
-
-    <!-- ── REGION FILTERS ── -->
-    <div class="hub-region-chips" id="region-chips">
-      <button class="hub-chip active" data-region="all">Todas (${data.units.length})</button>
-      <button class="hub-chip" data-region="Sul">Sul</button>
-      <button class="hub-chip" data-region="Sudeste">Sudeste</button>
-      <button class="hub-chip" data-region="Centro-Oeste">Centro-Oeste</button>
-      <button class="hub-chip" data-region="Nordeste">Nordeste</button>
-      <button class="hub-chip" data-region="Norte">Norte</button>
-      <button class="hub-chip" data-region="Internacional">Internacional</button>
-    </div>
-
-    <!-- ── COUNTER BAR ── -->
-    <div class="hub-counter-bar">
-      <span>Exibindo <strong id="visible-count">${data.units.length}</strong> de ${data.units.length} unidades</span>
-    </div>
-
-    <!-- ── UNITS GRID ── -->
-    <section class="hub-units-grid" id="units-list">
-      ${unitsCardsHtml}
-      <div id="empty-search" class="empty-search-state">
-        <p>Nenhuma unidade encontrada para esta busca ou região.</p>
-        <button onclick="clearSearch()" class="hub-btn-primary" style="margin-top:12px;">Limpar Filtro</button>
-      </div>
-    </section>
-
-    <!-- ── INSTITUTIONAL GLOBAL LINKS ── -->
+    <!-- ── INSTITUTIONAL GLOBAL LINKS (Site como primeiro link) ── -->
     <div class="section-wrapper hub-global-links">
       <div class="section-header">
         <span class="section-icon">${ICONS.globe}</span>
@@ -1179,6 +1147,38 @@ ${JSON.stringify(generateHubJsonLd(data), null, 2)}
         </a>
       </div>
     </div>
+
+    <!-- ── SEARCH BAR ── -->
+    <div class="hub-search-box">
+      <span class="hub-search-icon">${ICONS.search}</span>
+      <input type="text" id="unit-search" class="hub-search-input" placeholder="Buscar unidade por cidade ou estado (ex: Curitiba, PR, Belém)..." autocomplete="off">
+      <button id="search-clear" class="hub-search-clear" onclick="clearSearch()" title="Limpar busca">&times;</button>
+    </div>
+
+    <!-- ── REGION FILTERS ── -->
+    <div class="hub-region-chips" id="region-chips">
+      <button class="hub-chip active" data-region="all">Todas (${data.units.length})</button>
+      <button class="hub-chip" data-region="Sul">Sul</button>
+      <button class="hub-chip" data-region="Sudeste">Sudeste</button>
+      <button class="hub-chip" data-region="Centro-Oeste">Centro-Oeste</button>
+      <button class="hub-chip" data-region="Nordeste">Nordeste</button>
+      <button class="hub-chip" data-region="Norte">Norte</button>
+      <button class="hub-chip" data-region="Internacional">Internacional</button>
+    </div>
+
+    <!-- ── COUNTER BAR ── -->
+    <div class="hub-counter-bar">
+      <span>Exibindo <strong id="visible-count">${data.units.length}</strong> de ${data.units.length} unidades</span>
+    </div>
+
+    <!-- ── UNITS GRID ── -->
+    <section class="hub-units-grid" id="units-list">
+      ${unitsCardsHtml}
+      <div id="empty-search" class="empty-search-state">
+        <p>Nenhuma unidade encontrada para esta busca ou região.</p>
+        <button onclick="clearSearch()" class="hub-btn-primary" style="margin-top:12px;">Limpar Filtro</button>
+      </div>
+    </section>
 
     <!-- ── FOOTER ── -->
     <footer class="app-footer">
