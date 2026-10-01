@@ -1,8 +1,8 @@
 # Relatório de Verificação de Links — Bio no Link
 
-- **Data**: 30/09/2026, 16:17:47
+- **Data**: 01/10/2026, 11:52:42
 - **Modo**: Validação Estrutural (Dry Run)
-- **Total de Links Verificados**: 280
+- **Total de Links Verificados**: 281
 
 | Unidade | Campo / Título | URL | Status |
 | :--- | :--- | :--- | :--- |
@@ -197,6 +197,7 @@
 | Rio de Janeiro | AmoFisio — Quiropraxia - Uma especialidade do fisioterapeuta. Como ampliar seus resultados clínicos | [https://www.sympla.com.br/evento/amofisio-qui...](https://www.sympla.com.br/evento/amofisio-quiropraxia-uma-especialidade-do-fisioterapeuta-como-ampliar-seus-resultados-clinicos/3568100) | ✅ OK |
 | Rio de Janeiro | AmoFisio — Critérios de progressão e alta após a reconstrução de LCA | [https://www.sympla.com.br/evento/amofisio-cri...](https://www.sympla.com.br/evento/amofisio-criterios-de-progressao-e-alta-apos-a-reconstrucao-de-lca/3568083) | ✅ OK |
 | Rio de Janeiro | AmoFisio — Pele Pós-Emagrecimento - GLP-1, Flacidez e Remodelamento Tecidual | [https://www.sympla.com.br/evento/amofisio-pel...](https://www.sympla.com.br/evento/amofisio-pele-pos-emagrecimento-glp-1-flacidez-e-remodelamento-tecidual/3589969) | ✅ OK |
+| Rio de Janeiro | AmoFisio — Abordagens Terapêuticas na Doença de Parkinson | [https://www.sympla.com.br/evento/amofisio-abo...](https://www.sympla.com.br/evento/amofisio-abordagens-terapeuticas-na-doenca-de-parkinson/3602654) | ✅ OK |
 | Rio de Janeiro | Matricule-se pelo WhatsApp | [https://api.whatsapp.com/send?phone=558006022...](https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Rio%20de%20Janeiro) | ✅ OK |
 | Salvador | website | [https://www.inspirar.com.br/ba-salvador-slim/...](https://www.inspirar.com.br/ba-salvador-slim/) | ✅ OK |
 | Salvador | instagram | [https://www.instagram.com/inspirarsalvador/...](https://www.instagram.com/inspirarsalvador/) | ✅ OK |

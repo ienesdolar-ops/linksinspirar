@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-09-30T19:17:47.510Z",
-  "total": 280,
+  "timestamp": "2026-10-01T14:52:42.427Z",
+  "total": 281,
   "dryRun": true,
   "results": [
     {
@@ -1528,6 +1528,14 @@
       "unit": "Rio de Janeiro",
       "field": "AmoFisio — Pele Pós-Emagrecimento - GLP-1, Flacidez e Remodelamento Tecidual",
       "url": "https://www.sympla.com.br/evento/amofisio-pele-pos-emagrecimento-glp-1-flacidez-e-remodelamento-tecidual/3589969",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Eventos",
+      "unit": "Rio de Janeiro",
+      "field": "AmoFisio — Abordagens Terapêuticas na Doença de Parkinson",
+      "url": "https://www.sympla.com.br/evento/amofisio-abordagens-terapeuticas-na-doenca-de-parkinson/3602654",
       "status": "FORMAT_OK",
       "ok": true
     },
