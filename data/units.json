@@ -2033,8 +2033,8 @@
       "mapsUrl": "https://maps.google.com/?q=Faculdade+Inspirar+Londrina",
       "coverImage": "assets/images/units/londrina/recepcao-01-scaled.jpeg",
       "logoImage": "assets/images/Logo branca - horizontal.png",
-      "whatsapp": "558006022828",
-      "whatsappDisplay": "0800 602 2828",
+      "whatsapp": "554398647422",
+      "whatsappDisplay": "(43) 9864-7422",
       "whatsappDefaultMessage": "Olá! Tenho interesse em saber mais sobre os cursos da Faculdade Inspirar - Londrina",
       "instagram": "https://www.instagram.com/inspirarlondrina/",
       "instagramUser": "@inspirarlondrina",
@@ -2136,8 +2136,8 @@
           "items": [
             {
               "title": "Matricule-se pelo WhatsApp",
-              "desc": "Fale com nossa equipe • 0800 602 2828",
-              "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Londrina",
+              "desc": "Fale com nossa equipe • (43) 9864-7422",
+              "url": "https://api.whatsapp.com/send?phone=554398647422&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Londrina",
               "icon": "whatsapp",
               "accent": "green"
             }

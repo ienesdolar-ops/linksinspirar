@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-06T19:54:17.891Z",
+  "timestamp": "2026-10-06T20:00:37.249Z",
   "total": 283,
   "dryRun": true,
   "results": [
@@ -1183,7 +1183,7 @@
       "source": "Acesso Rápido",
       "unit": "Londrina",
       "field": "Matricule-se pelo WhatsApp",
-      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Londrina",
+      "url": "https://api.whatsapp.com/send?phone=554398647422&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Londrina",
       "status": "FORMAT_OK",
       "ok": true
     },

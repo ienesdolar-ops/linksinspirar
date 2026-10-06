@@ -341,6 +341,10 @@ Leandro
 
 ### 18. Unidade Londrina (PR)
 
+> **Status:** Atualizado com feedback do franqueado ✅  
+> - **WhatsApp:** (43) 9864-7422 (`554398647422`)  
+> - **Endereço:** Rua Piauí, 399 — Centro, Londrina — PR
+
 ```
 Olá, queridos franqueados da Inspirar Londrina!
 

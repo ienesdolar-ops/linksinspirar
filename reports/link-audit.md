@@ -1,6 +1,6 @@
 # Relatório de Verificação de Links — Bio no Link
 
-- **Data**: 06/10/2026, 16:54:17
+- **Data**: 06/10/2026, 17:00:37
 - **Modo**: Validação Estrutural (Dry Run)
 - **Total de Links Verificados**: 283
 
@@ -153,7 +153,7 @@
 | Londrina | AmoFisio — Estratégias Nutricionais na Prevenção e Tratamento de Lesões no Esporte | [https://www.sympla.com.br/evento/amofisio-est...](https://www.sympla.com.br/evento/amofisio-estrategias-nutricionais-na-prevencao-e-tratamento-de-lesoes-no-esporte/3555278) | ✅ OK |
 | Londrina | AmoFisio — Lesões Musculares em Atletas: Diagnóstico e Tratamento Baseado em Evidências | [https://www.sympla.com.br/evento/amofisio-les...](https://www.sympla.com.br/evento/amofisio-lesoes-musculares-em-atletas-diagnostico-e-tratamento-baseado-em-evidencias/3555322) | ✅ OK |
 | Londrina | AmoFisio — Introdução à Quiropraxia | [https://www.sympla.com.br/evento/amofisio-int...](https://www.sympla.com.br/evento/amofisio-introducao-a-quiropraxia/3555299) | ✅ OK |
-| Londrina | Matricule-se pelo WhatsApp | [https://api.whatsapp.com/send?phone=558006022...](https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Londrina) | ✅ OK |
+| Londrina | Matricule-se pelo WhatsApp | [https://api.whatsapp.com/send?phone=554398647...](https://api.whatsapp.com/send?phone=554398647422&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Londrina) | ✅ OK |
 | Luanda | website | [https://www.inspirar.com.br/ao-luanda/...](https://www.inspirar.com.br/ao-luanda/) | ✅ OK |
 | Luanda | instagram | [https://www.instagram.com/inspirarangola/...](https://www.instagram.com/inspirarangola/) | ✅ OK |
 | Luanda | mapsUrl | [https://maps.google.com/?q=Faculdade+Inspirar...](https://maps.google.com/?q=Faculdade+Inspirar+Luanda) | ✅ OK |
