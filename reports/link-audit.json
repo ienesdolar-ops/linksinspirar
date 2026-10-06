@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-10-06T19:26:20.340Z",
-  "total": 281,
+  "timestamp": "2026-10-06T19:43:53.441Z",
+  "total": 283,
   "dryRun": true,
   "results": [
     {
@@ -862,7 +862,15 @@
     {
       "source": "Acesso Rápido",
       "unit": "Fortaleza",
-      "field": "Matricule-se pelo WhatsApp",
+      "field": "WhatsApp da Unidade Fortaleza",
+      "url": "https://api.whatsapp.com/send?phone=5585991350955&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Fortaleza",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Acesso Rápido",
+      "unit": "Fortaleza",
+      "field": "Central de Atendimento Inspirar",
       "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Fortaleza",
       "status": "FORMAT_OK",
       "ok": true
@@ -1014,8 +1022,16 @@
     {
       "source": "Acesso Rápido",
       "unit": "Guarulhos",
-      "field": "Matricule-se pelo WhatsApp",
-      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Guarulhos",
+      "field": "Atendimento via WhatsApp",
+      "url": "https://api.whatsapp.com/send?phone=5511969771841&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Guarulhos",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Acesso Rápido",
+      "unit": "Guarulhos",
+      "field": "Atendimento WhatsApp — Alê",
+      "url": "https://api.whatsapp.com/send?phone=5511995083057&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Guarulhos",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -1943,7 +1959,7 @@
       "source": "Acesso Rápido",
       "unit": "São Paulo - Borba Gato",
       "field": "Matricule-se pelo WhatsApp",
-      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20S%C3%A3o%20Paulo%20-%20Borba%20Gato",
+      "url": "https://api.whatsapp.com/send?phone=5511976259223&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20S%C3%A3o%20Paulo%20-%20Borba%20Gato",
       "status": "FORMAT_OK",
       "ok": true
     },

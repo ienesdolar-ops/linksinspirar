@@ -238,6 +238,10 @@ Leandro
 
 ### 13. Unidade Fortaleza (CE)
 
+> **Status:** Atualizado com feedback do franqueado ✅  
+> - **WhatsApp:** (85) 99135-0955 (`5585991350955`) + Central Institucional `0800 602 2828`  
+> - **Endereço:** Av. Santos Dumont, 779 — Centro, Fortaleza — CE
+
 ```
 Olá, queridos franqueados da Inspirar Fortaleza!
 
@@ -275,6 +279,10 @@ Leandro
 ```
 
 ### 15. Unidade Guarulhos (SP)
+
+> **Status:** Atualizado com feedback do franqueado ✅  
+> - **WhatsApp:** (11) 96977-1841 (`5511969771841`) & Alê (11) 99508-3057 (`5511995083057`)  
+> - **Endereço:** Rua Maria de Castro Mesquita, 50 — Jardim São Paulo, Guarulhos — SP
 
 ```
 Olá, queridos franqueados da Inspirar Guarulhos!
@@ -580,6 +588,10 @@ Leandro
 
 ### 31. Unidade São Luís (MA)
 
+> **Status:** Atualizado com feedback do franqueado ✅  
+> - **Endereço:** Rua dos Lótus, 11 — Jardim Renascença II, São Luís — MA  
+> - **Galeria:** Foto 7 (recepção) removida conforme solicitado
+
 ```
 Olá, queridos franqueados da Inspirar São Luís!
 
@@ -598,6 +610,10 @@ Leandro
 ```
 
 ### 32. Unidade São Paulo - Borba Gato (SP)
+
+> **Status:** Atualizado com feedback do franqueado ✅  
+> - **WhatsApp:** (11) 97625-9223 (`5511976259223`)  
+> - **Endereço:** Av. Adolfo Pinheiro, 2051 — Santo Amaro, São Paulo — SP
 
 ```
 Olá, queridos franqueados da Inspirar São Paulo - Borba Gato!

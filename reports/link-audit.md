@@ -1,8 +1,8 @@
 # Relatório de Verificação de Links — Bio no Link
 
-- **Data**: 06/10/2026, 16:26:20
+- **Data**: 06/10/2026, 16:43:53
 - **Modo**: Validação Estrutural (Dry Run)
-- **Total de Links Verificados**: 281
+- **Total de Links Verificados**: 283
 
 | Unidade | Campo / Título | URL | Status |
 | :--- | :--- | :--- | :--- |
@@ -113,7 +113,8 @@
 | Fortaleza | Site Oficial — Fortaleza | [https://www.inspirar.com.br/ce-fortaleza-slim...](https://www.inspirar.com.br/ce-fortaleza-slim/) | ✅ OK |
 | Fortaleza | Fisioterapia em Terapia Intensiva | [https://faculdadeinspirar.com.br/semi-intensi...](https://faculdadeinspirar.com.br/semi-intensiva/) | ✅ OK |
 | Fortaleza | AmoFisio — Avaliação e Reabilitação de Fraturas | [https://www.sympla.com.br/evento/amofisio-ava...](https://www.sympla.com.br/evento/amofisio-avaliacao-e-reabilitacao-de-fraturas/3574421) | ✅ OK |
-| Fortaleza | Matricule-se pelo WhatsApp | [https://api.whatsapp.com/send?phone=558006022...](https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Fortaleza) | ✅ OK |
+| Fortaleza | WhatsApp da Unidade Fortaleza | [https://api.whatsapp.com/send?phone=558599135...](https://api.whatsapp.com/send?phone=5585991350955&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Fortaleza) | ✅ OK |
+| Fortaleza | Central de Atendimento Inspirar | [https://api.whatsapp.com/send?phone=558006022...](https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Fortaleza) | ✅ OK |
 | Goiânia | website | [https://www.inspirar.com.br/go-goiania/...](https://www.inspirar.com.br/go-goiania/) | ✅ OK |
 | Goiânia | instagram | [https://www.instagram.com/inspirargoiania/...](https://www.instagram.com/inspirargoiania/) | ✅ OK |
 | Goiânia | mapsUrl | [https://maps.google.com/?q=Faculdade+Inspirar...](https://maps.google.com/?q=Faculdade+Inspirar+Goi%C3%A2nia) | ✅ OK |
@@ -132,7 +133,8 @@
 | Guarulhos | AmoFisio — Fisioterapia Traumato-Ortopédica, Esportiva e Quiropraxia | [https://www.sympla.com.br/evento/amofisio-fis...](https://www.sympla.com.br/evento/amofisio-fisioterapia-traumato-ortopedica-esportiva-e-quiropraxia/3552221) | ✅ OK |
 | Guarulhos | AmoFisio — Técnicas e Manobras de Fisioterapia Respiratória – Adulto e Pediátrico | [https://www.sympla.com.br/evento/amofisio-tec...](https://www.sympla.com.br/evento/amofisio-tecnicas-e-manobras-de-fisioterapia-respiratoria-adulto-e-pediatrico/3552255) | ✅ OK |
 | Guarulhos | AmoFisio — Atuação na Urgência, Emergência e Terapia Intensiva | [https://www.sympla.com.br/evento/amofisio-atu...](https://www.sympla.com.br/evento/amofisio-atuacao-na-urgencia-emergencia-e-terapia-intensiva/3552251) | ✅ OK |
-| Guarulhos | Matricule-se pelo WhatsApp | [https://api.whatsapp.com/send?phone=558006022...](https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Guarulhos) | ✅ OK |
+| Guarulhos | Atendimento via WhatsApp | [https://api.whatsapp.com/send?phone=551196977...](https://api.whatsapp.com/send?phone=5511969771841&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Guarulhos) | ✅ OK |
+| Guarulhos | Atendimento WhatsApp — Alê | [https://api.whatsapp.com/send?phone=551199508...](https://api.whatsapp.com/send?phone=5511995083057&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Guarulhos) | ✅ OK |
 | Ipatinga | website | [https://www.inspirar.com.br/mg-ipatinga/...](https://www.inspirar.com.br/mg-ipatinga/) | ✅ OK |
 | Ipatinga | instagram | [https://www.instagram.com/inspiraripatinga/...](https://www.instagram.com/inspiraripatinga/) | ✅ OK |
 | Ipatinga | mapsUrl | [https://maps.google.com/?q=Faculdade+Inspirar...](https://maps.google.com/?q=Faculdade+Inspirar+Ipatinga) | ✅ OK |
@@ -248,7 +250,7 @@
 | São Paulo - Borba Gato | Dermatofuncional Internacional | [https://cursoinspirar.com.br/dermatofuncional...](https://cursoinspirar.com.br/dermatofuncional-internacional/) | ✅ OK |
 | São Paulo - Borba Gato | AmoFisio — Como Tratar Lipedema | [https://www.sympla.com.br/evento/amofisio-com...](https://www.sympla.com.br/evento/amofisio-como-tratar-lipedema/3555339) | ✅ OK |
 | São Paulo - Borba Gato | AmoFisio — FisioTech Experience: TCAR e Ondas de Choque na Prática Clínica | [https://www.sympla.com.br/evento/amofisio-fis...](https://www.sympla.com.br/evento/amofisio-fisiotech-experience-tcar-e-ondas-de-choque-na-pratica-clinica/3555369) | ✅ OK |
-| São Paulo - Borba Gato | Matricule-se pelo WhatsApp | [https://api.whatsapp.com/send?phone=558006022...](https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20S%C3%A3o%20Paulo%20-%20Borba%20Gato) | ✅ OK |
+| São Paulo - Borba Gato | Matricule-se pelo WhatsApp | [https://api.whatsapp.com/send?phone=551197625...](https://api.whatsapp.com/send?phone=5511976259223&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20S%C3%A3o%20Paulo%20-%20Borba%20Gato) | ✅ OK |
 | São Paulo - Vila Mariana | website | [https://www.inspirar.com.br/sp-sao-paulo-vila...](https://www.inspirar.com.br/sp-sao-paulo-vila-mariana/) | ✅ OK |
 | São Paulo - Vila Mariana | instagram | [https://www.instagram.com/inspirarsaopaulo/...](https://www.instagram.com/inspirarsaopaulo/) | ✅ OK |
 | São Paulo - Vila Mariana | mapsUrl | [https://maps.google.com/?q=Faculdade+Inspirar...](https://maps.google.com/?q=Faculdade+Inspirar+S%C3%A3o%20Paulo%20-%20Vila%20Mariana) | ✅ OK |

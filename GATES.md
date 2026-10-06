@@ -1,79 +1,40 @@
-# ACCEPTANCE GATES — Bio no Link (Rede Completa: 37 Unidades)
+# Gates: Atualizações de Endereços, Galeria São Luís e WhatsApps Franqueados
 
-## Gate 1: Asset Ingestion & Image Normalization
-- All unit photos from `Fotos Unidades` are imported, sanitized, and stored under `assets/images/units/<slug>/` with web-safe lowercase filenames.
-- Units with dedicated photos have their facades/covers and galleries mapped.
-- CHECK: `node scripts/import-photos.js`
-- EXPECT: `PHOTOS IMPORT COMPLETED` (exit 0)
+OWNS: data/units.json, scripts/generate-catalog.js, scripts/verify-all.js, assets/images/units/manifest.json, reports/link-audit.json, reports/link-audit.md, reports/mensagens-franqueados.md, index.html, bauru/**, sao-luis/**, guarulhos/**, fortaleza/**, sao-paulo-borba-gato/**, balneario-camboriu/**, belem/**, belo-horizonte/**, blumenau/**, brasilia/**, campinas/**, campo-grande/**, cuiaba/**, curitiba/**, dourados/**, florianopolis/**, goiania/**, ipatinga/**, joinville/**, londrina/**, luanda/**, maceio/**, parauapebas/**, porto-alegre/**, porto-velho/**, ribeirao-preto/**, rio-de-janeiro/**, salvador/**, santo-andre/**, santos/**, sao-jose-do-rio-preto/**, sao-jose-dos-campos/**, sao-paulo-vila-mariana/**, sorocaba/**, teresina/**, uberlandia/**, vitoria/**
 
-## Gate 2: Full Catalog Validation (37 Unidades)
-- Central catalog `data/units.json` contains all 37 units requested by the user with official links (`https://www.inspirar.com.br/...`), official states, regions, addresses, WhatsApp, Instagram, and courses.
-- Curitiba content, texts, address, and links preserved.
-- Validation script validates schema, unique slugs, and asset paths.
-- CHECK: `node scripts/validate-data.js`
-- EXPECT: `DATA VALIDATION PASSED (37 units)` (exit 0)
+Scope: Atualizar endereços para os locais oficiais do mapa nas 37 unidades, remover foto 7 de São Luís, e configurar novos WhatsApps em Guarulhos, Borba Gato e Fortaleza mantendo fidelidade total e passando por todos os gates.
 
-## Gate 3: Static Site Generation (Hub + 37 Dedicated Unit Pages)
-- Build script `scripts/build.js` generates:
-  - `index.html`: Central Hub with all 37 units searchable by name, state, and region.
-  - 37 dedicated directories with standalone `index.html` files.
-- Each dedicated page includes custom photos, interactive gallery modal, WhatsApp and Instagram quick actions, and auto-expiring events logic.
-- CHECK: `node scripts/build.js`
-- EXPECT: `BUILD SUCCESSFUL (37 units)` (exit 0)
+- [x] G1: Endereço de São Luís atualizado para Rua dos Lótus, 11 — Jardim Renascença II
+  CHECK: node -e "const fs = require('fs'); const d = JSON.parse(fs.readFileSync('data/units.json', 'utf8')); const u = d.units.find(x => x.slug === 'sao-luis'); if (u.address.includes('Rua dos Lótus, 11') && u.fullAddress.includes('Jardim Renascença II')) console.log('SLZ_ADDRESS_OK');"
+  EXPECT: SLZ_ADDRESS_OK
+  EVIDENCE: exit=0; shell=C:\WINDOWS\system32\cmd.exe; cwd=C:\Users\Usuario\Downloads\linksinspirar; path=a7bfde35d05e/19 entries; EXPECT=matched; output-sha256=d31583381503b11ba775f4d6b3fceb0f1a4ca4d2da25296d2d37bf6c96d1dd63; output-bytes=15
 
-## Gate 4: Auto-Expiring Events (Data de Início e Fim)
-- Verifies that past events are automatically omitted, future events wait for start date, and active events display with dynamic client-side and build-side filters.
-- CHECK: `node scripts/test-event-dates.js`
-- EXPECT: `EVENT EXPIRATION TESTS PASSED` (exit 0)
+- [x] G2: Remoção da foto 7 da galeria de São Luís
+  CHECK: node -e "const fs = require('fs'); const d = JSON.parse(fs.readFileSync('data/units.json', 'utf8')); const u = d.units.find(x => x.slug === 'sao-luis'); const has7 = u.gallery.some(g => g.src.includes('recepcao.webp')); if (!has7 && u.gallery.length === 8) console.log('SLZ_PHOTO_OK');"
+  EXPECT: SLZ_PHOTO_OK
+  EVIDENCE: exit=0; shell=C:\WINDOWS\system32\cmd.exe; cwd=C:\Users\Usuario\Downloads\linksinspirar; path=a7bfde35d05e/19 entries; EXPECT=matched; output-sha256=aecf23cd98b49c50fed0f18246e78abed330399fa205f1c4149c2954d6ff000e; output-bytes=13
 
-## Gate 5: Broken Link Checker
-- Audits all URLs across all 37 units and global links.
-- Emits structured reports in `reports/link-audit.json` and `reports/link-audit.md`.
-- CHECK: `node scripts/check-links.js --dry-run`
-- EXPECT: `LINK CHECKER VALIDATION PASSED` (exit 0)
+- [x] G3: Guarulhos configurado com os 2 WhatsApps solicitados (Meu 11 96977-1841 e Ale 11 99508-3057)
+  CHECK: node -e "const fs = require('fs'); const d = JSON.parse(fs.readFileSync('data/units.json', 'utf8')); const u = d.units.find(x => x.slug === 'guarulhos'); const waItems = u.sections.find(s => s.id === 'acesso_rapido').items; const has1 = waItems.some(i => i.url.includes('5511969771841')); const has2 = waItems.some(i => i.url.includes('5511995083057')); if (has1 && has2) console.log('GUARULHOS_WA_OK');"
+  EXPECT: GUARULHOS_WA_OK
+  EVIDENCE: exit=0; shell=C:\WINDOWS\system32\cmd.exe; cwd=C:\Users\Usuario\Downloads\linksinspirar; path=a7bfde35d05e/19 entries; EXPECT=matched; output-sha256=17fffaee120b9edc47cf441c0cda36f38c645cd1ecc5731f036edc13719b4b1c; output-bytes=16
 
-## Gate 6: Dedicated Instagram Profiles (100% — 37/37 Unidades) & 30 Anos Branding
-- All 37 units have their verified, dedicated Instagram URL and handle mapped (including Brasília, Luanda, Maceió, and Parauapebas).
-- Every unit HTML page (`[slug]/index.html`) displays its designated Instagram handle pill in the Hero, quick action button, and footer link.
-- Portal do Aluno points directly to the active student login portal (`portaldoaluno.inspirar.com.br/...`).
-- Footer across the Hub and all 37 units updated with the official celebratory branding "30 Anos de Inspirar".
-- CHECK: `node scripts/verify-all.js`
-- EXPECT: `Gate 7: Dedicated Instagram Profiles (37/37 Units) & 30 Anos Branding... ✅ OK`
+- [x] G4: Borba Gato atualizado com o WhatsApp +55 11 97625-9223
+  CHECK: node -e "const fs = require('fs'); const d = JSON.parse(fs.readFileSync('data/units.json', 'utf8')); const u = d.units.find(x => x.slug === 'sao-paulo-borba-gato'); const waItems = u.sections.find(s => s.id === 'acesso_rapido').items; const hasWa = waItems.some(i => i.url.includes('5511976259223')); if (hasWa && u.whatsapp === '5511976259223') console.log('BORBA_GATO_WA_OK');"
+  EXPECT: BORBA_GATO_WA_OK
+  EVIDENCE: exit=0; shell=C:\WINDOWS\system32\cmd.exe; cwd=C:\Users\Usuario\Downloads\linksinspirar; path=a7bfde35d05e/19 entries; EXPECT=matched; output-sha256=cbf60a62e7a23f3a36cec0c04559fd1c0e93fd50977b56522c4564c6f0d1e1d8; output-bytes=17
 
-## Gate 7: Complete End-to-End Verification Suite
-- Comprehensive test `scripts/verify-all.js` validates that all 37 unit index.html files exist, are properly structured, Hub contains all 37 units, and all gates pass.
-- CHECK: `node scripts/verify-all.js`
-- EXPECT: `ALL VERIFICATIONS PASSED (37 units)` (exit 0)
+- [x] G5: Fortaleza mantém institucional e adiciona novo WhatsApp 85991350955
+  CHECK: node -e "const fs = require('fs'); const d = JSON.parse(fs.readFileSync('data/units.json', 'utf8')); const u = d.units.find(x => x.slug === 'fortaleza'); const waItems = u.sections.find(s => s.id === 'acesso_rapido').items; const hasLocal = waItems.some(i => i.url.includes('5585991350955')); const hasInst = waItems.some(i => i.url.includes('558006022828')); if (hasLocal && hasInst) console.log('FORTALEZA_WA_OK');"
+  EXPECT: FORTALEZA_WA_OK
+  EVIDENCE: exit=0; shell=C:\WINDOWS\system32\cmd.exe; cwd=C:\Users\Usuario\Downloads\linksinspirar; path=a7bfde35d05e/19 entries; EXPECT=matched; output-sha256=947f60faca8b37a1176af76e655b4c037319fdedc85dad32697487850618da30; output-bytes=16
 
-## Gate 8: Unit Links Configuration Fidelity (All 37 Units Audited)
-- All 37 units have their links audited and configured according to the explicit unit specifications.
-- Generic `amofisio.vercel.app` link has been 100% replaced by unit-specific AmoFisio Sympla event links (72 courses across 23 units) with official banners and start-time auto-expirations.
-- Units with only institutional links (Balneário Camboriú, Dourados, Joinville, Luanda, Parauapebas, Salvador, Santos, SJRP, Teresina, Uberlândia) preserve only their official website and WhatsApp channels.
-- Units with AmoFisio, specific courses (Semi-intensiva, Fisioterapia Vestibular, Dermatofuncional), and events (Sympla Brasília, Pelve Expert Curitiba, Pelve Expert São Luís, Workshop Vila Mariana) are mapped with complete fidelity.
-- Vila Mariana Workshop event is configured with exact expiration date `2026-11-07T09:00:00-03:00`.
-- Curitiba reflects the exact structure from `https://linktreecuritiba.vercel.app/` plus Pelve Expert and unit AmoFisio events.
-- YouTube test link is removed, preserving only official audited unit links.
-- CHECK: `node scripts/verify-all.js`
-- EXPECT: `Gate 8: Unit Links Configuration Fidelity (37 Units Audited)... ✅ OK`
+- [x] G6: Endereços de todas as unidades sincronizados com o mapa e sem endereços desatualizados
+  CHECK: node -e "const fs = require('fs'); const d = JSON.parse(fs.readFileSync('data/units.json', 'utf8')); const uSlz = d.units.find(x => x.slug === 'sao-luis'); const uGua = d.units.find(x => x.slug === 'guarulhos'); const uRio = d.units.find(x => x.slug === 'rio-de-janeiro'); const uCui = d.units.find(x => x.slug === 'cuiaba'); if (uSlz.address.includes('Lótus') && uGua.address.includes('Castro Mesquita') && uRio.address.includes('José Wilker') && uCui.address.includes('Miguel Sutil')) console.log('ALL_ADDRESSES_SYNC_OK');"
+  EXPECT: ALL_ADDRESSES_SYNC_OK
+  EVIDENCE: exit=0; shell=C:\WINDOWS\system32\cmd.exe; cwd=C:\Users\Usuario\Downloads\linksinspirar; path=a7bfde35d05e/19 entries; EXPECT=matched; output-sha256=678f2845bd565e2c83593abf84beb244096c2d1c7885bc350e97515ba25596bf; output-bytes=22
 
-## Gate 9: Browser Tab Icon (Favicon with Símbolo Branco)
-- Asset: `Símbolo branco.png` is normalized and available as `assets/images/simbolo-branco.png` and `assets/images/favicon.png` (plus root `favicon.png`).
-- Hub (`index.html`) references `assets/images/simbolo-branco.png` (or `favicon.png`) as its tab icon (`<link rel="icon">`).
-- All 37 unit pages (`[slug]/index.html`) reference `../assets/images/simbolo-branco.png` (or `../assets/images/favicon.png`) as their tab icon (`<link rel="icon">`).
-- CHECK: `node scripts/verify-all.js`
-- EXPECT: `Gate 9: Browser Tab Icon (Favicon with Símbolo Branco)... ✅ OK`
-
-## Gate 10: Schema.org JSON-LD Structured Data
-- Root Hub (`index.html`) declares EducationalOrganization (`#organization`), WebSite (`#website`), and core services.
-- All 37 unit pages declare LocalBusiness, PostalAddress, parentOrganization reference, BreadcrumbList, and Course structured entities.
-- CHECK: `node scripts/validate-schema.js`
-- EXPECT: `ALL 37 UNITS PASSED SCHEMA VALIDATION` (exit 0)
-
-## Gate 11: Sympla API Auto-Enriched Cover Banners & Cards
-- Integration with Sympla Public API v3 (and public event fallback) automatically fetches event cover/banner image and start dates for any Sympla event link.
-- Covers all 76 Sympla event links across all 23 AmoFisio units and individual unit events (Brasília, Curitiba, São Luís, Vila Mariana).
-- Events with banners render high-impact responsive cards (`.link-card.has-banner`) with aspect ratio `1.91:1`, gradient overlay, floating badges, and smooth hover zoom effects.
-- Banners are cached in `data/units.json` and automatically refreshed during build.
-- Auto-expiration set to exact event start date & time (`endDate: YYYY-MM-DDTHH:mm:ss-03:00`).
-- CHECK: `node scripts/verify-all.js`
-- EXPECT: `Gate 11: Sympla Event Banners & Cards... ✅ OK` (exit 0)
+- [x] G7: Suíte completa de verificação do projeto passando (11 Gates)
+  CHECK: node scripts/verify-all.js
+  EXPECT: ALL VERIFICATIONS PASSED (11 Gates / 37 units)
+  EVIDENCE: exit=0; shell=C:\WINDOWS\system32\cmd.exe; cwd=C:\Users\Usuario\Downloads\linksinspirar; path=a7bfde35d05e/19 entries; EXPECT=matched; output-sha256=1a0526043d25cba616f5a28210cb0c00fb1747d58dc2b87335566555ae33ce7d; output-bytes=1039

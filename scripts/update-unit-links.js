@@ -72,7 +72,7 @@ function getInstitutionalItems(unit) {
   }
 
   // Only add standard 0800 WhatsApp if unit does NOT have a dedicated custom WhatsApp
-  const unitsWithCustomWhatsApp = ['cuiaba', 'goiania', 'sao-luis'];
+  const unitsWithCustomWhatsApp = ['cuiaba', 'goiania', 'sao-luis', 'guarulhos'];
   if (!unitsWithCustomWhatsApp.includes(unit.slug)) {
     const defaultMsg = unit.whatsappDefaultMessage
       ? encodeURIComponent(unit.whatsappDefaultMessage)
@@ -231,9 +231,16 @@ data.units = data.units.map(unit => {
       break;
 
     case 'fortaleza':
-      // fortaleza: institucionais, amofisio e https://faculdadeinspirar.com.br/semi-intensiva/
+      // fortaleza: institucional 0800 + WhatsApp local, amofisio e https://faculdadeinspirar.com.br/semi-intensiva/
       cursos.push(itemSemiIntensiva);
       eventos.push(...getAmoFisioEvents(slug));
+      institucionais.unshift({
+        title: "WhatsApp da Unidade Fortaleza",
+        desc: "Atendimento direto com a unidade • (85) 99135-0955",
+        url: `https://api.whatsapp.com/send?phone=5585991350955&text=${encodeURIComponent("Olá! Tenho interesse em saber mais sobre os cursos da Faculdade Inspirar - Fortaleza")}`,
+        icon: "whatsapp",
+        accent: "green"
+      });
       break;
 
     case 'goiania':
@@ -252,8 +259,24 @@ data.units = data.units.map(unit => {
       break;
 
     case 'guarulhos':
-      // guarulhos: institucional, amofisio
+      // guarulhos: 2 WhatsApps personalizados, amofisio
       eventos.push(...getAmoFisioEvents(slug));
+      institucionais.push(
+        {
+          title: "Atendimento via WhatsApp",
+          desc: "Fale com nossa equipe • (11) 96977-1841",
+          url: `https://api.whatsapp.com/send?phone=5511969771841&text=${encodeURIComponent("Olá! Tenho interesse em saber mais sobre os cursos da Faculdade Inspirar - Guarulhos")}`,
+          icon: "whatsapp",
+          accent: "green"
+        },
+        {
+          title: "Atendimento WhatsApp — Alê",
+          desc: "Fale com a Alê • (11) 99508-3057",
+          url: `https://api.whatsapp.com/send?phone=5511995083057&text=${encodeURIComponent("Olá! Tenho interesse em saber mais sobre os cursos da Faculdade Inspirar - Guarulhos")}`,
+          icon: "whatsapp",
+          accent: "green"
+        }
+      );
       break;
 
     case 'ipatinga':
