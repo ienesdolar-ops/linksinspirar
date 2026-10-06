@@ -1296,8 +1296,8 @@
       "region": "Centro-Oeste",
       "badge": "Unidade Oficial",
       "bio": "Referência no ensino da área da Saúde e Pós-graduação. Cursos, especializações e extensão em Dourados (MS).",
-      "address": "Rua Ponta Porã, 1540, Sala 4 — Jardim América",
-      "fullAddress": "Rua Ponta Porã, 1540, Sala 4 — Jardim América, Dourados — MS",
+      "address": "",
+      "fullAddress": "",
       "director": "Coordenação Regional Inspirar — Dourados",
       "mapsUrl": "https://maps.google.com/?q=Faculdade+Inspirar+Dourados",
       "coverImage": "assets/images/units/dourados/cidade-dourados.jpg",
@@ -1335,7 +1335,7 @@
           "type": "campus_banner",
           "id": "campus",
           "bannerTitle": "Conheça a Unidade",
-          "bannerSub": "Rua Ponta Porã, 1540, Sala 4 — Jardim América, Dourados — MS",
+          "bannerSub": "Dourados - MS",
           "thumb": "assets/images/units/dourados/cidade-dourados.jpg"
         },
         {
@@ -1512,8 +1512,8 @@
       "region": "Nordeste",
       "badge": "Unidade Oficial",
       "bio": "Referência no ensino da área da Saúde e Pós-graduação. Cursos, especializações e extensão em Fortaleza (CE).",
-      "address": "Av. Santos Dumont, 779 — Centro",
-      "fullAddress": "Av. Santos Dumont, 779 — Centro, Fortaleza — CE",
+      "address": "",
+      "fullAddress": "",
       "director": "Coordenação Regional Inspirar — Fortaleza",
       "mapsUrl": "https://maps.google.com/?q=Faculdade+Inspirar+Fortaleza",
       "coverImage": "assets/images/units/fortaleza/cidade-fortaleza.jpg",
@@ -1584,7 +1584,7 @@
           "type": "campus_banner",
           "id": "campus",
           "bannerTitle": "Conheça a Unidade",
-          "bannerSub": "Av. Santos Dumont, 779 — Centro, Fortaleza — CE",
+          "bannerSub": "Fortaleza - CE",
           "thumb": "assets/images/units/fortaleza/cidade-fortaleza.jpg"
         },
         {
@@ -1618,8 +1618,8 @@
       "region": "Centro-Oeste",
       "badge": "Unidade Oficial",
       "bio": "Referência no ensino da área da Saúde e Pós-graduação. Cursos, especializações e extensão em Goiânia (GO).",
-      "address": "Av. Ipanema, 684, Sala 01 — Jardim Atlântico (Clínica ABBA)",
-      "fullAddress": "Av. Ipanema, 684, Sala 01 — Jardim Atlântico, Goiânia — GO",
+      "address": "",
+      "fullAddress": "",
       "director": "Coordenação Regional Inspirar — Goiânia",
       "mapsUrl": "https://maps.google.com/?q=Faculdade+Inspirar+Goi%C3%A2nia",
       "coverImage": "assets/images/units/goiania/cidade-goiania.jpeg",
@@ -1674,7 +1674,7 @@
           "type": "campus_banner",
           "id": "campus",
           "bannerTitle": "Conheça a Unidade",
-          "bannerSub": "Av. Ipanema, 684, Sala 01 — Jardim Atlântico, Goiânia — GO",
+          "bannerSub": "Goiânia - GO",
           "thumb": "assets/images/units/goiania/cidade-goiania.jpeg"
         },
         {
@@ -1879,8 +1879,8 @@
       "region": "Sudeste",
       "badge": "Unidade Oficial",
       "bio": "Referência no ensino da área da Saúde e Pós-graduação. Cursos, especializações e extensão em Ipatinga (MG).",
-      "address": "Av. Itália, 1910 — Cariru",
-      "fullAddress": "Av. Itália, 1910 — Cariru, Ipatinga — MG",
+      "address": "",
+      "fullAddress": "",
       "director": "Coordenação Regional Inspirar — Ipatinga",
       "mapsUrl": "https://maps.google.com/?q=Faculdade+Inspirar+Ipatinga",
       "coverImage": "assets/images/units/ipatinga/cidade-ipatinga.jpg",
@@ -1934,7 +1934,7 @@
           "type": "campus_banner",
           "id": "campus",
           "bannerTitle": "Conheça a Unidade",
-          "bannerSub": "Av. Itália, 1910 — Cariru, Ipatinga — MG",
+          "bannerSub": "Ipatinga - MG",
           "thumb": "assets/images/units/ipatinga/cidade-ipatinga.jpg"
         },
         {
@@ -1961,8 +1961,8 @@
       "region": "Sul",
       "badge": "Unidade Oficial",
       "bio": "Referência no ensino da área da Saúde e Pós-graduação. Cursos, especializações e extensão em Joinville (SC).",
-      "address": "Rua Henrique Meyer, 340 — Centro (Hotel Tannenhof)",
-      "fullAddress": "Rua Henrique Meyer, 340 — Centro, Joinville — SC",
+      "address": "",
+      "fullAddress": "",
       "director": "Coordenação Regional Inspirar — Joinville",
       "mapsUrl": "https://maps.google.com/?q=Faculdade+Inspirar+Joinville",
       "coverImage": "assets/images/units/joinville/cidade-joinville.jpg",
@@ -2000,7 +2000,7 @@
           "type": "campus_banner",
           "id": "campus",
           "bannerTitle": "Conheça a Unidade",
-          "bannerSub": "Rua Henrique Meyer, 340 — Centro, Joinville — SC",
+          "bannerSub": "Joinville - SC",
           "thumb": "assets/images/units/joinville/cidade-joinville.jpg"
         },
         {
@@ -2153,8 +2153,8 @@
       "region": "Internacional",
       "badge": "Unidade Oficial",
       "bio": "Referência no ensino da área da Saúde e Pós-graduação. Cursos, especializações e extensão em Luanda (AO).",
-      "address": "Município de Belas, Zona Verde II — Benfica",
-      "fullAddress": "Município de Belas, Zona Verde II — Benfica, Luanda — Angola",
+      "address": "",
+      "fullAddress": "",
       "director": "Coordenação Regional Inspirar — Luanda",
       "mapsUrl": "https://maps.google.com/?q=Faculdade+Inspirar+Luanda",
       "coverImage": "assets/images/units/luanda/cidade-luanda.jpg",
@@ -2192,7 +2192,7 @@
           "type": "campus_banner",
           "id": "campus",
           "bannerTitle": "Conheça a Unidade",
-          "bannerSub": "Município de Belas, Zona Verde II — Benfica, Luanda — Angola",
+          "bannerSub": "Luanda - AO",
           "thumb": "assets/images/units/luanda/cidade-luanda.jpg"
         },
         {
@@ -2219,8 +2219,8 @@
       "region": "Nordeste",
       "badge": "Unidade Oficial",
       "bio": "Referência no ensino da área da Saúde e Pós-graduação. Cursos, especializações e extensão em Maceió (AL).",
-      "address": "Av. Comendador Gustavo Paiva, 2990 — Mangabeiras",
-      "fullAddress": "Av. Comendador Gustavo Paiva, 2990 — Mangabeiras, Maceió — AL",
+      "address": "",
+      "fullAddress": "",
       "director": "Coordenação Regional Inspirar — Maceió",
       "mapsUrl": "https://maps.google.com/?q=Faculdade+Inspirar+Macei%C3%B3",
       "coverImage": "assets/images/units/maceio/cidade-maceio.jpg",
@@ -2275,7 +2275,7 @@
           "type": "campus_banner",
           "id": "campus",
           "bannerTitle": "Conheça a Unidade",
-          "bannerSub": "Av. Comendador Gustavo Paiva, 2990 — Mangabeiras, Maceió — AL",
+          "bannerSub": "Maceió - AL",
           "thumb": "assets/images/units/maceio/cidade-maceio.jpg"
         },
         {
@@ -2302,8 +2302,8 @@
       "region": "Norte",
       "badge": "Unidade Oficial",
       "bio": "Referência no ensino da área da Saúde e Pós-graduação. Cursos, especializações e extensão em Parauapebas (PA).",
-      "address": "Av. Tupinambá, Qd. 38, Lt. 13 — Parque dos Carajás (Clínica Longevitá)",
-      "fullAddress": "Av. Tupinambá, Qd. 38, Lt. 13 — Parque dos Carajás, Parauapebas — PA",
+      "address": "",
+      "fullAddress": "",
       "director": "Coordenação Regional Inspirar — Parauapebas",
       "mapsUrl": "https://maps.google.com/?q=Faculdade+Inspirar+Parauapebas",
       "coverImage": "assets/images/units/parauapebas/cidade-parauapebas.jpeg",
@@ -2341,7 +2341,7 @@
           "type": "campus_banner",
           "id": "campus",
           "bannerTitle": "Conheça a Unidade",
-          "bannerSub": "Av. Tupinambá, Qd. 38, Lt. 13 — Parque dos Carajás, Parauapebas — PA",
+          "bannerSub": "Parauapebas - PA",
           "thumb": "assets/images/units/parauapebas/cidade-parauapebas.jpeg"
         },
         {
@@ -2374,8 +2374,8 @@
       "mapsUrl": "https://maps.google.com/?q=Faculdade+Inspirar+Porto%20Alegre",
       "coverImage": "assets/images/units/porto-alegre/area-de-convivencia-2.webp",
       "logoImage": "assets/images/Logo branca - horizontal.png",
-      "whatsapp": "558006022828",
-      "whatsappDisplay": "0800 602 2828",
+      "whatsapp": "5551989480466",
+      "whatsappDisplay": "(51) 98948-0466",
       "whatsappDefaultMessage": "Olá! Tenho interesse em saber mais sobre os cursos da Faculdade Inspirar - Porto Alegre",
       "instagram": "https://www.instagram.com/inspirarportoalegre/",
       "instagramUser": "@inspirarportoalegre",
@@ -2444,8 +2444,8 @@
           "items": [
             {
               "title": "Matricule-se pelo WhatsApp",
-              "desc": "Fale com nossa equipe • 0800 602 2828",
-              "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Porto%20Alegre",
+              "desc": "Fale com nossa equipe • (51) 98948-0466",
+              "url": "https://api.whatsapp.com/send?phone=5551989480466&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Porto%20Alegre",
               "icon": "whatsapp",
               "accent": "green"
             }
@@ -2461,8 +2461,8 @@
       "region": "Norte",
       "badge": "Unidade Oficial",
       "bio": "Referência no ensino da área da Saúde e Pós-graduação. Cursos, especializações e extensão em Porto Velho (RO).",
-      "address": "Rua Abunã, 1385 — Olaria",
-      "fullAddress": "Rua Abunã, 1385 — Olaria, Porto Velho — RO",
+      "address": "",
+      "fullAddress": "",
       "director": "Coordenação Regional Inspirar — Porto Velho",
       "mapsUrl": "https://maps.google.com/?q=Faculdade+Inspirar+Porto%20Velho",
       "coverImage": "assets/images/units/porto-velho/cidade-porto-velho.jpg",
@@ -2517,7 +2517,7 @@
           "type": "campus_banner",
           "id": "campus",
           "bannerTitle": "Conheça a Unidade",
-          "bannerSub": "Rua Abunã, 1385 — Olaria, Porto Velho — RO",
+          "bannerSub": "Porto Velho - RO",
           "thumb": "assets/images/units/porto-velho/cidade-porto-velho.jpg"
         },
         {
@@ -2544,8 +2544,8 @@
       "region": "Sudeste",
       "badge": "Unidade Oficial",
       "bio": "Referência no ensino da área da Saúde e Pós-graduação. Cursos, especializações e extensão em Ribeirão Preto (SP).",
-      "address": "Rua Floriano Peixoto, 1602 — Jardim Sumaré",
-      "fullAddress": "Rua Floriano Peixoto, 1602 — Jardim Sumaré, Ribeirão Preto — SP",
+      "address": "",
+      "fullAddress": "",
       "director": "Coordenação Regional Inspirar — Ribeirão Preto",
       "mapsUrl": "https://maps.google.com/?q=Faculdade+Inspirar+Ribeir%C3%A3o%20Preto",
       "coverImage": "assets/images/units/ribeirao-preto/cidade-ribeirao-preto.jpg",
@@ -2630,7 +2630,7 @@
           "type": "campus_banner",
           "id": "campus",
           "bannerTitle": "Conheça a Unidade",
-          "bannerSub": "Rua Floriano Peixoto, 1602 — Jardim Sumaré, Ribeirão Preto — SP",
+          "bannerSub": "Ribeirão Preto - SP",
           "thumb": "assets/images/units/ribeirao-preto/cidade-ribeirao-preto.jpg"
         },
         {
@@ -2663,8 +2663,8 @@
       "mapsUrl": "https://maps.google.com/?q=Faculdade+Inspirar+Rio%20de%20Janeiro",
       "coverImage": "assets/images/units/rio-de-janeiro/fachada.webp",
       "logoImage": "assets/images/Logo branca - horizontal.png",
-      "whatsapp": "558006022828",
-      "whatsappDisplay": "0800 602 2828",
+      "whatsapp": "5521990481463",
+      "whatsappDisplay": "(21) 99048-1463",
       "whatsappDefaultMessage": "Olá! Tenho interesse em saber mais sobre os cursos da Faculdade Inspirar - Rio de Janeiro",
       "instagram": "https://www.instagram.com/inspirar.riodejaneiro/",
       "instagramUser": "@inspirar.riodejaneiro",
@@ -2788,8 +2788,8 @@
           "items": [
             {
               "title": "Matricule-se pelo WhatsApp",
-              "desc": "Fale com nossa equipe • 0800 602 2828",
-              "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Rio%20de%20Janeiro",
+              "desc": "Fale com nossa equipe • (21) 99048-1463",
+              "url": "https://api.whatsapp.com/send?phone=5521990481463&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Rio%20de%20Janeiro",
               "icon": "whatsapp",
               "accent": "green"
             }
@@ -2805,8 +2805,8 @@
       "region": "Nordeste",
       "badge": "Unidade Oficial",
       "bio": "Referência no ensino da área da Saúde e Pós-graduação. Cursos, especializações e extensão em Salvador (BA).",
-      "address": "Av. Tancredo Neves, 2227 — Caminho das Árvores",
-      "fullAddress": "Av. Tancredo Neves, 2227 — Caminho das Árvores, Salvador — BA",
+      "address": "",
+      "fullAddress": "",
       "director": "Coordenação Regional Inspirar — Salvador",
       "mapsUrl": "https://maps.google.com/?q=Faculdade+Inspirar+Salvador",
       "coverImage": "assets/images/units/salvador/cidade-salvador.jpg",
@@ -2844,7 +2844,7 @@
           "type": "campus_banner",
           "id": "campus",
           "bannerTitle": "Conheça a Unidade",
-          "bannerSub": "Av. Tancredo Neves, 2227 — Caminho das Árvores, Salvador — BA",
+          "bannerSub": "Salvador - BA",
           "thumb": "assets/images/units/salvador/cidade-salvador.jpg"
         },
         {
@@ -2871,8 +2871,8 @@
       "region": "Sudeste",
       "badge": "Unidade Oficial",
       "bio": "Referência no ensino da área da Saúde e Pós-graduação. Cursos, especializações e extensão em Santo André (SP).",
-      "address": "Av. Industrial, 600, Sala 279 — Jardim (Shopping Grand Plaza)",
-      "fullAddress": "Av. Industrial, 600, Sala 279 — Jardim, Santo André — SP",
+      "address": "",
+      "fullAddress": "",
       "director": "Coordenação Regional Inspirar — Santo André",
       "mapsUrl": "https://maps.google.com/?q=Faculdade+Inspirar+Santo%20Andr%C3%A9",
       "coverImage": "assets/images/units/santo-andre/cidade-santo-andre.webp",
@@ -2910,7 +2910,7 @@
           "type": "campus_banner",
           "id": "campus",
           "bannerTitle": "Conheça a Unidade",
-          "bannerSub": "Av. Industrial, 600, Sala 279 — Jardim, Santo André — SP",
+          "bannerSub": "Santo André - SP",
           "thumb": "assets/images/units/santo-andre/cidade-santo-andre.webp"
         },
         {
@@ -2946,8 +2946,8 @@
       "region": "Sudeste",
       "badge": "Unidade Oficial",
       "bio": "Referência no ensino da área da Saúde e Pós-graduação. Cursos, especializações e extensão em Santos (SP).",
-      "address": "Av. Ana Costa, 25 — Gonzaga",
-      "fullAddress": "Av. Ana Costa, 25 — Gonzaga, Santos — SP",
+      "address": "",
+      "fullAddress": "",
       "director": "Coordenação Regional Inspirar — Santos",
       "mapsUrl": "https://maps.google.com/?q=Faculdade+Inspirar+Santos",
       "coverImage": "assets/images/units/santos/cidade-santos.webp",
@@ -2985,7 +2985,7 @@
           "type": "campus_banner",
           "id": "campus",
           "bannerTitle": "Conheça a Unidade",
-          "bannerSub": "Av. Ana Costa, 25 — Gonzaga, Santos — SP",
+          "bannerSub": "Santos - SP",
           "thumb": "assets/images/units/santos/cidade-santos.webp"
         },
         {
@@ -3012,8 +3012,8 @@
       "region": "Sudeste",
       "badge": "Unidade Oficial",
       "bio": "Referência no ensino da área da Saúde e Pós-graduação. Cursos, especializações e extensão em São José do Rio Preto (SP).",
-      "address": "Rua Bernardino de Campos, 3180 — Centro",
-      "fullAddress": "Rua Bernardino de Campos, 3180 — Centro, São José do Rio Preto — SP",
+      "address": "",
+      "fullAddress": "",
       "director": "Coordenação Regional Inspirar — São José do Rio Preto",
       "mapsUrl": "https://maps.google.com/?q=Faculdade+Inspirar+S%C3%A3o%20Jos%C3%A9%20do%20Rio%20Preto",
       "coverImage": "assets/images/units/sao-jose-do-rio-preto/cidade-sao-jose-do-rio-preto.jpg",
@@ -3051,7 +3051,7 @@
           "type": "campus_banner",
           "id": "campus",
           "bannerTitle": "Conheça a Unidade",
-          "bannerSub": "Rua Bernardino de Campos, 3180 — Centro, São José do Rio Preto — SP",
+          "bannerSub": "São José do Rio Preto - SP",
           "thumb": "assets/images/units/sao-jose-do-rio-preto/cidade-sao-jose-do-rio-preto.jpg"
         },
         {
@@ -3728,8 +3728,8 @@
       "region": "Nordeste",
       "badge": "Unidade Oficial",
       "bio": "Referência no ensino da área da Saúde e Pós-graduação. Cursos, especializações e extensão em Teresina (PI).",
-      "address": "Av. Universitária, 750, Lojas 74 — Fátima (Ed. Diamond Center)",
-      "fullAddress": "Av. Universitária, 750, Lojas 74 — Fátima, Teresina — PI",
+      "address": "",
+      "fullAddress": "",
       "director": "Coordenação Regional Inspirar — Teresina",
       "mapsUrl": "https://maps.google.com/?q=Faculdade+Inspirar+Teresina",
       "coverImage": "assets/images/units/teresina/cidade-teresina.jpg",
@@ -3767,7 +3767,7 @@
           "type": "campus_banner",
           "id": "campus",
           "bannerTitle": "Conheça a Unidade",
-          "bannerSub": "Av. Universitária, 750, Lojas 74 — Fátima, Teresina — PI",
+          "bannerSub": "Teresina - PI",
           "thumb": "assets/images/units/teresina/cidade-teresina.jpg"
         },
         {

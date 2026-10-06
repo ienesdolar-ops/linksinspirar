@@ -481,10 +481,11 @@ ${JSON.stringify(generateUnitJsonLd(unit), null, 2)}
           <span class="hero-badge-tag">${unit.badge || 'Unidade Oficial'}</span>
         </div>
         <p class="hero-bio">${unit.bio}</p>
+        ${unit.address ? `
         <div class="hero-location-bar">
           ${ICONS.mapPin}
           <span>${unit.address}</span>
-        </div>
+        </div>` : ''}
         <div class="hero-handle-bar">
           <a href="${unit.instagram}" target="_blank" rel="noopener" class="hero-ig-pill" title="Instagram oficial: ${unit.instagramUser}">
             ${ICONS.instagram}
@@ -528,7 +529,7 @@ ${JSON.stringify(generateUnitJsonLd(unit), null, 2)}
         <span>30 Anos de Inspirar</span>
       </div>
       <p class="footer-director">${unit.director || 'Faculdade Inspirar • Excelência e Referência na Saúde'}</p>
-      <p class="footer-address">${unit.fullAddress || unit.address} • ${unit.name} - ${unit.state}</p>
+      <p class="footer-address">${(unit.fullAddress || unit.address) ? `${unit.fullAddress || unit.address} • ` : ''}${unit.name} - ${unit.state}</p>
       <div class="footer-social-row">
         <a href="${unit.instagram}" target="_blank" rel="noopener" class="footer-social-link">Instagram</a>
         <span class="footer-separator">•</span>
@@ -747,10 +748,11 @@ function generateHubHtml(data) {
             </h2>
             <span class="hub-unit-region">${unit.stateName} • ${unit.region}</span>
           </div>
+          ${unit.address ? `
           <p class="hub-unit-address">
             ${ICONS.mapPin}
             ${unit.address}
-          </p>
+          </p>` : ''}
           <div class="hub-unit-actions">
             <a href="${unitPage}" class="hub-btn-primary">
               Acessar Bio

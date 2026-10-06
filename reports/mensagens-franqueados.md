@@ -417,6 +417,10 @@ Leandro
 
 ### 22. Unidade Porto Alegre (RS)
 
+> **Status:** Atualizado com feedback do franqueado ✅  
+> - **WhatsApp:** (51) 98948-0466 (`5551989480466`)  
+> - **Endereço:** Rua Alberto Torres, 195 — Cidade Baixa, Porto Alegre — RS
+
 ```
 Olá, queridos franqueados da Inspirar Porto Alegre!
 
@@ -473,6 +477,10 @@ Leandro
 ```
 
 ### 25. Unidade Rio de Janeiro (RJ)
+
+> **Status:** Atualizado com feedback do franqueado ✅  
+> - **WhatsApp:** (21) 99048-1463 (`5521990481463`)  
+> - **Endereço:** Av. Ator José Wilker, 600, Lojas 116 e 117 — Barra da Tijuca, Rio de Janeiro — RJ
 
 ```
 Olá, queridos franqueados da Inspirar Rio de Janeiro!

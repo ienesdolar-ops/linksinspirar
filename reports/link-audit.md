@@ -1,6 +1,6 @@
 # Relatório de Verificação de Links — Bio no Link
 
-- **Data**: 06/10/2026, 16:43:53
+- **Data**: 06/10/2026, 16:54:17
 - **Modo**: Validação Estrutural (Dry Run)
 - **Total de Links Verificados**: 283
 
@@ -175,7 +175,7 @@
 | Porto Alegre | mapsUrl | [https://maps.google.com/?q=Faculdade+Inspirar...](https://maps.google.com/?q=Faculdade+Inspirar+Porto%20Alegre) | ✅ OK |
 | Porto Alegre | Site Oficial — Porto Alegre | [https://www.inspirar.com.br/rs-porto-alegre/...](https://www.inspirar.com.br/rs-porto-alegre/) | ✅ OK |
 | Porto Alegre | Fisioterapia em Terapia Intensiva | [https://faculdadeinspirar.com.br/semi-intensi...](https://faculdadeinspirar.com.br/semi-intensiva/) | ✅ OK |
-| Porto Alegre | Matricule-se pelo WhatsApp | [https://api.whatsapp.com/send?phone=558006022...](https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Porto%20Alegre) | ✅ OK |
+| Porto Alegre | Matricule-se pelo WhatsApp | [https://api.whatsapp.com/send?phone=555198948...](https://api.whatsapp.com/send?phone=5551989480466&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Porto%20Alegre) | ✅ OK |
 | Porto Velho | website | [https://www.inspirar.com.br/ro-porto-velho/...](https://www.inspirar.com.br/ro-porto-velho/) | ✅ OK |
 | Porto Velho | instagram | [https://www.instagram.com/inspirarportovelho/...](https://www.instagram.com/inspirarportovelho/) | ✅ OK |
 | Porto Velho | mapsUrl | [https://maps.google.com/?q=Faculdade+Inspirar...](https://maps.google.com/?q=Faculdade+Inspirar+Porto%20Velho) | ✅ OK |
@@ -200,7 +200,7 @@
 | Rio de Janeiro | AmoFisio — Critérios de progressão e alta após a reconstrução de LCA | [https://www.sympla.com.br/evento/amofisio-cri...](https://www.sympla.com.br/evento/amofisio-criterios-de-progressao-e-alta-apos-a-reconstrucao-de-lca/3568083) | ✅ OK |
 | Rio de Janeiro | AmoFisio — Pele Pós-Emagrecimento - GLP-1, Flacidez e Remodelamento Tecidual | [https://www.sympla.com.br/evento/amofisio-pel...](https://www.sympla.com.br/evento/amofisio-pele-pos-emagrecimento-glp-1-flacidez-e-remodelamento-tecidual/3589969) | ✅ OK |
 | Rio de Janeiro | AmoFisio — Abordagens Terapêuticas na Doença de Parkinson | [https://www.sympla.com.br/evento/amofisio-abo...](https://www.sympla.com.br/evento/amofisio-abordagens-terapeuticas-na-doenca-de-parkinson/3602654) | ✅ OK |
-| Rio de Janeiro | Matricule-se pelo WhatsApp | [https://api.whatsapp.com/send?phone=558006022...](https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Rio%20de%20Janeiro) | ✅ OK |
+| Rio de Janeiro | Matricule-se pelo WhatsApp | [https://api.whatsapp.com/send?phone=552199048...](https://api.whatsapp.com/send?phone=5521990481463&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Rio%20de%20Janeiro) | ✅ OK |
 | Salvador | website | [https://www.inspirar.com.br/ba-salvador-slim/...](https://www.inspirar.com.br/ba-salvador-slim/) | ✅ OK |
 | Salvador | instagram | [https://www.instagram.com/inspirarsalvador/...](https://www.instagram.com/inspirarsalvador/) | ✅ OK |
 | Salvador | mapsUrl | [https://maps.google.com/?q=Faculdade+Inspirar...](https://maps.google.com/?q=Faculdade+Inspirar+Salvador) | ✅ OK |
