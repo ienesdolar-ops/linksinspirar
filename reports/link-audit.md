@@ -1,6 +1,6 @@
 # Relatório de Verificação de Links — Bio no Link
 
-- **Data**: 01/10/2026, 11:52:42
+- **Data**: 06/10/2026, 16:26:20
 - **Modo**: Validação Estrutural (Dry Run)
 - **Total de Links Verificados**: 281
 
@@ -25,7 +25,7 @@
 | Bauru | AmoFisio — Como a PBE pode auxiliar o fisioterapeuta esportivo? | [https://www.sympla.com.br/evento/amofisio-com...](https://www.sympla.com.br/evento/amofisio-como-a-pbe-pode-auxiliar-o-fisioterapeuta-esportivo/3552282) | ✅ OK |
 | Bauru | AmoFisio — Da Gestação ao Puerpério - Avaliação e Condutas Fisioterapêuticas | [https://www.sympla.com.br/evento/amofisio-da-...](https://www.sympla.com.br/evento/amofisio-da-gestacao-ao-puerperio-avaliacao-e-condutas-fisioterapeuticas/3564737) | ✅ OK |
 | Bauru | AmoFisio — A Fisioterapia como protagonista na prevenção da Síndrome da Fragilidade | [https://www.sympla.com.br/evento/amofisio-a-f...](https://www.sympla.com.br/evento/amofisio-a-fisioterapia-como-protagonista-na-prevencao-da-sindrome-da-fragilidade/3564725) | ✅ OK |
-| Bauru | Matricule-se pelo WhatsApp | [https://api.whatsapp.com/send?phone=558006022...](https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Bauru) | ✅ OK |
+| Bauru | Matricule-se pelo WhatsApp | [https://api.whatsapp.com/send?phone=551499116...](https://api.whatsapp.com/send?phone=5514991164631&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Bauru) | ✅ OK |
 | Belém | website | [https://www.inspirar.com.br/pa-belem/...](https://www.inspirar.com.br/pa-belem/) | ✅ OK |
 | Belém | instagram | [https://www.instagram.com/faculdadeinspirarbe...](https://www.instagram.com/faculdadeinspirarbelem/) | ✅ OK |
 | Belém | mapsUrl | [https://maps.google.com/?q=Faculdade+Inspirar...](https://maps.google.com/?q=Faculdade+Inspirar+Belem) | ✅ OK |

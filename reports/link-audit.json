@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-01T14:52:42.427Z",
+  "timestamp": "2026-10-06T19:26:20.340Z",
   "total": 281,
   "dryRun": true,
   "results": [
@@ -159,7 +159,7 @@
       "source": "Acesso Rápido",
       "unit": "Bauru",
       "field": "Matricule-se pelo WhatsApp",
-      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Bauru",
+      "url": "https://api.whatsapp.com/send?phone=5514991164631&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Bauru",
       "status": "FORMAT_OK",
       "ok": true
     },

@@ -110,14 +110,14 @@
       "region": "Sudeste",
       "badge": "Unidade Oficial",
       "bio": "Referência no ensino da área da Saúde e Pós-graduação. Cursos, especializações e extensão em Bauru (SP).",
-      "address": "Rua Rio Branco, 20-40 — Altos da Cidade",
-      "fullAddress": "Rua Rio Branco, 20-40 — Altos da Cidade, Bauru — SP",
+      "address": "Rua Luiz Bleriot, 9-25 — Vila Aviação",
+      "fullAddress": "Rua Luiz Bleriot, 9-25 — Vila Aviação, Bauru — SP",
       "director": "Coordenação Regional Inspirar — Bauru",
       "mapsUrl": "https://maps.google.com/?q=Faculdade+Inspirar+Bauru",
       "coverImage": "assets/images/units/bauru/bauru-fachada-2.jpeg",
       "logoImage": "assets/images/Logo branca - horizontal.png",
-      "whatsapp": "558006022828",
-      "whatsappDisplay": "0800 602 2828",
+      "whatsapp": "5514991164631",
+      "whatsappDisplay": "(14) 99116-4631",
       "whatsappDefaultMessage": "Olá! Tenho interesse em saber mais sobre os cursos da Faculdade Inspirar - Bauru",
       "instagram": "https://www.instagram.com/inspirarbauru/",
       "instagramUser": "@inspirarbauru",
@@ -221,7 +221,7 @@
           "type": "campus_banner",
           "id": "campus",
           "bannerTitle": "Conheça a Unidade",
-          "bannerSub": "Rua Rio Branco, 20-40 — Altos da Cidade, Bauru — SP",
+          "bannerSub": "Rua Luiz Bleriot, 9-25 — Vila Aviação, Bauru — SP",
           "thumb": "assets/images/units/bauru/bauru-fachada-2.jpeg"
         },
         {
@@ -231,8 +231,8 @@
           "items": [
             {
               "title": "Matricule-se pelo WhatsApp",
-              "desc": "Fale com nossa equipe • 0800 602 2828",
-              "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Bauru",
+              "desc": "Fale com nossa equipe • (14) 99116-4631",
+              "url": "https://api.whatsapp.com/send?phone=5514991164631&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Bauru",
               "icon": "whatsapp",
               "accent": "green"
             }
