@@ -621,6 +621,16 @@
           "icon": "calendar",
           "items": [
             {
+              "title": "Recursos Criativos Aplicados à Clínica — Saúde Mental",
+              "desc": "Palestra online e gratuita com a Profa. Jamila Gontijo • Microsoft Teams",
+              "url": "https://www.sympla.com.br/evento-online/recursos-criativos-aplicados-a-clinica---saude-mental/3610579",
+              "icon": "heart",
+              "accent": "purple",
+              "startDate": "2026-09-01",
+              "endDate": "2026-10-22T20:00:00-03:00",
+              "banner": "https://images.sympla.com.br/6ac67a9a75f81-lg.png"
+            },
+            {
               "title": "I Simpósio de Acupuntura — Inspirar Brasília",
               "desc": "Garanta sua vaga no I Simpósio de Acupuntura da Faculdade Inspirar Brasília",
               "url": "https://www.sympla.com.br/evento/i-simposio-de-acupuntura-da-faculdade-inspirar-brasilia/3565985?share_id=copiarlink",

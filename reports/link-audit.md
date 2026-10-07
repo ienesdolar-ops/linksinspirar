@@ -1,8 +1,8 @@
 # Relatório de Verificação de Links — Bio no Link
 
-- **Data**: 07/10/2026, 12:47:08
+- **Data**: 07/10/2026, 14:05:55
 - **Modo**: Validação Estrutural (Dry Run)
-- **Total de Links Verificados**: 283
+- **Total de Links Verificados**: 284
 
 | Unidade | Campo / Título | URL | Status |
 | :--- | :--- | :--- | :--- |
@@ -52,6 +52,7 @@
 | Brasília | instagram | [https://www.instagram.com/inspirar_brasilia/...](https://www.instagram.com/inspirar_brasilia/) | ✅ OK |
 | Brasília | mapsUrl | [https://maps.google.com/?q=Faculdade+Inspirar...](https://maps.google.com/?q=Faculdade+Inspirar+Bras%C3%ADlia) | ✅ OK |
 | Brasília | Site Oficial — Brasília | [https://www.inspirar.com.br/df-distrito-feder...](https://www.inspirar.com.br/df-distrito-federal-brasilia/) | ✅ OK |
+| Brasília | Recursos Criativos Aplicados à Clínica — Saúde Mental | [https://www.sympla.com.br/evento-online/recur...](https://www.sympla.com.br/evento-online/recursos-criativos-aplicados-a-clinica---saude-mental/3610579) | ✅ OK |
 | Brasília | I Simpósio de Acupuntura — Inspirar Brasília | [https://www.sympla.com.br/evento/i-simposio-d...](https://www.sympla.com.br/evento/i-simposio-de-acupuntura-da-faculdade-inspirar-brasilia/3565985?share_id=copiarlink) | ✅ OK |
 | Brasília | Matricule-se pelo WhatsApp | [https://api.whatsapp.com/send?phone=558006022...](https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Bras%C3%ADlia) | ✅ OK |
 | Campinas | website | [https://www.inspirar.com.br/sp-campinas/...](https://www.inspirar.com.br/sp-campinas/) | ✅ OK |
