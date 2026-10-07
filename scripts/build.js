@@ -889,6 +889,10 @@ ${JSON.stringify(generateHubJsonLd(data), null, 2)}
       margin-bottom: 14px;
       object-fit: contain;
     }
+    html[data-theme="light"] .hub-logo,
+    html[data-theme="light"] .footer-logo {
+      filter: brightness(0);
+    }
     .hub-subtitle {
       font-size: 0.95rem;
       color: var(--text-secondary);

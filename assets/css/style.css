@@ -1416,10 +1416,10 @@ html[data-theme="light"] {
   --shadow-glow-accent: 0 0 20px rgba(13, 148, 136, 0.15);
 }
 
-/* Logos in Light Mode (SVG matrix filter white to #0076CE) */
+/* Logos in Light Mode (Pure Black) */
 html[data-theme="light"] .hub-logo,
 html[data-theme="light"] .footer-logo {
-  filter: brightness(0) saturate(100%) invert(32%) sepia(97%) saturate(1450%) hue-rotate(187deg) brightness(91%) contrast(102%);
+  filter: brightness(0);
 }
 
 /* Hub Light Overrides */

@@ -1361,9 +1361,18 @@ html[data-theme="light"] .hero-campus-pill:hover {
 }
 
 html[data-theme="light"] .hero-logo-box {
-  background: #0B1320;
-  border: 2px solid rgba(0, 118, 206, 0.3);
-  box-shadow: 0 4px 16px rgba(0, 118, 206, 0.15);
+  background: #FFFFFF;
+  border: 2px solid rgba(15, 23, 42, 0.08);
+  box-shadow: var(--shadow-md);
+}
+
+html[data-theme="light"] .hero-logo-img {
+  filter: brightness(0);
+}
+
+html[data-theme="light"] .hub-logo,
+html[data-theme="light"] .footer-logo {
+  filter: brightness(0);
 }
 
 html[data-theme="light"] .hero-badge-tag {
