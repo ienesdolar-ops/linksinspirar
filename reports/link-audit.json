@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-10-07T17:05:55.008Z",
-  "total": 284,
+  "timestamp": "2026-10-07T17:21:44.102Z",
+  "total": 285,
   "dryRun": true,
   "results": [
     {
@@ -1024,6 +1024,14 @@
       "unit": "Guarulhos",
       "field": "AmoFisio — Atuação na Urgência, Emergência e Terapia Intensiva",
       "url": "https://www.sympla.com.br/evento/amofisio-atuacao-na-urgencia-emergencia-e-terapia-intensiva/3552251",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Eventos",
+      "unit": "Guarulhos",
+      "field": "AmoFisio — Terapia de Alto Fluxo – Novas Tecnologias e Inovação no Suporte Respiratório",
+      "url": "https://www.sympla.com.br/evento/amofisio-terapia-de-alto-fluxo---novas-tecnologias-e-inovacao-no-suporte-respiratorio/3610611",
       "status": "FORMAT_OK",
       "ok": true
     },

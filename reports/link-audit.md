@@ -1,8 +1,8 @@
 # Relatório de Verificação de Links — Bio no Link
 
-- **Data**: 07/10/2026, 14:05:55
+- **Data**: 07/10/2026, 14:21:44
 - **Modo**: Validação Estrutural (Dry Run)
-- **Total de Links Verificados**: 284
+- **Total de Links Verificados**: 285
 
 | Unidade | Campo / Título | URL | Status |
 | :--- | :--- | :--- | :--- |
@@ -134,6 +134,7 @@
 | Guarulhos | AmoFisio — Fisioterapia Traumato-Ortopédica, Esportiva e Quiropraxia | [https://www.sympla.com.br/evento/amofisio-fis...](https://www.sympla.com.br/evento/amofisio-fisioterapia-traumato-ortopedica-esportiva-e-quiropraxia/3552221) | ✅ OK |
 | Guarulhos | AmoFisio — Técnicas e Manobras de Fisioterapia Respiratória – Adulto e Pediátrico | [https://www.sympla.com.br/evento/amofisio-tec...](https://www.sympla.com.br/evento/amofisio-tecnicas-e-manobras-de-fisioterapia-respiratoria-adulto-e-pediatrico/3552255) | ✅ OK |
 | Guarulhos | AmoFisio — Atuação na Urgência, Emergência e Terapia Intensiva | [https://www.sympla.com.br/evento/amofisio-atu...](https://www.sympla.com.br/evento/amofisio-atuacao-na-urgencia-emergencia-e-terapia-intensiva/3552251) | ✅ OK |
+| Guarulhos | AmoFisio — Terapia de Alto Fluxo – Novas Tecnologias e Inovação no Suporte Respiratório | [https://www.sympla.com.br/evento/amofisio-ter...](https://www.sympla.com.br/evento/amofisio-terapia-de-alto-fluxo---novas-tecnologias-e-inovacao-no-suporte-respiratorio/3610611) | ✅ OK |
 | Guarulhos | Atendimento via WhatsApp | [https://api.whatsapp.com/send?phone=551196977...](https://api.whatsapp.com/send?phone=5511969771841&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Guarulhos) | ✅ OK |
 | Guarulhos | Atendimento WhatsApp — Alê | [https://api.whatsapp.com/send?phone=551199508...](https://api.whatsapp.com/send?phone=5511995083057&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Guarulhos) | ✅ OK |
 | Ipatinga | website | [https://www.inspirar.com.br/mg-ipatinga/...](https://www.inspirar.com.br/mg-ipatinga/) | ✅ OK |
