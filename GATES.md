@@ -1,23 +1,23 @@
-# Gates: Modo Claro como Padrão na Unidade Campinas
+# Gates: Atualização do Número de WhatsApp de Maceió
 
-OWNS: data/units.json, scripts/build.js, campinas/index.html, curitiba/index.html, rio-de-janeiro/index.html
+OWNS: data/units.json, maceio/index.html, index.html, reports/mensagens-franqueados.md
 
-Scope: Configurar a unidade de Campinas para carregar nativamente em Modo Claro por padrão (com data-theme="light" no HTML estático e anti-FOUC), preservando o modo escuro como padrão para as demais unidades e permitindo alternância.
+Scope: Atualizar o número oficial de WhatsApp da unidade Maceió (AL) para (11) 94300-9787 (5511943009787) em data/units.json, maceio/index.html, index.html e reports/mensagens-franqueados.md.
 
-- [x] G1: Campinas configurada com defaultTheme light em data/units.json e campinas/index.html
-  CHECK: node -e "const fs = require('fs'); const d = JSON.parse(fs.readFileSync('data/units.json', 'utf8')); const camp = d.units.find(u => u.slug === 'campinas'); const html = fs.readFileSync('campinas/index.html', 'utf8'); if (camp.defaultTheme === 'light' && /<html[^>]*data-theme=[\"']light[\"']/.test(html)) console.log('CAMPINAS_LIGHT_DEFAULT_OK');"
-  EXPECT: CAMPINAS_LIGHT_DEFAULT_OK
-  EVIDENCE: exit=0; shell=C:\WINDOWS\system32\cmd.exe; cwd=C:\Users\Usuario\Downloads\linksinspirar; path=a7bfde35d05e/19 entries; EXPECT=matched; output-sha256=f01fe218a9f4dcd8591c43015f2eea69c4cd0eb32f867256ec8e24d908017c5e; output-bytes=26
+- [x] G1: Contato de Maceió atualizado em data/units.json
+  CHECK: node -e "const fs = require('fs'); const d = JSON.parse(fs.readFileSync('data/units.json', 'utf8')); const u = d.units.find(x => x.slug === 'maceio'); const sec = u.sections.find(s => s.id === 'acesso_rapido'); const hasWa = sec && sec.items.some(i => i.url.includes('5511943009787')); if (u.whatsapp === '5511943009787' && u.whatsappDisplay === '(11) 94300-9787' && hasWa) console.log('MACEIO_DATA_OK');"
+  EXPECT: MACEIO_DATA_OK
+  EVIDENCE: exit=0; shell=C:\WINDOWS\system32\cmd.exe; cwd=C:\Users\Usuario\Downloads\linksinspirar; path=a7bfde35d05e/19 entries; EXPECT=matched; output-sha256=15c1bc0b959432607f084a21f4738931d4d7234dbb0ff363a17d39a90e759398; output-bytes=15
 
-- [x] G2: Demais unidades permanecem com modo escuro por padrão
-  CHECK: node -e "const fs = require('fs'); const cwb = fs.readFileSync('curitiba/index.html', 'utf8'); const rj = fs.readFileSync('rio-de-janeiro/index.html', 'utf8'); if (!/<html[^>]*data-theme=[\"']light[\"']/.test(cwb) && !/<html[^>]*data-theme=[\"']light[\"']/.test(rj)) console.log('OTHER_UNITS_DARK_DEFAULT_OK');"
-  EXPECT: OTHER_UNITS_DARK_DEFAULT_OK
-  EVIDENCE: exit=0; shell=C:\WINDOWS\system32\cmd.exe; cwd=C:\Users\Usuario\Downloads\linksinspirar; path=a7bfde35d05e/19 entries; EXPECT=matched; output-sha256=332577e22678e4aed18b79a93c49f4a79d35f2e10f6a7faa0a98531a8533ae4e; output-bytes=28
+- [x] G2: Página gerada de Maceió e Hub com o novo WhatsApp
+  CHECK: node -e "const fs = require('fs'); const maceioHtml = fs.readFileSync('maceio/index.html', 'utf8'); const hubHtml = fs.readFileSync('index.html', 'utf8'); if (maceioHtml.includes('5511943009787') && hubHtml.includes('5511943009787')) console.log('MACEIO_BUILD_OK');"
+  EXPECT: MACEIO_BUILD_OK
+  EVIDENCE: exit=0; shell=C:\WINDOWS\system32\cmd.exe; cwd=C:\Users\Usuario\Downloads\linksinspirar; path=a7bfde35d05e/19 entries; EXPECT=matched; output-sha256=8a48a08c64ba22c32683594557f3657f49ac447b5ac2c65fde641c78a6be7380; output-bytes=16
 
-- [x] G3: Alternador e persistência preservados na página de Campinas
-  CHECK: node -e "const fs = require('fs'); const html = fs.readFileSync('campinas/index.html', 'utf8'); if (html.includes('theme-toggle-btn') && html.includes('toggleTheme') && html.includes('inspirar-theme-campinas')) console.log('CAMPINAS_TOGGLE_OK');"
-  EXPECT: CAMPINAS_TOGGLE_OK
-  EVIDENCE: exit=0; shell=C:\WINDOWS\system32\cmd.exe; cwd=C:\Users\Usuario\Downloads\linksinspirar; path=a7bfde35d05e/19 entries; EXPECT=matched; output-sha256=0cfea372d3c08b9be302933fb9975c65cb45c98f68319f83e7009f662bb98e9d; output-bytes=19
+- [x] G3: Relatório de mensagens para franqueados atualizado com feedback de Maceió
+  CHECK: node -e "const fs = require('fs'); const md = fs.readFileSync('reports/mensagens-franqueados.md', 'utf8'); if (md.includes('5511943009787') && md.includes('Maceió')) console.log('MACEIO_REPORT_OK');"
+  EXPECT: MACEIO_REPORT_OK
+  EVIDENCE: exit=0; shell=C:\WINDOWS\system32\cmd.exe; cwd=C:\Users\Usuario\Downloads\linksinspirar; path=a7bfde35d05e/19 entries; EXPECT=matched; output-sha256=ee3ed94b239b7c383132abf3c4448675bc92a4fe5a175fff993280989528525c; output-bytes=17
 
 - [x] G4: Suíte completa verify-all passando com todos os 11 gates
   CHECK: node scripts/verify-all.js

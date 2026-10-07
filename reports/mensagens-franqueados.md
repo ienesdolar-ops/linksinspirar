@@ -392,6 +392,9 @@ Leandro
 
 ### 20. Unidade Maceió (AL)
 
+> **Status:** Atualizado com feedback do franqueado ✅  
+> - **WhatsApp:** (11) 94300-9787 (`5511943009787`)  
+
 ```
 Olá, queridos franqueados da Inspirar Maceió!
 

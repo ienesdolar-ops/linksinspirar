@@ -1,6 +1,6 @@
 # Relatório de Verificação de Links — Bio no Link
 
-- **Data**: 07/10/2026, 09:49:58
+- **Data**: 07/10/2026, 11:49:20
 - **Modo**: Validação Estrutural (Dry Run)
 - **Total de Links Verificados**: 283
 
@@ -164,7 +164,7 @@
 | Maceió | mapsUrl | [https://maps.google.com/?q=Faculdade+Inspirar...](https://maps.google.com/?q=Faculdade+Inspirar+Macei%C3%B3) | ✅ OK |
 | Maceió | Site Oficial — Maceió | [https://www.inspirar.com.br/al-maceio-slim/...](https://www.inspirar.com.br/al-maceio-slim/) | ✅ OK |
 | Maceió | AmoFisio — Liderança não espera cargo | [https://www.sympla.com.br/evento/amofisio-lid...](https://www.sympla.com.br/evento/amofisio-lideranca-nao-espera-cargo/3589911) | ✅ OK |
-| Maceió | Matricule-se pelo WhatsApp | [https://api.whatsapp.com/send?phone=558006022...](https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Macei%C3%B3) | ✅ OK |
+| Maceió | Matricule-se pelo WhatsApp | [https://api.whatsapp.com/send?phone=551194300...](https://api.whatsapp.com/send?phone=5511943009787&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Macei%C3%B3) | ✅ OK |
 | Parauapebas | website | [https://www.inspirar.com.br/pa-parauapebas-sl...](https://www.inspirar.com.br/pa-parauapebas-slim/) | ✅ OK |
 | Parauapebas | instagram | [https://www.instagram.com/inspirarparauapebas...](https://www.instagram.com/inspirarparauapebas/) | ✅ OK |
 | Parauapebas | mapsUrl | [https://maps.google.com/?q=Faculdade+Inspirar...](https://maps.google.com/?q=Faculdade+Inspirar+Parauapebas) | ✅ OK |
