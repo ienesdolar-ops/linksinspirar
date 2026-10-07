@@ -254,8 +254,8 @@
       "mapsUrl": "https://maps.google.com/?q=Faculdade+Inspirar+Belem",
       "coverImage": "assets/images/units/belem/fachada.jpeg",
       "logoImage": "assets/images/Logo branca - horizontal.png",
-      "whatsapp": "5591981112828",
-      "whatsappDisplay": "(91) 98111-2828",
+      "whatsapp": "5591991007794",
+      "whatsappDisplay": "(91) 99100-7794",
       "whatsappDefaultMessage": "Olá! Tenho interesse em saber mais sobre os cursos da Faculdade Inspirar - Belém",
       "instagram": "https://www.instagram.com/faculdadeinspirarbelem/",
       "instagramUser": "@faculdadeinspirarbelem",
@@ -345,8 +345,8 @@
           "items": [
             {
               "title": "Matricule-se pelo WhatsApp",
-              "desc": "Fale com nossa equipe • (91) 98111-2828",
-              "url": "https://api.whatsapp.com/send?phone=5591981112828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Bel%C3%A9m",
+              "desc": "Fale com nossa equipe • (91) 99100-7794",
+              "url": "https://api.whatsapp.com/send?phone=5591991007794&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Bel%C3%A9m",
               "icon": "whatsapp",
               "accent": "green"
             },
@@ -669,8 +669,8 @@
       "mapsUrl": "https://maps.google.com/?q=Faculdade+Inspirar+Campinas",
       "coverImage": "assets/images/units/campinas/fachada-campinas.jpeg",
       "logoImage": "assets/images/Logo branca - horizontal.png",
-      "whatsapp": "558006022828",
-      "whatsappDisplay": "0800 602 2828",
+      "whatsapp": "5519997041183",
+      "whatsappDisplay": "(19) 99704-1183",
       "whatsappDefaultMessage": "Olá! Tenho interesse em saber mais sobre os cursos da Faculdade Inspirar - Campinas",
       "instagram": "https://www.instagram.com/inspirarcampinas/",
       "instagramUser": "@inspirarcampinas",
@@ -792,8 +792,8 @@
           "items": [
             {
               "title": "Matricule-se pelo WhatsApp",
-              "desc": "Fale com nossa equipe • 0800 602 2828",
-              "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Campinas",
+              "desc": "Fale com nossa equipe • (19) 99704-1183",
+              "url": "https://api.whatsapp.com/send?phone=5519997041183&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Campinas",
               "icon": "whatsapp",
               "accent": "green"
             }
@@ -815,8 +815,8 @@
       "mapsUrl": "https://maps.google.com/?q=Faculdade+Inspirar+Campo%20Grande",
       "coverImage": "assets/images/units/campo-grande/fachada.jpeg",
       "logoImage": "assets/images/Logo branca - horizontal.png",
-      "whatsapp": "558006022828",
-      "whatsappDisplay": "0800 602 2828",
+      "whatsapp": "5567984883987",
+      "whatsappDisplay": "(67) 98488-3987",
       "whatsappDefaultMessage": "Olá! Tenho interesse em saber mais sobre os cursos da Faculdade Inspirar - Campo Grande",
       "instagram": "https://www.instagram.com/inspirar.campogrande/",
       "instagramUser": "@inspirar.campogrande",
@@ -898,8 +898,8 @@
           "items": [
             {
               "title": "Matricule-se pelo WhatsApp",
-              "desc": "Fale com nossa equipe • 0800 602 2828",
-              "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Campo%20Grande",
+              "desc": "Fale com nossa equipe • (67) 98488-3987",
+              "url": "https://api.whatsapp.com/send?phone=5567984883987&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Campo%20Grande",
               "icon": "whatsapp",
               "accent": "green"
             }
@@ -3728,8 +3728,8 @@
       "region": "Nordeste",
       "badge": "Unidade Oficial",
       "bio": "Referência no ensino da área da Saúde e Pós-graduação. Cursos, especializações e extensão em Teresina (PI).",
-      "address": "",
-      "fullAddress": "",
+      "address": "Av. Universitária, 750, Lojas 74 — Fátima (Ed. Diamond Center)",
+      "fullAddress": "Av. Universitária, 750, Lojas 74 — Fátima, Teresina — PI",
       "director": "Coordenação Regional Inspirar — Teresina",
       "mapsUrl": "https://maps.google.com/?q=Faculdade+Inspirar+Teresina",
       "coverImage": "assets/images/units/teresina/cidade-teresina.jpg",
@@ -3767,7 +3767,7 @@
           "type": "campus_banner",
           "id": "campus",
           "bannerTitle": "Conheça a Unidade",
-          "bannerSub": "Teresina - PI",
+          "bannerSub": "Av. Universitária, 750, Lojas 74 — Fátima, Teresina — PI",
           "thumb": "assets/images/units/teresina/cidade-teresina.jpg"
         },
         {

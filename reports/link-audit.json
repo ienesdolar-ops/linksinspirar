@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-06T20:00:37.249Z",
+  "timestamp": "2026-10-07T12:23:38.119Z",
   "total": 283,
   "dryRun": true,
   "results": [
@@ -223,7 +223,7 @@
       "source": "Acesso Rápido",
       "unit": "Belém",
       "field": "Matricule-se pelo WhatsApp",
-      "url": "https://api.whatsapp.com/send?phone=5591981112828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Bel%C3%A9m",
+      "url": "https://api.whatsapp.com/send?phone=5591991007794&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Bel%C3%A9m",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -455,7 +455,7 @@
       "source": "Acesso Rápido",
       "unit": "Campinas",
       "field": "Matricule-se pelo WhatsApp",
-      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Campinas",
+      "url": "https://api.whatsapp.com/send?phone=5519997041183&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Campinas",
       "status": "FORMAT_OK",
       "ok": true
     },
@@ -503,7 +503,7 @@
       "source": "Acesso Rápido",
       "unit": "Campo Grande",
       "field": "Matricule-se pelo WhatsApp",
-      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Campo%20Grande",
+      "url": "https://api.whatsapp.com/send?phone=5567984883987&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Campo%20Grande",
       "status": "FORMAT_OK",
       "ok": true
     },

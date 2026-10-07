@@ -1322,3 +1322,198 @@ body {
   }
 }
 
+
+/* ==========================================================================
+   MODO CLARO (LIGHT THEME) & THEME TOGGLE BUTTON
+   WCAG AA Contrast Compliant | Instant LocalStorage Persistence
+   ========================================================================== */
+
+/* Theme Toggle Button & Top Bar */
+.hub-top-bar {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 8px;
+}
+
+.hub-theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  min-height: 40px;
+  border-radius: var(--radius-full);
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-secondary);
+  font-size: 0.82rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  font-family: inherit;
+  box-shadow: var(--shadow-sm);
+}
+
+.hub-theme-toggle:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--border-hover);
+  color: var(--text-primary);
+  transform: translateY(-1px);
+}
+
+.hub-theme-toggle svg {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+}
+
+.theme-toggle-btn {
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+.theme-icon-sun {
+  display: block;
+}
+
+.theme-icon-moon {
+  display: none;
+}
+
+html[data-theme="light"] .theme-icon-sun {
+  display: none;
+}
+
+html[data-theme="light"] .theme-icon-moon {
+  display: block;
+}
+
+/* Light Theme Tokens */
+html[data-theme="light"] {
+  --color-primary: #0076CE;
+  --color-primary-light: #0284C7;
+  --color-primary-dark: #005696;
+  --color-accent: #0D9488;
+
+  --bg-deep: #F1F5F9;
+  --bg-surface: #FFFFFF;
+  --bg-card: #FFFFFF;
+  --bg-card-hover: #F8FAFC;
+  --bg-card-active: #F1F5F9;
+
+  --border-subtle: rgba(15, 23, 42, 0.08);
+  --border-hover: rgba(0, 118, 206, 0.35);
+  --border-active: rgba(0, 118, 206, 0.5);
+
+  --text-primary: #0F172A;
+  --text-secondary: #334155;
+  --text-muted: #64748B;
+  --text-dim: #64748B;
+
+  --shadow-sm: 0 2px 8px rgba(15, 23, 42, 0.06);
+  --shadow-md: 0 6px 18px rgba(15, 23, 42, 0.08);
+  --shadow-glow: 0 0 20px rgba(0, 118, 206, 0.15);
+  --shadow-glow-accent: 0 0 20px rgba(13, 148, 136, 0.15);
+}
+
+/* Logos in Light Mode (SVG matrix filter white to #0076CE) */
+html[data-theme="light"] .hub-logo,
+html[data-theme="light"] .footer-logo {
+  filter: brightness(0) saturate(100%) invert(32%) sepia(97%) saturate(1450%) hue-rotate(187deg) brightness(91%) contrast(102%);
+}
+
+/* Hub Light Overrides */
+html[data-theme="light"] .hub-theme-toggle {
+  background: #FFFFFF;
+  border-color: rgba(15, 23, 42, 0.1);
+  color: #334155;
+}
+
+html[data-theme="light"] .hub-theme-toggle:hover {
+  background: #F8FAFC;
+  border-color: var(--color-primary);
+  color: #0F172A;
+}
+
+html[data-theme="light"] .hub-search-input {
+  background: #FFFFFF;
+  border-color: rgba(15, 23, 42, 0.12);
+  color: #0F172A;
+  box-shadow: 0 2px 10px rgba(15, 23, 42, 0.05);
+}
+
+html[data-theme="light"] .hub-search-input::placeholder {
+  color: #94A3B8;
+}
+
+html[data-theme="light"] .hub-chip {
+  background: #FFFFFF;
+  border-color: rgba(15, 23, 42, 0.1);
+  color: #334155;
+}
+
+html[data-theme="light"] .hub-chip:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+
+html[data-theme="light"] .hub-chip.active {
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+  color: #FFFFFF;
+  box-shadow: 0 2px 10px rgba(0, 118, 206, 0.3);
+}
+
+html[data-theme="light"] .hub-unit-card {
+  background: #FFFFFF;
+  border-color: rgba(15, 23, 42, 0.08);
+  box-shadow: 0 2px 10px rgba(15, 23, 42, 0.05);
+}
+
+html[data-theme="light"] .hub-unit-card:hover {
+  border-color: rgba(0, 118, 206, 0.35);
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+}
+
+html[data-theme="light"] .hub-unit-title,
+html[data-theme="light"] .hub-unit-title a {
+  color: #0F172A;
+}
+
+html[data-theme="light"] .hub-unit-actions {
+  border-top-color: rgba(15, 23, 42, 0.06);
+}
+
+html[data-theme="light"] .hub-btn-icon {
+  background: rgba(15, 23, 42, 0.04);
+  border-color: rgba(15, 23, 42, 0.08);
+  color: #475569;
+}
+
+html[data-theme="light"] .hub-btn-icon:hover {
+  background: rgba(15, 23, 42, 0.08);
+  color: #0F172A;
+}
+
+html[data-theme="light"] .hub-global-links .link-card {
+  background: #FFFFFF;
+  border-color: rgba(15, 23, 42, 0.08);
+  box-shadow: 0 2px 10px rgba(15, 23, 42, 0.05);
+}
+
+html[data-theme="light"] .hub-global-links .link-card:hover {
+  border-color: rgba(0, 118, 206, 0.35);
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+}
+
+html[data-theme="light"] .hub-global-links .link-title {
+  color: #0F172A;
+}
+
+html[data-theme="light"] .hub-global-links .link-desc {
+  color: #64748B;
+}
+
+html[data-theme="light"] .ambient-glow {
+  opacity: 0.15;
+}

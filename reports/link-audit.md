@@ -1,6 +1,6 @@
 # Relatório de Verificação de Links — Bio no Link
 
-- **Data**: 06/10/2026, 17:00:37
+- **Data**: 07/10/2026, 09:23:38
 - **Modo**: Validação Estrutural (Dry Run)
 - **Total de Links Verificados**: 283
 
@@ -33,7 +33,7 @@
 | Belém | AmoFisio — Lesão dos Isquiotibiais - Do consultório ao retorno ao esporte | [https://www.sympla.com.br/evento/amofisio-les...](https://www.sympla.com.br/evento/amofisio-lesao-dos-isquiotibiais-do-consultorio-ao-retorno-ao-esporte/3562953) | ✅ OK |
 | Belém | AmoFisio — Imersão prática em ventilação mecânica invasiva e não invasiva | [https://www.sympla.com.br/evento/amofisio-ime...](https://www.sympla.com.br/evento/amofisio-imersao-pratica-em-ventilacao-mecanica-invasiva-e-nao-invasiva/3562957) | ✅ OK |
 | Belém | AmoFisio — Disfunções Urinárias - do Diagnóstico Funcional ao Plano de Tratamento | [https://www.sympla.com.br/evento/amofisio-dis...](https://www.sympla.com.br/evento/amofisio-disfuncoes-urinarias-do-diagnostico-funcional-ao-plano-de-tratamento/3562962) | ✅ OK |
-| Belém | Matricule-se pelo WhatsApp | [https://api.whatsapp.com/send?phone=559198111...](https://api.whatsapp.com/send?phone=5591981112828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Bel%C3%A9m) | ✅ OK |
+| Belém | Matricule-se pelo WhatsApp | [https://api.whatsapp.com/send?phone=559199100...](https://api.whatsapp.com/send?phone=5591991007794&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Bel%C3%A9m) | ✅ OK |
 | Belém | Linktree Oficial — Belém | [https://tr.ee/Yb2RHb61F2...](https://tr.ee/Yb2RHb61F2) | ✅ OK |
 | Belo Horizonte | website | [https://www.inspirar.com.br/mg-belo-horizonte...](https://www.inspirar.com.br/mg-belo-horizonte/) | ✅ OK |
 | Belo Horizonte | instagram | [https://www.instagram.com/inspirarbelohorizon...](https://www.instagram.com/inspirarbelohorizonte/) | ✅ OK |
@@ -62,13 +62,13 @@
 | Campinas | AmoFisio — Fisioterapia Manipulativa na Prática - Da Evidência ao Raciocínio Clínico | [https://www.sympla.com.br/evento/amofisio-fis...](https://www.sympla.com.br/evento/amofisio-fisioterapia-manipulativa-na-pratica-da-evidencia-ao-raciocinio-clinico/3589937) | ✅ OK |
 | Campinas | AmoFisio — Atuação do profissional da estética no estímulo de colágeno | [https://www.sympla.com.br/evento/amofisio-atu...](https://www.sympla.com.br/evento/amofisio-atuacao-do-profissional-da-estetica-no-estimulo-de-colageno/3589946) | ✅ OK |
 | Campinas | AmoFisio — Atuação do fisioterapeuta na sarcopenia e síndrome da fragilidade | [https://www.sympla.com.br/evento/amofisio-atu...](https://www.sympla.com.br/evento/amofisio-atuacao-do-fisioterapeuta-na-sarcopenia-e-sindrome-da-fragilidade/3589956) | ✅ OK |
-| Campinas | Matricule-se pelo WhatsApp | [https://api.whatsapp.com/send?phone=558006022...](https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Campinas) | ✅ OK |
+| Campinas | Matricule-se pelo WhatsApp | [https://api.whatsapp.com/send?phone=551999704...](https://api.whatsapp.com/send?phone=5519997041183&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Campinas) | ✅ OK |
 | Campo Grande | website | [https://www.inspirar.com.br/ms-campo-grande/...](https://www.inspirar.com.br/ms-campo-grande/) | ✅ OK |
 | Campo Grande | instagram | [https://www.instagram.com/inspirar.campogrand...](https://www.instagram.com/inspirar.campogrande/) | ✅ OK |
 | Campo Grande | mapsUrl | [https://maps.google.com/?q=Faculdade+Inspirar...](https://maps.google.com/?q=Faculdade+Inspirar+Campo%20Grande) | ✅ OK |
 | Campo Grande | Site Oficial — Campo Grande | [https://www.inspirar.com.br/ms-campo-grande/...](https://www.inspirar.com.br/ms-campo-grande/) | ✅ OK |
 | Campo Grande | AmoFisio — Fisioterapia Além da Clínica - Home Care | [https://www.sympla.com.br/evento/amofisio-fis...](https://www.sympla.com.br/evento/amofisio-fisioterapia-alem-da-clinica-home-care/3555189) | ✅ OK |
-| Campo Grande | Matricule-se pelo WhatsApp | [https://api.whatsapp.com/send?phone=558006022...](https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Campo%20Grande) | ✅ OK |
+| Campo Grande | Matricule-se pelo WhatsApp | [https://api.whatsapp.com/send?phone=556798488...](https://api.whatsapp.com/send?phone=5567984883987&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Campo%20Grande) | ✅ OK |
 | Cuiabá | website | [https://www.inspirar.com.br/mt-cuiaba/...](https://www.inspirar.com.br/mt-cuiaba/) | ✅ OK |
 | Cuiabá | instagram | [https://www.instagram.com/inspirarcuiaba/...](https://www.instagram.com/inspirarcuiaba/) | ✅ OK |
 | Cuiabá | mapsUrl | [https://maps.google.com/?q=Faculdade+Inspirar...](https://maps.google.com/?q=Faculdade+Inspirar+Cuiab%C3%A1) | ✅ OK |

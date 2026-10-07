@@ -51,7 +51,9 @@ const ICONS = {
   search: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>`,
   chevronDown: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>`,
   home: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>`,
-  externalLink: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>`
+  externalLink: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>`,
+  sun: `<svg class="theme-icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>`,
+  moon: `<svg class="theme-icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>`
 };
 
 function getIconSvg(name) {
@@ -433,6 +435,11 @@ function generateUnitHtml(unit, data) {
 ${JSON.stringify(generateUnitJsonLd(unit), null, 2)}
   </script>
 
+  <!-- Anti-FOUC Theme Initialization -->
+  <script>
+    (function(){try{var t=localStorage.getItem('inspirar-theme');if(t==='light'){document.documentElement.setAttribute('data-theme','light');}}catch(e){}})();
+  </script>
+
   <!-- Stylesheet -->
   <link rel="stylesheet" href="${cssPath}">
 </head>
@@ -449,6 +456,10 @@ ${JSON.stringify(generateUnitJsonLd(unit), null, 2)}
         <span style="font-size:0.75rem; opacity:0.7; margin-left:4px;">(Trocar)</span>
       </a>
       <div class="nav-actions">
+        <button class="icon-button theme-toggle-btn" title="Alternar para Modo Claro" aria-label="Alternar para Modo Claro" onclick="toggleTheme()">
+          ${ICONS.sun}
+          ${ICONS.moon}
+        </button>
         <a href="${hubUrl}" class="icon-button" title="Hub de Unidades Inspirar" aria-label="Voltar para a lista de todas as unidades">
           ${ICONS.home}
         </a>
@@ -712,6 +723,30 @@ ${JSON.stringify(generateUnitJsonLd(unit), null, 2)}
         }
       });
     })();
+
+    /* Theme Toggle with Persistence */
+    function toggleTheme() {
+      const current = document.documentElement.getAttribute('data-theme');
+      const next = current === 'light' ? 'dark' : 'light';
+      if (next === 'light') {
+        document.documentElement.setAttribute('data-theme', 'light');
+        try { localStorage.setItem('inspirar-theme', 'light'); } catch (e) {}
+      } else {
+        document.documentElement.removeAttribute('data-theme');
+        try { localStorage.setItem('inspirar-theme', 'dark'); } catch (e) {}
+      }
+      updateThemeLabels();
+    }
+
+    function updateThemeLabels() {
+      const isLight = document.documentElement.getAttribute('data-theme') === 'light';
+      const btns = document.querySelectorAll('.theme-toggle-btn');
+      btns.forEach(btn => {
+        btn.setAttribute('aria-label', isLight ? 'Alternar para Modo Escuro' : 'Alternar para Modo Claro');
+        btn.setAttribute('title', isLight ? 'Alternar para Modo Escuro' : 'Alternar para Modo Claro');
+      });
+    }
+    document.addEventListener('DOMContentLoaded', updateThemeLabels);
   </script>
 
 </body>
@@ -799,10 +834,49 @@ function generateHubHtml(data) {
 ${JSON.stringify(generateHubJsonLd(data), null, 2)}
   </script>
 
+  <!-- Anti-FOUC Theme Initialization -->
+  <script>
+    (function(){try{var t=localStorage.getItem('inspirar-theme');if(t==='light'){document.documentElement.setAttribute('data-theme','light');}}catch(e){}})();
+  </script>
+
   <!-- Stylesheet -->
   <link rel="stylesheet" href="${cssPath}">
   <style>
     /* Hub-specific Layout Styles */
+    .hub-top-bar {
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+      margin-bottom: 8px;
+    }
+    .hub-theme-toggle {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 16px;
+      min-height: 40px;
+      border-radius: var(--radius-full);
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      color: var(--text-secondary);
+      font-size: 0.82rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all var(--transition-fast);
+      font-family: inherit;
+      box-shadow: var(--shadow-sm);
+    }
+    .hub-theme-toggle:hover {
+      background: var(--bg-card-hover);
+      border-color: var(--border-hover);
+      color: var(--text-primary);
+      transform: translateY(-1px);
+    }
+    .hub-theme-toggle svg {
+      width: 16px;
+      height: 16px;
+      flex-shrink: 0;
+    }
     .hub-header {
       text-align: center;
       margin-bottom: 24px;
@@ -854,7 +928,7 @@ ${JSON.stringify(generateHubJsonLd(data), null, 2)}
     }
     .hub-chip:hover {
       border-color: var(--border-hover);
-      color: #FFFFFF;
+      color: var(--text-primary);
     }
     .hub-chip.active {
       background: var(--color-primary);
@@ -877,7 +951,7 @@ ${JSON.stringify(generateHubJsonLd(data), null, 2)}
       border-radius: var(--radius-full);
       background: var(--bg-surface);
       border: 1px solid var(--border-subtle);
-      color: #FFFFFF;
+      color: var(--text-primary);
       font-family: inherit;
       font-size: 0.95rem;
       outline: none;
@@ -985,14 +1059,14 @@ ${JSON.stringify(generateHubJsonLd(data), null, 2)}
     .hub-unit-title {
       font-size: 1.2rem;
       font-weight: 700;
-      color: #FFFFFF;
+      color: var(--text-primary);
       display: flex;
       align-items: center;
       gap: 6px;
       margin-bottom: 2px;
     }
     .hub-unit-title a {
-      color: #FFFFFF;
+      color: var(--text-primary);
       text-decoration: none;
     }
     .hub-unit-region {
@@ -1020,7 +1094,7 @@ ${JSON.stringify(generateHubJsonLd(data), null, 2)}
       justify-content: space-between;
       gap: 10px;
       padding-top: 10px;
-      border-top: 1px solid rgba(255, 255, 255, 0.06);
+      border-top: 1px solid var(--border-subtle);
     }
     .hub-btn-primary {
       display: inline-flex;
@@ -1055,7 +1129,7 @@ ${JSON.stringify(generateHubJsonLd(data), null, 2)}
       width: 32px;
       height: 32px;
       border-radius: 50%;
-      background: rgba(255, 255, 255, 0.05);
+      background: var(--bg-surface);
       border: 1px solid var(--border-subtle);
       color: var(--text-secondary);
       display: flex;
@@ -1066,9 +1140,9 @@ ${JSON.stringify(generateHubJsonLd(data), null, 2)}
       transition: all var(--transition-fast);
     }
     .hub-btn-icon:hover {
-      background: rgba(255, 255, 255, 0.12);
+      background: var(--bg-card-hover);
       transform: scale(1.1);
-      color: #FFFFFF;
+      color: var(--text-primary);
     }
     .hub-btn-icon svg {
       width: 15px;
@@ -1107,6 +1181,13 @@ ${JSON.stringify(generateHubJsonLd(data), null, 2)}
 
     <!-- ── HUB HEADER ── -->
     <header class="hub-header">
+      <div class="hub-top-bar">
+        <button class="theme-toggle-btn hub-theme-toggle" onclick="toggleTheme()" title="Alternar para Modo Claro" aria-label="Alternar para Modo Claro">
+          ${ICONS.sun}
+          ${ICONS.moon}
+          <span class="theme-toggle-text">Modo Claro</span>
+        </button>
+      </div>
       <img src="${logoPath}" alt="Faculdade Inspirar" class="hub-logo">
       <p class="hub-subtitle">
         Selecione sua unidade abaixo para acessar links rápidos de matrícula, cursos de pós-graduação, eventos e suporte direto.
@@ -1294,6 +1375,34 @@ ${JSON.stringify(generateHubJsonLd(data), null, 2)}
       toast.classList.add('show');
       setTimeout(() => toast.classList.remove('show'), 2500);
     }
+
+    /* Theme Toggle with Persistence */
+    function toggleTheme() {
+      const current = document.documentElement.getAttribute('data-theme');
+      const next = current === 'light' ? 'dark' : 'light';
+      if (next === 'light') {
+        document.documentElement.setAttribute('data-theme', 'light');
+        try { localStorage.setItem('inspirar-theme', 'light'); } catch (e) {}
+      } else {
+        document.documentElement.removeAttribute('data-theme');
+        try { localStorage.setItem('inspirar-theme', 'dark'); } catch (e) {}
+      }
+      updateThemeLabels();
+    }
+
+    function updateThemeLabels() {
+      const isLight = document.documentElement.getAttribute('data-theme') === 'light';
+      const textEl = document.querySelector('.theme-toggle-text');
+      if (textEl) {
+        textEl.textContent = isLight ? 'Modo Escuro' : 'Modo Claro';
+      }
+      const btns = document.querySelectorAll('.theme-toggle-btn');
+      btns.forEach(btn => {
+        btn.setAttribute('aria-label', isLight ? 'Alternar para Modo Escuro' : 'Alternar para Modo Claro');
+        btn.setAttribute('title', isLight ? 'Alternar para Modo Escuro' : 'Alternar para Modo Claro');
+      });
+    }
+    document.addEventListener('DOMContentLoaded', updateThemeLabels);
   </script>
 
 </body>

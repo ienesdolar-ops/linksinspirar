@@ -48,6 +48,9 @@ Leandro
 
 ### 3. Unidade Belém (PA)
 
+> **Status:** Atualizado com feedback do franqueado ✅  
+> - **WhatsApp:** (91) 99100-7794 (`5591991007794`)  
+
 ```
 Olá, queridos franqueados da Inspirar Belém!
 
@@ -124,6 +127,9 @@ Leandro
 
 ### 7. Unidade Campinas (SP)
 
+> **Status:** Atualizado com feedback do franqueado ✅  
+> - **WhatsApp:** (19) 99704-1183 (`5519997041183`)  
+
 ```
 Olá, queridos franqueados da Inspirar Campinas!
 
@@ -142,6 +148,9 @@ Leandro
 ```
 
 ### 8. Unidade Campo Grande (MS)
+
+> **Status:** Atualizado com feedback do franqueado ✅  
+> - **WhatsApp:** (67) 98488-3987 (`5567984883987`)  
 
 ```
 Olá, queridos franqueados da Inspirar Campo Grande!
@@ -683,6 +692,9 @@ Leandro
 ```
 
 ### 35. Unidade Teresina (PI)
+
+> **Status:** Atualizado com feedback do franqueado ✅  
+> - **Endereço:** Av. Universitária, 750, Lojas 74 — Fátima (Ed. Diamond Center), Teresina — PI  
 
 ```
 Olá, queridos franqueados da Inspirar Teresina!
