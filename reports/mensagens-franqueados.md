@@ -270,6 +270,9 @@ Leandro
 
 ### 14. Unidade Goiânia (GO)
 
+> **Status:** Atualizado com feedback do franqueado ✅  
+> - **WhatsApp:** (62) 99990-9917 (`5562999909917`)  
+
 ```
 Olá, queridos franqueados da Inspirar Goiânia!
 
