@@ -1,6 +1,6 @@
 # Relatório de Verificação de Links — Bio no Link
 
-- **Data**: 07/10/2026, 09:43:36
+- **Data**: 07/10/2026, 09:49:58
 - **Modo**: Validação Estrutural (Dry Run)
 - **Total de Links Verificados**: 283
 

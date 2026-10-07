@@ -69,9 +69,9 @@
 }
   </script>
 
-  <!-- Anti-FOUC Theme Initialization -->
+  <!-- Anti-FOUC Theme Initialization (Dark Default) -->
   <script>
-    (function(){try{var t=localStorage.getItem('inspirar-theme');if(t==='light'){document.documentElement.setAttribute('data-theme','light');}}catch(e){}})();
+    (function(){try{var t=localStorage.getItem('inspirar-theme-ribeirao-preto')||localStorage.getItem('inspirar-theme');if(t==='light'){document.documentElement.setAttribute('data-theme','light');}}catch(e){}})();
   </script>
 
   <!-- Stylesheet -->
@@ -498,10 +498,16 @@
       const next = current === 'light' ? 'dark' : 'light';
       if (next === 'light') {
         document.documentElement.setAttribute('data-theme', 'light');
-        try { localStorage.setItem('inspirar-theme', 'light'); } catch (e) {}
+        try {
+          localStorage.setItem('inspirar-theme-ribeirao-preto', 'light');
+          localStorage.setItem('inspirar-theme', 'light');
+        } catch (e) {}
       } else {
         document.documentElement.removeAttribute('data-theme');
-        try { localStorage.setItem('inspirar-theme', 'dark'); } catch (e) {}
+        try {
+          localStorage.setItem('inspirar-theme-ribeirao-preto', 'dark');
+          localStorage.setItem('inspirar-theme', 'dark');
+        } catch (e) {}
       }
       updateThemeLabels();
     }

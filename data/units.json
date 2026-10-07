@@ -661,6 +661,7 @@
       "state": "SP",
       "stateName": "São Paulo",
       "region": "Sudeste",
+      "defaultTheme": "light",
       "badge": "Unidade Oficial",
       "bio": "Referência no ensino da área da Saúde e Pós-graduação. Cursos, especializações e extensão em Campinas (SP).",
       "address": "Rua Oliveira Cardoso, 126 — Jardim Chapadão",

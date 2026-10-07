@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR" data-theme="light">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -78,9 +78,9 @@
 }
   </script>
 
-  <!-- Anti-FOUC Theme Initialization -->
+  <!-- Anti-FOUC Theme Initialization (Light Default) -->
   <script>
-    (function(){try{var t=localStorage.getItem('inspirar-theme');if(t==='light'){document.documentElement.setAttribute('data-theme','light');}}catch(e){}})();
+    (function(){try{var t=localStorage.getItem('inspirar-theme-campinas')||localStorage.getItem('inspirar-theme');if(t==='dark'){document.documentElement.removeAttribute('data-theme');}else{document.documentElement.setAttribute('data-theme','light');}}catch(e){}})();
   </script>
 
   <!-- Stylesheet -->
@@ -510,10 +510,16 @@
       const next = current === 'light' ? 'dark' : 'light';
       if (next === 'light') {
         document.documentElement.setAttribute('data-theme', 'light');
-        try { localStorage.setItem('inspirar-theme', 'light'); } catch (e) {}
+        try {
+          localStorage.setItem('inspirar-theme-campinas', 'light');
+          localStorage.setItem('inspirar-theme', 'light');
+        } catch (e) {}
       } else {
         document.documentElement.removeAttribute('data-theme');
-        try { localStorage.setItem('inspirar-theme', 'dark'); } catch (e) {}
+        try {
+          localStorage.setItem('inspirar-theme-campinas', 'dark');
+          localStorage.setItem('inspirar-theme', 'dark');
+        } catch (e) {}
       }
       updateThemeLabels();
     }

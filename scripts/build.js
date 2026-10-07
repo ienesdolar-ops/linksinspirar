@@ -410,8 +410,21 @@ function generateUnitHtml(unit, data) {
   const waMsg = encodeURIComponent(unit.whatsappDefaultMessage || `Olá! Tenho interesse em saber mais sobre os cursos da Faculdade Inspirar - ${unit.name}`);
   const waLink = unit.whatsappCustomUrl || `https://api.whatsapp.com/send?phone=${unit.whatsapp}&text=${waMsg}`;
 
+  const isLightDefault = unit.defaultTheme === 'light' || unit.slug === 'campinas';
+  const htmlTag = isLightDefault ? '<html lang="pt-BR" data-theme="light">' : '<html lang="pt-BR">';
+
+  const antiFoucScript = isLightDefault ? `
+  <!-- Anti-FOUC Theme Initialization (Light Default) -->
+  <script>
+    (function(){try{var t=localStorage.getItem('inspirar-theme-${unit.slug}')||localStorage.getItem('inspirar-theme');if(t==='dark'){document.documentElement.removeAttribute('data-theme');}else{document.documentElement.setAttribute('data-theme','light');}}catch(e){}})();
+  </script>` : `
+  <!-- Anti-FOUC Theme Initialization (Dark Default) -->
+  <script>
+    (function(){try{var t=localStorage.getItem('inspirar-theme-${unit.slug}')||localStorage.getItem('inspirar-theme');if(t==='light'){document.documentElement.setAttribute('data-theme','light');}}catch(e){}})();
+  </script>`;
+
   return `<!DOCTYPE html>
-<html lang="pt-BR">
+${htmlTag}
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -434,11 +447,7 @@ function generateUnitHtml(unit, data) {
   <script type="application/ld+json">
 ${JSON.stringify(generateUnitJsonLd(unit), null, 2)}
   </script>
-
-  <!-- Anti-FOUC Theme Initialization -->
-  <script>
-    (function(){try{var t=localStorage.getItem('inspirar-theme');if(t==='light'){document.documentElement.setAttribute('data-theme','light');}}catch(e){}})();
-  </script>
+${antiFoucScript}
 
   <!-- Stylesheet -->
   <link rel="stylesheet" href="${cssPath}">
@@ -730,10 +739,16 @@ ${JSON.stringify(generateUnitJsonLd(unit), null, 2)}
       const next = current === 'light' ? 'dark' : 'light';
       if (next === 'light') {
         document.documentElement.setAttribute('data-theme', 'light');
-        try { localStorage.setItem('inspirar-theme', 'light'); } catch (e) {}
+        try {
+          localStorage.setItem('inspirar-theme-${unit.slug}', 'light');
+          localStorage.setItem('inspirar-theme', 'light');
+        } catch (e) {}
       } else {
         document.documentElement.removeAttribute('data-theme');
-        try { localStorage.setItem('inspirar-theme', 'dark'); } catch (e) {}
+        try {
+          localStorage.setItem('inspirar-theme-${unit.slug}', 'dark');
+          localStorage.setItem('inspirar-theme', 'dark');
+        } catch (e) {}
       }
       updateThemeLabels();
     }
