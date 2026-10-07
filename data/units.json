@@ -3902,8 +3902,8 @@
       "mapsUrl": "https://maps.google.com/?q=Faculdade+Inspirar+Vit%C3%B3ria",
       "coverImage": "assets/images/units/vitoria/vitoria-fachada.jpeg",
       "logoImage": "assets/images/Logo branca - horizontal.png",
-      "whatsapp": "558006022828",
-      "whatsappDisplay": "0800 602 2828",
+      "whatsapp": "5527999191438",
+      "whatsappDisplay": "(27) 99919-1438",
       "whatsappDefaultMessage": "Olá! Tenho interesse em saber mais sobre os cursos da Faculdade Inspirar - Vitória",
       "instagram": "https://www.instagram.com/inspirarvitoria/",
       "instagramUser": "@inspirarvitoria",
@@ -4056,9 +4056,11 @@
           "icon": "settings",
           "items": [
             {
-              "title": "Matricule-se pelo WhatsApp",
-              "desc": "Fale com nossa equipe • 0800 602 2828",
-              "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Vit%C3%B3ria",
+              "title": "Fale no WhatsApp — Vitória",
+              "desc": "Atendimento direto • (27) 99919-1438",
+              "tag": "WhatsApp",
+              "badge": "Online",
+              "url": "https://api.whatsapp.com/send?phone=5527999191438&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Vit%C3%B3ria",
               "icon": "whatsapp",
               "accent": "green"
             }

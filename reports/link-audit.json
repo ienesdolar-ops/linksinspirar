@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-07T17:21:44.102Z",
+  "timestamp": "2026-10-07T17:54:25.791Z",
   "total": 285,
   "dryRun": true,
   "results": [
@@ -2278,8 +2278,8 @@
     {
       "source": "Acesso Rápido",
       "unit": "Vitória",
-      "field": "Matricule-se pelo WhatsApp",
-      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Vit%C3%B3ria",
+      "field": "Fale no WhatsApp — Vitória",
+      "url": "https://api.whatsapp.com/send?phone=5527999191438&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Vit%C3%B3ria",
       "status": "FORMAT_OK",
       "ok": true
     }

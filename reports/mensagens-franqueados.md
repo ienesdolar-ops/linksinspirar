@@ -740,6 +740,9 @@ Leandro
 
 ### 37. Unidade Vitória (ES)
 
+> **Status:** Atualizado com feedback do franqueado ✅  
+> - **WhatsApp:** (27) 99919-1438 (`5527999191438`)  
+
 ```
 Olá, queridos franqueados da Inspirar Vitória!
 

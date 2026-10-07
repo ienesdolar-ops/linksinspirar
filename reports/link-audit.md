@@ -1,6 +1,6 @@
 # Relatório de Verificação de Links — Bio no Link
 
-- **Data**: 07/10/2026, 14:21:44
+- **Data**: 07/10/2026, 14:54:25
 - **Modo**: Validação Estrutural (Dry Run)
 - **Total de Links Verificados**: 285
 
@@ -290,4 +290,4 @@
 | Vitória | AmoFisio — Manipulação das Fáscias: Da Avaliação ao Tratamento | [https://www.sympla.com.br/evento/amofisio-man...](https://www.sympla.com.br/evento/amofisio-manipulacao-das-fascias-da-avaliacao-ao-tratamento/3557045) | ✅ OK |
 | Vitória | AmoFisio — Tuiná no Tratamento de Atletas | [https://www.sympla.com.br/evento/amofisio-tui...](https://www.sympla.com.br/evento/amofisio-tuina-no-tratamento-de-atletas/3556968) | ✅ OK |
 | Vitória | AmoFisio — Atuação do Fisioterapeuta no Tratamento do Lipedema – Do diagnóstico ao Tratamento | [https://www.sympla.com.br/evento/amofisio-atu...](https://www.sympla.com.br/evento/amofisio-atuacao-do-fisioterapeuta-no-tratamento-do-lipedema-do-diagnostico-ao-tratamento/3557056) | ✅ OK |
-| Vitória | Matricule-se pelo WhatsApp | [https://api.whatsapp.com/send?phone=558006022...](https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Vit%C3%B3ria) | ✅ OK |
+| Vitória | Fale no WhatsApp — Vitória | [https://api.whatsapp.com/send?phone=552799919...](https://api.whatsapp.com/send?phone=5527999191438&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Vit%C3%B3ria) | ✅ OK |
