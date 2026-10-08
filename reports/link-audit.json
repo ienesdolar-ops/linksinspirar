@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-10-08T19:47:36.282Z",
-  "total": 286,
+  "timestamp": "2026-10-08T20:45:58.875Z",
+  "total": 284,
   "dryRun": true,
   "results": [
     {
@@ -1784,22 +1784,6 @@
       "unit": "São José dos Campos",
       "field": "Confira Nossas Pós-Graduações Disponíveis",
       "url": "https://www.inspirar.com.br/sp-sao-jose-dos-campos/",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Eventos",
-      "unit": "São José dos Campos",
-      "field": "AmoFisio — Fisioterapia Pélvica é uma área promissora. Entenda o porquê!",
-      "url": "https://www.sympla.com.br/evento/amofisio-fisioterapia-pelvica-e-uma-area-promissora-entenda-o-porque/3553362",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Eventos",
-      "unit": "São José dos Campos",
-      "field": "AmoFisio — Disfunções na ATM e suas repercussões no corpo humano",
-      "url": "https://www.sympla.com.br/evento/amofisio-disfuncoes-na-atm-e-suas-repercussoes-no-corpo-humano/3553401",
       "status": "FORMAT_OK",
       "ok": true
     },

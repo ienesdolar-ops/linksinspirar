@@ -3242,33 +3242,6 @@
           ]
         },
         {
-          "id": "eventos",
-          "title": "Eventos",
-          "icon": "calendar",
-          "items": [
-            {
-              "title": "AmoFisio — Fisioterapia Pélvica é uma área promissora. Entenda o porquê!",
-              "desc": "Fisioterapia Pélvica & Carreira • Panorama de mercado, diferenciais de atuação e oportunidades clínicas da fisioterapia pélvica.",
-              "url": "https://www.sympla.com.br/evento/amofisio-fisioterapia-pelvica-e-uma-area-promissora-entenda-o-porque/3553362",
-              "icon": "heart",
-              "accent": "purple",
-              "startDate": "2026-09-01",
-              "endDate": "2026-10-24T08:00:00-03:00",
-              "banner": "https://images.sympla.com.br/6a8d91afc6b8d.png"
-            },
-            {
-              "title": "AmoFisio — Disfunções na ATM e suas repercussões no corpo humano",
-              "desc": "Terapia Manual & DTM • Conexões biomecânicas entre a Articulação Temporomandibular, coluna cervical e postura corporal.",
-              "url": "https://www.sympla.com.br/evento/amofisio-disfuncoes-na-atm-e-suas-repercussoes-no-corpo-humano/3553401",
-              "icon": "heart",
-              "accent": "purple",
-              "startDate": "2026-09-01",
-              "endDate": "2026-10-24T10:00:00-03:00",
-              "banner": "https://images.sympla.com.br/6a8d958f12eef.png"
-            }
-          ]
-        },
-        {
           "type": "campus_banner",
           "id": "campus",
           "bannerTitle": "Conheça a Unidade",

@@ -1,8 +1,8 @@
 # Relatório de Verificação de Links — Bio no Link
 
-- **Data**: 08/10/2026, 16:47:36
+- **Data**: 08/10/2026, 17:45:58
 - **Modo**: Validação Estrutural (Dry Run)
-- **Total de Links Verificados**: 286
+- **Total de Links Verificados**: 284
 
 | Unidade | Campo / Título | URL | Status |
 | :--- | :--- | :--- | :--- |
@@ -229,8 +229,6 @@
 | São José dos Campos | instagram | [https://www.instagram.com/inspirarsaojosecamp...](https://www.instagram.com/inspirarsaojosecampos/) | ✅ OK |
 | São José dos Campos | mapsUrl | [https://maps.google.com/?q=Faculdade+Inspirar...](https://maps.google.com/?q=Faculdade+Inspirar+S%C3%A3o%20Jos%C3%A9%20dos%20Campos) | ✅ OK |
 | São José dos Campos | Confira Nossas Pós-Graduações Disponíveis | [https://www.inspirar.com.br/sp-sao-jose-dos-c...](https://www.inspirar.com.br/sp-sao-jose-dos-campos/) | ✅ OK |
-| São José dos Campos | AmoFisio — Fisioterapia Pélvica é uma área promissora. Entenda o porquê! | [https://www.sympla.com.br/evento/amofisio-fis...](https://www.sympla.com.br/evento/amofisio-fisioterapia-pelvica-e-uma-area-promissora-entenda-o-porque/3553362) | ✅ OK |
-| São José dos Campos | AmoFisio — Disfunções na ATM e suas repercussões no corpo humano | [https://www.sympla.com.br/evento/amofisio-dis...](https://www.sympla.com.br/evento/amofisio-disfuncoes-na-atm-e-suas-repercussoes-no-corpo-humano/3553401) | ✅ OK |
 | São José dos Campos | Matricule-se pelo WhatsApp | [https://api.whatsapp.com/send?phone=558006022...](https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20S%C3%A3o%20Jos%C3%A9%20dos%20Campos) | ✅ OK |
 | São Luís | website | [https://www.inspirar.com.br/ma-sao-luis/...](https://www.inspirar.com.br/ma-sao-luis/) | ✅ OK |
 | São Luís | instagram | [https://www.instagram.com/faculdadeinspirarsa...](https://www.instagram.com/faculdadeinspirarsaoluis/) | ✅ OK |
