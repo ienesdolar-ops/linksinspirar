@@ -1,6 +1,6 @@
 # Relatório de Verificação de Links — Bio no Link
 
-- **Data**: 07/10/2026, 14:54:25
+- **Data**: 08/10/2026, 10:35:15
 - **Modo**: Validação Estrutural (Dry Run)
 - **Total de Links Verificados**: 285
 
@@ -171,7 +171,7 @@
 | Parauapebas | instagram | [https://www.instagram.com/inspirarparauapebas...](https://www.instagram.com/inspirarparauapebas/) | ✅ OK |
 | Parauapebas | mapsUrl | [https://maps.google.com/?q=Faculdade+Inspirar...](https://maps.google.com/?q=Faculdade+Inspirar+Parauapebas) | ✅ OK |
 | Parauapebas | Site Oficial — Parauapebas | [https://www.inspirar.com.br/pa-parauapebas-sl...](https://www.inspirar.com.br/pa-parauapebas-slim/) | ✅ OK |
-| Parauapebas | Matricule-se pelo WhatsApp | [https://api.whatsapp.com/send?phone=558006022...](https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Parauapebas) | ✅ OK |
+| Parauapebas | Fale no WhatsApp — Parauapebas | [https://api.whatsapp.com/send?phone=559498142...](https://api.whatsapp.com/send?phone=5594981429021&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Parauapebas) | ✅ OK |
 | Porto Alegre | website | [https://www.inspirar.com.br/rs-porto-alegre/...](https://www.inspirar.com.br/rs-porto-alegre/) | ✅ OK |
 | Porto Alegre | instagram | [https://www.instagram.com/inspirarportoalegre...](https://www.instagram.com/inspirarportoalegre/) | ✅ OK |
 | Porto Alegre | mapsUrl | [https://maps.google.com/?q=Faculdade+Inspirar...](https://maps.google.com/?q=Faculdade+Inspirar+Porto%20Alegre) | ✅ OK |

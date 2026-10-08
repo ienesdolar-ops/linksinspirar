@@ -417,6 +417,9 @@ Leandro
 
 ### 21. Unidade Parauapebas (PA)
 
+> **Status:** Atualizado com feedback do franqueado ✅  
+> - **WhatsApp:** (94) 98142-9021 (`5594981429021`)  
+
 ```
 Olá, queridos franqueados da Inspirar Parauapebas!
 
