@@ -321,11 +321,12 @@ function generateUnitHtml(unit, data) {
           : '';
 
         if (item.banner) {
+          const bannerSrc = item.banner.startsWith('http') ? item.banner : `${relativeRoot}/${item.banner}`;
           streamItemsHtml += `
       <!-- ${item.title} (com Capa/Banner) -->
       <a href="${item.url}" target="_blank" rel="noopener" class="link-card has-banner${accentClass}"${dateAttrs}>
         <div class="link-card-banner-media">
-          <img src="${item.banner}" alt="${item.title}" loading="lazy" class="link-card-banner-img">
+          <img src="${bannerSrc}" alt="${item.title}" loading="lazy" class="link-card-banner-img">
           <div class="link-card-banner-overlay"></div>
         </div>
         <div class="link-card-banner-footer">
@@ -333,6 +334,7 @@ function generateUnitHtml(unit, data) {
             ${getIconSvg(item.icon)}
           </div>
           <div class="link-details">
+            ${tagRow}
             <h3 class="link-title">${item.title}</h3>
             ${item.desc ? `<p class="link-desc">${cleanSubtext(item.desc)}</p>` : ''}
           </div>
@@ -1221,13 +1223,23 @@ ${JSON.stringify(generateHubJsonLd(data), null, 2)}
         <span class="section-divider"></span>
       </div>
       <div class="links-list">
-        <a href="${data.project.globalSocial.website}" target="_blank" rel="noopener" class="link-card">
-          <div class="link-icon-box">${ICONS.globe}</div>
-          <div class="link-details">
-            <h3 class="link-title">Site</h3>
-            <p class="link-desc">Site institucional com todas as informações e novidades</p>
+        <a href="${data.project.globalSocial.website}" target="_blank" rel="noopener" class="link-card has-banner accent-cyan">
+          <div class="link-card-banner-media">
+            <img src="assets/images/UNIDADE CWB sem gourmet.png" alt="Confira Nossas Pós-Graduações Disponíveis" loading="lazy" class="link-card-banner-img">
+            <div class="link-card-banner-overlay"></div>
           </div>
-          <span class="link-action-indicator">${ICONS.arrowRight}</span>
+          <div class="link-card-banner-footer">
+            <div class="link-icon-box">${ICONS.globe}</div>
+            <div class="link-details">
+              <div class="link-tag-row">
+                <span class="link-tag">Portal Oficial & Matrículas</span>
+                <span class="link-badge-pill">Inscrições Abertas</span>
+              </div>
+              <h3 class="link-title">Confira Nossas Pós-Graduações Disponíveis</h3>
+              <p class="link-desc">Inscrições abertas para especializações, MBAs e cursos em todas as unidades do Brasil</p>
+            </div>
+            <span class="link-action-indicator">${ICONS.arrowRight}</span>
+          </div>
         </a>
 
         <a href="${data.project.globalSocial.portalAluno}" target="_blank" rel="noopener" class="link-card accent-cyan">

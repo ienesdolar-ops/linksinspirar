@@ -71,11 +71,14 @@
           "icon": "globe",
           "items": [
             {
-              "title": "Site Oficial — Balneário Camboriú",
-              "desc": "Todos os cursos, informações e matrículas",
+              "title": "Confira Nossas Pós-Graduações Disponíveis",
+              "desc": "Inscrições abertas para cursos e especializações presenciais e digitais na Inspirar Balneário Camboriú (SC)",
               "url": "https://www.inspirar.com.br/sc-balneario-camboriu/",
               "icon": "globe",
-              "accent": ""
+              "accent": "cyan",
+              "banner": "assets/images/units/balneario-camboriu/recepcao.webp",
+              "tag": "Portal Oficial & Matrículas",
+              "badge": "Inscrições Abertas"
             }
           ]
         },
@@ -152,11 +155,14 @@
           "icon": "globe",
           "items": [
             {
-              "title": "Site Oficial — Bauru",
-              "desc": "Todos os cursos, informações e matrículas",
+              "title": "Confira Nossas Pós-Graduações Disponíveis",
+              "desc": "Inscrições abertas para cursos e especializações presenciais e digitais na Inspirar Bauru (SP)",
               "url": "https://www.inspirar.com.br/sp-bauru/",
               "icon": "globe",
-              "accent": ""
+              "accent": "cyan",
+              "banner": "assets/images/units/bauru/bauru-fachada-2.jpeg",
+              "tag": "Portal Oficial & Matrículas",
+              "badge": "Inscrições Abertas"
             }
           ]
         },
@@ -286,11 +292,14 @@
           "icon": "globe",
           "items": [
             {
-              "title": "Site Oficial — Belém",
-              "desc": "Todos os cursos, informações e matrículas",
+              "title": "Confira Nossas Pós-Graduações Disponíveis",
+              "desc": "Inscrições abertas para cursos e especializações presenciais e digitais na Inspirar Belém (PA)",
               "url": "https://www.inspirar.com.br/pa-belem/",
               "icon": "globe",
-              "accent": ""
+              "accent": "cyan",
+              "banner": "assets/images/units/belem/fachada.jpeg",
+              "tag": "Portal Oficial & Matrículas",
+              "badge": "Inscrições Abertas"
             }
           ]
         },
@@ -405,11 +414,14 @@
           "icon": "globe",
           "items": [
             {
-              "title": "Site Oficial — Belo Horizonte",
-              "desc": "Todos os cursos, informações e matrículas",
+              "title": "Confira Nossas Pós-Graduações Disponíveis",
+              "desc": "Inscrições abertas para cursos e especializações presenciais e digitais na Inspirar Belo Horizonte (MG)",
               "url": "https://www.inspirar.com.br/mg-belo-horizonte/",
               "icon": "globe",
-              "accent": ""
+              "accent": "cyan",
+              "banner": "assets/images/units/belo-horizonte/fachada-bh.webp",
+              "tag": "Portal Oficial & Matrículas",
+              "badge": "Inscrições Abertas"
             }
           ]
         },
@@ -509,11 +521,14 @@
           "icon": "globe",
           "items": [
             {
-              "title": "Site Oficial — Blumenau",
-              "desc": "Todos os cursos, informações e matrículas",
+              "title": "Confira Nossas Pós-Graduações Disponíveis",
+              "desc": "Inscrições abertas para cursos e especializações presenciais e digitais na Inspirar Blumenau (SC)",
               "url": "https://www.inspirar.com.br/sc-blumenau/",
               "icon": "globe",
-              "accent": ""
+              "accent": "cyan",
+              "banner": "assets/images/units/blumenau/fachada.jpeg",
+              "tag": "Portal Oficial & Matrículas",
+              "badge": "Inscrições Abertas"
             }
           ]
         },
@@ -607,11 +622,14 @@
           "icon": "globe",
           "items": [
             {
-              "title": "Site Oficial — Brasília",
-              "desc": "Todos os cursos, informações e matrículas",
+              "title": "Confira Nossas Pós-Graduações Disponíveis",
+              "desc": "Inscrições abertas para cursos e especializações presenciais e digitais na Inspirar Brasília (DF)",
               "url": "https://www.inspirar.com.br/df-distrito-federal-brasilia/",
               "icon": "globe",
-              "accent": ""
+              "accent": "cyan",
+              "banner": "assets/images/units/brasilia/fachada-brasilia.png",
+              "tag": "Portal Oficial & Matrículas",
+              "badge": "Inscrições Abertas"
             }
           ]
         },
@@ -728,11 +746,14 @@
           "icon": "globe",
           "items": [
             {
-              "title": "Site Oficial — Campinas",
-              "desc": "Todos os cursos, informações e matrículas",
+              "title": "Confira Nossas Pós-Graduações Disponíveis",
+              "desc": "Inscrições abertas para cursos e especializações presenciais e digitais na Inspirar Campinas (SP)",
               "url": "https://www.inspirar.com.br/sp-campinas/",
               "icon": "globe",
-              "accent": ""
+              "accent": "cyan",
+              "banner": "assets/images/units/campinas/fachada-campinas.jpeg",
+              "tag": "Portal Oficial & Matrículas",
+              "badge": "Inscrições Abertas"
             }
           ]
         },
@@ -870,11 +891,14 @@
           "icon": "globe",
           "items": [
             {
-              "title": "Site Oficial — Campo Grande",
-              "desc": "Todos os cursos, informações e matrículas",
+              "title": "Confira Nossas Pós-Graduações Disponíveis",
+              "desc": "Inscrições abertas para cursos e especializações presenciais e digitais na Inspirar Campo Grande (MS)",
               "url": "https://www.inspirar.com.br/ms-campo-grande/",
               "icon": "globe",
-              "accent": ""
+              "accent": "cyan",
+              "banner": "assets/images/units/campo-grande/fachada.jpeg",
+              "tag": "Portal Oficial & Matrículas",
+              "badge": "Inscrições Abertas"
             }
           ]
         },
@@ -976,11 +1000,14 @@
           "icon": "globe",
           "items": [
             {
-              "title": "Site Oficial — Cuiabá",
-              "desc": "Todos os cursos, informações e matrículas",
+              "title": "Confira Nossas Pós-Graduações Disponíveis",
+              "desc": "Inscrições abertas para cursos e especializações presenciais e digitais na Inspirar Cuiabá (MT)",
               "url": "https://www.inspirar.com.br/mt-cuiaba/",
               "icon": "globe",
-              "accent": ""
+              "accent": "cyan",
+              "banner": "assets/images/units/cuiaba/cuiaba-fachada-2.jpeg",
+              "tag": "Portal Oficial & Matrículas",
+              "badge": "Inscrições Abertas"
             }
           ]
         },
@@ -1155,11 +1182,14 @@
           "icon": "globe",
           "items": [
             {
-              "title": "Site Oficial — Curitiba",
-              "desc": "Todos os cursos, informações e matrículas",
+              "title": "Confira Nossas Pós-Graduações Disponíveis",
+              "desc": "Inscrições abertas para cursos e especializações presenciais e digitais na Inspirar Curitiba (PR)",
               "url": "https://www.inspirar.com.br/pr-curitiba/",
               "icon": "globe",
-              "accent": ""
+              "accent": "cyan",
+              "banner": "assets/images/UNIDADE CWB sem gourmet.png",
+              "tag": "Portal Oficial & Matrículas",
+              "badge": "Inscrições Abertas"
             }
           ]
         },
@@ -1334,11 +1364,14 @@
           "icon": "globe",
           "items": [
             {
-              "title": "Site Oficial — Dourados",
-              "desc": "Todos os cursos, informações e matrículas",
+              "title": "Confira Nossas Pós-Graduações Disponíveis",
+              "desc": "Inscrições abertas para cursos e especializações presenciais e digitais na Inspirar Dourados (MS)",
               "url": "https://www.inspirar.com.br/ms-dourados-3/",
               "icon": "globe",
-              "accent": ""
+              "accent": "cyan",
+              "banner": "assets/images/units/dourados/cidade-dourados.jpg",
+              "tag": "Portal Oficial & Matrículas",
+              "badge": "Inscrições Abertas"
             }
           ]
         },
@@ -1451,11 +1484,14 @@
           "icon": "globe",
           "items": [
             {
-              "title": "Site Oficial — Florianópolis",
-              "desc": "Todos os cursos, informações e matrículas",
+              "title": "Confira Nossas Pós-Graduações Disponíveis",
+              "desc": "Inscrições abertas para cursos e especializações presenciais e digitais na Inspirar Florianópolis (SC)",
               "url": "https://www.inspirar.com.br/sc-florianopolis/",
               "icon": "globe",
-              "accent": ""
+              "accent": "cyan",
+              "banner": "assets/images/units/florianopolis/fachada-1-scaled.webp",
+              "tag": "Portal Oficial & Matrículas",
+              "badge": "Inscrições Abertas"
             }
           ]
         },
@@ -1550,11 +1586,14 @@
           "icon": "globe",
           "items": [
             {
-              "title": "Site Oficial — Fortaleza",
-              "desc": "Todos os cursos, informações e matrículas",
+              "title": "Confira Nossas Pós-Graduações Disponíveis",
+              "desc": "Inscrições abertas para cursos e especializações presenciais e digitais na Inspirar Fortaleza (CE)",
               "url": "https://www.inspirar.com.br/ce-fortaleza-slim/",
               "icon": "globe",
-              "accent": ""
+              "accent": "cyan",
+              "banner": "assets/images/units/fortaleza/cidade-fortaleza.jpg",
+              "tag": "Portal Oficial & Matrículas",
+              "badge": "Inscrições Abertas"
             }
           ]
         },
@@ -1656,11 +1695,14 @@
           "icon": "globe",
           "items": [
             {
-              "title": "Site Oficial — Goiânia",
-              "desc": "Todos os cursos, informações e matrículas",
+              "title": "Confira Nossas Pós-Graduações Disponíveis",
+              "desc": "Inscrições abertas para cursos e especializações presenciais e digitais na Inspirar Goiânia (GO)",
               "url": "https://www.inspirar.com.br/go-goiania/",
               "icon": "globe",
-              "accent": ""
+              "accent": "cyan",
+              "banner": "assets/images/units/goiania/cidade-goiania.jpeg",
+              "tag": "Portal Oficial & Matrículas",
+              "badge": "Inscrições Abertas"
             }
           ]
         },
@@ -1757,11 +1799,14 @@
           "icon": "globe",
           "items": [
             {
-              "title": "Site Oficial — Guarulhos",
-              "desc": "Todos os cursos, informações e matrículas",
+              "title": "Confira Nossas Pós-Graduações Disponíveis",
+              "desc": "Inscrições abertas para cursos e especializações presenciais e digitais na Inspirar Guarulhos (SP)",
               "url": "https://www.inspirar.com.br/sp-guarulhos/",
               "icon": "globe",
-              "accent": ""
+              "accent": "cyan",
+              "banner": "assets/images/units/guarulhos/guarulhos-fachada.webp",
+              "tag": "Portal Oficial & Matrículas",
+              "badge": "Inscrições Abertas"
             }
           ]
         },
@@ -1927,11 +1972,14 @@
           "icon": "globe",
           "items": [
             {
-              "title": "Site Oficial — Ipatinga",
-              "desc": "Todos os cursos, informações e matrículas",
+              "title": "Confira Nossas Pós-Graduações Disponíveis",
+              "desc": "Inscrições abertas para cursos e especializações presenciais e digitais na Inspirar Ipatinga (MG)",
               "url": "https://www.inspirar.com.br/mg-ipatinga/",
               "icon": "globe",
-              "accent": ""
+              "accent": "cyan",
+              "banner": "assets/images/units/ipatinga/cidade-ipatinga.jpg",
+              "tag": "Portal Oficial & Matrículas",
+              "badge": "Inscrições Abertas"
             }
           ]
         },
@@ -2009,11 +2057,14 @@
           "icon": "globe",
           "items": [
             {
-              "title": "Site Oficial — Joinville",
-              "desc": "Todos os cursos, informações e matrículas",
+              "title": "Confira Nossas Pós-Graduações Disponíveis",
+              "desc": "Inscrições abertas para cursos e especializações presenciais e digitais na Inspirar Joinville (SC)",
               "url": "https://www.inspirar.com.br/sc-joinville/",
               "icon": "globe",
-              "accent": ""
+              "accent": "cyan",
+              "banner": "assets/images/units/joinville/cidade-joinville.jpg",
+              "tag": "Portal Oficial & Matrículas",
+              "badge": "Inscrições Abertas"
             }
           ]
         },
@@ -2098,11 +2149,14 @@
           "icon": "globe",
           "items": [
             {
-              "title": "Site Oficial — Londrina",
-              "desc": "Todos os cursos, informações e matrículas",
+              "title": "Confira Nossas Pós-Graduações Disponíveis",
+              "desc": "Inscrições abertas para cursos e especializações presenciais e digitais na Inspirar Londrina (PR)",
               "url": "https://www.inspirar.com.br/pr-londrina/",
               "icon": "globe",
-              "accent": ""
+              "accent": "cyan",
+              "banner": "assets/images/units/londrina/recepcao-01-scaled.jpeg",
+              "tag": "Portal Oficial & Matrículas",
+              "badge": "Inscrições Abertas"
             }
           ]
         },
@@ -2201,11 +2255,14 @@
           "icon": "globe",
           "items": [
             {
-              "title": "Site Oficial — Luanda",
-              "desc": "Todos os cursos, informações e matrículas",
+              "title": "Confira Nossas Pós-Graduações Disponíveis",
+              "desc": "Inscrições abertas para cursos e especializações presenciais e digitais na Inspirar Luanda (AO)",
               "url": "https://www.inspirar.com.br/ao-luanda/",
               "icon": "globe",
-              "accent": ""
+              "accent": "cyan",
+              "banner": "assets/images/units/luanda/cidade-luanda.jpg",
+              "tag": "Portal Oficial & Matrículas",
+              "badge": "Inscrições Abertas"
             }
           ]
         },
@@ -2267,11 +2324,14 @@
           "icon": "globe",
           "items": [
             {
-              "title": "Site Oficial — Maceió",
-              "desc": "Todos os cursos, informações e matrículas",
+              "title": "Confira Nossas Pós-Graduações Disponíveis",
+              "desc": "Inscrições abertas para cursos e especializações presenciais e digitais na Inspirar Maceió (AL)",
               "url": "https://www.inspirar.com.br/al-maceio-slim/",
               "icon": "globe",
-              "accent": ""
+              "accent": "cyan",
+              "banner": "assets/images/units/maceio/cidade-maceio.jpg",
+              "tag": "Portal Oficial & Matrículas",
+              "badge": "Inscrições Abertas"
             }
           ]
         },
@@ -2350,11 +2410,14 @@
           "icon": "globe",
           "items": [
             {
-              "title": "Site Oficial — Parauapebas",
-              "desc": "Todos os cursos, informações e matrículas",
+              "title": "Confira Nossas Pós-Graduações Disponíveis",
+              "desc": "Inscrições abertas para cursos e especializações presenciais e digitais na Inspirar Parauapebas (PA)",
               "url": "https://www.inspirar.com.br/pa-parauapebas-slim/",
               "icon": "globe",
-              "accent": ""
+              "accent": "cyan",
+              "banner": "assets/images/units/parauapebas/cidade-parauapebas.jpeg",
+              "tag": "Portal Oficial & Matrículas",
+              "badge": "Inscrições Abertas"
             }
           ]
         },
@@ -2429,11 +2492,14 @@
           "icon": "globe",
           "items": [
             {
-              "title": "Site Oficial — Porto Alegre",
-              "desc": "Todos os cursos, informações e matrículas",
+              "title": "Confira Nossas Pós-Graduações Disponíveis",
+              "desc": "Inscrições abertas para cursos e especializações presenciais e digitais na Inspirar Porto Alegre (RS)",
               "url": "https://www.inspirar.com.br/rs-porto-alegre/",
               "icon": "globe",
-              "accent": ""
+              "accent": "cyan",
+              "banner": "assets/images/units/porto-alegre/area-de-convivencia-2.webp",
+              "tag": "Portal Oficial & Matrículas",
+              "badge": "Inscrições Abertas"
             }
           ]
         },
@@ -2511,11 +2577,14 @@
           "icon": "globe",
           "items": [
             {
-              "title": "Site Oficial — Porto Velho",
-              "desc": "Todos os cursos, informações e matrículas",
+              "title": "Confira Nossas Pós-Graduações Disponíveis",
+              "desc": "Inscrições abertas para cursos e especializações presenciais e digitais na Inspirar Porto Velho (RO)",
               "url": "https://www.inspirar.com.br/ro-porto-velho/",
               "icon": "globe",
-              "accent": ""
+              "accent": "cyan",
+              "banner": "assets/images/units/porto-velho/cidade-porto-velho.jpg",
+              "tag": "Portal Oficial & Matrículas",
+              "badge": "Inscrições Abertas"
             }
           ]
         },
@@ -2594,11 +2663,14 @@
           "icon": "globe",
           "items": [
             {
-              "title": "Site Oficial — Ribeirão Preto",
-              "desc": "Todos os cursos, informações e matrículas",
+              "title": "Confira Nossas Pós-Graduações Disponíveis",
+              "desc": "Inscrições abertas para cursos e especializações presenciais e digitais na Inspirar Ribeirão Preto (SP)",
               "url": "https://www.inspirar.com.br/sp-ribeirao-preto/",
               "icon": "globe",
-              "accent": ""
+              "accent": "cyan",
+              "banner": "assets/images/units/ribeirao-preto/cidade-ribeirao-preto.jpg",
+              "tag": "Portal Oficial & Matrículas",
+              "badge": "Inscrições Abertas"
             }
           ]
         },
@@ -2726,11 +2798,14 @@
           "icon": "globe",
           "items": [
             {
-              "title": "Site Oficial — Rio de Janeiro",
-              "desc": "Todos os cursos, informações e matrículas",
+              "title": "Confira Nossas Pós-Graduações Disponíveis",
+              "desc": "Inscrições abertas para cursos e especializações presenciais e digitais na Inspirar Rio de Janeiro (RJ)",
               "url": "https://www.inspirar.com.br/rj-rio-de-janeiro/",
               "icon": "globe",
-              "accent": ""
+              "accent": "cyan",
+              "banner": "assets/images/units/rio-de-janeiro/fachada.webp",
+              "tag": "Portal Oficial & Matrículas",
+              "badge": "Inscrições Abertas"
             }
           ]
         },
@@ -2855,11 +2930,14 @@
           "icon": "globe",
           "items": [
             {
-              "title": "Site Oficial — Salvador",
-              "desc": "Todos os cursos, informações e matrículas",
+              "title": "Confira Nossas Pós-Graduações Disponíveis",
+              "desc": "Inscrições abertas para cursos e especializações presenciais e digitais na Inspirar Salvador (BA)",
               "url": "https://www.inspirar.com.br/ba-salvador-slim/",
               "icon": "globe",
-              "accent": ""
+              "accent": "cyan",
+              "banner": "assets/images/units/salvador/cidade-salvador.jpg",
+              "tag": "Portal Oficial & Matrículas",
+              "badge": "Inscrições Abertas"
             }
           ]
         },
@@ -2921,11 +2999,14 @@
           "icon": "globe",
           "items": [
             {
-              "title": "Site Oficial — Santo André",
-              "desc": "Todos os cursos, informações e matrículas",
+              "title": "Confira Nossas Pós-Graduações Disponíveis",
+              "desc": "Inscrições abertas para cursos e especializações presenciais e digitais na Inspirar Santo André (SP)",
               "url": "https://www.inspirar.com.br/sp-santo-andre-slim/",
               "icon": "globe",
-              "accent": ""
+              "accent": "cyan",
+              "banner": "assets/images/units/santo-andre/cidade-santo-andre.webp",
+              "tag": "Portal Oficial & Matrículas",
+              "badge": "Inscrições Abertas"
             }
           ]
         },
@@ -2996,11 +3077,14 @@
           "icon": "globe",
           "items": [
             {
-              "title": "Site Oficial — Santos",
-              "desc": "Todos os cursos, informações e matrículas",
+              "title": "Confira Nossas Pós-Graduações Disponíveis",
+              "desc": "Inscrições abertas para cursos e especializações presenciais e digitais na Inspirar Santos (SP)",
               "url": "https://www.inspirar.com.br/sp-sao-paulo-santos/",
               "icon": "globe",
-              "accent": ""
+              "accent": "cyan",
+              "banner": "assets/images/units/santos/cidade-santos.webp",
+              "tag": "Portal Oficial & Matrículas",
+              "badge": "Inscrições Abertas"
             }
           ]
         },
@@ -3062,11 +3146,14 @@
           "icon": "globe",
           "items": [
             {
-              "title": "Site Oficial — São José do Rio Preto",
-              "desc": "Todos os cursos, informações e matrículas",
+              "title": "Confira Nossas Pós-Graduações Disponíveis",
+              "desc": "Inscrições abertas para cursos e especializações presenciais e digitais na Inspirar São José do Rio Preto (SP)",
               "url": "https://www.inspirar.com.br/sp-sao-jose-do-rio-preto-2/",
               "icon": "globe",
-              "accent": ""
+              "accent": "cyan",
+              "banner": "assets/images/units/sao-jose-do-rio-preto/cidade-sao-jose-do-rio-preto.jpg",
+              "tag": "Portal Oficial & Matrículas",
+              "badge": "Inscrições Abertas"
             }
           ]
         },
@@ -3131,11 +3218,14 @@
           "icon": "globe",
           "items": [
             {
-              "title": "Site Oficial — São José dos Campos",
-              "desc": "Todos os cursos, informações e matrículas",
+              "title": "Confira Nossas Pós-Graduações Disponíveis",
+              "desc": "Inscrições abertas para cursos e especializações presenciais e digitais na Inspirar São José dos Campos (SP)",
               "url": "https://www.inspirar.com.br/sp-sao-jose-dos-campos/",
               "icon": "globe",
-              "accent": ""
+              "accent": "cyan",
+              "banner": "assets/images/units/sao-jose-dos-campos/fachada.webp",
+              "tag": "Portal Oficial & Matrículas",
+              "badge": "Inscrições Abertas"
             }
           ]
         },
@@ -3251,11 +3341,14 @@
           "icon": "globe",
           "items": [
             {
-              "title": "Site Oficial — São Luís",
-              "desc": "Todos os cursos, informações e matrículas",
+              "title": "Confira Nossas Pós-Graduações Disponíveis",
+              "desc": "Inscrições abertas para cursos e especializações presenciais e digitais na Inspirar São Luís (MA)",
               "url": "https://www.inspirar.com.br/ma-sao-luis/",
               "icon": "globe",
-              "accent": ""
+              "accent": "cyan",
+              "banner": "assets/images/units/sao-luis/fachada-2.webp",
+              "tag": "Portal Oficial & Matrículas",
+              "badge": "Inscrições Abertas"
             }
           ]
         },
@@ -3434,11 +3527,14 @@
           "icon": "globe",
           "items": [
             {
-              "title": "Site Oficial — São Paulo - Borba Gato",
-              "desc": "Todos os cursos, informações e matrículas",
+              "title": "Confira Nossas Pós-Graduações Disponíveis",
+              "desc": "Inscrições abertas para cursos e especializações presenciais e digitais na Inspirar São Paulo - Borba Gato (SP)",
               "url": "https://www.inspirar.com.br/sp-sao-paulo-borba-gato/",
               "icon": "globe",
-              "accent": ""
+              "accent": "cyan",
+              "banner": "assets/images/units/sao-paulo-borba-gato/sp-bg-fachada.webp",
+              "tag": "Portal Oficial & Matrículas",
+              "badge": "Inscrições Abertas"
             }
           ]
         },
@@ -3571,11 +3667,14 @@
           "icon": "globe",
           "items": [
             {
-              "title": "Site Oficial — São Paulo - Vila Mariana",
-              "desc": "Todos os cursos, informações e matrículas",
+              "title": "Confira Nossas Pós-Graduações Disponíveis",
+              "desc": "Inscrições abertas para cursos e especializações presenciais e digitais na Inspirar São Paulo - Vila Mariana (SP)",
               "url": "https://www.inspirar.com.br/sp-sao-paulo-vila-mariana/",
               "icon": "globe",
-              "accent": ""
+              "accent": "cyan",
+              "banner": "assets/images/units/sao-paulo-vila-mariana/fachada.jpeg",
+              "tag": "Portal Oficial & Matrículas",
+              "badge": "Inscrições Abertas"
             }
           ]
         },
@@ -3685,11 +3784,14 @@
           "icon": "globe",
           "items": [
             {
-              "title": "Site Oficial — Sorocaba",
-              "desc": "Todos os cursos, informações e matrículas",
+              "title": "Confira Nossas Pós-Graduações Disponíveis",
+              "desc": "Inscrições abertas para cursos e especializações presenciais e digitais na Inspirar Sorocaba (SP)",
               "url": "https://www.inspirar.com.br/sp-sorocaba/",
               "icon": "globe",
-              "accent": ""
+              "accent": "cyan",
+              "banner": "assets/images/units/sorocaba/sorocaba-fachada.webp",
+              "tag": "Portal Oficial & Matrículas",
+              "badge": "Inscrições Abertas"
             }
           ]
         },
@@ -3778,11 +3880,14 @@
           "icon": "globe",
           "items": [
             {
-              "title": "Site Oficial — Teresina",
-              "desc": "Todos os cursos, informações e matrículas",
+              "title": "Confira Nossas Pós-Graduações Disponíveis",
+              "desc": "Inscrições abertas para cursos e especializações presenciais e digitais na Inspirar Teresina (PI)",
               "url": "https://www.inspirar.com.br/pi-teresina/",
               "icon": "globe",
-              "accent": ""
+              "accent": "cyan",
+              "banner": "assets/images/units/teresina/cidade-teresina.jpg",
+              "tag": "Portal Oficial & Matrículas",
+              "badge": "Inscrições Abertas"
             }
           ]
         },
@@ -3859,11 +3964,14 @@
           "icon": "globe",
           "items": [
             {
-              "title": "Site Oficial — Uberlândia",
-              "desc": "Todos os cursos, informações e matrículas",
+              "title": "Confira Nossas Pós-Graduações Disponíveis",
+              "desc": "Inscrições abertas para cursos e especializações presenciais e digitais na Inspirar Uberlândia (MG)",
               "url": "https://www.inspirar.com.br/mg-uberlandia/",
               "icon": "globe",
-              "accent": ""
+              "accent": "cyan",
+              "banner": "assets/images/units/uberlandia/fachada.jpeg",
+              "tag": "Portal Oficial & Matrículas",
+              "badge": "Inscrições Abertas"
             }
           ]
         },
@@ -3944,11 +4052,14 @@
           "icon": "globe",
           "items": [
             {
-              "title": "Site Oficial — Vitória",
-              "desc": "Todos os cursos, informações e matrículas",
+              "title": "Confira Nossas Pós-Graduações Disponíveis",
+              "desc": "Inscrições abertas para cursos e especializações presenciais e digitais na Inspirar Vitória (ES)",
               "url": "https://www.inspirar.com.br/es-vitoria/",
               "icon": "globe",
-              "accent": ""
+              "accent": "cyan",
+              "banner": "assets/images/units/vitoria/vitoria-fachada.jpeg",
+              "tag": "Portal Oficial & Matrículas",
+              "badge": "Inscrições Abertas"
             }
           ]
         },

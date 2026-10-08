@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-08T13:35:15.339Z",
+  "timestamp": "2026-10-08T13:48:25.368Z",
   "total": 285,
   "dryRun": true,
   "results": [
@@ -70,7 +70,7 @@
     {
       "source": "Portal Oficial",
       "unit": "Balneário Camboriú",
-      "field": "Site Oficial — Balneário Camboriú",
+      "field": "Confira Nossas Pós-Graduações Disponíveis",
       "url": "https://www.inspirar.com.br/sc-balneario-camboriu/",
       "status": "FORMAT_OK",
       "ok": true
@@ -110,7 +110,7 @@
     {
       "source": "Portal Oficial",
       "unit": "Bauru",
-      "field": "Site Oficial — Bauru",
+      "field": "Confira Nossas Pós-Graduações Disponíveis",
       "url": "https://www.inspirar.com.br/sp-bauru/",
       "status": "FORMAT_OK",
       "ok": true
@@ -190,7 +190,7 @@
     {
       "source": "Portal Oficial",
       "unit": "Belém",
-      "field": "Site Oficial — Belém",
+      "field": "Confira Nossas Pós-Graduações Disponíveis",
       "url": "https://www.inspirar.com.br/pa-belem/",
       "status": "FORMAT_OK",
       "ok": true
@@ -262,7 +262,7 @@
     {
       "source": "Portal Oficial",
       "unit": "Belo Horizonte",
-      "field": "Site Oficial — Belo Horizonte",
+      "field": "Confira Nossas Pós-Graduações Disponíveis",
       "url": "https://www.inspirar.com.br/mg-belo-horizonte/",
       "status": "FORMAT_OK",
       "ok": true
@@ -318,7 +318,7 @@
     {
       "source": "Portal Oficial",
       "unit": "Blumenau",
-      "field": "Site Oficial — Blumenau",
+      "field": "Confira Nossas Pós-Graduações Disponíveis",
       "url": "https://www.inspirar.com.br/sc-blumenau/",
       "status": "FORMAT_OK",
       "ok": true
@@ -366,7 +366,7 @@
     {
       "source": "Portal Oficial",
       "unit": "Brasília",
-      "field": "Site Oficial — Brasília",
+      "field": "Confira Nossas Pós-Graduações Disponíveis",
       "url": "https://www.inspirar.com.br/df-distrito-federal-brasilia/",
       "status": "FORMAT_OK",
       "ok": true
@@ -422,7 +422,7 @@
     {
       "source": "Portal Oficial",
       "unit": "Campinas",
-      "field": "Site Oficial — Campinas",
+      "field": "Confira Nossas Pós-Graduações Disponíveis",
       "url": "https://www.inspirar.com.br/sp-campinas/",
       "status": "FORMAT_OK",
       "ok": true
@@ -494,7 +494,7 @@
     {
       "source": "Portal Oficial",
       "unit": "Campo Grande",
-      "field": "Site Oficial — Campo Grande",
+      "field": "Confira Nossas Pós-Graduações Disponíveis",
       "url": "https://www.inspirar.com.br/ms-campo-grande/",
       "status": "FORMAT_OK",
       "ok": true
@@ -542,7 +542,7 @@
     {
       "source": "Portal Oficial",
       "unit": "Cuiabá",
-      "field": "Site Oficial — Cuiabá",
+      "field": "Confira Nossas Pós-Graduações Disponíveis",
       "url": "https://www.inspirar.com.br/mt-cuiaba/",
       "status": "FORMAT_OK",
       "ok": true
@@ -630,7 +630,7 @@
     {
       "source": "Portal Oficial",
       "unit": "Curitiba",
-      "field": "Site Oficial — Curitiba",
+      "field": "Confira Nossas Pós-Graduações Disponíveis",
       "url": "https://www.inspirar.com.br/pr-curitiba/",
       "status": "FORMAT_OK",
       "ok": true
@@ -750,7 +750,7 @@
     {
       "source": "Portal Oficial",
       "unit": "Dourados",
-      "field": "Site Oficial — Dourados",
+      "field": "Confira Nossas Pós-Graduações Disponíveis",
       "url": "https://www.inspirar.com.br/ms-dourados-3/",
       "status": "FORMAT_OK",
       "ok": true
@@ -790,7 +790,7 @@
     {
       "source": "Portal Oficial",
       "unit": "Florianópolis",
-      "field": "Site Oficial — Florianópolis",
+      "field": "Confira Nossas Pós-Graduações Disponíveis",
       "url": "https://www.inspirar.com.br/sc-florianopolis/",
       "status": "FORMAT_OK",
       "ok": true
@@ -846,7 +846,7 @@
     {
       "source": "Portal Oficial",
       "unit": "Fortaleza",
-      "field": "Site Oficial — Fortaleza",
+      "field": "Confira Nossas Pós-Graduações Disponíveis",
       "url": "https://www.inspirar.com.br/ce-fortaleza-slim/",
       "status": "FORMAT_OK",
       "ok": true
@@ -910,7 +910,7 @@
     {
       "source": "Portal Oficial",
       "unit": "Goiânia",
-      "field": "Site Oficial — Goiânia",
+      "field": "Confira Nossas Pós-Graduações Disponíveis",
       "url": "https://www.inspirar.com.br/go-goiania/",
       "status": "FORMAT_OK",
       "ok": true
@@ -958,7 +958,7 @@
     {
       "source": "Portal Oficial",
       "unit": "Guarulhos",
-      "field": "Site Oficial — Guarulhos",
+      "field": "Confira Nossas Pós-Graduações Disponíveis",
       "url": "https://www.inspirar.com.br/sp-guarulhos/",
       "status": "FORMAT_OK",
       "ok": true
@@ -1078,7 +1078,7 @@
     {
       "source": "Portal Oficial",
       "unit": "Ipatinga",
-      "field": "Site Oficial — Ipatinga",
+      "field": "Confira Nossas Pós-Graduações Disponíveis",
       "url": "https://www.inspirar.com.br/mg-ipatinga/",
       "status": "FORMAT_OK",
       "ok": true
@@ -1126,7 +1126,7 @@
     {
       "source": "Portal Oficial",
       "unit": "Joinville",
-      "field": "Site Oficial — Joinville",
+      "field": "Confira Nossas Pós-Graduações Disponíveis",
       "url": "https://www.inspirar.com.br/sc-joinville/",
       "status": "FORMAT_OK",
       "ok": true
@@ -1166,7 +1166,7 @@
     {
       "source": "Portal Oficial",
       "unit": "Londrina",
-      "field": "Site Oficial — Londrina",
+      "field": "Confira Nossas Pós-Graduações Disponíveis",
       "url": "https://www.inspirar.com.br/pr-londrina/",
       "status": "FORMAT_OK",
       "ok": true
@@ -1230,7 +1230,7 @@
     {
       "source": "Portal Oficial",
       "unit": "Luanda",
-      "field": "Site Oficial — Luanda",
+      "field": "Confira Nossas Pós-Graduações Disponíveis",
       "url": "https://www.inspirar.com.br/ao-luanda/",
       "status": "FORMAT_OK",
       "ok": true
@@ -1270,7 +1270,7 @@
     {
       "source": "Portal Oficial",
       "unit": "Maceió",
-      "field": "Site Oficial — Maceió",
+      "field": "Confira Nossas Pós-Graduações Disponíveis",
       "url": "https://www.inspirar.com.br/al-maceio-slim/",
       "status": "FORMAT_OK",
       "ok": true
@@ -1318,7 +1318,7 @@
     {
       "source": "Portal Oficial",
       "unit": "Parauapebas",
-      "field": "Site Oficial — Parauapebas",
+      "field": "Confira Nossas Pós-Graduações Disponíveis",
       "url": "https://www.inspirar.com.br/pa-parauapebas-slim/",
       "status": "FORMAT_OK",
       "ok": true
@@ -1358,7 +1358,7 @@
     {
       "source": "Portal Oficial",
       "unit": "Porto Alegre",
-      "field": "Site Oficial — Porto Alegre",
+      "field": "Confira Nossas Pós-Graduações Disponíveis",
       "url": "https://www.inspirar.com.br/rs-porto-alegre/",
       "status": "FORMAT_OK",
       "ok": true
@@ -1406,7 +1406,7 @@
     {
       "source": "Portal Oficial",
       "unit": "Porto Velho",
-      "field": "Site Oficial — Porto Velho",
+      "field": "Confira Nossas Pós-Graduações Disponíveis",
       "url": "https://www.inspirar.com.br/ro-porto-velho/",
       "status": "FORMAT_OK",
       "ok": true
@@ -1454,7 +1454,7 @@
     {
       "source": "Portal Oficial",
       "unit": "Ribeirão Preto",
-      "field": "Site Oficial — Ribeirão Preto",
+      "field": "Confira Nossas Pós-Graduações Disponíveis",
       "url": "https://www.inspirar.com.br/sp-ribeirao-preto/",
       "status": "FORMAT_OK",
       "ok": true
@@ -1526,7 +1526,7 @@
     {
       "source": "Portal Oficial",
       "unit": "Rio de Janeiro",
-      "field": "Site Oficial — Rio de Janeiro",
+      "field": "Confira Nossas Pós-Graduações Disponíveis",
       "url": "https://www.inspirar.com.br/rj-rio-de-janeiro/",
       "status": "FORMAT_OK",
       "ok": true
@@ -1606,7 +1606,7 @@
     {
       "source": "Portal Oficial",
       "unit": "Salvador",
-      "field": "Site Oficial — Salvador",
+      "field": "Confira Nossas Pós-Graduações Disponíveis",
       "url": "https://www.inspirar.com.br/ba-salvador-slim/",
       "status": "FORMAT_OK",
       "ok": true
@@ -1646,7 +1646,7 @@
     {
       "source": "Portal Oficial",
       "unit": "Santo André",
-      "field": "Site Oficial — Santo André",
+      "field": "Confira Nossas Pós-Graduações Disponíveis",
       "url": "https://www.inspirar.com.br/sp-santo-andre-slim/",
       "status": "FORMAT_OK",
       "ok": true
@@ -1694,7 +1694,7 @@
     {
       "source": "Portal Oficial",
       "unit": "Santos",
-      "field": "Site Oficial — Santos",
+      "field": "Confira Nossas Pós-Graduações Disponíveis",
       "url": "https://www.inspirar.com.br/sp-sao-paulo-santos/",
       "status": "FORMAT_OK",
       "ok": true
@@ -1734,7 +1734,7 @@
     {
       "source": "Portal Oficial",
       "unit": "São José do Rio Preto",
-      "field": "Site Oficial — São José do Rio Preto",
+      "field": "Confira Nossas Pós-Graduações Disponíveis",
       "url": "https://www.inspirar.com.br/sp-sao-jose-do-rio-preto-2/",
       "status": "FORMAT_OK",
       "ok": true
@@ -1774,7 +1774,7 @@
     {
       "source": "Portal Oficial",
       "unit": "São José dos Campos",
-      "field": "Site Oficial — São José dos Campos",
+      "field": "Confira Nossas Pós-Graduações Disponíveis",
       "url": "https://www.inspirar.com.br/sp-sao-jose-dos-campos/",
       "status": "FORMAT_OK",
       "ok": true
@@ -1830,7 +1830,7 @@
     {
       "source": "Portal Oficial",
       "unit": "São Luís",
-      "field": "Site Oficial — São Luís",
+      "field": "Confira Nossas Pós-Graduações Disponíveis",
       "url": "https://www.inspirar.com.br/ma-sao-luis/",
       "status": "FORMAT_OK",
       "ok": true
@@ -1934,7 +1934,7 @@
     {
       "source": "Portal Oficial",
       "unit": "São Paulo - Borba Gato",
-      "field": "Site Oficial — São Paulo - Borba Gato",
+      "field": "Confira Nossas Pós-Graduações Disponíveis",
       "url": "https://www.inspirar.com.br/sp-sao-paulo-borba-gato/",
       "status": "FORMAT_OK",
       "ok": true
@@ -2006,7 +2006,7 @@
     {
       "source": "Portal Oficial",
       "unit": "São Paulo - Vila Mariana",
-      "field": "Site Oficial — São Paulo - Vila Mariana",
+      "field": "Confira Nossas Pós-Graduações Disponíveis",
       "url": "https://www.inspirar.com.br/sp-sao-paulo-vila-mariana/",
       "status": "FORMAT_OK",
       "ok": true
@@ -2070,7 +2070,7 @@
     {
       "source": "Portal Oficial",
       "unit": "Sorocaba",
-      "field": "Site Oficial — Sorocaba",
+      "field": "Confira Nossas Pós-Graduações Disponíveis",
       "url": "https://www.inspirar.com.br/sp-sorocaba/",
       "status": "FORMAT_OK",
       "ok": true
@@ -2126,7 +2126,7 @@
     {
       "source": "Portal Oficial",
       "unit": "Teresina",
-      "field": "Site Oficial — Teresina",
+      "field": "Confira Nossas Pós-Graduações Disponíveis",
       "url": "https://www.inspirar.com.br/pi-teresina/",
       "status": "FORMAT_OK",
       "ok": true
@@ -2166,7 +2166,7 @@
     {
       "source": "Portal Oficial",
       "unit": "Uberlândia",
-      "field": "Site Oficial — Uberlândia",
+      "field": "Confira Nossas Pós-Graduações Disponíveis",
       "url": "https://www.inspirar.com.br/mg-uberlandia/",
       "status": "FORMAT_OK",
       "ok": true
@@ -2206,7 +2206,7 @@
     {
       "source": "Portal Oficial",
       "unit": "Vitória",
-      "field": "Site Oficial — Vitória",
+      "field": "Confira Nossas Pós-Graduações Disponíveis",
       "url": "https://www.inspirar.com.br/es-vitoria/",
       "status": "FORMAT_OK",
       "ok": true
