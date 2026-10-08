@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-10-08T18:42:51.306Z",
-  "total": 285,
+  "timestamp": "2026-10-08T19:47:36.282Z",
+  "total": 286,
   "dryRun": true,
   "results": [
     {
@@ -704,6 +704,14 @@
       "unit": "Curitiba",
       "field": "AmoFisio — Interpretação de Exames Laboratoriais Aplicada à Dermatofuncional",
       "url": "https://www.sympla.com.br/evento/amofisio-interpretacao-de-exames-laboratoriais-aplicada-a-dermatofuncional/3563006",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Eventos",
+      "unit": "Curitiba",
+      "field": "AmoFisio — Biomecânica do pé e alterações funcionais",
+      "url": "https://www.sympla.com.br/evento/amofisio-biomecanica-do-pe-e-alteracoes-funcionais/3612450",
       "status": "FORMAT_OK",
       "ok": true
     },

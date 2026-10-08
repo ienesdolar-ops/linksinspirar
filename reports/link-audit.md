@@ -1,8 +1,8 @@
 # Relatório de Verificação de Links — Bio no Link
 
-- **Data**: 08/10/2026, 15:42:51
+- **Data**: 08/10/2026, 16:47:36
 - **Modo**: Validação Estrutural (Dry Run)
-- **Total de Links Verificados**: 285
+- **Total de Links Verificados**: 286
 
 | Unidade | Campo / Título | URL | Status |
 | :--- | :--- | :--- | :--- |
@@ -94,6 +94,7 @@
 | Curitiba | AmoFisio — Introdução à Disfunção Temporomandibular | [https://www.sympla.com.br/evento/amofisio-int...](https://www.sympla.com.br/evento/amofisio-introducao-a-disfuncao-temporomandibular/3561113) | ✅ OK |
 | Curitiba | AmoFisio — Correntes Diadinâmicas de Bernard na Reabilitação Musculoesquelética | [https://www.sympla.com.br/evento/amofisio-cor...](https://www.sympla.com.br/evento/amofisio-correntes-diadinamicas-de-bernard-na-reabilitacao-musculoesqueletica/3562993) | ✅ OK |
 | Curitiba | AmoFisio — Interpretação de Exames Laboratoriais Aplicada à Dermatofuncional | [https://www.sympla.com.br/evento/amofisio-int...](https://www.sympla.com.br/evento/amofisio-interpretacao-de-exames-laboratoriais-aplicada-a-dermatofuncional/3563006) | ✅ OK |
+| Curitiba | AmoFisio — Biomecânica do pé e alterações funcionais | [https://www.sympla.com.br/evento/amofisio-bio...](https://www.sympla.com.br/evento/amofisio-biomecanica-do-pe-e-alteracoes-funcionais/3612450) | ✅ OK |
 | Curitiba | Congresso Internacional em Estética | [https://faculdadeinspirar.com.br/congresso-de...](https://faculdadeinspirar.com.br/congresso-de-estetica/) | ✅ OK |
 | Curitiba | Matricule-se pelo WhatsApp | [https://api.whatsapp.com/send?phone=558006022...](https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Curitiba) | ✅ OK |
 | Dourados | website | [https://www.inspirar.com.br/ms-dourados-3/...](https://www.inspirar.com.br/ms-dourados-3/) | ✅ OK |
