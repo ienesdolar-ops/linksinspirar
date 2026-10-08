@@ -27,8 +27,8 @@
       "mapsUrl": "https://maps.google.com/?q=Faculdade+Inspirar+Balne%C3%A1rio%20Cambori%C3%BA",
       "coverImage": "assets/images/units/balneario-camboriu/recepcao.webp",
       "logoImage": "assets/images/Logo branca - horizontal.png",
-      "whatsapp": "558006022828",
-      "whatsappDisplay": "0800 602 2828",
+      "whatsapp": "5547997959151",
+      "whatsappDisplay": "(47) 99795-9151",
       "whatsappDefaultMessage": "Olá! Tenho interesse em saber mais sobre os cursos da Faculdade Inspirar - Balneário Camboriú",
       "instagram": "https://www.instagram.com/inspirarbalcamboriu/",
       "instagramUser": "@inspirarbalcamboriu",
@@ -95,9 +95,11 @@
           "icon": "settings",
           "items": [
             {
-              "title": "Matricule-se pelo WhatsApp",
-              "desc": "Fale com nossa equipe • 0800 602 2828",
-              "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Balne%C3%A1rio%20Cambori%C3%BA",
+              "title": "Fale no WhatsApp — Balneário Camboriú",
+              "desc": "Atendimento direto • (47) 99795-9151",
+              "tag": "WhatsApp",
+              "badge": "Online",
+              "url": "https://api.whatsapp.com/send?phone=5547997959151&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Balne%C3%A1rio%20Cambori%C3%BA",
               "icon": "whatsapp",
               "accent": "green"
             }

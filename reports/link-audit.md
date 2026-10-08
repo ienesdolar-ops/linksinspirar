@@ -1,6 +1,6 @@
 # Relatório de Verificação de Links — Bio no Link
 
-- **Data**: 08/10/2026, 11:09:20
+- **Data**: 08/10/2026, 15:42:51
 - **Modo**: Validação Estrutural (Dry Run)
 - **Total de Links Verificados**: 285
 
@@ -15,7 +15,7 @@
 | Balneário Camboriú | instagram | [https://www.instagram.com/inspirarbalcamboriu...](https://www.instagram.com/inspirarbalcamboriu/) | ✅ OK |
 | Balneário Camboriú | mapsUrl | [https://maps.google.com/?q=Faculdade+Inspirar...](https://maps.google.com/?q=Faculdade+Inspirar+Balne%C3%A1rio%20Cambori%C3%BA) | ✅ OK |
 | Balneário Camboriú | Confira Nossas Pós-Graduações Disponíveis | [https://www.inspirar.com.br/sc-balneario-camb...](https://www.inspirar.com.br/sc-balneario-camboriu/) | ✅ OK |
-| Balneário Camboriú | Matricule-se pelo WhatsApp | [https://api.whatsapp.com/send?phone=558006022...](https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Balne%C3%A1rio%20Cambori%C3%BA) | ✅ OK |
+| Balneário Camboriú | Fale no WhatsApp — Balneário Camboriú | [https://api.whatsapp.com/send?phone=554799795...](https://api.whatsapp.com/send?phone=5547997959151&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Balne%C3%A1rio%20Cambori%C3%BA) | ✅ OK |
 | Bauru | website | [https://www.inspirar.com.br/sp-bauru/...](https://www.inspirar.com.br/sp-bauru/) | ✅ OK |
 | Bauru | instagram | [https://www.instagram.com/inspirarbauru/...](https://www.instagram.com/inspirarbauru/) | ✅ OK |
 | Bauru | mapsUrl | [https://maps.google.com/?q=Faculdade+Inspirar...](https://maps.google.com/?q=Faculdade+Inspirar+Bauru) | ✅ OK |

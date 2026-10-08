@@ -6,6 +6,9 @@
 
 ### 1. Unidade Balneário Camboriú (SC)
 
+> **Status:** Atualizado com feedback do franqueado ✅  
+> - **WhatsApp:** (47) 99795-9151 (`5547997959151`)  
+
 ```
 Olá, queridos franqueados da Inspirar Balneário Camboriú!
 

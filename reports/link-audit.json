@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-08T14:09:20.030Z",
+  "timestamp": "2026-10-08T18:42:51.306Z",
   "total": 285,
   "dryRun": true,
   "results": [
@@ -78,8 +78,8 @@
     {
       "source": "Acesso Rápido",
       "unit": "Balneário Camboriú",
-      "field": "Matricule-se pelo WhatsApp",
-      "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Balne%C3%A1rio%20Cambori%C3%BA",
+      "field": "Fale no WhatsApp — Balneário Camboriú",
+      "url": "https://api.whatsapp.com/send?phone=5547997959151&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Balne%C3%A1rio%20Cambori%C3%BA",
       "status": "FORMAT_OK",
       "ok": true
     },
