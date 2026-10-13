@@ -206,7 +206,14 @@ runStep('Gate 8: Unit Links Configuration Fidelity (37 Units Audited)', () => {
   assert(bsbJson.includes('i-simposio-de-acupuntura'), 'Brasília missing simpósio link');
   assert(bsbJson.includes('2026-12-05T08:00:00-03:00'), 'Brasília missing 05/12 08:00 expiration');
 
-  // 7. WhatsApp links validation: 1 standard link, and 2 for Santo André (standard + VIP group), Guarulhos (2 contacts), and Fortaleza (local + institutional)
+  // 7. Londrina "+ Uma Oportunidade" Sympla event & expiration
+  const lda = data.units.find(u => u.slug === 'londrina');
+  const ldaJson = JSON.stringify(lda.sections);
+  assert(ldaJson.includes('3604208'), 'Londrina missing Uma Oportunidade event 3604208');
+  assert(ldaJson.includes('2026-10-24T08:00:00-03:00'), 'Londrina missing 24/10 08:00 expiration');
+  assert(ldaJson.includes('6abff44478666.png'), 'Londrina missing event banner');
+
+  // 8. WhatsApp links validation: 1 standard link, and 2 for Santo André (standard + VIP group), Guarulhos (2 contacts), and Fortaleza (local + institutional)
   data.units.forEach(u => {
     const waCount = (u.sections || []).flatMap(s => s.items || [])
       .filter(item => (item.url && (item.url.includes('whatsapp.com') || item.url.includes('wa.me'))) || item.icon === 'whatsapp').length;
