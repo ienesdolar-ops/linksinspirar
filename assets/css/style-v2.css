@@ -451,6 +451,10 @@ body {
   margin-bottom: 24px;
 }
 
+.quick-actions-bar.has-3-items {
+  grid-template-columns: repeat(3, 1fr);
+}
+
 .quick-action-btn {
   display: flex;
   flex-direction: column;

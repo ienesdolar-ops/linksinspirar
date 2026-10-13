@@ -1388,13 +1388,6 @@
           ]
         },
         {
-          "type": "campus_banner",
-          "id": "campus",
-          "bannerTitle": "Conheça a Unidade",
-          "bannerSub": "Dourados - MS",
-          "thumb": "assets/images/units/dourados/cidade-dourados.jpg"
-        },
-        {
           "id": "acesso_rapido",
           "title": "Acesso Rápido",
           "icon": "settings",
@@ -1643,13 +1636,6 @@
           ]
         },
         {
-          "type": "campus_banner",
-          "id": "campus",
-          "bannerTitle": "Conheça a Unidade",
-          "bannerSub": "Fortaleza - CE",
-          "thumb": "assets/images/units/fortaleza/cidade-fortaleza.jpg"
-        },
-        {
           "id": "acesso_rapido",
           "title": "Acesso Rápido",
           "icon": "settings",
@@ -1734,13 +1720,6 @@
               "banner": "https://images.sympla.com.br/6a9ac2d7ed656.png"
             }
           ]
-        },
-        {
-          "type": "campus_banner",
-          "id": "campus",
-          "bannerTitle": "Conheça a Unidade",
-          "bannerSub": "Goiânia - GO",
-          "thumb": "assets/images/units/goiania/cidade-goiania.jpeg"
         },
         {
           "id": "acesso_rapido",
@@ -2012,13 +1991,6 @@
           ]
         },
         {
-          "type": "campus_banner",
-          "id": "campus",
-          "bannerTitle": "Conheça a Unidade",
-          "bannerSub": "Ipatinga - MG",
-          "thumb": "assets/images/units/ipatinga/cidade-ipatinga.jpg"
-        },
-        {
           "id": "acesso_rapido",
           "title": "Acesso Rápido",
           "icon": "settings",
@@ -2079,13 +2051,6 @@
               "badge": "Inscrições Abertas"
             }
           ]
-        },
-        {
-          "type": "campus_banner",
-          "id": "campus",
-          "bannerTitle": "Conheça a Unidade",
-          "bannerSub": "Joinville - SC",
-          "thumb": "assets/images/units/joinville/cidade-joinville.jpg"
         },
         {
           "id": "acesso_rapido",
@@ -2289,13 +2254,6 @@
           ]
         },
         {
-          "type": "campus_banner",
-          "id": "campus",
-          "bannerTitle": "Conheça a Unidade",
-          "bannerSub": "Luanda - AO",
-          "thumb": "assets/images/units/luanda/cidade-luanda.jpg"
-        },
-        {
           "id": "acesso_rapido",
           "title": "Acesso Rápido",
           "icon": "settings",
@@ -2375,13 +2333,6 @@
           ]
         },
         {
-          "type": "campus_banner",
-          "id": "campus",
-          "bannerTitle": "Conheça a Unidade",
-          "bannerSub": "Maceió - AL",
-          "thumb": "assets/images/units/maceio/cidade-maceio.jpg"
-        },
-        {
           "id": "acesso_rapido",
           "title": "Acesso Rápido",
           "icon": "settings",
@@ -2442,13 +2393,6 @@
               "badge": "Inscrições Abertas"
             }
           ]
-        },
-        {
-          "type": "campus_banner",
-          "id": "campus",
-          "bannerTitle": "Conheça a Unidade",
-          "bannerSub": "Parauapebas - PA",
-          "thumb": "assets/images/units/parauapebas/cidade-parauapebas.jpeg"
         },
         {
           "id": "acesso_rapido",
@@ -2628,13 +2572,6 @@
           ]
         },
         {
-          "type": "campus_banner",
-          "id": "campus",
-          "bannerTitle": "Conheça a Unidade",
-          "bannerSub": "Porto Velho - RO",
-          "thumb": "assets/images/units/porto-velho/cidade-porto-velho.jpg"
-        },
-        {
           "id": "acesso_rapido",
           "title": "Acesso Rápido",
           "icon": "settings",
@@ -2742,13 +2679,6 @@
               "banner": "https://images.sympla.com.br/6abbce38645b2.png"
             }
           ]
-        },
-        {
-          "type": "campus_banner",
-          "id": "campus",
-          "bannerTitle": "Conheça a Unidade",
-          "bannerSub": "Ribeirão Preto - SP",
-          "thumb": "assets/images/units/ribeirao-preto/cidade-ribeirao-preto.jpg"
         },
         {
           "id": "acesso_rapido",
@@ -2964,13 +2894,6 @@
           ]
         },
         {
-          "type": "campus_banner",
-          "id": "campus",
-          "bannerTitle": "Conheça a Unidade",
-          "bannerSub": "Salvador - BA",
-          "thumb": "assets/images/units/salvador/cidade-salvador.jpg"
-        },
-        {
           "id": "acesso_rapido",
           "title": "Acesso Rápido",
           "icon": "settings",
@@ -3031,13 +2954,6 @@
               "badge": "Inscrições Abertas"
             }
           ]
-        },
-        {
-          "type": "campus_banner",
-          "id": "campus",
-          "bannerTitle": "Conheça a Unidade",
-          "bannerSub": "Santo André - SP",
-          "thumb": "assets/images/units/santo-andre/cidade-santo-andre.webp"
         },
         {
           "id": "acesso_rapido",
@@ -3111,13 +3027,6 @@
           ]
         },
         {
-          "type": "campus_banner",
-          "id": "campus",
-          "bannerTitle": "Conheça a Unidade",
-          "bannerSub": "Santos - SP",
-          "thumb": "assets/images/units/santos/cidade-santos.webp"
-        },
-        {
           "id": "acesso_rapido",
           "title": "Acesso Rápido",
           "icon": "settings",
@@ -3178,13 +3087,6 @@
               "badge": "Inscrições Abertas"
             }
           ]
-        },
-        {
-          "type": "campus_banner",
-          "id": "campus",
-          "bannerTitle": "Conheça a Unidade",
-          "bannerSub": "São José do Rio Preto - SP",
-          "thumb": "assets/images/units/sao-jose-do-rio-preto/cidade-sao-jose-do-rio-preto.jpg"
         },
         {
           "id": "acesso_rapido",
@@ -3895,13 +3797,6 @@
               "badge": "Inscrições Abertas"
             }
           ]
-        },
-        {
-          "type": "campus_banner",
-          "id": "campus",
-          "bannerTitle": "Conheça a Unidade",
-          "bannerSub": "Av. Universitária, 750, Lojas 74 — Fátima, Teresina — PI",
-          "thumb": "assets/images/units/teresina/cidade-teresina.jpg"
         },
         {
           "id": "acesso_rapido",

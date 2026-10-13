@@ -256,6 +256,7 @@ function generateUnitHtml(unit, data) {
   const faviconPath = `${relativeRoot}/assets/images/favicon.png`;
   const coverPath = `${relativeRoot}/${unit.coverImage || 'assets/images/UNIDADE CWB sem gourmet.png'}`;
   const hubUrl = `${relativeRoot}/index.html`;
+  const hasUnitPhotos = (unit.sections || []).some(s => s.type === 'campus_banner' || s.id === 'campus');
 
   // Gallery serialized data for client-side viewer
   const galleryItems = (unit.gallery && unit.gallery.length > 0)
@@ -518,7 +519,7 @@ ${antiFoucScript}
     </section>
 
     <!-- ── QUICK ACTIONS ── -->
-    <nav class="quick-actions-bar" aria-label="Ações Rápidas">
+    <nav class="quick-actions-bar${hasUnitPhotos ? '' : ' has-3-items'}" aria-label="Ações Rápidas">
       <a href="${waLink}" target="_blank" rel="noopener" class="quick-action-btn btn-whatsapp" aria-label="Conversar no WhatsApp">
         <span class="quick-action-icon">${ICONS.whatsapp}</span>
         <span>WhatsApp</span>
@@ -530,11 +531,11 @@ ${antiFoucScript}
       <a href="${unit.mapsUrl || unit.googleMapsUrl || '#'}" target="_blank" rel="noopener" class="quick-action-btn btn-maps" aria-label="Abrir localização no Google Maps">
         <span class="quick-action-icon">${ICONS.mapPin}</span>
         <span>Mapa</span>
-      </a>
+      </a>${hasUnitPhotos ? `
       <button class="quick-action-btn btn-tour" id="btn-open-gallery" onclick="openGallery()" aria-label="Abrir fotos das instalações da unidade">
         <span class="quick-action-icon">${ICONS.photos}</span>
         <span>Fotos</span>
-      </button>
+      </button>` : ''}
     </nav>
 
     ${spotlightHtml}
@@ -567,17 +568,17 @@ ${antiFoucScript}
 
   </main>
 
-  <!-- ── ACCESSIBLE GALLERY MODAL (COM FOCO NATIVO E ARIA) ── -->
+  ${hasUnitPhotos ? `<!-- ── ACCESSIBLE GALLERY MODAL (COM FOCO NATIVO E ARIA) ── -->
   <div class="gallery-modal-overlay" id="gallery-modal" role="dialog" aria-modal="true" aria-labelledby="gallery-modal-title" onclick="closeGalleryOnOverlay(event)">
     <div class="gallery-modal-content">
       <div class="gallery-header">
-        <h2 class="gallery-title" id="gallery-modal-title">Unidade ${unit.name}</h2>
+        <h2 class="gallery-title" id="gallery-modal-title">Unidade \${unit.name}</h2>
         <button class="gallery-close-btn" id="gallery-close-btn" onclick="closeGallery()" aria-label="Fechar galeria de fotos">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
         </button>
       </div>
       <div class="gallery-slider-viewport">
-        <img id="gallery-img" class="gallery-slide-img" src="${galleryItems[0].src}" alt="${galleryItems[0].caption}" loading="lazy">
+        <img id="gallery-img" class="gallery-slide-img" src="\${galleryItems[0].src}" alt="\${galleryItems[0].caption}" loading="lazy">
         <button class="gallery-nav-btn prev" id="gallery-prev-btn" onclick="galleryPrev()" aria-label="Foto anterior">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"/></svg>
         </button>
@@ -586,11 +587,11 @@ ${antiFoucScript}
         </button>
       </div>
       <div class="gallery-caption-bar">
-        <span class="gallery-caption-text" id="gallery-caption">${galleryItems[0].caption}</span>
-        <span class="gallery-counter" id="gallery-counter">1 / ${galleryItems.length}</span>
+        <span class="gallery-caption-text" id="gallery-caption">\${galleryItems[0].caption}</span>
+        <span class="gallery-counter" id="gallery-counter">1 / \${galleryItems.length}</span>
       </div>
     </div>
-  </div>
+  </div>` : ''}
 
   <!-- ── TOAST ── -->
   <div class="toast-box" id="toast" role="status" aria-live="polite">

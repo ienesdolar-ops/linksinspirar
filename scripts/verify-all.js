@@ -232,6 +232,33 @@ runStep('Gate 8: Unit Links Configuration Fidelity (37 Units Audited)', () => {
     const unitHtml = fs.readFileSync(unitHtmlPath, 'utf8');
     assert(!unitHtml.includes('https://www.youtube.com/'), `Unit ${u.slug} unexpectedly has YouTube link in HTML`);
   });
+
+  // 9. Units with only city photos must NOT contain "Fotos da Unidade" / campus_banner, while 22 real-photo units retain it
+  const citySlugs = [
+    'dourados', 'fortaleza', 'goiania', 'ipatinga', 'joinville', 'luanda',
+    'maceio', 'parauapebas', 'porto-velho', 'ribeirao-preto', 'salvador',
+    'santo-andre', 'santos', 'sao-jose-do-rio-preto', 'teresina'
+  ];
+
+  data.units.forEach(u => {
+    const isCity = citySlugs.includes(u.slug);
+    const hasCampusSec = (u.sections || []).some(s => s.id === 'campus' || s.type === 'campus_banner');
+    const unitHtmlPath = path.join(ROOT_DIR, u.slug, 'index.html');
+    const unitHtml = fs.readFileSync(unitHtmlPath, 'utf8');
+    const hasCardHtml = unitHtml.includes('Fotos da Unidade');
+    const hasTourBtn = unitHtml.includes('id="btn-open-gallery"');
+
+    if (isCity) {
+      assert(!hasCampusSec, `Unit ${u.slug} with city photo should NOT have campus_banner in data/units.json`);
+      assert(!hasCardHtml, `Unit ${u.slug} with city photo should NOT render "Fotos da Unidade" card in HTML`);
+      assert(!hasTourBtn, `Unit ${u.slug} with city photo should NOT render "btn-open-gallery" in HTML`);
+      assert(unitHtml.includes('has-3-items'), `Unit ${u.slug} should have .has-3-items on quick-actions-bar`);
+    } else {
+      assert(hasCampusSec, `Unit ${u.slug} with real photos MUST have campus_banner in data/units.json`);
+      assert(hasCardHtml, `Unit ${u.slug} with real photos MUST render "Fotos da Unidade" card in HTML`);
+      assert(hasTourBtn, `Unit ${u.slug} with real photos MUST render "btn-open-gallery" in HTML`);
+    }
+  });
 });
 
 // 9. Browser Tab Icon (Favicon with Símbolo Branco)
