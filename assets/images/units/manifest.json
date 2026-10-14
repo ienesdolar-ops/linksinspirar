@@ -930,12 +930,12 @@
     ]
   },
   "inspirar-holanda": {
-    "coverImage": "assets/images/units/inspirar-holanda/cidade-holanda.png",
+    "coverImage": "assets/images/units/inspirar-holanda/cidade-holanda.jpg",
     "gallery": [
       {
-        "file": "cidade-holanda.png",
-        "src": "assets/images/units/inspirar-holanda/cidade-holanda.png",
-        "caption": "Inspirar Holanda - Maastricht"
+        "file": "cidade-holanda.jpg",
+        "src": "assets/images/units/inspirar-holanda/cidade-holanda.jpg",
+        "caption": "Maastricht - Holanda"
       }
     ]
   },
@@ -945,7 +945,7 @@
       {
         "file": "capa-congresso.jpg",
         "src": "assets/images/units/congresso-fisioterapia-pelvica/capa-congresso.jpg",
-        "caption": "Congresso Internacional de Fisioterapia Pélvica"
+        "caption": "Dra. Maura Seleme - Congresso de Fisioterapia Pélvica"
       }
     ]
   },
@@ -955,7 +955,7 @@
       {
         "file": "capa-congresso.jpg",
         "src": "assets/images/units/congresso-estetica-inspirar/capa-congresso.jpg",
-        "caption": "Congresso Internacional de Estética da Inspirar"
+        "caption": "Presidentes do Congresso e Direção da Faculdade Inspirar"
       }
     ]
   }
