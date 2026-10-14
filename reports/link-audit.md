@@ -1,8 +1,8 @@
 # Relatório de Verificação de Links — Bio no Link
 
-- **Data**: 13/10/2026, 14:50:23
+- **Data**: 14/10/2026, 11:25:23
 - **Modo**: Validação Estrutural (Dry Run)
-- **Total de Links Verificados**: 286
+- **Total de Links Verificados**: 285
 
 | Unidade | Campo / Título | URL | Status |
 | :--- | :--- | :--- | :--- |
@@ -260,7 +260,6 @@
 | São Paulo - Vila Mariana | AmoFisio — Fotobiomodulação: Ampliando Possibilidades na Prática Clínica | [https://www.sympla.com.br/evento/amofisio-fot...](https://www.sympla.com.br/evento/amofisio-fotobiomodulacao-ampliando-possibilidades-na-pratica-clinica/3555403) | ✅ OK |
 | São Paulo - Vila Mariana | AmoFisio — O Paciente Está em Casa. E Agora? Desafios e Decisões da Fisioterapia Domiciliar | [https://www.sympla.com.br/evento/amofisio-o-p...](https://www.sympla.com.br/evento/amofisio-o-paciente-esta-em-casa-e-agora-desafios-e-decisoes-da-fisioterapia-domiciliar/3555399) | ✅ OK |
 | São Paulo - Vila Mariana | Workshop Estética Íntima Feminina na Fisioterapia Pélvica | [https://www.sympla.com.br/evento/workshop-est...](https://www.sympla.com.br/evento/workshop-estetica-intima-feminina-na-fisioterapia-pelvica/3590103?share_id=copiarlink%2F&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAadsjolk_hhPzaursBaOIL7pr4iGbrqYzBJWgTjSlkOJW3Co-PsCeU4L1Y8crA_aem_k2l8iFfmgjWP_yqpXPXV1g&utm_id=97760_v0_s00_e0_tv3&referrer=l.instagram.com&referrer=l.instagram.com) | ✅ OK |
-| São Paulo - Vila Mariana | DNA MED + Inspirar — Tecnologia, Inovação e Prática na Estética | [https://www.sympla.com.br/evento/dna-med--ins...](https://www.sympla.com.br/evento/dna-med--inspirar--tecnologia-inovacao-e-pratica-na-estetica/3609154) | ✅ OK |
 | São Paulo - Vila Mariana | Matricule-se pelo WhatsApp | [https://api.whatsapp.com/send?phone=558006022...](https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20S%C3%A3o%20Paulo%20-%20Vila%20Mariana) | ✅ OK |
 | Sorocaba | website | [https://www.inspirar.com.br/sp-sorocaba/...](https://www.inspirar.com.br/sp-sorocaba/) | ✅ OK |
 | Sorocaba | instagram | [https://www.instagram.com/inspirarsorocaba/...](https://www.instagram.com/inspirarsorocaba/) | ✅ OK |

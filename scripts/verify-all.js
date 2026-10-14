@@ -162,14 +162,12 @@ runStep('Gate 7: Dedicated Instagram Profiles (37/37 Units) & 30 Anos Branding',
 runStep('Gate 8: Unit Links Configuration Fidelity (37 Units Audited)', () => {
   const data = JSON.parse(fs.readFileSync(DATA_FILE, 'utf8'));
 
-  // 1. Vila Mariana auto-expiring workshop & DNA MED event
+  // 1. Vila Mariana auto-expiring workshop (DNA MED event cancelled/removed)
   const vm = data.units.find(u => u.slug === 'sao-paulo-vila-mariana');
   const vmJson = JSON.stringify(vm.sections);
   assert(vmJson.includes('workshop-estetica-intima-feminina-na-fisioterapia-pelvica'), 'Vila Mariana missing workshop link');
   assert(vmJson.includes('2026-11-07T09:00:00-03:00'), 'Vila Mariana missing 07/11 09:00 expiration');
-  assert(vmJson.includes('3609154'), 'Vila Mariana missing DNA MED event 3609154');
-  assert(vmJson.includes('2026-10-17T09:00:00-03:00'), 'Vila Mariana missing 17/10 09:00 expiration');
-  assert(vmJson.includes('6ac554d65e22c.png'), 'Vila Mariana missing DNA MED banner');
+  assert(!vmJson.includes('3609154'), 'Vila Mariana should not contain cancelled DNA MED event 3609154');
 
   // 2. Curitiba fidelity to linktreecuritiba.vercel.app + Pelve Expert + AmoFisio Sympla events
   const cwb = data.units.find(u => u.slug === 'curitiba');
