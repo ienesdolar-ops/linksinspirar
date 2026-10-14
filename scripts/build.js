@@ -140,7 +140,7 @@ function generateUnitJsonLd(unit) {
           "streetAddress": unit.fullAddress || unit.address,
           "addressLocality": unit.name,
           "addressRegion": unit.state,
-          "addressCountry": unit.slug === 'luanda' ? 'AO' : 'BR'
+          "addressCountry": unit.slug === 'luanda' ? 'AO' : (unit.slug === 'inspirar-holanda' ? 'NL' : 'BR')
         },
         "sameAs": sameAsList
       },
@@ -1269,6 +1269,7 @@ ${JSON.stringify(generateHubJsonLd(data), null, 2)}
       <button class="hub-chip" data-region="Nordeste">Nordeste</button>
       <button class="hub-chip" data-region="Norte">Norte</button>
       <button class="hub-chip" data-region="Internacional">Internacional</button>
+      <button class="hub-chip" data-region="Congressos">Congressos</button>
     </div>
 
     <!-- ── COUNTER BAR ── -->
@@ -1473,7 +1474,7 @@ async function build() {
   });
 
   console.log(`\nSite successfully built! Total units: ${data.units.length}`);
-  console.log('BUILD SUCCESSFUL (37 units)');
+  console.log(`BUILD SUCCESSFUL (${data.units.length} units)`);
 }
 
 build().catch(err => {

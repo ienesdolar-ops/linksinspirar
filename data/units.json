@@ -2,7 +2,7 @@
   "project": {
     "name": "Bio no Link",
     "brand": "Faculdade Inspirar",
-    "hubTitle": "Faculdade Inspirar — Bio no Link | Todas as 37 Unidades",
+    "hubTitle": "Faculdade Inspirar — Bio no Link | Todas as 40 Unidades e Perfis Oficiais",
     "hubDescription": "Hub oficial de links da Faculdade Inspirar. Escolha a sua unidade para acessar cursos, eventos, inscrições e atendimento direto.",
     "globalSocial": {
       "instagram": "https://www.instagram.com/faculdadeinspirar/",
@@ -4083,6 +4083,237 @@
               "url": "https://api.whatsapp.com/send?phone=5527999191438&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Vit%C3%B3ria",
               "icon": "whatsapp",
               "accent": "green"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "inspirar-holanda",
+      "name": "Inspirar Holanda",
+      "state": "NL",
+      "stateName": "Holanda",
+      "region": "Internacional",
+      "badge": "Extensão Internacional",
+      "bio": "Maior organização internacional de Fisioterapia Pélvica entre Brasil e Holanda. Vivência profissional e formação internacional em Maastricht.",
+      "address": "Maastricht, Holanda (Países Baixos)",
+      "fullAddress": "Maastricht, Holanda (Países Baixos) • Parceria ICL Academy & Faculdade Inspirar",
+      "director": "Coordenação Internacional: Dra. Maura Seleme",
+      "mapsUrl": "https://maps.google.com/?q=Maastricht+Netherlands",
+      "coverImage": "assets/images/units/inspirar-holanda/cidade-holanda.png",
+      "logoImage": "assets/images/Logo branca - horizontal.png",
+      "whatsapp": "5541988143601",
+      "whatsappDisplay": "(41) 98814-3601",
+      "whatsappDefaultMessage": "Olá! Gostaria de mais informações sobre a Formação Internacional da Inspirar Holanda em Maastricht.",
+      "instagram": "https://www.instagram.com/inspirarholanda/",
+      "instagramUser": "@inspirarholanda",
+      "website": "https://maastricht.inspirar.com.br/",
+      "sympla": "https://www.sympla.com.br/produtor/faculdadeinspirar",
+      "hideCampusPhotos": true,
+      "gallery": [
+        {
+          "file": "cidade-holanda.png",
+          "src": "assets/images/units/inspirar-holanda/cidade-holanda.png",
+          "caption": "Inspirar Holanda - Maastricht"
+        }
+      ],
+      "sections": [
+        {
+          "id": "portal_oficial",
+          "title": "Portal Oficial",
+          "icon": "globe",
+          "items": [
+            {
+              "title": "Formação Internacional em Fisioterapia Pélvica — Maastricht",
+              "desc": "Vivência profissional intensa na Holanda com a ICL Academy • Aulas teóricas e práticas com grandes referências mundiais e tradução simultânea.",
+              "url": "https://maastricht.inspirar.com.br/",
+              "icon": "globe",
+              "accent": "cyan",
+              "banner": "assets/images/units/inspirar-holanda/cidade-holanda.png",
+              "tag": "Inscrições Abertas",
+              "badge": "Maastricht • Holanda"
+            }
+          ]
+        },
+        {
+          "id": "inscricoes_e_atendimento",
+          "title": "Inscrições & Atendimento",
+          "icon": "whatsapp",
+          "items": [
+            {
+              "title": "Garanta sua Vaga pelo WhatsApp",
+              "desc": "Informações sobre cronograma, valores em até 6x e inscrições • (41) 98814-3601",
+              "url": "https://api.whatsapp.com/send?phone=5541988143601&text=Ol%C3%A1!%20Gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20a%20Forma%C3%A7%C3%A3o%20Internacional%20em%20Maastricht%20(Inspirar%20Holanda)",
+              "icon": "whatsapp",
+              "accent": "green"
+            },
+            {
+              "title": "Contato Holanda — Dra. Maura Seleme",
+              "desc": "Fale diretamente com a coordenação internacional em Maastricht • +31 6 4649-3003",
+              "url": "https://wa.me/31646493003?text=Ol%C3%A1%20Dra.%20Maura!%20Gostaria%20de%20saber%20mais%20sobre%20a%20Inspirar%20Holanda",
+              "icon": "whatsapp",
+              "accent": "purple"
+            },
+            {
+              "title": "Passagem e Hospedagem — Lusatravel Turismo",
+              "desc": "Adquira seu pacote de viagem e hospedagem para Maastricht com a agência parceira oficial.",
+              "url": "https://wa.me/+5541991896076?text=Ol%C3%A1!%20Gostaria%20de%20cota%C3%A7%C3%A3o%20de%20passagem%20e%20hospedagem%20para%20a%20Inspirar%20Holanda",
+              "icon": "globe",
+              "accent": "coral"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "congresso-fisioterapia-pelvica",
+      "name": "Congresso de Fisioterapia Pélvica",
+      "state": "PR",
+      "stateName": "Paraná",
+      "region": "Congressos",
+      "badge": "Congresso Oficial",
+      "bio": "O maior congresso da área na América Latina. Inovação, ciência e prática clínica em Fisioterapia Pélvica promovido pela Faculdade Inspirar em Curitiba.",
+      "address": "Rua João Tschannerl, 880 - Jardim Schaffer, Curitiba - PR",
+      "fullAddress": "Rua João Tschannerl, 880 - Jardim Schaffer, Curitiba - PR, 80820-010 • Sede Faculdade Inspirar",
+      "director": "Coordenação Científica Inspirar • Fisioterapia Pélvica",
+      "mapsUrl": "https://maps.google.com/?q=Faculdade+Inspirar+Curitiba",
+      "coverImage": "assets/images/units/congresso-fisioterapia-pelvica/capa-congresso.jpg",
+      "logoImage": "assets/images/Logo branca - horizontal.png",
+      "whatsapp": "558006022828",
+      "whatsappDisplay": "0800 602 2828",
+      "whatsappDefaultMessage": "Quero fazer minha inscrição no Congresso Internacional Inspirar de Fisioterapia Pélvica!",
+      "instagram": "https://www.instagram.com/congressopelvica/",
+      "instagramUser": "@congressopelvica",
+      "website": "https://congressopelvica.com.br/",
+      "sympla": "https://www.sympla.com.br/produtor/faculdadeinspirar",
+      "hideCampusPhotos": true,
+      "gallery": [
+        {
+          "file": "capa-congresso.jpg",
+          "src": "assets/images/units/congresso-fisioterapia-pelvica/capa-congresso.jpg",
+          "caption": "Congresso Internacional de Fisioterapia Pélvica"
+        }
+      ],
+      "sections": [
+        {
+          "id": "portal_oficial",
+          "title": "Portal Oficial",
+          "icon": "globe",
+          "items": [
+            {
+              "title": "Site Oficial do Congresso de Fisioterapia Pélvica",
+              "desc": "Programação científica completa, palestrantes nacionais e internacionais e cronograma oficial na Faculdade Inspirar.",
+              "url": "https://congressopelvica.com.br/",
+              "icon": "globe",
+              "accent": "cyan",
+              "banner": "assets/images/units/congresso-fisioterapia-pelvica/capa-congresso.jpg",
+              "tag": "Site Oficial",
+              "badge": "Programação e Ingressos"
+            }
+          ]
+        },
+        {
+          "id": "inscricoes_e_trabalhos",
+          "title": "Inscrições & Conteúdos",
+          "icon": "award",
+          "items": [
+            {
+              "title": "Inscrições pelo WhatsApp Oficial",
+              "desc": "Garanta sua vaga e tire dúvidas sobre os lotes com nossa equipe • 0800 602 2828",
+              "url": "https://api.whatsapp.com/send/?phone=5508006022828&text=Quero+fazer+minha+inscri%C3%A7%C3%A3o+no+Congresso+Internacional+Inspirar+de+Fisioterapia+P%C3%A9lvica!",
+              "icon": "whatsapp",
+              "accent": "green"
+            },
+            {
+              "title": "Trabalhos Científicos Selecionados (PDF)",
+              "desc": "Confira os artigos, pôsteres e temas livres aprovados para apresentação no congresso.",
+              "url": "http://congressopelvica.com.br/wp-content/uploads/2026/04/trabalhos-selecionados.pdf",
+              "icon": "award",
+              "accent": "purple"
+            },
+            {
+              "title": "Guia Conheça Curitiba — Dicas para Participantes",
+              "desc": "Informações de hospedagem, gastronomia, turismo e deslocamento para o evento em Curitiba.",
+              "url": "https://congressopelvica.com.br/conhecacuritiba/",
+              "icon": "globe",
+              "accent": "coral"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "congresso-estetica-inspirar",
+      "name": "Congresso de Estética da Inspirar",
+      "state": "PR",
+      "stateName": "Paraná",
+      "region": "Congressos",
+      "badge": "Congresso Oficial",
+      "bio": "O maior congresso de Estética do Sul do Brasil. Ciência, tecnologia, inovação e prática clínica na sede da Faculdade Inspirar em Curitiba.",
+      "address": "Rua João Tschannerl, 880 - Jardim Schaffer, Curitiba - PR",
+      "fullAddress": "Rua João Tschannerl, 880 - Jardim Schaffer, Curitiba - PR, 80820-010 • Sede Faculdade Inspirar",
+      "director": "Coordenação Científica Inspirar • Estética Avançada",
+      "mapsUrl": "https://maps.google.com/?q=Faculdade+Inspirar+Curitiba",
+      "coverImage": "assets/images/units/congresso-estetica-inspirar/capa-congresso.jpg",
+      "logoImage": "assets/images/Logo branca - horizontal.png",
+      "whatsapp": "558006022828",
+      "whatsappDisplay": "0800 602 2828",
+      "whatsappDefaultMessage": "Quero fazer minha inscrição no Congresso Internacional Inspirar de Estética",
+      "instagram": "https://www.instagram.com/congressoesteticainspirar/",
+      "instagramUser": "@congressoesteticainspirar",
+      "website": "https://faculdadeinspirar.com.br/congresso-de-estetica/",
+      "sympla": "https://www.sympla.com.br/produtor/faculdadeinspirar",
+      "hideCampusPhotos": true,
+      "gallery": [
+        {
+          "file": "capa-congresso.jpg",
+          "src": "assets/images/units/congresso-estetica-inspirar/capa-congresso.jpg",
+          "caption": "Congresso Internacional de Estética da Inspirar"
+        }
+      ],
+      "sections": [
+        {
+          "id": "portal_oficial",
+          "title": "Portal Oficial",
+          "icon": "globe",
+          "items": [
+            {
+              "title": "Site Oficial do Congresso de Estética",
+              "desc": "Três dias de imersão com os maiores nomes da estética avançada nacional e internacional na Faculdade Inspirar.",
+              "url": "https://faculdadeinspirar.com.br/congresso-de-estetica/",
+              "icon": "globe",
+              "accent": "cyan",
+              "banner": "assets/images/units/congresso-estetica-inspirar/capa-congresso.jpg",
+              "tag": "Site Oficial",
+              "badge": "Inscrições e Informações"
+            }
+          ]
+        },
+        {
+          "id": "inscricoes_e_trabalhos",
+          "title": "Inscrições & Normas",
+          "icon": "award",
+          "items": [
+            {
+              "title": "Inscrições pelo WhatsApp Oficial",
+              "desc": "Fale com a equipe de atendimento do congresso • 0800 602 2828",
+              "url": "https://api.whatsapp.com/send/?phone=5508006022828&text=Quero+fazer+minha+inscri%C3%A7%C3%A3o+no+Congresso+Internacional+Inspirar+de+Est%C3%A9tica",
+              "icon": "whatsapp",
+              "accent": "green"
+            },
+            {
+              "title": "Formulário Oficial de Inscrição e Credenciamento",
+              "desc": "Preencha seus dados para reserva de vagas e credenciamento no congresso.",
+              "url": "https://forms.cloud.microsoft/r/8z3SYh93ip",
+              "icon": "award",
+              "accent": "purple"
+            },
+            {
+              "title": "Regras para Submissão de Trabalhos Científicos (PDF)",
+              "desc": "Consulte as normas, prazos e critérios para envio de trabalhos e pôsteres científicos.",
+              "url": "https://faculdadeinspirar.com.br/wp-content/uploads/2026/06/Regras-para-submissao-de-trabalhos-2026.pdf",
+              "icon": "award",
+              "accent": "coral"
             }
           ]
         }

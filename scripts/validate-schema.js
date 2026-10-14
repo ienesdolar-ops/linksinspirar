@@ -48,9 +48,9 @@ const services = hubSchema['@graph'].filter(e => e['@type'] === 'Service');
 assert.strictEqual(services.length, 4, 'Hub must declare 4 core services (Graduação, Pós, Extensão, Eventos)');
 console.log('✅ OK');
 
-// 2. 37 Units Validation
+// 2. 40 Units Validation
 const data = JSON.parse(fs.readFileSync(DATA_FILE, 'utf8'));
-assert.strictEqual(data.units.length, 37);
+assert.strictEqual(data.units.length, 40);
 
 let unitsTested = 0;
 let coursesFound = 0;
@@ -103,7 +103,7 @@ data.units.forEach(unit => {
   unitsTested++;
 });
 
-console.log(`Checking All Units Schema (37/37)... ✅ OK (${unitsTested} units validated, ${coursesFound} course entities mapped)`);
+console.log(`Checking All Units Schema (40/40)... ✅ OK (${unitsTested} units validated, ${coursesFound} course entities mapped)`);
 console.log('\n====================================================');
 console.log('ALL SCHEMA.ORG CHECKS PASSED PERFECTLY');
 console.log('====================================================');

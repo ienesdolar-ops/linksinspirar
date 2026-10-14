@@ -1,9 +1,9 @@
 /**
  * scripts/verify-all.js
- * End-to-end verification suite testing all 6 gates for 37 units:
+ * End-to-end verification suite testing all 11 gates for 40 units:
  * 1. Asset Ingestion & Normalization
- * 2. Data schema and validation (37 units)
- * 3. Static generator build output (all 37 unit pages + Hub)
+ * 2. Data schema and validation (40 units)
+ * 3. Static generator build output (all 40 unit pages + Hub)
  * 4. Unit content fidelity (Curitiba preservation & custom unit photos)
  * 5. Auto-expiring events logic
  * 6. Broken link checker
@@ -37,7 +37,7 @@ function runStep(name, fn) {
 }
 
 console.log('====================================================');
-console.log('  Bio no Link — Full Verification Suite (37 Units)');
+console.log('  Bio no Link — Full Verification Suite (40 Units)');
 console.log('====================================================\n');
 
 // 1. Photo Ingestion & Manifest
@@ -46,24 +46,24 @@ runStep('Gate 1: Photo Ingestion & Manifest', () => {
   assert(fs.existsSync(manifestPath), 'manifest.json missing');
   const manifest = JSON.parse(fs.readFileSync(manifestPath, 'utf8'));
   const unitFolders = Object.keys(manifest);
-  assert.strictEqual(unitFolders.length, 37, `Expected all 37 photo folders, found ${unitFolders.length}`);
+  assert.strictEqual(unitFolders.length, 40, `Expected all 40 photo folders, found ${unitFolders.length}`);
 });
 
 // 2. Data Validation
-runStep('Gate 2: Data Pipeline Validation (37 units)', () => {
+runStep('Gate 2: Data Pipeline Validation (40 units)', () => {
   execSync('node scripts/validate-data.js', { cwd: ROOT_DIR, stdio: 'pipe' });
 });
 
 // 3. Static Build & Coverage
-runStep('Gate 3: Static Generation (Hub + 37 Units)', () => {
+runStep('Gate 3: Static Generation (Hub + 40 Units)', () => {
   execSync('node scripts/build.js', { cwd: ROOT_DIR, stdio: 'pipe' });
 
   const data = JSON.parse(fs.readFileSync(DATA_FILE, 'utf8'));
-  assert.strictEqual(data.units.length, 37, 'Must have exactly 37 units in catalog');
+  assert.strictEqual(data.units.length, 40, 'Must have exactly 40 units in catalog');
 
   // Verify Hub
   const hubHtml = fs.readFileSync(path.join(ROOT_DIR, 'index.html'), 'utf8');
-  assert(hubHtml.includes('Todas (37)'), 'Hub must have region chip with 37 units');
+  assert(hubHtml.includes('Todas (40)'), 'Hub must have region chip with 40 units');
 
   // Verify each unit folder and index.html
   data.units.forEach(unit => {
@@ -105,9 +105,9 @@ runStep('Gate 6: Broken Link Checker (Dry Run)', () => {
 });
 
 // 7. Dedicated Instagram Profiles & 30 Anos Verification
-runStep('Gate 7: Dedicated Instagram Profiles (37/37 Units) & 30 Anos Branding', () => {
+runStep('Gate 7: Dedicated Instagram Profiles (40/40 Units) & 30 Anos Branding', () => {
   const data = JSON.parse(fs.readFileSync(DATA_FILE, 'utf8'));
-  assert.strictEqual(data.units.length, 37, 'Must have 37 units');
+  assert.strictEqual(data.units.length, 40, 'Must have 40 units');
 
   const expectedPortal = 'https://portaldoaluno.inspirar.com.br/projetos/nucleo/uteis/login.php?&tid=0&lid=0&pid=24&arq_ret=R5QT1WSRQBMCVQVPFFQSF99MCT5RT44Q9WRW0RBM0FMM5QQ4';
   assert.strictEqual(data.project.globalSocial.portalAluno, expectedPortal, 'Portal do Aluno URL must match requested login portal');
@@ -129,6 +129,19 @@ runStep('Gate 7: Dedicated Instagram Profiles (37/37 Units) & 30 Anos Branding',
   assert.strictEqual(parauapebas.instagram, 'https://www.instagram.com/inspirarparauapebas/');
   assert.strictEqual(parauapebas.instagramUser, '@inspirarparauapebas');
 
+  // Verify the 3 new dedicated profiles
+  const holanda = data.units.find(u => u.slug === 'inspirar-holanda');
+  assert.strictEqual(holanda.instagram, 'https://www.instagram.com/inspirarholanda/');
+  assert.strictEqual(holanda.instagramUser, '@inspirarholanda');
+
+  const congressoPelvica = data.units.find(u => u.slug === 'congresso-fisioterapia-pelvica');
+  assert.strictEqual(congressoPelvica.instagram, 'https://www.instagram.com/congressopelvica/');
+  assert.strictEqual(congressoPelvica.instagramUser, '@congressopelvica');
+
+  const congressoEstetica = data.units.find(u => u.slug === 'congresso-estetica-inspirar');
+  assert.strictEqual(congressoEstetica.instagram, 'https://www.instagram.com/congressoesteticainspirar/');
+  assert.strictEqual(congressoEstetica.instagramUser, '@congressoesteticainspirar');
+
   let dedicatedCount = 0;
   data.units.forEach(unit => {
     assert(unit.instagram && unit.instagram.includes('instagram.com'), `Unit ${unit.slug} missing instagram URL`);
@@ -146,10 +159,10 @@ runStep('Gate 7: Dedicated Instagram Profiles (37/37 Units) & 30 Anos Branding',
     }
   });
 
-  // Exactly 37 out of 37 units now have their own dedicated accounts!
-  assert.strictEqual(dedicatedCount, 37, `Expected all 37 dedicated unit Instagrams, got ${dedicatedCount}`);
+  // Exactly 40 out of 40 units now have their own dedicated accounts!
+  assert.strictEqual(dedicatedCount, 40, `Expected all 40 dedicated unit Instagrams, got ${dedicatedCount}`);
 
-  // Verify Hub index.html contains all 37 unit Instagram links and 30 Anos branding
+  // Verify Hub index.html contains all 40 unit Instagram links and 30 Anos branding
   const hubHtml = fs.readFileSync(path.join(ROOT_DIR, 'index.html'), 'utf8');
   assert(hubHtml.includes('30 Anos de Inspirar'), 'Hub HTML missing 30 Anos de Inspirar in footer');
   assert(hubHtml.includes(expectedPortal), 'Hub HTML missing Portal do Aluno URL');
@@ -158,8 +171,8 @@ runStep('Gate 7: Dedicated Instagram Profiles (37/37 Units) & 30 Anos Branding',
   });
 });
 
-// 8. Unit Links Configuration Fidelity (All 37 Units Audited)
-runStep('Gate 8: Unit Links Configuration Fidelity (37 Units Audited)', () => {
+// 8. Unit Links Configuration Fidelity (All 40 Units Audited)
+runStep('Gate 8: Unit Links Configuration Fidelity (40 Units Audited)', () => {
   const data = JSON.parse(fs.readFileSync(DATA_FILE, 'utf8'));
 
   // 1. Vila Mariana auto-expiring workshop (DNA MED event cancelled/removed)
@@ -179,7 +192,7 @@ runStep('Gate 8: Unit Links Configuration Fidelity (37 Units Audited)', () => {
   assert(cwbJson.includes('amofisio-'), 'Curitiba missing AmoFisio Sympla events');
   assert(cwbJson.includes('congresso-de-estetica'), 'Curitiba missing congresso estética');
 
-  // Verify generic amofisio.vercel.app is completely replaced across all 37 units
+  // Verify generic amofisio.vercel.app is completely replaced across all 40 units
   data.units.forEach(u => {
     const json = JSON.stringify(u.sections);
     assert(!json.includes('amofisio.vercel.app'), `Unit ${u.slug} still contains generic amofisio.vercel.app link`);
@@ -221,15 +234,30 @@ runStep('Gate 8: Unit Links Configuration Fidelity (37 Units Audited)', () => {
   assert(ssaJson.includes('2026-10-31T13:00:00-03:00'), 'Salvador missing 31/10 13:00 expiration');
   assert(ssaJson.includes('6acf90d84cf64.png'), 'Salvador missing event banner');
 
-  // 9. WhatsApp links validation: 1 standard link, and 2 for Santo André (standard + VIP group), Guarulhos (2 contacts), and Fortaleza (local + institutional)
+  // 9. Inspirar Holanda links
+  const hol = data.units.find(u => u.slug === 'inspirar-holanda');
+  assert(JSON.stringify(hol.sections).includes('maastricht.inspirar.com.br'), 'Inspirar Holanda missing website');
+  assert(JSON.stringify(hol.sections).includes('31646493003'), 'Inspirar Holanda missing Dra. Maura WhatsApp');
+
+  // 10. Congresso Internacional de Fisioterapia Pélvica
+  const cfp = data.units.find(u => u.slug === 'congresso-fisioterapia-pelvica');
+  assert(JSON.stringify(cfp.sections).includes('congressopelvica.com.br'), 'Congresso Pelvica missing website');
+  assert(JSON.stringify(cfp.sections).includes('trabalhos-selecionados.pdf'), 'Congresso Pelvica missing trabalhos link');
+
+  // 11. Congresso Internacional de Estética da Inspirar
+  const cei = data.units.find(u => u.slug === 'congresso-estetica-inspirar');
+  assert(JSON.stringify(cei.sections).includes('congresso-de-estetica'), 'Congresso Estética missing website');
+  assert(JSON.stringify(cei.sections).includes('forms.cloud.microsoft'), 'Congresso Estética missing forms link');
+
+  // 12. WhatsApp links validation: 1 standard link, and 2 for Santo André (standard + VIP group), Guarulhos (2 contacts), Fortaleza (local + institutional), and 3 for Inspirar Holanda (Brasil, Holanda, Lusatravel)
   data.units.forEach(u => {
     const waCount = (u.sections || []).flatMap(s => s.items || [])
       .filter(item => (item.url && (item.url.includes('whatsapp.com') || item.url.includes('wa.me'))) || item.icon === 'whatsapp').length;
-    const expected = ['santo-andre', 'guarulhos', 'fortaleza'].includes(u.slug) ? 2 : 1;
+    const expected = u.slug === 'inspirar-holanda' ? 3 : (['santo-andre', 'guarulhos', 'fortaleza'].includes(u.slug) ? 2 : 1);
     assert.strictEqual(waCount, expected, `Unit ${u.slug} must have exactly ${expected} WhatsApp link(s), got ${waCount}`);
   });
 
-  // 8. YouTube test link removed from all 37 units
+  // 13. YouTube test link removed from all 40 units
   data.units.forEach(u => {
     const hasYt = (u.sections || []).some(s => (s.items || []).some(item => item.url && item.url === 'https://www.youtube.com/'));
     assert(!hasYt, `Unit ${u.slug} unexpectedly has YouTube test link in data/units.json`);
@@ -238,11 +266,12 @@ runStep('Gate 8: Unit Links Configuration Fidelity (37 Units Audited)', () => {
     assert(!unitHtml.includes('https://www.youtube.com/'), `Unit ${u.slug} unexpectedly has YouTube link in HTML`);
   });
 
-  // 9. Units with only city photos must NOT contain "Fotos da Unidade" / campus_banner, while 22 real-photo units retain it
+  // 14. Units with only city photos must NOT contain "Fotos da Unidade" / campus_banner, while 22 real-photo units retain it
   const citySlugs = [
     'dourados', 'fortaleza', 'goiania', 'ipatinga', 'joinville', 'luanda',
     'maceio', 'parauapebas', 'porto-velho', 'ribeirao-preto', 'salvador',
-    'santo-andre', 'santos', 'sao-jose-do-rio-preto', 'teresina'
+    'santo-andre', 'santos', 'sao-jose-do-rio-preto', 'teresina',
+    'inspirar-holanda', 'congresso-fisioterapia-pelvica', 'congresso-estetica-inspirar'
   ];
 
   data.units.forEach(u => {
@@ -283,7 +312,7 @@ runStep('Gate 9: Browser Tab Icon (Favicon with Símbolo Branco)', () => {
   assert(hubHtml.includes('href="assets/images/favicon.png"'), 'Hub HTML missing favicon.png reference');
   assert(hubHtml.includes('rel="icon"'), 'Hub HTML missing rel="icon"');
 
-  // Verify all 37 units
+  // Verify all 40 units
   const data = JSON.parse(fs.readFileSync(DATA_FILE, 'utf8'));
   data.units.forEach(unit => {
     const unitHtml = fs.readFileSync(path.join(ROOT_DIR, unit.slug, 'index.html'), 'utf8');
@@ -293,7 +322,7 @@ runStep('Gate 9: Browser Tab Icon (Favicon with Símbolo Branco)', () => {
 });
 
 // 10. Schema.org JSON-LD Structured Data Validation
-runStep('Gate 10: Schema.org JSON-LD Structured Data (Hub + 37 Units)', () => {
+runStep('Gate 10: Schema.org JSON-LD Structured Data (Hub + 40 Units)', () => {
   execSync('node scripts/validate-schema.js', { cwd: ROOT_DIR, stdio: 'pipe' });
 });
 
@@ -329,7 +358,7 @@ runStep('Gate 11: Sympla Event Banners & Cards', () => {
     assert(!html.includes('link-card-banner-badge'), `Unit ${slug} HTML should not contain floating banner badges`);
   });
 
-  // Verify Site Oficial is the FIRST link across all 37 units
+  // Verify Site Oficial is the FIRST link across all 40 units
   data.units.forEach(u => {
     const html = fs.readFileSync(path.join(ROOT_DIR, u.slug, 'index.html'), 'utf8');
     const streamMatch = html.match(/<section class="links-stream"[^>]*>([\s\S]*?)<\/section>/i);
@@ -349,6 +378,6 @@ runStep('Gate 11: Sympla Event Banners & Cards', () => {
 });
 
 console.log('\n====================================================');
-console.log('ALL VERIFICATIONS PASSED (11 Gates / 37 units)');
+console.log('ALL VERIFICATIONS PASSED (11 Gates / 40 units)');
 console.log('====================================================');
 process.exit(0);

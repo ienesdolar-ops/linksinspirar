@@ -91,13 +91,13 @@ function validate() {
     }
   });
 
-    if (data.units.length !== 37) {
-      console.error(`ERROR: Expected 37 units, but found ${data.units.length}`);
+    if (data.units.length !== 40) {
+      console.error(`ERROR: Expected 40 units, but found ${data.units.length}`);
       process.exit(1);
     }
 
     console.log(`All ${data.units.length} units validated successfully.`);
-    console.log('DATA VALIDATION PASSED (37 units)');
+    console.log('DATA VALIDATION PASSED (40 units)');
     process.exit(0);
   }
 

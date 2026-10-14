@@ -928,5 +928,35 @@
         "caption": "Cidade de Teresina"
       }
     ]
+  },
+  "inspirar-holanda": {
+    "coverImage": "assets/images/units/inspirar-holanda/cidade-holanda.png",
+    "gallery": [
+      {
+        "file": "cidade-holanda.png",
+        "src": "assets/images/units/inspirar-holanda/cidade-holanda.png",
+        "caption": "Inspirar Holanda - Maastricht"
+      }
+    ]
+  },
+  "congresso-fisioterapia-pelvica": {
+    "coverImage": "assets/images/units/congresso-fisioterapia-pelvica/capa-congresso.jpg",
+    "gallery": [
+      {
+        "file": "capa-congresso.jpg",
+        "src": "assets/images/units/congresso-fisioterapia-pelvica/capa-congresso.jpg",
+        "caption": "Congresso Internacional de Fisioterapia Pélvica"
+      }
+    ]
+  },
+  "congresso-estetica-inspirar": {
+    "coverImage": "assets/images/units/congresso-estetica-inspirar/capa-congresso.jpg",
+    "gallery": [
+      {
+        "file": "capa-congresso.jpg",
+        "src": "assets/images/units/congresso-estetica-inspirar/capa-congresso.jpg",
+        "caption": "Congresso Internacional de Estética da Inspirar"
+      }
+    ]
   }
 }

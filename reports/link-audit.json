@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-10-14T14:37:01.220Z",
-  "total": 286,
+  "timestamp": "2026-10-14T18:54:16.109Z",
+  "total": 307,
   "dryRun": true,
   "results": [
     {
@@ -2288,6 +2288,174 @@
       "unit": "Vitória",
       "field": "Fale no WhatsApp — Vitória",
       "url": "https://api.whatsapp.com/send?phone=5527999191438&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Vit%C3%B3ria",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "unit_meta",
+      "unit": "Inspirar Holanda",
+      "field": "website",
+      "url": "https://maastricht.inspirar.com.br/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "unit_meta",
+      "unit": "Inspirar Holanda",
+      "field": "instagram",
+      "url": "https://www.instagram.com/inspirarholanda/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "unit_meta",
+      "unit": "Inspirar Holanda",
+      "field": "mapsUrl",
+      "url": "https://maps.google.com/?q=Maastricht+Netherlands",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Portal Oficial",
+      "unit": "Inspirar Holanda",
+      "field": "Formação Internacional em Fisioterapia Pélvica — Maastricht",
+      "url": "https://maastricht.inspirar.com.br/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Inscrições & Atendimento",
+      "unit": "Inspirar Holanda",
+      "field": "Garanta sua Vaga pelo WhatsApp",
+      "url": "https://api.whatsapp.com/send?phone=5541988143601&text=Ol%C3%A1!%20Gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20a%20Forma%C3%A7%C3%A3o%20Internacional%20em%20Maastricht%20(Inspirar%20Holanda)",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Inscrições & Atendimento",
+      "unit": "Inspirar Holanda",
+      "field": "Contato Holanda — Dra. Maura Seleme",
+      "url": "https://wa.me/31646493003?text=Ol%C3%A1%20Dra.%20Maura!%20Gostaria%20de%20saber%20mais%20sobre%20a%20Inspirar%20Holanda",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Inscrições & Atendimento",
+      "unit": "Inspirar Holanda",
+      "field": "Passagem e Hospedagem — Lusatravel Turismo",
+      "url": "https://wa.me/+5541991896076?text=Ol%C3%A1!%20Gostaria%20de%20cota%C3%A7%C3%A3o%20de%20passagem%20e%20hospedagem%20para%20a%20Inspirar%20Holanda",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "unit_meta",
+      "unit": "Congresso de Fisioterapia Pélvica",
+      "field": "website",
+      "url": "https://congressopelvica.com.br/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "unit_meta",
+      "unit": "Congresso de Fisioterapia Pélvica",
+      "field": "instagram",
+      "url": "https://www.instagram.com/congressopelvica/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "unit_meta",
+      "unit": "Congresso de Fisioterapia Pélvica",
+      "field": "mapsUrl",
+      "url": "https://maps.google.com/?q=Faculdade+Inspirar+Curitiba",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Portal Oficial",
+      "unit": "Congresso de Fisioterapia Pélvica",
+      "field": "Site Oficial do Congresso de Fisioterapia Pélvica",
+      "url": "https://congressopelvica.com.br/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Inscrições & Conteúdos",
+      "unit": "Congresso de Fisioterapia Pélvica",
+      "field": "Inscrições pelo WhatsApp Oficial",
+      "url": "https://api.whatsapp.com/send/?phone=5508006022828&text=Quero+fazer+minha+inscri%C3%A7%C3%A3o+no+Congresso+Internacional+Inspirar+de+Fisioterapia+P%C3%A9lvica!",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Inscrições & Conteúdos",
+      "unit": "Congresso de Fisioterapia Pélvica",
+      "field": "Trabalhos Científicos Selecionados (PDF)",
+      "url": "http://congressopelvica.com.br/wp-content/uploads/2026/04/trabalhos-selecionados.pdf",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Inscrições & Conteúdos",
+      "unit": "Congresso de Fisioterapia Pélvica",
+      "field": "Guia Conheça Curitiba — Dicas para Participantes",
+      "url": "https://congressopelvica.com.br/conhecacuritiba/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "unit_meta",
+      "unit": "Congresso de Estética da Inspirar",
+      "field": "website",
+      "url": "https://faculdadeinspirar.com.br/congresso-de-estetica/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "unit_meta",
+      "unit": "Congresso de Estética da Inspirar",
+      "field": "instagram",
+      "url": "https://www.instagram.com/congressoesteticainspirar/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "unit_meta",
+      "unit": "Congresso de Estética da Inspirar",
+      "field": "mapsUrl",
+      "url": "https://maps.google.com/?q=Faculdade+Inspirar+Curitiba",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Portal Oficial",
+      "unit": "Congresso de Estética da Inspirar",
+      "field": "Site Oficial do Congresso de Estética",
+      "url": "https://faculdadeinspirar.com.br/congresso-de-estetica/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Inscrições & Normas",
+      "unit": "Congresso de Estética da Inspirar",
+      "field": "Inscrições pelo WhatsApp Oficial",
+      "url": "https://api.whatsapp.com/send/?phone=5508006022828&text=Quero+fazer+minha+inscri%C3%A7%C3%A3o+no+Congresso+Internacional+Inspirar+de+Est%C3%A9tica",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Inscrições & Normas",
+      "unit": "Congresso de Estética da Inspirar",
+      "field": "Formulário Oficial de Inscrição e Credenciamento",
+      "url": "https://forms.cloud.microsoft/r/8z3SYh93ip",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Inscrições & Normas",
+      "unit": "Congresso de Estética da Inspirar",
+      "field": "Regras para Submissão de Trabalhos Científicos (PDF)",
+      "url": "https://faculdadeinspirar.com.br/wp-content/uploads/2026/06/Regras-para-submissao-de-trabalhos-2026.pdf",
       "status": "FORMAT_OK",
       "ok": true
     }

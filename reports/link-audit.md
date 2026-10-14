@@ -1,8 +1,8 @@
 # Relatório de Verificação de Links — Bio no Link
 
-- **Data**: 14/10/2026, 11:37:01
+- **Data**: 14/10/2026, 15:54:16
 - **Modo**: Validação Estrutural (Dry Run)
-- **Total de Links Verificados**: 286
+- **Total de Links Verificados**: 307
 
 | Unidade | Campo / Título | URL | Status |
 | :--- | :--- | :--- | :--- |
@@ -292,3 +292,24 @@
 | Vitória | AmoFisio — Tuiná no Tratamento de Atletas | [https://www.sympla.com.br/evento/amofisio-tui...](https://www.sympla.com.br/evento/amofisio-tuina-no-tratamento-de-atletas/3556968) | ✅ OK |
 | Vitória | AmoFisio — Atuação do Fisioterapeuta no Tratamento do Lipedema – Do diagnóstico ao Tratamento | [https://www.sympla.com.br/evento/amofisio-atu...](https://www.sympla.com.br/evento/amofisio-atuacao-do-fisioterapeuta-no-tratamento-do-lipedema-do-diagnostico-ao-tratamento/3557056) | ✅ OK |
 | Vitória | Fale no WhatsApp — Vitória | [https://api.whatsapp.com/send?phone=552799919...](https://api.whatsapp.com/send?phone=5527999191438&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Vit%C3%B3ria) | ✅ OK |
+| Inspirar Holanda | website | [https://maastricht.inspirar.com.br/...](https://maastricht.inspirar.com.br/) | ✅ OK |
+| Inspirar Holanda | instagram | [https://www.instagram.com/inspirarholanda/...](https://www.instagram.com/inspirarholanda/) | ✅ OK |
+| Inspirar Holanda | mapsUrl | [https://maps.google.com/?q=Maastricht+Netherl...](https://maps.google.com/?q=Maastricht+Netherlands) | ✅ OK |
+| Inspirar Holanda | Formação Internacional em Fisioterapia Pélvica — Maastricht | [https://maastricht.inspirar.com.br/...](https://maastricht.inspirar.com.br/) | ✅ OK |
+| Inspirar Holanda | Garanta sua Vaga pelo WhatsApp | [https://api.whatsapp.com/send?phone=554198814...](https://api.whatsapp.com/send?phone=5541988143601&text=Ol%C3%A1!%20Gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20a%20Forma%C3%A7%C3%A3o%20Internacional%20em%20Maastricht%20(Inspirar%20Holanda)) | ✅ OK |
+| Inspirar Holanda | Contato Holanda — Dra. Maura Seleme | [https://wa.me/31646493003?text=Ol%C3%A1%20Dra...](https://wa.me/31646493003?text=Ol%C3%A1%20Dra.%20Maura!%20Gostaria%20de%20saber%20mais%20sobre%20a%20Inspirar%20Holanda) | ✅ OK |
+| Inspirar Holanda | Passagem e Hospedagem — Lusatravel Turismo | [https://wa.me/+5541991896076?text=Ol%C3%A1!%2...](https://wa.me/+5541991896076?text=Ol%C3%A1!%20Gostaria%20de%20cota%C3%A7%C3%A3o%20de%20passagem%20e%20hospedagem%20para%20a%20Inspirar%20Holanda) | ✅ OK |
+| Congresso de Fisioterapia Pélvica | website | [https://congressopelvica.com.br/...](https://congressopelvica.com.br/) | ✅ OK |
+| Congresso de Fisioterapia Pélvica | instagram | [https://www.instagram.com/congressopelvica/...](https://www.instagram.com/congressopelvica/) | ✅ OK |
+| Congresso de Fisioterapia Pélvica | mapsUrl | [https://maps.google.com/?q=Faculdade+Inspirar...](https://maps.google.com/?q=Faculdade+Inspirar+Curitiba) | ✅ OK |
+| Congresso de Fisioterapia Pélvica | Site Oficial do Congresso de Fisioterapia Pélvica | [https://congressopelvica.com.br/...](https://congressopelvica.com.br/) | ✅ OK |
+| Congresso de Fisioterapia Pélvica | Inscrições pelo WhatsApp Oficial | [https://api.whatsapp.com/send/?phone=55080060...](https://api.whatsapp.com/send/?phone=5508006022828&text=Quero+fazer+minha+inscri%C3%A7%C3%A3o+no+Congresso+Internacional+Inspirar+de+Fisioterapia+P%C3%A9lvica!) | ✅ OK |
+| Congresso de Fisioterapia Pélvica | Trabalhos Científicos Selecionados (PDF) | [http://congressopelvica.com.br/wp-content/upl...](http://congressopelvica.com.br/wp-content/uploads/2026/04/trabalhos-selecionados.pdf) | ✅ OK |
+| Congresso de Fisioterapia Pélvica | Guia Conheça Curitiba — Dicas para Participantes | [https://congressopelvica.com.br/conhecacuriti...](https://congressopelvica.com.br/conhecacuritiba/) | ✅ OK |
+| Congresso de Estética da Inspirar | website | [https://faculdadeinspirar.com.br/congresso-de...](https://faculdadeinspirar.com.br/congresso-de-estetica/) | ✅ OK |
+| Congresso de Estética da Inspirar | instagram | [https://www.instagram.com/congressoesteticain...](https://www.instagram.com/congressoesteticainspirar/) | ✅ OK |
+| Congresso de Estética da Inspirar | mapsUrl | [https://maps.google.com/?q=Faculdade+Inspirar...](https://maps.google.com/?q=Faculdade+Inspirar+Curitiba) | ✅ OK |
+| Congresso de Estética da Inspirar | Site Oficial do Congresso de Estética | [https://faculdadeinspirar.com.br/congresso-de...](https://faculdadeinspirar.com.br/congresso-de-estetica/) | ✅ OK |
+| Congresso de Estética da Inspirar | Inscrições pelo WhatsApp Oficial | [https://api.whatsapp.com/send/?phone=55080060...](https://api.whatsapp.com/send/?phone=5508006022828&text=Quero+fazer+minha+inscri%C3%A7%C3%A3o+no+Congresso+Internacional+Inspirar+de+Est%C3%A9tica) | ✅ OK |
+| Congresso de Estética da Inspirar | Formulário Oficial de Inscrição e Credenciamento | [https://forms.cloud.microsoft/r/8z3SYh93ip...](https://forms.cloud.microsoft/r/8z3SYh93ip) | ✅ OK |
+| Congresso de Estética da Inspirar | Regras para Submissão de Trabalhos Científicos (PDF) | [https://faculdadeinspirar.com.br/wp-content/u...](https://faculdadeinspirar.com.br/wp-content/uploads/2026/06/Regras-para-submissao-de-trabalhos-2026.pdf) | ✅ OK |
