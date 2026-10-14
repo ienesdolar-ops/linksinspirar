@@ -774,5 +774,18 @@
       "endDate": "2026-10-24T08:00:00-03:00",
       "banner": "https://images.sympla.com.br/6a907778c3793.png"
     }
+  ],
+  "salvador": [
+    {
+      "title": "AmoFisio — Do raciocínio clínico à prática com injetáveis na Fisioterapia Dermatofuncional",
+      "desc": "Dermatofuncional & Injetáveis • Encontro presencial em Salvador no Instituto Patrícia Lordêlo com Layanne Shamara • Raciocínio clínico, avaliação individualizada e prática com injetáveis.",
+      "url": "https://www.sympla.com.br/evento-online/amofisio-do-raciocinio-clinico-a-pratica-com-injetaveis-na-fisioterapia-dermatofuncional/3617940",
+      "icon": "heart",
+      "accent": "purple",
+      "startDate": "2026-09-01",
+      "endDate": "2026-10-31T13:00:00-03:00",
+      "banner": "https://images.sympla.com.br/6acf90d84cf64.png"
+    }
   ]
 }
+

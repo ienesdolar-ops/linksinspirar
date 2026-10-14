@@ -1,8 +1,8 @@
 # Relatório de Verificação de Links — Bio no Link
 
-- **Data**: 14/10/2026, 11:25:23
+- **Data**: 14/10/2026, 11:37:01
 - **Modo**: Validação Estrutural (Dry Run)
-- **Total de Links Verificados**: 285
+- **Total de Links Verificados**: 286
 
 | Unidade | Campo / Título | URL | Status |
 | :--- | :--- | :--- | :--- |
@@ -209,6 +209,7 @@
 | Salvador | instagram | [https://www.instagram.com/inspirarsalvador/...](https://www.instagram.com/inspirarsalvador/) | ✅ OK |
 | Salvador | mapsUrl | [https://maps.google.com/?q=Faculdade+Inspirar...](https://maps.google.com/?q=Faculdade+Inspirar+Salvador) | ✅ OK |
 | Salvador | Confira Nossas Pós-Graduações Disponíveis | [https://www.inspirar.com.br/ba-salvador-slim/...](https://www.inspirar.com.br/ba-salvador-slim/) | ✅ OK |
+| Salvador | AmoFisio — Do raciocínio clínico à prática com injetáveis na Fisioterapia Dermatofuncional | [https://www.sympla.com.br/evento-online/amofi...](https://www.sympla.com.br/evento-online/amofisio-do-raciocinio-clinico-a-pratica-com-injetaveis-na-fisioterapia-dermatofuncional/3617940) | ✅ OK |
 | Salvador | Matricule-se pelo WhatsApp | [https://api.whatsapp.com/send?phone=558006022...](https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Salvador) | ✅ OK |
 | Santo André | website | [https://www.inspirar.com.br/sp-santo-andre-sl...](https://www.inspirar.com.br/sp-santo-andre-slim/) | ✅ OK |
 | Santo André | instagram | [https://www.instagram.com/inspirar_santoandre...](https://www.instagram.com/inspirar_santoandre/) | ✅ OK |

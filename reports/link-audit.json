@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-10-14T14:25:23.146Z",
-  "total": 285,
+  "timestamp": "2026-10-14T14:37:01.220Z",
+  "total": 286,
   "dryRun": true,
   "results": [
     {
@@ -1624,6 +1624,14 @@
       "unit": "Salvador",
       "field": "Confira Nossas Pós-Graduações Disponíveis",
       "url": "https://www.inspirar.com.br/ba-salvador-slim/",
+      "status": "FORMAT_OK",
+      "ok": true
+    },
+    {
+      "source": "Eventos",
+      "unit": "Salvador",
+      "field": "AmoFisio — Do raciocínio clínico à prática com injetáveis na Fisioterapia Dermatofuncional",
+      "url": "https://www.sympla.com.br/evento-online/amofisio-do-raciocinio-clinico-a-pratica-com-injetaveis-na-fisioterapia-dermatofuncional/3617940",
       "status": "FORMAT_OK",
       "ok": true
     },

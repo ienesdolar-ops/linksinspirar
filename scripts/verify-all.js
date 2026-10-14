@@ -214,7 +214,14 @@ runStep('Gate 8: Unit Links Configuration Fidelity (37 Units Audited)', () => {
   assert(ldaJson.includes('2026-10-24T08:00:00-03:00'), 'Londrina missing 24/10 08:00 expiration');
   assert(ldaJson.includes('6abff44478666.png'), 'Londrina missing event banner');
 
-  // 8. WhatsApp links validation: 1 standard link, and 2 for Santo André (standard + VIP group), Guarulhos (2 contacts), and Fortaleza (local + institutional)
+  // 8. Salvador AmoFisio Sympla event & expiration
+  const ssa = data.units.find(u => u.slug === 'salvador');
+  const ssaJson = JSON.stringify(ssa.sections);
+  assert(ssaJson.includes('3617940'), 'Salvador missing AmoFisio event 3617940');
+  assert(ssaJson.includes('2026-10-31T13:00:00-03:00'), 'Salvador missing 31/10 13:00 expiration');
+  assert(ssaJson.includes('6acf90d84cf64.png'), 'Salvador missing event banner');
+
+  // 9. WhatsApp links validation: 1 standard link, and 2 for Santo André (standard + VIP group), Guarulhos (2 contacts), and Fortaleza (local + institutional)
   data.units.forEach(u => {
     const waCount = (u.sections || []).flatMap(s => s.items || [])
       .filter(item => (item.url && (item.url.includes('whatsapp.com') || item.url.includes('wa.me'))) || item.icon === 'whatsapp').length;
@@ -296,7 +303,7 @@ runStep('Gate 11: Sympla Event Banners & Cards', () => {
   assert.strictEqual(extractSymplaEventId('https://www.sympla.com.br/evento/pelve-expert-curitiba/3582004'), '3582004');
 
   const data = JSON.parse(fs.readFileSync(DATA_FILE, 'utf8'));
-  const symplaUnits = ['brasilia', 'curitiba', 'sao-luis', 'sao-paulo-vila-mariana', 'blumenau', 'campinas', 'guarulhos', 'vitoria'];
+  const symplaUnits = ['brasilia', 'curitiba', 'sao-luis', 'sao-paulo-vila-mariana', 'blumenau', 'campinas', 'guarulhos', 'vitoria', 'salvador'];
 
   symplaUnits.forEach(slug => {
     const unit = data.units.find(u => u.slug === slug);
