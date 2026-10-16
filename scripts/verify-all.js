@@ -220,12 +220,14 @@ runStep('Gate 8: Unit Links Configuration Fidelity (40 Units Audited)', () => {
   assert(bsbJson.includes('i-simposio-de-acupuntura'), 'Brasília missing simpósio link');
   assert(bsbJson.includes('2026-12-05T08:00:00-03:00'), 'Brasília missing 05/12 08:00 expiration');
 
-  // 7. Londrina "+ Uma Oportunidade" Sympla event & expiration
+  // 7. Londrina "+ Uma Oportunidade" Sympla event & expiration (cancelled events 3555278 & 3555299 removed)
   const lda = data.units.find(u => u.slug === 'londrina');
   const ldaJson = JSON.stringify(lda.sections);
   assert(ldaJson.includes('3604208'), 'Londrina missing Uma Oportunidade event 3604208');
   assert(ldaJson.includes('2026-10-24T08:00:00-03:00'), 'Londrina missing 24/10 08:00 expiration');
   assert(ldaJson.includes('6abff44478666.png'), 'Londrina missing event banner');
+  assert(!ldaJson.includes('3555278'), 'Londrina should not contain cancelled Estratégias Nutricionais event 3555278');
+  assert(!ldaJson.includes('3555299'), 'Londrina should not contain cancelled Introdução à Quiropraxia event 3555299');
 
   // 8. Salvador AmoFisio Sympla event & expiration
   const ssa = data.units.find(u => u.slug === 'salvador');

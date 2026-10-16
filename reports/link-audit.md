@@ -1,8 +1,8 @@
 # Relatório de Verificação de Links — Bio no Link
 
-- **Data**: 14/10/2026, 16:39:48
+- **Data**: 16/10/2026, 16:22:04
 - **Modo**: Validação Estrutural (Dry Run)
-- **Total de Links Verificados**: 307
+- **Total de Links Verificados**: 305
 
 | Unidade | Campo / Título | URL | Status |
 | :--- | :--- | :--- | :--- |
@@ -153,9 +153,7 @@
 | Londrina | instagram | [https://www.instagram.com/inspirarlondrina/...](https://www.instagram.com/inspirarlondrina/) | ✅ OK |
 | Londrina | mapsUrl | [https://maps.google.com/?q=Faculdade+Inspirar...](https://maps.google.com/?q=Faculdade+Inspirar+Londrina) | ✅ OK |
 | Londrina | Confira Nossas Pós-Graduações Disponíveis | [https://www.inspirar.com.br/pr-londrina/...](https://www.inspirar.com.br/pr-londrina/) | ✅ OK |
-| Londrina | AmoFisio — Estratégias Nutricionais na Prevenção e Tratamento de Lesões no Esporte | [https://www.sympla.com.br/evento/amofisio-est...](https://www.sympla.com.br/evento/amofisio-estrategias-nutricionais-na-prevencao-e-tratamento-de-lesoes-no-esporte/3555278) | ✅ OK |
 | Londrina | AmoFisio — Lesões Musculares em Atletas: Diagnóstico e Tratamento Baseado em Evidências | [https://www.sympla.com.br/evento/amofisio-les...](https://www.sympla.com.br/evento/amofisio-lesoes-musculares-em-atletas-diagnostico-e-tratamento-baseado-em-evidencias/3555322) | ✅ OK |
-| Londrina | AmoFisio — Introdução à Quiropraxia | [https://www.sympla.com.br/evento/amofisio-int...](https://www.sympla.com.br/evento/amofisio-introducao-a-quiropraxia/3555299) | ✅ OK |
 | Londrina | + Uma Oportunidade — Da Agenda Cheia ao Negócio Sustentável | [https://www.sympla.com.br/evento/-uma-oportun...](https://www.sympla.com.br/evento/-uma-oportunidade---da-agenda-cheia-ao-negocio-sustentavel---faculdade-inspirar--instituto-movenz/3604208) | ✅ OK |
 | Londrina | Matricule-se pelo WhatsApp | [https://api.whatsapp.com/send?phone=554398647...](https://api.whatsapp.com/send?phone=554398647422&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Londrina) | ✅ OK |
 | Luanda | website | [https://www.inspirar.com.br/ao-luanda/...](https://www.inspirar.com.br/ao-luanda/) | ✅ OK |

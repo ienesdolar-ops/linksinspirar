@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-10-14T19:39:48.407Z",
-  "total": 307,
+  "timestamp": "2026-10-16T19:22:04.660Z",
+  "total": 305,
   "dryRun": true,
   "results": [
     {
@@ -1182,24 +1182,8 @@
     {
       "source": "Eventos",
       "unit": "Londrina",
-      "field": "AmoFisio — Estratégias Nutricionais na Prevenção e Tratamento de Lesões no Esporte",
-      "url": "https://www.sympla.com.br/evento/amofisio-estrategias-nutricionais-na-prevencao-e-tratamento-de-lesoes-no-esporte/3555278",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Eventos",
-      "unit": "Londrina",
       "field": "AmoFisio — Lesões Musculares em Atletas: Diagnóstico e Tratamento Baseado em Evidências",
       "url": "https://www.sympla.com.br/evento/amofisio-lesoes-musculares-em-atletas-diagnostico-e-tratamento-baseado-em-evidencias/3555322",
-      "status": "FORMAT_OK",
-      "ok": true
-    },
-    {
-      "source": "Eventos",
-      "unit": "Londrina",
-      "field": "AmoFisio — Introdução à Quiropraxia",
-      "url": "https://www.sympla.com.br/evento/amofisio-introducao-a-quiropraxia/3555299",
       "status": "FORMAT_OK",
       "ok": true
     },
