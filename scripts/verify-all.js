@@ -254,10 +254,10 @@ runStep('Gate 8: Unit Links Configuration Fidelity (40 Units Audited)', () => {
   // 12. Inspirar Nexus link present in all 40 units with purple accent and custom logo
   data.units.forEach(u => {
     const json = JSON.stringify(u.sections);
-    assert(json.includes('https://tr.ee/KWwDLxzVpD'), `Unit ${u.slug} missing Inspirar Nexus link`);
+    assert(json.includes('https://login.circle.so/sign_up?request_host=inspirar-nexus.circle.so&user%5Binvitation_token%5D=72f4f72a288209f005e68e89f03323ee8e7738ec-c814a46e-829c-4c8b-8436-368075ea7db2#email'), `Unit ${u.slug} missing Inspirar Nexus link`);
     assert(json.includes('assets/images/inspirar-nexus-logo.png'), `Unit ${u.slug} missing Inspirar Nexus logo`);
     const unitHtml = fs.readFileSync(path.join(ROOT_DIR, u.slug, 'index.html'), 'utf8');
-    assert(unitHtml.includes('https://tr.ee/KWwDLxzVpD'), `Unit ${u.slug} HTML missing Inspirar Nexus link`);
+    assert(unitHtml.includes('https://login.circle.so/sign_up?request_host=inspirar-nexus.circle.so&user%5Binvitation_token%5D=72f4f72a288209f005e68e89f03323ee8e7738ec-c814a46e-829c-4c8b-8436-368075ea7db2#email'), `Unit ${u.slug} HTML missing Inspirar Nexus link`);
     assert(unitHtml.includes('accent-purple'), `Unit ${u.slug} HTML missing accent-purple`);
   });
 
