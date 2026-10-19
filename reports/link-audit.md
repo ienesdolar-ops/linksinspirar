@@ -1,7 +1,7 @@
 # Relatório de Verificação de Links — Bio no Link
 
-- **Data**: 16/10/2026, 19:21:14
-- **Modo**: Validação Estrutural (Dry Run)
+- **Data**: 19/10/2026, 09:24:52
+- **Modo**: Checagem Live HTTP
 - **Total de Links Verificados**: 305
 
 | Unidade | Campo / Título | URL | Status |
@@ -34,7 +34,7 @@
 | Belém | AmoFisio — Imersão prática em ventilação mecânica invasiva e não invasiva | [https://www.sympla.com.br/evento/amofisio-ime...](https://www.sympla.com.br/evento/amofisio-imersao-pratica-em-ventilacao-mecanica-invasiva-e-nao-invasiva/3562957) | ✅ OK |
 | Belém | AmoFisio — Disfunções Urinárias - do Diagnóstico Funcional ao Plano de Tratamento | [https://www.sympla.com.br/evento/amofisio-dis...](https://www.sympla.com.br/evento/amofisio-disfuncoes-urinarias-do-diagnostico-funcional-ao-plano-de-tratamento/3562962) | ✅ OK |
 | Belém | Matricule-se pelo WhatsApp | [https://api.whatsapp.com/send?phone=559199100...](https://api.whatsapp.com/send?phone=5591991007794&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Bel%C3%A9m) | ✅ OK |
-| Belém | Linktree Oficial — Belém | [https://tr.ee/Yb2RHb61F2...](https://tr.ee/Yb2RHb61F2) | ✅ OK |
+| Belém | Linktree Oficial — Belém | [https://tr.ee/Yb2RHb61F2...](https://tr.ee/Yb2RHb61F2) | ⚠️ 405 |
 | Belo Horizonte | website | [https://www.inspirar.com.br/mg-belo-horizonte...](https://www.inspirar.com.br/mg-belo-horizonte/) | ✅ OK |
 | Belo Horizonte | instagram | [https://www.instagram.com/inspirarbelohorizon...](https://www.instagram.com/inspirarbelohorizonte/) | ✅ OK |
 | Belo Horizonte | mapsUrl | [https://maps.google.com/?q=Faculdade+Inspirar...](https://maps.google.com/?q=Faculdade+Inspirar+Belo%20Horizonte) | ✅ OK |
@@ -213,7 +213,7 @@
 | Santo André | instagram | [https://www.instagram.com/inspirar_santoandre...](https://www.instagram.com/inspirar_santoandre/) | ✅ OK |
 | Santo André | mapsUrl | [https://maps.google.com/?q=Faculdade+Inspirar...](https://maps.google.com/?q=Faculdade+Inspirar+Santo%20Andr%C3%A9) | ✅ OK |
 | Santo André | Confira Nossas Pós-Graduações Disponíveis | [https://www.inspirar.com.br/sp-santo-andre-sl...](https://www.inspirar.com.br/sp-santo-andre-slim/) | ✅ OK |
-| Santo André | Matricule-se pelo WhatsApp | [https://api.whatsapp.com/send?phone=558006022...](https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Santo%20Andr%C3%A9) | ✅ OK |
+| Santo André | Matricule-se pelo WhatsApp | [https://api.whatsapp.com/send?phone=551195945...](https://api.whatsapp.com/send?phone=5511959458337&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Santo%20Andr%C3%A9) | ✅ OK |
 | Santo André | Grupo VIP WhatsApp — Santo André | [https://chat.whatsapp.com/FoL3NtlyVanFISrz20m...](https://chat.whatsapp.com/FoL3NtlyVanFISrz20muP6?mode=gi_t&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0DMTAwAHBkb2YCc3J0YwZhcHBfaWQPOTM2NjE5NzQzMzkyNDU5AAGnNHIRTMbhHiisZSU1FeX335d48FyQPSe8Nw_IgWKDF0Z44e2yjDx3JRtSKmY_aem_k_59wE_els5hN8giRS88dw) | ✅ OK |
 | Santos | website | [https://www.inspirar.com.br/sp-sao-paulo-sant...](https://www.inspirar.com.br/sp-sao-paulo-santos/) | ✅ OK |
 | Santos | instagram | [https://www.instagram.com/inspirar.santos/...](https://www.instagram.com/inspirar.santos/) | ✅ OK |
@@ -242,7 +242,7 @@
 | São Luís | AmoFisio — Reabilitação funcional no câncer de mama | [https://www.sympla.com.br/evento/amofisio-rea...](https://www.sympla.com.br/evento/amofisio-reabilitacao-funcional-no-cancer-de-mama/3557073) | ✅ OK |
 | São Luís | AmoFisio — Boas práticas em neonatologia em situações críticas | [https://www.sympla.com.br/evento/amofisio-boa...](https://www.sympla.com.br/evento/amofisio-boas-praticas-em-neonatologia-em-situacoes-criticas/3557098) | ✅ OK |
 | São Luís | Pelve Expert — São Luís do Maranhão | [https://www.sympla.com.br/evento/pelve-expert...](https://www.sympla.com.br/evento/pelve-expert-sao-luis-do-maranhao/3578577?share_id=copiarlink&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAadGoaxKcEBtBo3p15vT13mhFZHRzyTnQ1MsPK3XrG7zLj8prqblFos25wIRKw_aem_5l1tPJLkRK_d6LWXGjU6Ow&utm_id=97760_v0_s00_e0_tv3&referrer=l.instagram.com) | ✅ OK |
-| São Luís | Fale no WhatsApp — São Luís | [https://api.whatsapp.com/message/7HAT7265HDZN...](https://api.whatsapp.com/message/7HAT7265HDZNL1?autoload=1&app_absent=0&utm_source=ig) | ✅ OK |
+| São Luís | Fale no WhatsApp — São Luís | [https://api.whatsapp.com/message/7HAT7265HDZN...](https://api.whatsapp.com/message/7HAT7265HDZNL1?autoload=1&app_absent=0&utm_source=ig) | ⚠️ 400 |
 | São Paulo - Borba Gato | website | [https://www.inspirar.com.br/sp-sao-paulo-borb...](https://www.inspirar.com.br/sp-sao-paulo-borba-gato/) | ✅ OK |
 | São Paulo - Borba Gato | instagram | [https://www.instagram.com/inspirarsaopaulobor...](https://www.instagram.com/inspirarsaopauloborbagato/) | ✅ OK |
 | São Paulo - Borba Gato | mapsUrl | [https://maps.google.com/?q=Faculdade+Inspirar...](https://maps.google.com/?q=Faculdade+Inspirar+S%C3%A3o%20Paulo%20-%20Borba%20Gato) | ✅ OK |
@@ -309,5 +309,5 @@
 | Congresso de Estética da Inspirar | mapsUrl | [https://maps.google.com/?q=Faculdade+Inspirar...](https://maps.google.com/?q=Faculdade+Inspirar+Curitiba) | ✅ OK |
 | Congresso de Estética da Inspirar | Site Oficial do Congresso de Estética | [https://faculdadeinspirar.com.br/congresso-de...](https://faculdadeinspirar.com.br/congresso-de-estetica/) | ✅ OK |
 | Congresso de Estética da Inspirar | Inscrições pelo WhatsApp Oficial | [https://api.whatsapp.com/send/?phone=55080060...](https://api.whatsapp.com/send/?phone=5508006022828&text=Quero+fazer+minha+inscri%C3%A7%C3%A3o+no+Congresso+Internacional+Inspirar+de+Est%C3%A9tica) | ✅ OK |
-| Congresso de Estética da Inspirar | Formulário Oficial de Inscrição e Credenciamento | [https://forms.cloud.microsoft/r/8z3SYh93ip...](https://forms.cloud.microsoft/r/8z3SYh93ip) | ✅ OK |
+| Congresso de Estética da Inspirar | Formulário Oficial de Inscrição e Credenciamento | [https://forms.cloud.microsoft/r/8z3SYh93ip...](https://forms.cloud.microsoft/r/8z3SYh93ip) | ⚠️ 405 |
 | Congresso de Estética da Inspirar | Regras para Submissão de Trabalhos Científicos (PDF) | [https://faculdadeinspirar.com.br/wp-content/u...](https://faculdadeinspirar.com.br/wp-content/uploads/2026/06/Regras-para-submissao-de-trabalhos-2026.pdf) | ✅ OK |

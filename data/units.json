@@ -2920,8 +2920,8 @@
       "mapsUrl": "https://maps.google.com/?q=Faculdade+Inspirar+Santo%20Andr%C3%A9",
       "coverImage": "assets/images/units/santo-andre/cidade-santo-andre.webp",
       "logoImage": "assets/images/Logo branca - horizontal.png",
-      "whatsapp": "558006022828",
-      "whatsappDisplay": "0800 602 2828",
+      "whatsapp": "5511959458337",
+      "whatsappDisplay": "(11) 95945-8337",
       "whatsappDefaultMessage": "Olá! Tenho interesse em saber mais sobre os cursos da Faculdade Inspirar - Santo André",
       "instagram": "https://www.instagram.com/inspirar_santoandre/",
       "instagramUser": "@inspirar_santoandre",
@@ -2959,8 +2959,8 @@
           "items": [
             {
               "title": "Matricule-se pelo WhatsApp",
-              "desc": "Fale com nossa equipe • 0800 602 2828",
-              "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Santo%20Andr%C3%A9",
+              "desc": "Fale com nossa equipe • (11) 95945-8337",
+              "url": "https://api.whatsapp.com/send?phone=5511959458337&text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20da%20Faculdade%20Inspirar%20-%20Santo%20Andr%C3%A9",
               "icon": "whatsapp",
               "accent": "green"
             },
