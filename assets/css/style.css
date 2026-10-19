@@ -793,6 +793,18 @@ body {
 .accent-purple:hover .link-icon-box {
   color: #FFFFFF;
 }
+.link-icon-box.has-custom-img {
+  padding: 0;
+  overflow: hidden;
+  background: rgba(168, 85, 247, 0.15);
+  border-color: rgba(168, 85, 247, 0.35);
+}
+.link-icon-box.has-custom-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: inherit;
+}
 
 .accent-orange {
   --card-accent: #FB923C;

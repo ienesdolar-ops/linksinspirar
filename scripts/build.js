@@ -321,6 +321,10 @@ function generateUnitHtml(unit, data) {
           ? ` data-start-date="${item.startDate || ''}" data-end-date="${item.endDate || ''}"`
           : '';
 
+        const iconHtml = item.image
+          ? `<div class="link-icon-box has-custom-img"><img src="${item.image.startsWith('http') ? item.image : relativeRoot + '/' + item.image}" alt="${item.title}" loading="lazy"></div>`
+          : `<div class="link-icon-box">${getIconSvg(item.icon)}</div>`;
+
         if (item.banner) {
           const bannerSrc = item.banner.startsWith('http') ? item.banner : `${relativeRoot}/${item.banner}`;
           streamItemsHtml += `
@@ -331,9 +335,7 @@ function generateUnitHtml(unit, data) {
           <div class="link-card-banner-overlay"></div>
         </div>
         <div class="link-card-banner-footer">
-          <div class="link-icon-box">
-            ${getIconSvg(item.icon)}
-          </div>
+          ${iconHtml}
           <div class="link-details">
             ${tagRow}
             <h3 class="link-title">${item.title}</h3>
@@ -348,9 +350,7 @@ function generateUnitHtml(unit, data) {
           streamItemsHtml += `
       <!-- ${item.title} -->
       <a href="${item.url}" target="_blank" rel="noopener" class="link-card${accentClass}"${dateAttrs}>
-        <div class="link-icon-box">
-          ${getIconSvg(item.icon)}
-        </div>
+        ${iconHtml}
         <div class="link-details">
           ${tagRow}
           <h3 class="link-title">${item.title}</h3>

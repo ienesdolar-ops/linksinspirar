@@ -251,7 +251,17 @@ runStep('Gate 8: Unit Links Configuration Fidelity (40 Units Audited)', () => {
   assert(JSON.stringify(cei.sections).includes('congresso-de-estetica'), 'Congresso Estética missing website');
   assert(JSON.stringify(cei.sections).includes('forms.cloud.microsoft'), 'Congresso Estética missing forms link');
 
-  // 12. WhatsApp links validation: 1 standard link, and 2 for Santo André (standard + VIP group), Guarulhos (2 contacts), Fortaleza (local + institutional), and 3 for Inspirar Holanda (Brasil, Holanda, Lusatravel)
+  // 12. Inspirar Nexus link present in all 40 units with purple accent and custom logo
+  data.units.forEach(u => {
+    const json = JSON.stringify(u.sections);
+    assert(json.includes('https://tr.ee/KWwDLxzVpD'), `Unit ${u.slug} missing Inspirar Nexus link`);
+    assert(json.includes('assets/images/inspirar-nexus-logo.png'), `Unit ${u.slug} missing Inspirar Nexus logo`);
+    const unitHtml = fs.readFileSync(path.join(ROOT_DIR, u.slug, 'index.html'), 'utf8');
+    assert(unitHtml.includes('https://tr.ee/KWwDLxzVpD'), `Unit ${u.slug} HTML missing Inspirar Nexus link`);
+    assert(unitHtml.includes('accent-purple'), `Unit ${u.slug} HTML missing accent-purple`);
+  });
+
+  // 13. WhatsApp links validation: 1 standard link, and 2 for Santo André (standard + VIP group), Guarulhos (2 contacts), Fortaleza (local + institutional), and 3 for Inspirar Holanda (Brasil, Holanda, Lusatravel)
   data.units.forEach(u => {
     const waCount = (u.sections || []).flatMap(s => s.items || [])
       .filter(item => (item.url && (item.url.includes('whatsapp.com') || item.url.includes('wa.me'))) || item.icon === 'whatsapp').length;
@@ -259,7 +269,7 @@ runStep('Gate 8: Unit Links Configuration Fidelity (40 Units Audited)', () => {
     assert.strictEqual(waCount, expected, `Unit ${u.slug} must have exactly ${expected} WhatsApp link(s), got ${waCount}`);
   });
 
-  // 13. YouTube test link removed from all 40 units
+  // 14. YouTube test link removed from all 40 units
   data.units.forEach(u => {
     const hasYt = (u.sections || []).some(s => (s.items || []).some(item => item.url && item.url === 'https://www.youtube.com/'));
     assert(!hasYt, `Unit ${u.slug} unexpectedly has YouTube test link in data/units.json`);
@@ -268,7 +278,7 @@ runStep('Gate 8: Unit Links Configuration Fidelity (40 Units Audited)', () => {
     assert(!unitHtml.includes('https://www.youtube.com/'), `Unit ${u.slug} unexpectedly has YouTube link in HTML`);
   });
 
-  // 14. Units with only city photos must NOT contain "Fotos da Unidade" / campus_banner, while 22 real-photo units retain it
+  // 15. Units with only city photos must NOT contain "Fotos da Unidade" / campus_banner, while 22 real-photo units retain it
   const citySlugs = [
     'dourados', 'fortaleza', 'goiania', 'ipatinga', 'joinville', 'luanda',
     'maceio', 'parauapebas', 'porto-velho', 'ribeirao-preto', 'salvador',

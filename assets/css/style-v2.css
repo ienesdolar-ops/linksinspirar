@@ -605,6 +605,40 @@ body {
   color: var(--color-accent);
 }
 
+.link-card.accent-purple {
+  --card-accent: #A855F7;
+  --card-glow: rgba(168, 85, 247, 0.45);
+}
+
+.link-card.accent-purple .link-tag {
+  color: #C084FC;
+}
+
+.link-card.accent-purple .link-icon-box {
+  border-color: rgba(168, 85, 247, 0.3);
+  background: rgba(168, 85, 247, 0.12);
+  color: #C084FC;
+}
+
+.link-card.accent-purple:hover .link-icon-box {
+  background: #A855F7;
+  color: #FFFFFF;
+}
+
+.link-icon-box.has-custom-img {
+  padding: 0;
+  overflow: hidden;
+  background: rgba(168, 85, 247, 0.15);
+  border-color: rgba(168, 85, 247, 0.35);
+}
+
+.link-icon-box.has-custom-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: inherit;
+}
+
 .link-card.accent-red {
   --card-accent: #FF334B;
   --card-glow: rgba(255, 51, 75, 0.45);
