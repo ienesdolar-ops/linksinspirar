@@ -617,16 +617,6 @@
       "banner": "https://images.sympla.com.br/6a8c7ee0c1cf3.png"
     },
     {
-      "title": "AmoFisio — Reabilitação funcional no câncer de mama",
-      "desc": "Fisioterapia Oncológica • Do pós-operatório imediato ao manejo do linfedema e retorno às atividades de vida diária.",
-      "url": "https://www.sympla.com.br/evento/amofisio-reabilitacao-funcional-no-cancer-de-mama/3557073",
-      "icon": "heart",
-      "accent": "purple",
-      "startDate": "2026-09-01",
-      "endDate": "2026-10-24T09:00:00-03:00",
-      "banner": "https://images.sympla.com.br/6a9078cfe43f2.png"
-    },
-    {
       "title": "AmoFisio — Boas práticas em neonatologia em situações críticas",
       "desc": "Neonatologia & Pediatria Crítica • Posicionamento terapêutico, ventilação mecânica neonatal e assistência integral ao recém-nascido crítico.",
       "url": "https://www.sympla.com.br/evento/amofisio-boas-praticas-em-neonatologia-em-situacoes-criticas/3557098",
@@ -788,4 +778,3 @@
     }
   ]
 }
-
