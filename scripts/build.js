@@ -1263,6 +1263,7 @@ ${JSON.stringify(generateHubJsonLd(data), null, 2)}
     <!-- ── REGION FILTERS ── -->
     <div class="hub-region-chips" id="region-chips">
       <button class="hub-chip active" data-region="all">Todas (${data.units.length})</button>
+      <button class="hub-chip" data-region="Nacional">Nacional</button>
       <button class="hub-chip" data-region="Sul">Sul</button>
       <button class="hub-chip" data-region="Sudeste">Sudeste</button>
       <button class="hub-chip" data-region="Centro-Oeste">Centro-Oeste</button>

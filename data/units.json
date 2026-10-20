@@ -2,7 +2,7 @@
   "project": {
     "name": "Bio no Link",
     "brand": "Faculdade Inspirar",
-    "hubTitle": "Faculdade Inspirar — Bio no Link | Todas as 40 Unidades e Perfis Oficiais",
+    "hubTitle": "Faculdade Inspirar — Bio no Link | Todas as 41 Unidades e Perfis Oficiais",
     "hubDescription": "Hub oficial de links da Faculdade Inspirar. Escolha a sua unidade para acessar cursos, eventos, inscrições e atendimento direto.",
     "globalSocial": {
       "instagram": "https://www.instagram.com/faculdadeinspirar/",
@@ -13,6 +13,74 @@
     }
   },
   "units": [
+    {
+      "slug": "faculdade-inspirar",
+      "name": "Faculdade Inspirar",
+      "state": "BR",
+      "stateName": "Brasil",
+      "region": "Nacional",
+      "badge": "Perfil Nacional",
+      "bio": "Referência no ensino da área da Saúde e Pós-graduação. Cursos, especializações e extensão em todo o Brasil.",
+      "address": "Brasil",
+      "fullAddress": "Faculdade Inspirar — Brasil",
+      "director": "Faculdade Inspirar — Nacional",
+      "mapsUrl": "https://www.google.com/maps/search/Faculdade+Inspirar",
+      "coverImage": "assets/images/UNIDADE CWB sem gourmet.png",
+      "logoImage": "assets/images/Logo branca - horizontal.png",
+      "whatsapp": "558006022828",
+      "whatsappDisplay": "0800 602 2828",
+      "whatsappDefaultMessage": "Olá! Gostaria de informações sobre a Faculdade Inspirar",
+      "instagram": "https://www.instagram.com/faculdadeinspirar/",
+      "instagramUser": "@faculdadeinspirar",
+      "website": "https://www.inspirar.com.br/",
+      "sympla": "https://www.sympla.com.br/produtor/faculdadeinspirar",
+      "gallery": [],
+      "sections": [
+        {
+          "id": "portal_oficial",
+          "title": "Portal Oficial",
+          "icon": "globe",
+          "items": [
+            {
+              "title": "Confira Nossas Pós-Graduações Disponíveis",
+              "desc": "Inscrições abertas para cursos e especializações presenciais e digitais em todo o Brasil",
+              "url": "https://www.inspirar.com.br/",
+              "icon": "globe",
+              "accent": "cyan",
+              "banner": "assets/images/UNIDADE CWB sem gourmet.png",
+              "tag": "Portal Oficial & Matrículas",
+              "badge": "Inscrições Abertas"
+            },
+            {
+              "title": "Inspirar Nexus",
+              "desc": "Entre na Comunidade Oficial Inspirar Nexus",
+              "url": "https://login.circle.so/sign_up?request_host=inspirar-nexus.circle.so&user%5Binvitation_token%5D=72f4f72a288209f005e68e89f03323ee8e7738ec-c814a46e-829c-4c8b-8436-368075ea7db2#email",
+              "icon": "globe",
+              "image": "assets/images/inspirar-nexus-logo.png",
+              "accent": "purple",
+              "tag": "Comunidade",
+              "badge": "Nexus"
+            }
+          ]
+        },
+        {
+          "id": "acesso_rapido",
+          "title": "Acesso Rápido",
+          "icon": "settings",
+          "items": [
+            {
+              "title": "Fale no WhatsApp — Faculdade Inspirar",
+              "desc": "Atendimento direto • 0800 602 2828",
+              "tag": "WhatsApp",
+              "badge": "Online",
+              "url": "https://api.whatsapp.com/send?phone=558006022828&text=Ol%C3%A1!%20Gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20a%20Faculdade%20Inspirar",
+              "icon": "whatsapp",
+              "accent": "green"
+            }
+          ]
+        }
+      ]
+    },
     {
       "slug": "balneario-camboriu",
       "name": "Balneário Camboriú",
