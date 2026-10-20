@@ -105,18 +105,6 @@
       "banner": "https://images.sympla.com.br/6aa1af21a9e2c.png"
     }
   ],
-  "blumenau": [
-    {
-      "title": "AmoFisio — Quiropraxia na atenção à saúde",
-      "desc": "Quiropraxia & Terapia Manual • Princípios dos ajustes quiropráticos, avaliação vertebral e aplicação clínica integrada aos cuidados em saúde.",
-      "url": "https://www.sympla.com.br/evento/amofisio-quiropraxia-na-atencao-a-saude/3583906",
-      "icon": "heart",
-      "accent": "purple",
-      "startDate": "2026-09-01",
-      "endDate": "2026-10-23T18:00:00-03:00",
-      "banner": "https://images.sympla.com.br/6aac306f7986c.png"
-    }
-  ],
   "campinas": [
     {
       "title": "AmoFisio — Fisioterapia Manipulativa na Prática - Da Evidência ao Raciocínio Clínico",
@@ -137,16 +125,6 @@
       "startDate": "2026-09-01",
       "endDate": "2026-10-24T08:00:00-03:00",
       "banner": "https://images.sympla.com.br/6ab2ca587b93c.png"
-    },
-    {
-      "title": "AmoFisio — Atuação do fisioterapeuta na sarcopenia e síndrome da fragilidade",
-      "desc": "Gerontologia & Saúde do Idoso • Estratégias de avaliação e intervenção no manejo da sarcopenia e fragilidade.",
-      "url": "https://www.sympla.com.br/evento/amofisio-atuacao-do-fisioterapeuta-na-sarcopenia-e-sindrome-da-fragilidade/3589956",
-      "icon": "heart",
-      "accent": "purple",
-      "startDate": "2026-09-01",
-      "endDate": "2026-10-23T19:00:00-03:00",
-      "banner": "https://images.sympla.com.br/6ab2caffc6da1.png"
     }
   ],
   "campo-grande": [
@@ -283,18 +261,6 @@
       "startDate": "2026-09-01",
       "endDate": "2026-10-26T18:00:00-03:00",
       "banner": "https://images.sympla.com.br/6a97002638e29.png"
-    }
-  ],
-  "florianopolis": [
-    {
-      "title": "AmoFisio — A importância da Anatomia Palpatória no raciocínio clínico",
-      "desc": "Terapia Manual & Anatomia • Palpação precisa de estruturas musculoesqueléticas, referências anatômicas de segurança e construção do raciocínio clínico assertivo.",
-      "url": "https://www.sympla.com.br/evento/amofisio-a-importancia-da-anatomia-palpatoria-no-raciocinio-clinico/3583921",
-      "icon": "heart",
-      "accent": "purple",
-      "startDate": "2026-09-01",
-      "endDate": "2026-10-24T08:00:00-03:00",
-      "banner": "https://images.sympla.com.br/6aac320d41539.png"
     }
   ],
   "fortaleza": [
@@ -637,16 +603,6 @@
       "startDate": "2026-09-01",
       "endDate": "2026-10-24T09:00:00-03:00",
       "banner": "https://images.sympla.com.br/6a8f0c6148677.png"
-    },
-    {
-      "title": "AmoFisio — FisioTech Experience: TCAR e Ondas de Choque na Prática Clínica",
-      "desc": "Tecnologias Avançadas & Ortopedia • Experiência prática de alta tecnologia com Tecarterapia e Ondas de Choque na recuperação musculoesquelética.",
-      "url": "https://www.sympla.com.br/evento/amofisio-fisiotech-experience-tcar-e-ondas-de-choque-na-pratica-clinica/3555369",
-      "icon": "heart",
-      "accent": "purple",
-      "startDate": "2026-09-01",
-      "endDate": "2026-10-24T09:00:00-03:00",
-      "banner": "https://images.sympla.com.br/6a9869ac8e34b.png"
     }
   ],
   "sao-paulo-vila-mariana": [
@@ -672,16 +628,6 @@
     }
   ],
   "sorocaba": [
-    {
-      "title": "AmoFisio — Atuação do Fisioterapeuta nas Doenças Neurodegenerativas e Demências na Pessoa Idosa",
-      "desc": "Neurofuncional & Gerontologia • Estratégias de intervenção fisioterapêutica e reabilitação em demências e doenças neurodegenerativas.",
-      "url": "https://www.sympla.com.br/evento/amofisio-atuacao-do-fisioterapeuta-nas-doencas-neurodegenerativas-e-demencias-na-pessoa-idosa/3555397",
-      "icon": "heart",
-      "accent": "purple",
-      "startDate": "2026-09-01",
-      "endDate": "2026-10-24T10:00:00-03:00",
-      "banner": "https://images.sympla.com.br/6a8f127f4972c.png"
-    },
     {
       "title": "AmoFisio — Construção do Raciocínio Clínico na Fisioterapia Pélvica",
       "desc": "Fisioterapia Pélvica & Saúde da Mulher • Metodologia prática para diagnóstico assertivo e estruturação de condutas em fisioterapia pélvica.",
