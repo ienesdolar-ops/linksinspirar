@@ -3334,16 +3334,6 @@
           "icon": "calendar",
           "items": [
             {
-              "title": "AmoFisio — Liderança não espera cargo",
-              "desc": "Carreira & Gestão • Desenvolvimento de habilidades de liderança e gestão de carreira para fisioterapeutas.",
-              "url": "https://www.sympla.com.br/evento/amofisio-lideranca-nao-espera-cargo/3589911",
-              "icon": "heart",
-              "accent": "purple",
-              "startDate": "2026-09-01",
-              "endDate": "2026-10-24T08:00:00-03:00",
-              "banner": "https://images.sympla.com.br/6ab2c84ad1130.png"
-            },
-            {
               "title": "AmoFisio ON — Laserterapia em Neonatologia",
               "desc": "Online • 28/10 às 20h • Aplicações do laser na fisioterapia neonatal.",
               "url": "https://www.sympla.com.br/evento-online/amofisio-on-laserterapia-em-neonatologia/3625938",
