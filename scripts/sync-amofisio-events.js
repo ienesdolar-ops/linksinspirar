@@ -143,7 +143,7 @@ async function main() {
     }
 
     resultBySlug[slug] = [];
-    const courses = u.courses || [];
+    const courses = (u.courses || []).filter(c => c.status !== 'cancelled' && !c.cancelledByFranchisee);
     totalCourses += courses.length;
 
     console.log(`Processing unit: ${u.name} (${slug}) - ${courses.length} courses`);
