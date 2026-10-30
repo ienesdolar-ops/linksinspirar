@@ -52,6 +52,28 @@
               "badge": "Inscrições Abertas"
             },
             {
+              "title": "Black Inspirar",
+              "desc": "A maior oportunidade do ano na Faculdade Inspirar",
+              "url": "https://janela-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "cyan",
+              "tag": "Campanha",
+              "badge": "Black Inspirar",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
+            },
+            {
+              "title": "Quiz de Especialidade",
+              "desc": "Descubra qual especialidade combina com você",
+              "url": "https://quiz-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "purple",
+              "tag": "Quiz",
+              "badge": "Novo",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
+            },
+            {
               "title": "Inspirar Nexus",
               "desc": "Entre na Comunidade Oficial Inspirar Nexus",
               "url": "https://login.circle.so/sign_up?request_host=inspirar-nexus.circle.so&user%5Binvitation_token%5D=72f4f72a288209f005e68e89f03323ee8e7738ec-c814a46e-829c-4c8b-8436-368075ea7db2#email",
@@ -206,6 +228,28 @@
               "badge": "Inscrições Abertas"
             },
             {
+              "title": "Black Inspirar",
+              "desc": "A maior oportunidade do ano na Faculdade Inspirar",
+              "url": "https://janela-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "cyan",
+              "tag": "Campanha",
+              "badge": "Black Inspirar",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
+            },
+            {
+              "title": "Quiz de Especialidade",
+              "desc": "Descubra qual especialidade combina com você",
+              "url": "https://quiz-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "purple",
+              "tag": "Quiz",
+              "badge": "Novo",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
+            },
+            {
               "title": "Inspirar Nexus",
               "desc": "Entre na Comunidade Oficial Inspirar Nexus",
               "url": "https://login.circle.so/sign_up?request_host=inspirar-nexus.circle.so&user%5Binvitation_token%5D=72f4f72a288209f005e68e89f03323ee8e7738ec-c814a46e-829c-4c8b-8436-368075ea7db2#email",
@@ -357,6 +401,28 @@
               "banner": "assets/images/units/bauru/bauru-fachada-2.jpeg",
               "tag": "Portal Oficial & Matrículas",
               "badge": "Inscrições Abertas"
+            },
+            {
+              "title": "Black Inspirar",
+              "desc": "A maior oportunidade do ano na Faculdade Inspirar",
+              "url": "https://janela-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "cyan",
+              "tag": "Campanha",
+              "badge": "Black Inspirar",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
+            },
+            {
+              "title": "Quiz de Especialidade",
+              "desc": "Descubra qual especialidade combina com você",
+              "url": "https://quiz-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "purple",
+              "tag": "Quiz",
+              "badge": "Novo",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
             },
             {
               "title": "Inspirar Nexus",
@@ -556,6 +622,28 @@
               "badge": "Inscrições Abertas"
             },
             {
+              "title": "Black Inspirar",
+              "desc": "A maior oportunidade do ano na Faculdade Inspirar",
+              "url": "https://janela-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "cyan",
+              "tag": "Campanha",
+              "badge": "Black Inspirar",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
+            },
+            {
+              "title": "Quiz de Especialidade",
+              "desc": "Descubra qual especialidade combina com você",
+              "url": "https://quiz-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "purple",
+              "tag": "Quiz",
+              "badge": "Novo",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
+            },
+            {
               "title": "Inspirar Nexus",
               "desc": "Entre na Comunidade Oficial Inspirar Nexus",
               "url": "https://login.circle.so/sign_up?request_host=inspirar-nexus.circle.so&user%5Binvitation_token%5D=72f4f72a288209f005e68e89f03323ee8e7738ec-c814a46e-829c-4c8b-8436-368075ea7db2#email",
@@ -738,6 +826,28 @@
               "badge": "Inscrições Abertas"
             },
             {
+              "title": "Black Inspirar",
+              "desc": "A maior oportunidade do ano na Faculdade Inspirar",
+              "url": "https://janela-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "cyan",
+              "tag": "Campanha",
+              "badge": "Black Inspirar",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
+            },
+            {
+              "title": "Quiz de Especialidade",
+              "desc": "Descubra qual especialidade combina com você",
+              "url": "https://quiz-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "purple",
+              "tag": "Quiz",
+              "badge": "Novo",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
+            },
+            {
               "title": "Inspirar Nexus",
               "desc": "Entre na Comunidade Oficial Inspirar Nexus",
               "url": "https://login.circle.so/sign_up?request_host=inspirar-nexus.circle.so&user%5Binvitation_token%5D=72f4f72a288209f005e68e89f03323ee8e7738ec-c814a46e-829c-4c8b-8436-368075ea7db2#email",
@@ -905,6 +1015,28 @@
               "badge": "Inscrições Abertas"
             },
             {
+              "title": "Black Inspirar",
+              "desc": "A maior oportunidade do ano na Faculdade Inspirar",
+              "url": "https://janela-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "cyan",
+              "tag": "Campanha",
+              "badge": "Black Inspirar",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
+            },
+            {
+              "title": "Quiz de Especialidade",
+              "desc": "Descubra qual especialidade combina com você",
+              "url": "https://quiz-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "purple",
+              "tag": "Quiz",
+              "badge": "Novo",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
+            },
+            {
               "title": "Inspirar Nexus",
               "desc": "Entre na Comunidade Oficial Inspirar Nexus",
               "url": "https://login.circle.so/sign_up?request_host=inspirar-nexus.circle.so&user%5Binvitation_token%5D=72f4f72a288209f005e68e89f03323ee8e7738ec-c814a46e-829c-4c8b-8436-368075ea7db2#email",
@@ -1054,6 +1186,28 @@
               "banner": "assets/images/units/brasilia/fachada-brasilia.png",
               "tag": "Portal Oficial & Matrículas",
               "badge": "Inscrições Abertas"
+            },
+            {
+              "title": "Black Inspirar",
+              "desc": "A maior oportunidade do ano na Faculdade Inspirar",
+              "url": "https://janela-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "cyan",
+              "tag": "Campanha",
+              "badge": "Black Inspirar",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
+            },
+            {
+              "title": "Quiz de Especialidade",
+              "desc": "Descubra qual especialidade combina com você",
+              "url": "https://quiz-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "purple",
+              "tag": "Quiz",
+              "badge": "Novo",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
             },
             {
               "title": "Inspirar Nexus",
@@ -1238,6 +1392,28 @@
               "banner": "assets/images/units/campinas/fachada-campinas.jpeg",
               "tag": "Portal Oficial & Matrículas",
               "badge": "Inscrições Abertas"
+            },
+            {
+              "title": "Black Inspirar",
+              "desc": "A maior oportunidade do ano na Faculdade Inspirar",
+              "url": "https://janela-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "cyan",
+              "tag": "Campanha",
+              "badge": "Black Inspirar",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
+            },
+            {
+              "title": "Quiz de Especialidade",
+              "desc": "Descubra qual especialidade combina com você",
+              "url": "https://quiz-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "purple",
+              "tag": "Quiz",
+              "badge": "Novo",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
             },
             {
               "title": "Inspirar Nexus",
@@ -1435,6 +1611,28 @@
               "badge": "Inscrições Abertas"
             },
             {
+              "title": "Black Inspirar",
+              "desc": "A maior oportunidade do ano na Faculdade Inspirar",
+              "url": "https://janela-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "cyan",
+              "tag": "Campanha",
+              "badge": "Black Inspirar",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
+            },
+            {
+              "title": "Quiz de Especialidade",
+              "desc": "Descubra qual especialidade combina com você",
+              "url": "https://quiz-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "purple",
+              "tag": "Quiz",
+              "badge": "Novo",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
+            },
+            {
               "title": "Inspirar Nexus",
               "desc": "Entre na Comunidade Oficial Inspirar Nexus",
               "url": "https://login.circle.so/sign_up?request_host=inspirar-nexus.circle.so&user%5Binvitation_token%5D=72f4f72a288209f005e68e89f03323ee8e7738ec-c814a46e-829c-4c8b-8436-368075ea7db2#email",
@@ -1602,6 +1800,28 @@
               "banner": "assets/images/units/cuiaba/cuiaba-fachada-2.jpeg",
               "tag": "Portal Oficial & Matrículas",
               "badge": "Inscrições Abertas"
+            },
+            {
+              "title": "Black Inspirar",
+              "desc": "A maior oportunidade do ano na Faculdade Inspirar",
+              "url": "https://janela-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "cyan",
+              "tag": "Campanha",
+              "badge": "Black Inspirar",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
+            },
+            {
+              "title": "Quiz de Especialidade",
+              "desc": "Descubra qual especialidade combina com você",
+              "url": "https://quiz-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "purple",
+              "tag": "Quiz",
+              "badge": "Novo",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
             },
             {
               "title": "Inspirar Nexus",
@@ -1846,6 +2066,28 @@
               "badge": "Inscrições Abertas"
             },
             {
+              "title": "Black Inspirar",
+              "desc": "A maior oportunidade do ano na Faculdade Inspirar",
+              "url": "https://janela-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "cyan",
+              "tag": "Campanha",
+              "badge": "Black Inspirar",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
+            },
+            {
+              "title": "Quiz de Especialidade",
+              "desc": "Descubra qual especialidade combina com você",
+              "url": "https://quiz-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "purple",
+              "tag": "Quiz",
+              "badge": "Novo",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
+            },
+            {
               "title": "Inspirar Nexus",
               "desc": "Entre na Comunidade Oficial Inspirar Nexus",
               "url": "https://login.circle.so/sign_up?request_host=inspirar-nexus.circle.so&user%5Binvitation_token%5D=72f4f72a288209f005e68e89f03323ee8e7738ec-c814a46e-829c-4c8b-8436-368075ea7db2#email",
@@ -2078,6 +2320,28 @@
               "badge": "Inscrições Abertas"
             },
             {
+              "title": "Black Inspirar",
+              "desc": "A maior oportunidade do ano na Faculdade Inspirar",
+              "url": "https://janela-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "cyan",
+              "tag": "Campanha",
+              "badge": "Black Inspirar",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
+            },
+            {
+              "title": "Quiz de Especialidade",
+              "desc": "Descubra qual especialidade combina com você",
+              "url": "https://quiz-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "purple",
+              "tag": "Quiz",
+              "badge": "Novo",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
+            },
+            {
               "title": "Inspirar Nexus",
               "desc": "Entre na Comunidade Oficial Inspirar Nexus",
               "url": "https://login.circle.so/sign_up?request_host=inspirar-nexus.circle.so&user%5Binvitation_token%5D=72f4f72a288209f005e68e89f03323ee8e7738ec-c814a46e-829c-4c8b-8436-368075ea7db2#email",
@@ -2258,6 +2522,28 @@
               "badge": "Inscrições Abertas"
             },
             {
+              "title": "Black Inspirar",
+              "desc": "A maior oportunidade do ano na Faculdade Inspirar",
+              "url": "https://janela-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "cyan",
+              "tag": "Campanha",
+              "badge": "Black Inspirar",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
+            },
+            {
+              "title": "Quiz de Especialidade",
+              "desc": "Descubra qual especialidade combina com você",
+              "url": "https://quiz-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "purple",
+              "tag": "Quiz",
+              "badge": "Novo",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
+            },
+            {
               "title": "Inspirar Nexus",
               "desc": "Entre na Comunidade Oficial Inspirar Nexus",
               "url": "https://login.circle.so/sign_up?request_host=inspirar-nexus.circle.so&user%5Binvitation_token%5D=72f4f72a288209f005e68e89f03323ee8e7738ec-c814a46e-829c-4c8b-8436-368075ea7db2#email",
@@ -2408,6 +2694,28 @@
               "banner": "assets/images/units/fortaleza/cidade-fortaleza.jpg",
               "tag": "Portal Oficial & Matrículas",
               "badge": "Inscrições Abertas"
+            },
+            {
+              "title": "Black Inspirar",
+              "desc": "A maior oportunidade do ano na Faculdade Inspirar",
+              "url": "https://janela-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "cyan",
+              "tag": "Campanha",
+              "badge": "Black Inspirar",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
+            },
+            {
+              "title": "Quiz de Especialidade",
+              "desc": "Descubra qual especialidade combina com você",
+              "url": "https://quiz-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "purple",
+              "tag": "Quiz",
+              "badge": "Novo",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
             },
             {
               "title": "Inspirar Nexus",
@@ -2572,6 +2880,28 @@
               "badge": "Inscrições Abertas"
             },
             {
+              "title": "Black Inspirar",
+              "desc": "A maior oportunidade do ano na Faculdade Inspirar",
+              "url": "https://janela-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "cyan",
+              "tag": "Campanha",
+              "badge": "Black Inspirar",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
+            },
+            {
+              "title": "Quiz de Especialidade",
+              "desc": "Descubra qual especialidade combina com você",
+              "url": "https://quiz-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "purple",
+              "tag": "Quiz",
+              "badge": "Novo",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
+            },
+            {
               "title": "Inspirar Nexus",
               "desc": "Entre na Comunidade Oficial Inspirar Nexus",
               "url": "https://login.circle.so/sign_up?request_host=inspirar-nexus.circle.so&user%5Binvitation_token%5D=72f4f72a288209f005e68e89f03323ee8e7738ec-c814a46e-829c-4c8b-8436-368075ea7db2#email",
@@ -2727,6 +3057,28 @@
               "banner": "assets/images/units/guarulhos/guarulhos-fachada.webp",
               "tag": "Portal Oficial & Matrículas",
               "badge": "Inscrições Abertas"
+            },
+            {
+              "title": "Black Inspirar",
+              "desc": "A maior oportunidade do ano na Faculdade Inspirar",
+              "url": "https://janela-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "cyan",
+              "tag": "Campanha",
+              "badge": "Black Inspirar",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
+            },
+            {
+              "title": "Quiz de Especialidade",
+              "desc": "Descubra qual especialidade combina com você",
+              "url": "https://quiz-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "purple",
+              "tag": "Quiz",
+              "badge": "Novo",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
             },
             {
               "title": "Inspirar Nexus",
@@ -2962,6 +3314,28 @@
               "badge": "Inscrições Abertas"
             },
             {
+              "title": "Black Inspirar",
+              "desc": "A maior oportunidade do ano na Faculdade Inspirar",
+              "url": "https://janela-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "cyan",
+              "tag": "Campanha",
+              "badge": "Black Inspirar",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
+            },
+            {
+              "title": "Quiz de Especialidade",
+              "desc": "Descubra qual especialidade combina com você",
+              "url": "https://quiz-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "purple",
+              "tag": "Quiz",
+              "badge": "Novo",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
+            },
+            {
               "title": "Inspirar Nexus",
               "desc": "Entre na Comunidade Oficial Inspirar Nexus",
               "url": "https://login.circle.so/sign_up?request_host=inspirar-nexus.circle.so&user%5Binvitation_token%5D=72f4f72a288209f005e68e89f03323ee8e7738ec-c814a46e-829c-4c8b-8436-368075ea7db2#email",
@@ -3105,6 +3479,28 @@
               "banner": "assets/images/units/joinville/cidade-joinville.jpg",
               "tag": "Portal Oficial & Matrículas",
               "badge": "Inscrições Abertas"
+            },
+            {
+              "title": "Black Inspirar",
+              "desc": "A maior oportunidade do ano na Faculdade Inspirar",
+              "url": "https://janela-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "cyan",
+              "tag": "Campanha",
+              "badge": "Black Inspirar",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
+            },
+            {
+              "title": "Quiz de Especialidade",
+              "desc": "Descubra qual especialidade combina com você",
+              "url": "https://quiz-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "purple",
+              "tag": "Quiz",
+              "badge": "Novo",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
             },
             {
               "title": "Inspirar Nexus",
@@ -3257,6 +3653,28 @@
               "banner": "assets/images/units/londrina/recepcao-01-scaled.jpeg",
               "tag": "Portal Oficial & Matrículas",
               "badge": "Inscrições Abertas"
+            },
+            {
+              "title": "Black Inspirar",
+              "desc": "A maior oportunidade do ano na Faculdade Inspirar",
+              "url": "https://janela-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "cyan",
+              "tag": "Campanha",
+              "badge": "Black Inspirar",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
+            },
+            {
+              "title": "Quiz de Especialidade",
+              "desc": "Descubra qual especialidade combina com você",
+              "url": "https://quiz-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "purple",
+              "tag": "Quiz",
+              "badge": "Novo",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
             },
             {
               "title": "Inspirar Nexus",
@@ -3415,6 +3833,28 @@
               "badge": "Inscrições Abertas"
             },
             {
+              "title": "Black Inspirar",
+              "desc": "A maior oportunidade do ano na Faculdade Inspirar",
+              "url": "https://janela-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "cyan",
+              "tag": "Campanha",
+              "badge": "Black Inspirar",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
+            },
+            {
+              "title": "Quiz de Especialidade",
+              "desc": "Descubra qual especialidade combina com você",
+              "url": "https://quiz-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "purple",
+              "tag": "Quiz",
+              "badge": "Novo",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
+            },
+            {
               "title": "Inspirar Nexus",
               "desc": "Entre na Comunidade Oficial Inspirar Nexus",
               "url": "https://login.circle.so/sign_up?request_host=inspirar-nexus.circle.so&user%5Binvitation_token%5D=72f4f72a288209f005e68e89f03323ee8e7738ec-c814a46e-829c-4c8b-8436-368075ea7db2#email",
@@ -3485,6 +3925,28 @@
               "banner": "assets/images/units/maceio/cidade-maceio.jpg",
               "tag": "Portal Oficial & Matrículas",
               "badge": "Inscrições Abertas"
+            },
+            {
+              "title": "Black Inspirar",
+              "desc": "A maior oportunidade do ano na Faculdade Inspirar",
+              "url": "https://janela-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "cyan",
+              "tag": "Campanha",
+              "badge": "Black Inspirar",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
+            },
+            {
+              "title": "Quiz de Especialidade",
+              "desc": "Descubra qual especialidade combina com você",
+              "url": "https://quiz-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "purple",
+              "tag": "Quiz",
+              "badge": "Novo",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
             },
             {
               "title": "Inspirar Nexus",
@@ -3614,6 +4076,28 @@
               "banner": "assets/images/units/parauapebas/cidade-parauapebas.jpeg",
               "tag": "Portal Oficial & Matrículas",
               "badge": "Inscrições Abertas"
+            },
+            {
+              "title": "Black Inspirar",
+              "desc": "A maior oportunidade do ano na Faculdade Inspirar",
+              "url": "https://janela-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "cyan",
+              "tag": "Campanha",
+              "badge": "Black Inspirar",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
+            },
+            {
+              "title": "Quiz de Especialidade",
+              "desc": "Descubra qual especialidade combina com você",
+              "url": "https://quiz-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "purple",
+              "tag": "Quiz",
+              "badge": "Novo",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
             },
             {
               "title": "Inspirar Nexus",
@@ -3756,6 +4240,28 @@
               "banner": "assets/images/units/porto-alegre/area-de-convivencia-2.webp",
               "tag": "Portal Oficial & Matrículas",
               "badge": "Inscrições Abertas"
+            },
+            {
+              "title": "Black Inspirar",
+              "desc": "A maior oportunidade do ano na Faculdade Inspirar",
+              "url": "https://janela-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "cyan",
+              "tag": "Campanha",
+              "badge": "Black Inspirar",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
+            },
+            {
+              "title": "Quiz de Especialidade",
+              "desc": "Descubra qual especialidade combina com você",
+              "url": "https://quiz-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "purple",
+              "tag": "Quiz",
+              "badge": "Novo",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
             },
             {
               "title": "Inspirar Nexus",
@@ -3910,6 +4416,28 @@
               "badge": "Inscrições Abertas"
             },
             {
+              "title": "Black Inspirar",
+              "desc": "A maior oportunidade do ano na Faculdade Inspirar",
+              "url": "https://janela-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "cyan",
+              "tag": "Campanha",
+              "badge": "Black Inspirar",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
+            },
+            {
+              "title": "Quiz de Especialidade",
+              "desc": "Descubra qual especialidade combina com você",
+              "url": "https://quiz-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "purple",
+              "tag": "Quiz",
+              "badge": "Novo",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
+            },
+            {
               "title": "Inspirar Nexus",
               "desc": "Entre na Comunidade Oficial Inspirar Nexus",
               "url": "https://login.circle.so/sign_up?request_host=inspirar-nexus.circle.so&user%5Binvitation_token%5D=72f4f72a288209f005e68e89f03323ee8e7738ec-c814a46e-829c-4c8b-8436-368075ea7db2#email",
@@ -4047,6 +4575,28 @@
               "banner": "assets/images/units/ribeirao-preto/cidade-ribeirao-preto.jpg",
               "tag": "Portal Oficial & Matrículas",
               "badge": "Inscrições Abertas"
+            },
+            {
+              "title": "Black Inspirar",
+              "desc": "A maior oportunidade do ano na Faculdade Inspirar",
+              "url": "https://janela-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "cyan",
+              "tag": "Campanha",
+              "badge": "Black Inspirar",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
+            },
+            {
+              "title": "Quiz de Especialidade",
+              "desc": "Descubra qual especialidade combina com você",
+              "url": "https://quiz-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "purple",
+              "tag": "Quiz",
+              "badge": "Novo",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
             },
             {
               "title": "Inspirar Nexus",
@@ -4235,6 +4785,28 @@
               "banner": "assets/images/units/rio-de-janeiro/fachada.webp",
               "tag": "Portal Oficial & Matrículas",
               "badge": "Inscrições Abertas"
+            },
+            {
+              "title": "Black Inspirar",
+              "desc": "A maior oportunidade do ano na Faculdade Inspirar",
+              "url": "https://janela-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "cyan",
+              "tag": "Campanha",
+              "badge": "Black Inspirar",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
+            },
+            {
+              "title": "Quiz de Especialidade",
+              "desc": "Descubra qual especialidade combina com você",
+              "url": "https://quiz-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "purple",
+              "tag": "Quiz",
+              "badge": "Novo",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
             },
             {
               "title": "Inspirar Nexus",
@@ -4429,6 +5001,28 @@
               "badge": "Inscrições Abertas"
             },
             {
+              "title": "Black Inspirar",
+              "desc": "A maior oportunidade do ano na Faculdade Inspirar",
+              "url": "https://janela-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "cyan",
+              "tag": "Campanha",
+              "badge": "Black Inspirar",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
+            },
+            {
+              "title": "Quiz de Especialidade",
+              "desc": "Descubra qual especialidade combina com você",
+              "url": "https://quiz-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "purple",
+              "tag": "Quiz",
+              "badge": "Novo",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
+            },
+            {
               "title": "Inspirar Nexus",
               "desc": "Entre na Comunidade Oficial Inspirar Nexus",
               "url": "https://login.circle.so/sign_up?request_host=inspirar-nexus.circle.so&user%5Binvitation_token%5D=72f4f72a288209f005e68e89f03323ee8e7738ec-c814a46e-829c-4c8b-8436-368075ea7db2#email",
@@ -4556,6 +5150,28 @@
               "banner": "assets/images/units/santo-andre/cidade-santo-andre.webp",
               "tag": "Portal Oficial & Matrículas",
               "badge": "Inscrições Abertas"
+            },
+            {
+              "title": "Black Inspirar",
+              "desc": "A maior oportunidade do ano na Faculdade Inspirar",
+              "url": "https://janela-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "cyan",
+              "tag": "Campanha",
+              "badge": "Black Inspirar",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
+            },
+            {
+              "title": "Quiz de Especialidade",
+              "desc": "Descubra qual especialidade combina com você",
+              "url": "https://quiz-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "purple",
+              "tag": "Quiz",
+              "badge": "Novo",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
             },
             {
               "title": "Inspirar Nexus",
@@ -4696,6 +5312,28 @@
               "badge": "Inscrições Abertas"
             },
             {
+              "title": "Black Inspirar",
+              "desc": "A maior oportunidade do ano na Faculdade Inspirar",
+              "url": "https://janela-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "cyan",
+              "tag": "Campanha",
+              "badge": "Black Inspirar",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
+            },
+            {
+              "title": "Quiz de Especialidade",
+              "desc": "Descubra qual especialidade combina com você",
+              "url": "https://quiz-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "purple",
+              "tag": "Quiz",
+              "badge": "Novo",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
+            },
+            {
               "title": "Inspirar Nexus",
               "desc": "Entre na Comunidade Oficial Inspirar Nexus",
               "url": "https://login.circle.so/sign_up?request_host=inspirar-nexus.circle.so&user%5Binvitation_token%5D=72f4f72a288209f005e68e89f03323ee8e7738ec-c814a46e-829c-4c8b-8436-368075ea7db2#email",
@@ -4823,6 +5461,28 @@
               "banner": "assets/images/units/sao-jose-do-rio-preto/cidade-sao-jose-do-rio-preto.jpg",
               "tag": "Portal Oficial & Matrículas",
               "badge": "Inscrições Abertas"
+            },
+            {
+              "title": "Black Inspirar",
+              "desc": "A maior oportunidade do ano na Faculdade Inspirar",
+              "url": "https://janela-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "cyan",
+              "tag": "Campanha",
+              "badge": "Black Inspirar",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
+            },
+            {
+              "title": "Quiz de Especialidade",
+              "desc": "Descubra qual especialidade combina com você",
+              "url": "https://quiz-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "purple",
+              "tag": "Quiz",
+              "badge": "Novo",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
             },
             {
               "title": "Inspirar Nexus",
@@ -4955,6 +5615,28 @@
               "banner": "assets/images/units/sao-jose-dos-campos/fachada.webp",
               "tag": "Portal Oficial & Matrículas",
               "badge": "Inscrições Abertas"
+            },
+            {
+              "title": "Black Inspirar",
+              "desc": "A maior oportunidade do ano na Faculdade Inspirar",
+              "url": "https://janela-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "cyan",
+              "tag": "Campanha",
+              "badge": "Black Inspirar",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
+            },
+            {
+              "title": "Quiz de Especialidade",
+              "desc": "Descubra qual especialidade combina com você",
+              "url": "https://quiz-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "purple",
+              "tag": "Quiz",
+              "badge": "Novo",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
             },
             {
               "title": "Inspirar Nexus",
@@ -5118,6 +5800,28 @@
               "banner": "assets/images/units/sao-luis/fachada-2.webp",
               "tag": "Portal Oficial & Matrículas",
               "badge": "Inscrições Abertas"
+            },
+            {
+              "title": "Black Inspirar",
+              "desc": "A maior oportunidade do ano na Faculdade Inspirar",
+              "url": "https://janela-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "cyan",
+              "tag": "Campanha",
+              "badge": "Black Inspirar",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
+            },
+            {
+              "title": "Quiz de Especialidade",
+              "desc": "Descubra qual especialidade combina com você",
+              "url": "https://quiz-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "purple",
+              "tag": "Quiz",
+              "badge": "Novo",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
             },
             {
               "title": "Inspirar Nexus",
@@ -5356,6 +6060,28 @@
               "badge": "Inscrições Abertas"
             },
             {
+              "title": "Black Inspirar",
+              "desc": "A maior oportunidade do ano na Faculdade Inspirar",
+              "url": "https://janela-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "cyan",
+              "tag": "Campanha",
+              "badge": "Black Inspirar",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
+            },
+            {
+              "title": "Quiz de Especialidade",
+              "desc": "Descubra qual especialidade combina com você",
+              "url": "https://quiz-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "purple",
+              "tag": "Quiz",
+              "badge": "Novo",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
+            },
+            {
               "title": "Inspirar Nexus",
               "desc": "Entre na Comunidade Oficial Inspirar Nexus",
               "url": "https://login.circle.so/sign_up?request_host=inspirar-nexus.circle.so&user%5Binvitation_token%5D=72f4f72a288209f005e68e89f03323ee8e7738ec-c814a46e-829c-4c8b-8436-368075ea7db2#email",
@@ -5546,6 +6272,28 @@
               "badge": "Inscrições Abertas"
             },
             {
+              "title": "Black Inspirar",
+              "desc": "A maior oportunidade do ano na Faculdade Inspirar",
+              "url": "https://janela-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "cyan",
+              "tag": "Campanha",
+              "badge": "Black Inspirar",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
+            },
+            {
+              "title": "Quiz de Especialidade",
+              "desc": "Descubra qual especialidade combina com você",
+              "url": "https://quiz-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "purple",
+              "tag": "Quiz",
+              "badge": "Novo",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
+            },
+            {
               "title": "Inspirar Nexus",
               "desc": "Entre na Comunidade Oficial Inspirar Nexus",
               "url": "https://login.circle.so/sign_up?request_host=inspirar-nexus.circle.so&user%5Binvitation_token%5D=72f4f72a288209f005e68e89f03323ee8e7738ec-c814a46e-829c-4c8b-8436-368075ea7db2#email",
@@ -5723,6 +6471,28 @@
               "badge": "Inscrições Abertas"
             },
             {
+              "title": "Black Inspirar",
+              "desc": "A maior oportunidade do ano na Faculdade Inspirar",
+              "url": "https://janela-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "cyan",
+              "tag": "Campanha",
+              "badge": "Black Inspirar",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
+            },
+            {
+              "title": "Quiz de Especialidade",
+              "desc": "Descubra qual especialidade combina com você",
+              "url": "https://quiz-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "purple",
+              "tag": "Quiz",
+              "badge": "Novo",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
+            },
+            {
               "title": "Inspirar Nexus",
               "desc": "Entre na Comunidade Oficial Inspirar Nexus",
               "url": "https://login.circle.so/sign_up?request_host=inspirar-nexus.circle.so&user%5Binvitation_token%5D=72f4f72a288209f005e68e89f03323ee8e7738ec-c814a46e-829c-4c8b-8436-368075ea7db2#email",
@@ -5869,6 +6639,28 @@
               "badge": "Inscrições Abertas"
             },
             {
+              "title": "Black Inspirar",
+              "desc": "A maior oportunidade do ano na Faculdade Inspirar",
+              "url": "https://janela-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "cyan",
+              "tag": "Campanha",
+              "badge": "Black Inspirar",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
+            },
+            {
+              "title": "Quiz de Especialidade",
+              "desc": "Descubra qual especialidade combina com você",
+              "url": "https://quiz-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "purple",
+              "tag": "Quiz",
+              "badge": "Novo",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
+            },
+            {
               "title": "Inspirar Nexus",
               "desc": "Entre na Comunidade Oficial Inspirar Nexus",
               "url": "https://login.circle.so/sign_up?request_host=inspirar-nexus.circle.so&user%5Binvitation_token%5D=72f4f72a288209f005e68e89f03323ee8e7738ec-c814a46e-829c-4c8b-8436-368075ea7db2#email",
@@ -6011,6 +6803,28 @@
               "banner": "assets/images/units/uberlandia/fachada.jpeg",
               "tag": "Portal Oficial & Matrículas",
               "badge": "Inscrições Abertas"
+            },
+            {
+              "title": "Black Inspirar",
+              "desc": "A maior oportunidade do ano na Faculdade Inspirar",
+              "url": "https://janela-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "cyan",
+              "tag": "Campanha",
+              "badge": "Black Inspirar",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
+            },
+            {
+              "title": "Quiz de Especialidade",
+              "desc": "Descubra qual especialidade combina com você",
+              "url": "https://quiz-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "purple",
+              "tag": "Quiz",
+              "badge": "Novo",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
             },
             {
               "title": "Inspirar Nexus",
@@ -6166,6 +6980,28 @@
               "banner": "assets/images/units/vitoria/vitoria-fachada.jpeg",
               "tag": "Portal Oficial & Matrículas",
               "badge": "Inscrições Abertas"
+            },
+            {
+              "title": "Black Inspirar",
+              "desc": "A maior oportunidade do ano na Faculdade Inspirar",
+              "url": "https://janela-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "cyan",
+              "tag": "Campanha",
+              "badge": "Black Inspirar",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
+            },
+            {
+              "title": "Quiz de Especialidade",
+              "desc": "Descubra qual especialidade combina com você",
+              "url": "https://quiz-inspirar.vercel.app",
+              "icon": "globe",
+              "accent": "purple",
+              "tag": "Quiz",
+              "badge": "Novo",
+              "startDate": "2026-11-01T00:00:00-03:00",
+              "endDate": "2026-11-30T23:59:59-03:00"
             },
             {
               "title": "Inspirar Nexus",
