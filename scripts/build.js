@@ -251,7 +251,7 @@ function generateHubJsonLd(data) {
  */
 function generateUnitHtml(unit, data) {
   const relativeRoot = '..';
-  const cssPath = `${relativeRoot}/assets/css/style-v2.css`;
+  const cssPath = `${relativeRoot}/assets/css/style-v2.css?v=${require("crypto").createHash("md5").update(require("fs").readFileSync(require("path").join(__dirname,"../assets/css/style-v2.css"))).digest("hex").slice(0,8)}`;
   const logoPath = `${relativeRoot}/assets/images/simbolo-branco.png`;
   const faviconPath = `${relativeRoot}/assets/images/favicon.png`;
   const coverPath = `${relativeRoot}/${unit.coverImage || 'assets/images/UNIDADE CWB sem gourmet.png'}`;
