@@ -639,6 +639,26 @@ body {
   border-radius: inherit;
 }
 
+.link-card.accent-orange {
+  --card-accent: #FF8A1F;
+  --card-glow: rgba(255, 138, 31, 0.45);
+}
+
+.link-card.accent-orange .link-tag {
+  color: #FFA24D;
+}
+
+.link-card.accent-orange .link-icon-box {
+  border-color: rgba(255, 138, 31, 0.3);
+  background: rgba(255, 138, 31, 0.12);
+  color: #FFA24D;
+}
+
+.link-card.accent-orange:hover .link-icon-box {
+  background: #FF8A1F;
+  color: #080B10;
+}
+
 .link-card.accent-red {
   --card-accent: #FF334B;
   --card-glow: rgba(255, 51, 75, 0.45);
